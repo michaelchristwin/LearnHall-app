@@ -5,3 +5,12 @@
 .brand {
   height: 35px;
 }
+
+.nav-brand {
+  padding: 20px;
+}
+#nav {
+  margin-top: -40px;
+  margin-left: auto;
+  margin-right: auto;
+}
