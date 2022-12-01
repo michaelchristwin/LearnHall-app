@@ -1,12 +1,35 @@
 import "../CSS/styles.css";
 import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
+import Rect from "../img/rectangle.png";
 import Star from "../img/star.png";
+import Student from "../img/student.png";
 import Heart from "../img/heart.png";
 
 function Hero() {
   return (
     <main>
+      <div className="d-flex justify-content-between">
+        <section className="service">
+          <h1 className="service-title">Tutoring Done Right</h1>
+          <span>Private in-person & Online tutoring</span>
+          <aside className="about-service">
+            If you want to learn an academic subject or study for an exam, we
+            want to be the company you choose. Our tutors are bright and
+            enthusiastic and seek out to bring the best of an individual
+            learners potential in both academics and live.
+          </aside>
+          <button className="btn">Book a Session</button>
+        </section>
+        <section className="float-end">
+          <div>
+            <img src={Rect} alt="Rect" className="rectangle" />
+            <div className="student">
+              <img src={Student} alt="Student" className="stud-img" />
+            </div>
+          </div>
+        </section>
+      </div>
       <section className="hero">
         <h1>Why you should choose us</h1>
         <aside>

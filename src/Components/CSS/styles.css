@@ -44,7 +44,7 @@
 }
 .student {
   height: 500px;
-  z-index: 2;
+  z-index: 1;
   margin-right: 30px;
   border-radius: 6px;
   background-image: url(../img/rectangle2.png);
@@ -77,6 +77,7 @@ body {
 .student2 {
   background-image: url(../img/rectangle2.png);
   width: 400px;
+  z-index: 1;
 }
 .subtract {
   height: 150px;
@@ -85,4 +86,32 @@ body {
 }
 .booking {
   margin-left: 405px;
+}
+.subtract2 {
+  height: 100px;
+  position: absolute;
+  margin-top: -60px;
+  z-index: -1;
+}
+.num-fig {
+  height: 70px;
+  margin-right: 20px;
+}
+.text-box {
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  height: 100px;
+  border-radius: 6px;
+}
+.steps {
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.step-sect {
+  margin-top: 50px;
+}
+.step-title {
+  text-align: center;
 }
