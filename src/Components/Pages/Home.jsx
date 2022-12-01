@@ -1,66 +1,112 @@
-import Leaf from "../img/Vector.png";
 import SemiCircle from "../img/topEllipse.png";
-import Name from "../img/Group.png";
 import Student from "../img/student.png";
 import Rect from "../img/rectangle.png";
 import "../CSS/styles.css";
+import Diamond from "../img/diamond2.png";
+import Arrow from "../img/arrow.png";
+import Star from "../img/star.png";
+import Heart from "../img/heart.png";
+import NavBar from "../JSX/NavBar";
 
 function Home() {
   return (
     <main>
       <section className="top d-flex">
         <img src={SemiCircle} alt="" className="draw1" />
-
-        <nav className="navbar navbar-expand-lg bg-white p-4" id="nav">
-          <div className="container-fluid ">
-            <a class="navbar-brand" href="#">
-              <span className="d-flex nav-brand">
-                <img src={Leaf} alt="Learnhall Logo" className="logo" />
-                <img src={Name} alt="Brand Name" className="brand" />
-              </span>
-            </a>
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Book a Session
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Become a Tutor
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Blog
-                </a>
-              </li>
-            </ul>
+        <NavBar />
+      </section>
+      <div className="d-flex justify-content-between">
+        <section className="service">
+          <h1 className="service-title">Tutoring Done Right</h1>
+          <span>Private in-person & Online tutoring</span>
+          <aside className="about-service">
+            If you want to learn an academic subject or study for an exam, we
+            want to be the company you choose. Our tutors are bright and
+            enthusiastic and seek out to bring the best of an individual
+            learners potential in both academics and live.
+          </aside>
+          <button className="btn">Book a Session</button>
+        </section>
+        <section className="float-end">
+          <img src={Rect} alt="Rect" className="rectangle" />
+          <div className="student">
+            <img src={Student} alt="Student" className="stud-img" />
           </div>
-        </nav>
-      </section>
-      <section className="service">
-        <h1 className="service-title">Tutoring Done Right</h1>
-        <span>Private in-person & Online tutoring</span>
+        </section>
+      </div>
+
+      <section className="hero">
+        <h1>Why you should choose us</h1>
         <aside>
-          If you want to learn an academic subject or study for an exam, we want
-          to be the company you choose. Our tutors are bright and enthusiastic
-          and seek out to bring the best of an individual learners potential in
-          both academics and live.
+          <span>
+            We love tutoring and we value the student's process. Our tutors
+            focus on each
+          </span>
+          <br />
+          <span>
+            individual student and tailor the lessons around how s/he learns
+            best.
+          </span>
         </aside>
-        <button className="btn">Book a Session</button>
       </section>
-      <section className="">
-        <img src={Rect} alt="Rect" className="rectangle" />
-        <div className="student">
-          <img src={Student} alt="Student" className="stud-img" />
+      <div className="d-flex justify-content-center p-5">
+        <div
+          className="card py-3 mx-2 shadow border-0"
+          style={{ width: "14rem" }}
+          id="card"
+        >
+          <img src={Diamond} class="card-img-top " alt="..." id="card-img" />
+          <div class="card-body">
+            <h5 class="card-title">Well-Vetted Tutors</h5>
+            <p class="card-text">
+              Our tutors are highly qualified, passionate, and well-educated at
+              top universities.
+            </p>
+          </div>
         </div>
-      </section>
+        <div
+          className="card py-3 mx-3 shadow border-0"
+          style={{ width: "14rem" }}
+          id="card"
+        >
+          <img src={Arrow} class="card-img-top " alt="..." id="card-img" />
+          <div class="card-body">
+            <h5 class="card-title">We Come to You</h5>
+            <p class="card-text">
+              We meet at the pupil's home or local library and we also offer
+              online lessons.
+            </p>
+          </div>
+        </div>
+        <div
+          className="card py-3 mx-3 shadow border-0"
+          style={{ width: "14rem" }}
+          id="card"
+        >
+          <img src={Star} class="card-img-top " alt="..." id="card-img" />
+          <div class="card-body">
+            <h5 class="card-title">Your Future</h5>
+            <p class="card-text">
+              We share knowledge that can help in all areas of life, not just
+              the subject/s we are focusing on.
+            </p>
+          </div>
+        </div>
+        <div
+          className="card py-3 mx-3 shadow border-0"
+          style={{ width: "14rem" }}
+          id="card"
+        >
+          <img src={Heart} class="card-img-top " alt="..." id="card-img" />
+          <div class="card-body">
+            <h5 class="card-title">We Love Effort</h5>
+            <p class="card-text">
+              The growth mindset is a lifelong asset. The result isn't nearly as
+              important as the effort.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
