@@ -27,10 +27,15 @@ function Hero() {
           style={{ width: "14rem" }}
           id="card"
         >
-          <img src={Diamond} class="card-img-top " alt="..." id="card-img" />
-          <div class="card-body">
-            <h5 class="card-title">Well-Vetted Tutors</h5>
-            <p class="card-text">
+          <img
+            src={Diamond}
+            className="card-img-top "
+            alt="..."
+            id="card-img"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Well-Vetted Tutors</h5>
+            <p className="card-text">
               Our tutors are highly qualified, passionate, and well-educated at
               top universities.
             </p>
@@ -41,10 +46,10 @@ function Hero() {
           style={{ width: "14rem" }}
           id="card"
         >
-          <img src={Arrow} class="card-img-top " alt="..." id="card-img" />
-          <div class="card-body">
-            <h5 class="card-title">We Come to You</h5>
-            <p class="card-text">
+          <img src={Arrow} className="card-img-top " alt="..." id="card-img" />
+          <div className="card-body">
+            <h5 className="card-title">We Come to You</h5>
+            <p className="card-text">
               We meet at the pupil's home or local library and we also offer
               online lessons.
             </p>
@@ -55,10 +60,10 @@ function Hero() {
           style={{ width: "14rem" }}
           id="card"
         >
-          <img src={Star} class="card-img-top " alt="..." id="card-img" />
-          <div class="card-body">
-            <h5 class="card-title">Your Future</h5>
-            <p class="card-text">
+          <img src={Star} className="card-img-top " alt="..." id="card-img" />
+          <div className="card-body">
+            <h5 className="card-title">Your Future</h5>
+            <p className="card-text">
               We share knowledge that can help in all areas of life, not just
               the subject/s we are focusing on.
             </p>
@@ -69,10 +74,10 @@ function Hero() {
           style={{ width: "14rem" }}
           id="card"
         >
-          <img src={Heart} class="card-img-top " alt="..." id="card-img" />
-          <div class="card-body">
-            <h5 class="card-title">We Love Effort</h5>
-            <p class="card-text">
+          <img src={Heart} className="card-img-top " alt="..." id="card-img" />
+          <div className="card-body">
+            <h5 className="card-title">We Love Effort</h5>
+            <p className="card-text">
               The growth mindset is a lifelong asset. The result isn't nearly as
               important as the effort.
             </p>

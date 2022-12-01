@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand bg-white p-4" id="nav">
       <div className="container-fluid ">
-        <a class="navbar-brand" href="#">
+        <a className="navbar-brand" href="#">
           <span className="d-flex nav-brand">
             <img src={Leaf} alt="Learnhall Logo" className="logo" />
             <img src={Name} alt="Brand Name" className="brand" />
