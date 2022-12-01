@@ -105,13 +105,23 @@ body {
   height: 100px;
   border-radius: 6px;
 }
-.steps {
-  margin-top: 30px;
-  margin-right: 50px;
-}
+
 .step-sect {
   margin-top: 50px;
 }
 .step-title {
   text-align: center;
+}
+.all-steps {
+  margin-right: auto;
+  margin-left: auto;
+}
+.review {
+  width: 300px;
+  padding: 30px;
+}
+.reviews-sect {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
