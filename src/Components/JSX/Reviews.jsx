@@ -4,7 +4,10 @@ function Reviews(props) {
   return (
     <main className="reviews-sect">
       <div className="p-3 shadow border-0 review">
-        <h1>{props.name}</h1>
+        <div className="d-flex">
+          <img src={props.img} alt="Avatar" className="avatar" />
+          <h3>{props.name}</h3>
+        </div>
         <p>{props.review}</p>
       </div>
     </main>

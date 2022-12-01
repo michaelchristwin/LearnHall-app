@@ -125,3 +125,7 @@ body {
   display: flex;
   justify-content: center;
 }
+.avatar {
+  height: 70px;
+  padding: 10px;
+}
