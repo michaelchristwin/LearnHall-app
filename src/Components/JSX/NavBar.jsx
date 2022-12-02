@@ -12,7 +12,7 @@ function NavBar() {
             <img src={Name} alt="Brand Name" className="brand" />
           </span>
         </a>
-        <ul className="navbar-nav">
+        <ul className="navbar-nav text-nowrap">
           <li className="nav-item">
             <a className="nav-link active" href="#">
               Home

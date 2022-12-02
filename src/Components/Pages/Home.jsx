@@ -23,7 +23,7 @@ function Home() {
         </span>
         <br />
         <span>Learnhall on Google for our tutoring serivces.</span>
-        <div>
+        <div className="review-container">
           <ReviewSlide />
         </div>
       </section>

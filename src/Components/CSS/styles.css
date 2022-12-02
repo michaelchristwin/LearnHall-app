@@ -7,7 +7,8 @@
 }
 
 .nav-brand {
-  padding-right: 400px;
+  padding-right: 300px;
+  z-index: 1;
 }
 
 .service {
@@ -31,7 +32,8 @@
   top: 42px;
 }
 #nav {
-  margin-left: 70px;
+  margin-left: 20px;
+  z-index: -1;
 }
 
 .rectangle {
@@ -117,14 +119,20 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.step {
+  width: auto;
+}
 .review {
   width: 300px;
   padding: 30px;
 }
 .reviews-sect {
-  overflow: scroll;
-  padding: 30px;
-  display: flex;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+.review-container {
+  margin-left: auto;
+  margin-right: auto;
 }
 .avatar {
   height: 70px;
@@ -177,6 +185,23 @@ body {
     left: 790px;
   }
   #card {
-    width: 20rem !important;
+    width: fit-content;
+  }
+  .step {
+    width: 250px;
+    height: fit-content;
+  }
+  .booking {
+    margin-left: 100px;
+  }
+  .review-container {
+    width: fit-content;
+  }
+  .tutor-images {
+    margin-left: 928px;
+  }
+  .booking-text {
+    margin-left: 100px;
+    width: 200px;
   }
 }
