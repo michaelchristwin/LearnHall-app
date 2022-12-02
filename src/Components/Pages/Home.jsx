@@ -1,8 +1,13 @@
 import SemiCircle from "../img/topEllipse.png";
+import Leaf from "../img/Vector.png";
+import NameBlack from "../img/nameblack.png";
 import Tutor from "../img/tutor&student.png";
 import "../CSS/styles.css";
 import Steps from "../JSX/Steps";
 import NavBar from "../JSX/NavBar";
+import FB from "../img/fb.png";
+import IG from "../img/ig.png";
+import TWTR from "../img/twtr.png";
 import Hero from "../JSX/Hero";
 import Subtract3 from "../img/subtract3.png";
 import ReviewSlide from "../JSX/ReviewSlide";
@@ -54,6 +59,65 @@ function Home() {
           </div>
         </div>
       </section>
+      <footer className="footer">
+        <section className="d-flex">
+          <div>
+            <span className="d-flex nav-brand">
+              <img src={Leaf} alt="Learnhall Logo" className="logo" />
+              <img src={NameBlack} alt="Brand Name" className="brand" />
+            </span>
+            <div className="pt-4 d-flex flex-column">
+              <span className="text-white">Let's Connect</span>
+              <span>
+                <a href="">
+                  <img src={FB} alt="facebook" className="social" />{" "}
+                </a>
+                <a href="">
+                  <img src={IG} alt="instagram" className="social" />
+                </a>
+                <a href="https://twitter.com">
+                  <img src={TWTR} alt="Twitter" className="social" />
+                </a>
+              </span>
+              <p className="text-white pt-3">Contact Us</p>
+            </div>
+          </div>
+          <div className="d-flex float-end">
+            <aside className="text-white d-flex flex-column">
+              <h4>About Us</h4>
+              <span>FAQs</span>
+              <span>Blog</span>
+              <span>Reviews</span>
+            </aside>
+            <aside className="text-white d-flex flex-column mx-5">
+              <h4>Learn With Us</h4>
+              <span>Request a Tutor</span>
+              <span>Learning Resources</span>
+            </aside>
+            <aside className="text-white d-flex flex-column mx-5">
+              <h4>Work With Us</h4>
+              <span>Careers at Learnhall</span>
+              <span>Apply to Tutor</span>
+            </aside>
+          </div>
+        </section>
+        <div className="float-end">
+          <input
+            type="text"
+            placeholder="email address"
+            className="subscribe rounded me-2"
+          />
+          <button className="btn newsletter-btn">Subscribe</button>
+        </div>
+
+        <section className="d-block">
+          <hr className="hr" />
+          <div className="text-white">
+            <p className="float-start">Copyright 2016-2022 Learnhall LLC</p>
+            <p className="float-end">Privacy Policy</p>
+          </div>
+        </section>
+      </footer>
     </main>
   );
 }

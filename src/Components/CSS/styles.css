@@ -176,7 +176,29 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
-
+.footer {
+  background: #1f3158;
+  margin-top: 70px;
+  padding: 70px;
+}
+.social {
+  height: 45px;
+  width: 45px;
+}
+.newsletter-btn {
+  background-color: #a63634;
+  color: white;
+}
+.subscribe {
+  background-color: inherit;
+  color: white;
+  width: 300px;
+  height: 35px;
+}
+.hr {
+  color: white;
+  margin-top: 80px;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;
