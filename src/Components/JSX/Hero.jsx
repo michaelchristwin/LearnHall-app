@@ -46,7 +46,7 @@ function Hero() {
       </section>
       <div className="d-flex justify-content-center p-5">
         <div
-          className="card py-3 mx-2 shadow border-0"
+          className="card py-3 why1 shadow border-0"
           style={{ width: "14rem" }}
           id="card"
         >
@@ -65,7 +65,7 @@ function Hero() {
           </div>
         </div>
         <div
-          className="card py-3 mx-3 shadow border-0"
+          className="card py-3 mx-auto shadow border-0"
           style={{ width: "14rem" }}
           id="card"
         >
@@ -79,7 +79,7 @@ function Hero() {
           </div>
         </div>
         <div
-          className="card py-3 mx-3 shadow border-0"
+          className="card py-3 mx-auto shadow border-0"
           style={{ width: "14rem" }}
           id="card"
         >
@@ -93,7 +93,7 @@ function Hero() {
           </div>
         </div>
         <div
-          className="card py-3 mx-3 shadow border-0"
+          className="card py-3 whylast shadow border-0"
           style={{ width: "14rem" }}
           id="card"
         >

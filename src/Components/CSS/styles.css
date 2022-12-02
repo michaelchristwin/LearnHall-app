@@ -136,3 +136,37 @@ body {
   background-color: #a63634;
   color: white;
 }
+.back-image {
+  height: 500px;
+  width: 400px;
+  z-index: -1;
+  margin-top: -30px;
+  background-image: url(../img/rectangle.png);
+}
+.top-image {
+  width: 500px;
+  height: 500px;
+  z-index: 2;
+}
+.tutor-images {
+  direction: rtl;
+  margin-left: 620px;
+  margin-top: -80px;
+}
+.tutor-sect {
+  margin-top: 100px;
+}
+.rect2 {
+  background-image: url(../img/rectangle2.png);
+  z-index: 1;
+  width: 420px;
+  position: absolute;
+  right: 40px;
+  margin-top: 30px;
+}
+.why1 {
+  margin-left: 100px;
+}
+.whylast {
+  margin-right: 100px;
+}

@@ -1,4 +1,5 @@
 import SemiCircle from "../img/topEllipse.png";
+import Tutor from "../img/tutor&student.png";
 import "../CSS/styles.css";
 import Steps from "../JSX/Steps";
 import NavBar from "../JSX/NavBar";
@@ -26,20 +27,31 @@ function Home() {
           <ReviewSlide />
         </div>
       </section>
-      <section className="mt-4">
+      <section className="tutor-sect">
         <img src={Subtract3} alt="icon" style={{ height: "150px" }} />
-        <div className="tutor px-5 ms-4">
-          <h1>Want to become a tutor with Learnhall?</h1>
-          <aside>
-            We hire tutors from a variety of backgrounds both in the US and
-            internationally. We pride ourselves on our tutor onboarding process
-            and high industy pay. Our tutors work in-person and online, and we
-            garner regular inquiries for all academic and test prep subjects at
-            all age levels. If you want to work with us, please click the button
-            below to fill out a short form and we will be in contact within
-            24-48 hours for a prospective interview.
-          </aside>
-          <button className="btn become-btn mt-2">Become a Tutor</button>
+        <div className="d-flex">
+          <div className="tutor px-5 ms-4">
+            <h1>Want to become a tutor with Learnhall?</h1>
+            <aside>
+              We hire tutors from a variety of backgrounds both in the US and
+              internationally. We pride ourselves on our tutor onboarding
+              process and high industy pay. Our tutors work in-person and
+              online, and we garner regular inquiries for all academic and test
+              prep subjects at all age levels.
+              <br />
+              If you want to work with us, please click the button below to fill
+              out a short form and we will be in contact within 24-48 hours for
+              a prospective interview.
+            </aside>
+            <button className="btn become-btn mt-2">Become a Tutor</button>
+          </div>
+          <div className="tutor-images">
+            <div className="back-image">
+              <div className="rect2">
+                <img src={Tutor} alt="Tutor & Student" className="top-image" />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
