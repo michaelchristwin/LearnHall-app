@@ -7,7 +7,7 @@
 }
 
 .nav-brand {
-  padding-right: 300px;
+  padding-right: 290px;
   z-index: 1;
 }
 
@@ -27,15 +27,16 @@
   font-weight: bold;
 }
 .draw1 {
-  height: 150px;
+  height: 130px;
   position: absolute;
-  top: 42px;
+  top: 72px;
 }
 #nav {
-  margin-left: 20px;
-  z-index: -1;
+  margin-left: 35px;
 }
-
+.my-form {
+  background-color: #ffffff;
+}
 .rectangle {
   background-image: url(../img/rectangle.png);
   height: 500px;
@@ -157,6 +158,7 @@ body {
   height: 500px;
   z-index: 2;
 }
+
 .tutor-images {
   direction: rtl;
   margin-left: 1050px;
@@ -198,6 +200,21 @@ body {
 .hr {
   color: white;
   margin-top: 80px;
+}
+.tele {
+  height: 20px;
+}
+.d-form {
+  width: 200px;
+}
+.sub-btn {
+  background-color: #a63634;
+  color: white;
+  margin-top: 20px;
+}
+.sub-btn:hover {
+  background-color: black;
+  color: white;
 }
 @media (max-width: 760px) {
   .nav-brand {

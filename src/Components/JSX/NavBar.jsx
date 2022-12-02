@@ -1,5 +1,7 @@
 import "../CSS/styles.css";
+import { Link } from "react-router-dom";
 import Leaf from "../img/Vector.png";
+import Tele from "../img/tele.png";
 import Name from "../img/Group.png";
 
 function NavBar() {
@@ -12,16 +14,16 @@ function NavBar() {
             <img src={Name} alt="Brand Name" className="brand" />
           </span>
         </a>
-        <ul className="navbar-nav text-nowrap">
+        <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" href="#">
+            <Link className="nav-item nav-link" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/book-session">
               Book a Session
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
@@ -31,6 +33,11 @@ function NavBar() {
           <li className="nav-item">
             <a className="nav-link" href="#">
               Blog
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="tel:503-342-721">
+              <img src={Tele} alt="telephone" className="tele" />
             </a>
           </li>
         </ul>
