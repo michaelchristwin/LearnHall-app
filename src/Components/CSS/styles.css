@@ -216,6 +216,12 @@ body {
   background-color: black;
   color: white;
 }
+.in-touch {
+  height: fit-content;
+}
+.contact-img {
+  width: 270px;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;

@@ -1,12 +1,14 @@
 import Footer from "../JSX/Footer";
 import NavBar from "../JSX/NavBar";
+import Phone from "../img/tel-cont.png";
+import Email from "../img/email-cont.png";
 
 function Booking() {
   return (
     <main>
       <NavBar />
-      <section className="d-flex">
-        <div className="p-5 border mx-5 my-form rounded mb-3">
+      <section className="d-flex justify-content-center pt-4">
+        <div className="p-5 shadow mx-5 my-form rounded mb-3">
           <h3>Book a session</h3>
           <p className="d-flex flex-column">
             <span>
@@ -81,7 +83,7 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <label htmlFor="textarea" className="ms-2 mt-5">
+          <label htmlFor="textarea" className="ms-2 d-block mt-5">
             Why does the student need tutoring? (optional)
           </label>
           <textarea name="review" id="textarea" cols="50" rows="8"></textarea>
@@ -90,6 +92,14 @@ function Booking() {
               Submit
             </button>
           </div>
+        </div>
+        <div className="shadow p-4 in-touch d-flex flex-column">
+          <h4>Get In Touch</h4>
+          <span>You can also contact us with any questions</span>
+          <br />
+          <span>via phone or email.</span>
+          <img src={Phone} alt="Phone" className="contact-img" />
+          <img src={Email} alt="Email" className="pt-2 contact-img" />
         </div>
       </section>
       <Footer />
