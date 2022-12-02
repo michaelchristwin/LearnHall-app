@@ -35,17 +35,18 @@
 }
 
 .rectangle {
+  background-image: url(../img/rectangle.png);
   height: 500px;
   width: 400px;
-  position: absolute;
   top: 70px;
   z-index: -1;
-  left: 1135px;
+  left: 1138px;
 }
 .student {
   height: 500px;
   z-index: 1;
-  margin-right: 30px;
+  right: 50px;
+  margin-top: 30px;
   border-radius: 6px;
   background-image: url(../img/rectangle2.png);
 }
@@ -70,6 +71,7 @@ body {
   width: 60px;
 }
 #card {
+  width: 14rem;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -100,7 +102,6 @@ body {
 .text-box {
   align-items: center;
   justify-content: center;
-
   padding: 10px;
   height: 100px;
   border-radius: 6px;
@@ -121,9 +122,9 @@ body {
   padding: 30px;
 }
 .reviews-sect {
+  overflow: scroll;
   padding: 30px;
   display: flex;
-  justify-content: center;
 }
 .avatar {
   height: 70px;
@@ -150,7 +151,7 @@ body {
 }
 .tutor-images {
   direction: rtl;
-  margin-left: 620px;
+  margin-left: 1050px;
   margin-top: -80px;
 }
 .tutor-sect {
@@ -160,13 +161,22 @@ body {
   background-image: url(../img/rectangle2.png);
   z-index: 1;
   width: 420px;
-  position: absolute;
   right: 40px;
   margin-top: 30px;
 }
-.why1 {
-  margin-left: 100px;
+.why-sect {
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.whylast {
-  margin-right: 100px;
+
+@media (max-width: 760px) {
+  .nav-brand {
+    padding-right: 100px;
+  }
+  .rectangle {
+    left: 790px;
+  }
+  #card {
+    width: 20rem !important;
+  }
 }

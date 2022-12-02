@@ -1,6 +1,7 @@
 import ReviewData from "../JSX/ReviewData";
 import Carousel from "react-bootstrap/Carousel";
 import Reviews from "../JSX/Reviews";
+import "../CSS/styles.css";
 
 function ReviewSlide() {
   const ReviewElement1 = ReviewData[0].map((data) => {

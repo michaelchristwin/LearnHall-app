@@ -30,7 +30,7 @@ function Home() {
       <section className="tutor-sect">
         <img src={Subtract3} alt="icon" style={{ height: "150px" }} />
         <div className="d-flex">
-          <div className="tutor px-5 ms-4">
+          <div className="tutor px-5 ms-4 ms-sm-2">
             <h1>Want to become a tutor with Learnhall?</h1>
             <aside>
               We hire tutors from a variety of backgrounds both in the US and
@@ -46,8 +46,8 @@ function Home() {
             <button className="btn become-btn mt-2">Become a Tutor</button>
           </div>
           <div className="tutor-images">
-            <div className="back-image">
-              <div className="rect2">
+            <div className="back-image position-absolute">
+              <div className="rect2 position-absolute start-40">
                 <img src={Tutor} alt="Tutor & Student" className="top-image" />
               </div>
             </div>

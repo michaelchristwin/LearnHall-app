@@ -1,7 +1,6 @@
 import "../CSS/styles.css";
 import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
-import Rect from "../img/rectangle.png";
 import Star from "../img/star.png";
 import Student from "../img/student.png";
 import Heart from "../img/heart.png";
@@ -21,10 +20,9 @@ function Hero() {
           </aside>
           <button className="btn book-btn">Book a Session</button>
         </section>
-        <section className="float-end">
-          <div>
-            <img src={Rect} alt="Rect" className="rectangle" />
-            <div className="student">
+        <section className="float-end ">
+          <div className="rectangle position-absolute">
+            <div className="student position-absolute">
               <img src={Student} alt="Student" className="stud-img" />
             </div>
           </div>
@@ -44,12 +42,8 @@ function Hero() {
           </span>
         </aside>
       </section>
-      <div className="d-flex justify-content-center p-5">
-        <div
-          className="card py-3 why1 shadow border-0"
-          style={{ width: "14rem" }}
-          id="card"
-        >
+      <div className="d-flex justify-content-center p-5 why-sect">
+        <div className="card py-3 mx-3 shadow border-0" id="card">
           <img
             src={Diamond}
             className="card-img-top "
@@ -64,11 +58,7 @@ function Hero() {
             </p>
           </div>
         </div>
-        <div
-          className="card py-3 mx-auto shadow border-0"
-          style={{ width: "14rem" }}
-          id="card"
-        >
+        <div className="card py-3 mx-3 shadow border-0" id="card">
           <img src={Arrow} className="card-img-top " alt="..." id="card-img" />
           <div className="card-body">
             <h5 className="card-title">We Come to You</h5>
@@ -78,11 +68,7 @@ function Hero() {
             </p>
           </div>
         </div>
-        <div
-          className="card py-3 mx-auto shadow border-0"
-          style={{ width: "14rem" }}
-          id="card"
-        >
+        <div className="card py-3 mx-3 ms-1 shadow border-0" id="card">
           <img src={Star} className="card-img-top " alt="..." id="card-img" />
           <div className="card-body">
             <h5 className="card-title">Your Future</h5>
@@ -92,11 +78,7 @@ function Hero() {
             </p>
           </div>
         </div>
-        <div
-          className="card py-3 whylast shadow border-0"
-          style={{ width: "14rem" }}
-          id="card"
-        >
+        <div className="card py-3 whylast shadow border-0" id="card">
           <img src={Heart} className="card-img-top " alt="..." id="card-img" />
           <div className="card-body">
             <h5 className="card-title">We Love Effort</h5>
