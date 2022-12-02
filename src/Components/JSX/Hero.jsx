@@ -19,7 +19,7 @@ function Hero() {
             enthusiastic and seek out to bring the best of an individual
             learners potential in both academics and live.
           </aside>
-          <button className="btn">Book a Session</button>
+          <button className="btn book-btn">Book a Session</button>
         </section>
         <section className="float-end">
           <div>

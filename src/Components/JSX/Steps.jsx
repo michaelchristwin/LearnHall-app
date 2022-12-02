@@ -31,7 +31,7 @@ function Steps() {
         <div className="all-steps">
           <div className="d-flex flex-row steps mx-1 my-3">
             <img src={One} alt="One" className="num-fig" />
-            <div className="border-0 shadow text-box">
+            <div className="border-0 shadow text-box p-2">
               <h3 className="step-title">Step One</h3>
               <span>Inquire about our tutoring services by filling-out</span>
               <br />
@@ -40,7 +40,7 @@ function Steps() {
           </div>
           <div className="d-flex flex-row steps my-3">
             <img src={Two} alt="One" className="num-fig" />
-            <div className="border-0 shadow text-box">
+            <div className="border-0 shadow text-box p-2">
               <h3 className="step-title">Step Two</h3>
               <span>Within 24 hours an advisor will contact you to go</span>
               <br />
@@ -49,7 +49,7 @@ function Steps() {
           </div>
           <div className="d-flex flex-row steps my-3">
             <img src={Three} alt="One" className="num-fig" />
-            <div className="border-0 shadow text-box">
+            <div className="border-0 shadow text-box p-2">
               <h3 className="step-title">Step Three</h3>
               <span>The advisor will find an ideal tutor match and set</span>
               <br />

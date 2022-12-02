@@ -16,7 +16,7 @@
   padding-left: 90px;
   padding-top: 30px;
 }
-.btn {
+.book-btn {
   background-color: #a63634;
   color: white;
   margin-top: 30px;
@@ -128,4 +128,11 @@ body {
 .avatar {
   height: 70px;
   padding: 10px;
+}
+.tutor {
+  width: 500px;
+}
+.become-btn {
+  background-color: #a63634;
+  color: white;
 }
