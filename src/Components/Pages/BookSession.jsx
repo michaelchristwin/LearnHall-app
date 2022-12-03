@@ -2,8 +2,11 @@ import Footer from "../JSX/Footer";
 import NavBar from "../JSX/NavBar";
 import Phone from "../img/tel-cont.png";
 import Email from "../img/email-cont.png";
+import { useState } from "react";
+import MyVerticallyCenteredModal from "../JSX/MyModal";
 
 function Booking() {
+  const [modalShow, setModalShow] = useState(false);
   return (
     <main>
       <NavBar />
@@ -63,12 +66,12 @@ function Booking() {
           </div>
           <div className="d-flex pt-3">
             <fieldset className="mx-auto">
-              <label htmlFor="sgrade" className="d-block">
-                Student Grade*
+              <label htmlFor="location" className="d-block">
+                Location*
               </label>
               <input
                 type="text"
-                id="sgrade"
+                id="location"
                 className="d-form form-control d-block"
               />
             </fieldset>
@@ -83,12 +86,38 @@ function Booking() {
               />
             </fieldset>
           </div>
+          <div className="d-flex pt-3">
+            <fieldset className="mx-auto">
+              <label htmlFor="sgrade" className="d-block">
+                Student Grade*
+              </label>
+              <input
+                type="text"
+                id="sgrade"
+                className="d-form form-control d-block"
+              />
+            </fieldset>
+            <fieldset className="mx-auto">
+              <label htmlFor="s-subject" className="d-block">
+                Student Subject*
+              </label>
+              <input
+                type="text"
+                id="s-subject"
+                className="d-form form-control d-block"
+              />
+            </fieldset>
+          </div>
           <label htmlFor="textarea" className="ms-2 d-block mt-5">
             Why does the student need tutoring? (optional)
           </label>
           <textarea name="review" id="textarea" cols="50" rows="8"></textarea>
           <div className="justify-content-center d-flex">
-            <button className="btn sub-btn px-4" type="submit">
+            <button
+              className="btn sub-btn px-4"
+              type="submit"
+              onClick={() => setModalShow(true)}
+            >
               Submit
             </button>
           </div>
@@ -103,6 +132,10 @@ function Booking() {
         </div>
       </section>
       <Footer />
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
     </main>
   );
 }

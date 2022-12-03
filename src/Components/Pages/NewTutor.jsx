@@ -11,7 +11,7 @@ function NewTutor() {
       <NavBar />
       <section className="d-flex justify-content-center pt-3">
         <div className="p-5 shadow me-5 my-form rounded mb-3">
-          <h3>Book a session</h3>
+          <h3>Become a Tutor</h3>
           <p className="d-flex flex-column">
             <span>
               Please fill out the form below and submit, and we will get back to
@@ -65,12 +65,12 @@ function NewTutor() {
           </div>
           <div className="d-flex pt-3">
             <fieldset className="mx-auto">
-              <label htmlFor="sgrade" className="d-block">
-                Student Grade*
+              <label htmlFor="location" className="d-block">
+                Location*
               </label>
               <input
                 type="text"
-                id="sgrade"
+                id="location"
                 className="d-form form-control d-block"
               />
             </fieldset>
@@ -85,10 +85,51 @@ function NewTutor() {
               />
             </fieldset>
           </div>
-          <label htmlFor="textarea" className="ms-2 d-block mt-5">
-            Why does the student need tutoring? (optional)
-          </label>
-          <textarea name="review" id="textarea" cols="50" rows="8"></textarea>
+          <div className="d-flex pt-3">
+            <fieldset className="mx-auto">
+              <label htmlFor="hledu" className="d-block">
+                Highest level of Education*
+              </label>
+              <input
+                type="text"
+                id="hledu"
+                className="d-form form-control d-block"
+              />
+            </fieldset>
+            <fieldset className="mx-auto">
+              <label htmlFor="school" className="d-block">
+                School*
+              </label>
+              <input
+                type="text"
+                id="school"
+                className="d-form form-control d-block"
+              />
+            </fieldset>
+          </div>
+          <fieldset>
+            <label htmlFor="textarea1" className="ms-2 d-block mt-5">
+              Tell us about yourself?*
+            </label>
+            <textarea
+              name="review"
+              id="textarea1"
+              cols="50"
+              rows="8"
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <label htmlFor="textarea2" className="ms-2 d-block mt-5">
+              Tell us about your experience tutoring and what subjects you
+              teach?*
+            </label>
+            <textarea
+              name="review"
+              id="textarea2"
+              cols="50"
+              rows="8"
+            ></textarea>
+          </fieldset>
           <div className="justify-content-center d-flex">
             <button className="btn sub-btn px-4" type="submit">
               Submit

@@ -232,7 +232,14 @@ body {
   margin-top: -6px;
   background: rgba(65, 62, 62, 0.912);
 }
-
+.email {
+  height: 100px;
+}
+.mod-head {
+  padding: 0 !important;
+  padding-right: 30px !important;
+  border: 0;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;
