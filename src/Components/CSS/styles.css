@@ -222,6 +222,17 @@ body {
 .contact-img {
   width: 270px;
 }
+.join-img {
+  height: 50px;
+  width: 50px;
+}
+.join-hr {
+  width: 40px;
+  height: 3px;
+  margin-top: -6px;
+  background: rgba(65, 62, 62, 0.912);
+}
+
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;

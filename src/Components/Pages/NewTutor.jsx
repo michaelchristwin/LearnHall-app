@@ -1,9 +1,11 @@
-import Footer from "../JSX/Footer";
 import NavBar from "../JSX/NavBar";
-import Phone from "../img/tel-cont.png";
-import Email from "../img/email-cont.png";
+import "../CSS/styles.css";
+import Dollar from "../img/dollar.png";
+import Work from "../img/work.png";
+import Scholar from "../img/scholar.png";
+import Footer from "../JSX/Footer";
 
-function Booking() {
+function NewTutor() {
   return (
     <main>
       <NavBar />
@@ -93,13 +95,18 @@ function Booking() {
             </button>
           </div>
         </div>
-        <div className="shadow p-4 in-touch d-flex flex-column">
-          <h4>Get In Touch</h4>
-          <span>You can also contact us with any questions</span>
-          <br />
-          <span>via phone or email.</span>
-          <img src={Phone} alt="Phone" className="contact-img" />
-          <img src={Email} alt="Email" className="pt-2 contact-img" />
+        <div className="shadow p-4 in-touch d-flex flex-column text-center ">
+          <h4>Why join us?</h4>
+          <span>Make money while making a</span>
+          <span>difference in students lives</span>
+          <img src={Dollar} alt="dollar" className="join-img mx-auto my-3" />
+          <p>Earn a Steady income</p>
+          <hr className="join-hr mx-auto" />
+          <img src={Work} alt="work" className="join-img mx-auto my-2" />
+          <p>Work from anywhere</p>
+          <hr className="join-hr mx-auto" />
+          <img src={Scholar} alt="scholar" className="join-img mx-auto my-2" />
+          <p>Help students succeed</p>
         </div>
       </section>
       <Footer />
@@ -107,4 +114,4 @@ function Booking() {
   );
 }
 
-export default Booking;
+export default NewTutor;
