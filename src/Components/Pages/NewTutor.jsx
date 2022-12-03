@@ -4,8 +4,11 @@ import Dollar from "../img/dollar.png";
 import Work from "../img/work.png";
 import Scholar from "../img/scholar.png";
 import Footer from "../JSX/Footer";
+import { useState } from "react";
+import MyVerticallyCenteredModal from "../JSX/MyModal";
 
 function NewTutor() {
+  const [modalShow, setModalShow] = useState(false);
   return (
     <main>
       <NavBar />
@@ -131,7 +134,11 @@ function NewTutor() {
             ></textarea>
           </fieldset>
           <div className="justify-content-center d-flex">
-            <button className="btn sub-btn px-4" type="submit">
+            <button
+              className="btn sub-btn px-4"
+              type="submit"
+              onClick={() => setModalShow(true)}
+            >
               Submit
             </button>
           </div>
@@ -151,6 +158,11 @@ function NewTutor() {
         </div>
       </section>
       <Footer />
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        id={"Tutor"}
+      />
     </main>
   );
 }

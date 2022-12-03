@@ -135,6 +135,7 @@ function Booking() {
       <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
+        id={"Session"}
       />
     </main>
   );
