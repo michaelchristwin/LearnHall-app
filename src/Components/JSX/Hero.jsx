@@ -8,7 +8,7 @@ import Heart from "../img/heart.png";
 function Hero() {
   return (
     <main>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between done-right">
         <section className="service">
           <h1 className="service-title">Tutoring Done Right</h1>
           <span>Private in-person & Online tutoring</span>
@@ -20,9 +20,9 @@ function Hero() {
           </aside>
           <button className="btn book-btn">Book a Session</button>
         </section>
-        <section className="float-end ">
+        <section className="stud-sect">
           <div className="rectangle position-absolute">
-            <div className="student position-absolute">
+            <div className="student">
               <img src={Student} alt="Student" className="stud-img" />
             </div>
           </div>
@@ -42,50 +42,77 @@ function Hero() {
           </span>
         </aside>
       </section>
-      <div className="d-flex justify-content-center p-5 why-sect">
-        <div className="card py-3 mx-3 shadow border-0" id="card">
-          <img
-            src={Diamond}
-            className="card-img-top "
-            alt="..."
-            id="card-img"
-          />
-          <div className="card-body">
-            <h5 className="card-title">Well-Vetted Tutors</h5>
-            <p className="card-text">
-              Our tutors are highly qualified, passionate, and well-educated at
-              top universities.
-            </p>
+      <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 justify-content-center p-lg-5 why-sect">
+        <div className="col-sm ">
+          <div
+            className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
+            id="card"
+          >
+            <img
+              src={Diamond}
+              className="card-img-top "
+              alt="..."
+              id="card-img"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Well-Vetted Tutors</h5>
+              <p className="card-text">
+                Our tutors are highly qualified, passionate, and well-educated
+                at top universities.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="card py-3 mx-3 shadow border-0" id="card">
-          <img src={Arrow} className="card-img-top " alt="..." id="card-img" />
-          <div className="card-body">
-            <h5 className="card-title">We Come to You</h5>
-            <p className="card-text">
-              We meet at the pupil's home or local library and we also offer
-              online lessons.
-            </p>
+        <div className="col-sm ">
+          <div
+            className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
+            id="card"
+          >
+            <img
+              src={Arrow}
+              className="card-img-top "
+              alt="..."
+              id="card-img"
+            />
+            <div className="card-body">
+              <h5 className="card-title">We Come to You</h5>
+              <p className="card-text">
+                We meet at the pupil's home or local library and we also offer
+                online lessons.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="card py-3 mx-3 ms-1 shadow border-0" id="card">
-          <img src={Star} className="card-img-top " alt="..." id="card-img" />
-          <div className="card-body">
-            <h5 className="card-title">Your Future</h5>
-            <p className="card-text">
-              We share knowledge that can help in all areas of life, not just
-              the subject/s we are focusing on.
-            </p>
+        <div className="col-sm">
+          <div
+            className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
+            id="card"
+          >
+            <img src={Star} className="card-img-top " alt="..." id="card-img" />
+            <div className="card-body">
+              <h5 className="card-title">Your Future</h5>
+              <p className="card-text">
+                We share knowledge that can help in all areas of life, not just
+                the subject/s we are focusing on.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="card py-3 whylast shadow border-0" id="card">
-          <img src={Heart} className="card-img-top " alt="..." id="card-img" />
-          <div className="card-body">
-            <h5 className="card-title">We Love Effort</h5>
-            <p className="card-text">
-              The growth mindset is a lifelong asset. The result isn't nearly as
-              important as the effort.
-            </p>
+        <div className="col-sm">
+          <div className="card py-lg-3 shadow border-0" id="card">
+            <img
+              src={Heart}
+              className="card-img-top "
+              alt="..."
+              id="card-img"
+            />
+            <div className="card-body">
+              <h5 className="card-title">We Love Effort</h5>
+              <p className="card-text">
+                The growth mindset is a lifelong asset. The result isn't nearly
+                as important as the effort.
+              </p>
+            </div>
           </div>
         </div>
       </div>

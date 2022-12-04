@@ -46,6 +46,7 @@
   left: 1138px;
 }
 .student {
+  position: absolute;
   height: 500px;
   z-index: 1;
   right: 50px;
@@ -85,7 +86,7 @@ body {
   z-index: 1;
 }
 .subtract {
-  height: 150px;
+  height: 100px;
   margin-left: 450px;
   float: left;
 }
@@ -175,8 +176,10 @@ body {
   margin-top: 30px;
 }
 .why-sect {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px;
+}
+.col-sm {
+  margin-left: -100px;
 }
 .footer {
   background: #1f3158;
@@ -244,18 +247,63 @@ body {
   .nav-brand {
     padding-right: 100px;
   }
+  .subtract2 {
+    display: none;
+  }
   .rectangle {
-    left: 790px;
+    position: static !important;
+    float: none;
+    background: none;
+  }
+  .why-sect {
+    width: fit-content;
+  }
+  .stud-sect {
+    display: flex;
+    padding: 10px;
+  }
+  .stud-img {
+    height: 300px;
+    width: 300px;
+  }
+  .student {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    margin-top: 0px;
+    position: static !important;
+  }
+  .step-sect {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .subtract {
+    margin-left: 0px;
+  }
+  .service {
+    margin-bottom: 40px;
+  }
+  .done-right {
+    display: block !important;
   }
   #card {
-    width: fit-content;
+    width: fit-content !important;
+    margin-top: 20px;
+  }
+
+  .col-sm {
+    margin-left: 0;
   }
   .step {
     width: 250px;
     height: fit-content;
   }
   .booking {
-    margin-left: 100px;
+    margin-left: 0px;
+  }
+  .booker {
+    display: flex !important;
   }
   .review-container {
     width: fit-content;
@@ -264,8 +312,7 @@ body {
     margin-left: 928px;
   }
   .booking-text {
-    margin-left: 100px;
-    width: 200px;
+    width: fit-content !important;
   }
   .footer {
     width: fit-content;
