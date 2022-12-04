@@ -4,7 +4,7 @@ import Tutor from "../img/tutor&student.png";
 import "../CSS/styles.css";
 import Steps from "../JSX/Steps";
 import NavBar from "../JSX/NavBar";
-
+import { Link } from "react-router-dom";
 import Hero from "../JSX/Hero";
 import Footer from "../JSX/Footer";
 import Subtract3 from "../img/subtract3.png";
@@ -46,7 +46,9 @@ function Home() {
               out a short form and we will be in contact within 24-48 hours for
               a prospective interview.
             </aside>
-            <button className="btn become-btn mt-2">Become a Tutor</button>
+            <button className="btn become-btn mt-2">
+              <Link to="/become-tutor">Become a Tutor</Link>
+            </button>
           </div>
           <div className="tutor-images">
             <div className="back-image position-absolute">

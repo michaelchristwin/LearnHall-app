@@ -143,6 +143,12 @@ body {
 .tutor {
   width: 500px;
 }
+.nav-link:active {
+  color: blue !important;
+}
+.become-btn:hover {
+  background-color: black;
+}
 .become-btn {
   background-color: #a63634;
   color: white;
@@ -199,6 +205,10 @@ body {
   color: white;
   width: 300px;
   height: 35px;
+}
+.become-btn a {
+  text-decoration: none !important;
+  color: white;
 }
 .hr {
   color: white;

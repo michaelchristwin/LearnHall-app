@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand bg-white p-4" id="nav">
       <div className="container-fluid ">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <span className="d-flex nav-brand">
             <img src={Leaf} alt="Learnhall Logo" className="logo" />
             <img src={Name} alt="Brand Name" className="brand" />
@@ -31,9 +31,9 @@ function NavBar() {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/faqs">
               Blog
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="tel:503-342-721">
