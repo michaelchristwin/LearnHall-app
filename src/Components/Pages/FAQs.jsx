@@ -2,17 +2,17 @@ import NavBar from "../JSX/NavBar";
 
 import { useState } from "react";
 import FaqSnip from "../JSX/FaqSnip";
+import { nanoid } from "nanoid";
 
 function Faqs() {
   const [show, SetShow] = useState(false);
   const nums = [1, 2, 3, 4];
+  function handleClick() {
+    SetShow(show ? false : true);
+  }
   const FaqElement = nums.map((num) => {
     return (
-      <FaqSnip
-        id={num}
-        onClick={() => SetShow(show ? false : true)}
-        show={show}
-      />
+      <FaqSnip key={nanoid()} id={nanoid()} onClick={handleClick} show={show} />
     );
   });
 
