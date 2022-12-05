@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Adobe-Garamond-Bold";
+  src: url(../fonts/AGaramondPro-Bold.otf);
+}
 .logo {
   height: 40px;
   width: 40px;
@@ -23,7 +27,7 @@
   margin-top: 30px;
 }
 .service-title {
-  font-family: Helvetica !important;
+  font-family: Adobe-Garamond-Bold !important;
   font-weight: bold;
 }
 .draw1 {
@@ -67,8 +71,8 @@
 .about-service {
   font-family: Helvetica;
 }
-body {
-  font-family: Helvetica;
+body h1 h2 h3 h4 {
+  font-family: Adobe-Garamond-Bold !important;
 }
 #card-img {
   height: 60px;
