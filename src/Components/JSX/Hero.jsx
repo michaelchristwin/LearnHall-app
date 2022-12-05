@@ -25,13 +25,13 @@ function Hero() {
           <div className="rectangle position-absolute">
             <div className="student">
               <img src={Student} alt="Student" className="stud-img" />
-              <img
-                src={StudSub}
-                alt="svg"
-                style={{ height: "150px" }}
-                className="stud-sub"
-              />
             </div>
+            <img
+              src={StudSub}
+              alt="svg"
+              style={{ height: "150px" }}
+              className="stud-sub"
+            />
           </div>
         </section>
       </div>
