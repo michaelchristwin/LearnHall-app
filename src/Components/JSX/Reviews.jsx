@@ -1,4 +1,5 @@
 import "../CSS/styles.css";
+import FiveStar from "../img/5star.png";
 
 function Reviews(props) {
   return (
@@ -7,6 +8,7 @@ function Reviews(props) {
         <div className="d-flex mx-auto">
           <img src={props.img} alt="Avatar" className="avatar" />
           <h3>{props.name}</h3>
+          <img src={FiveStar} alt="rating" style={{ height: "30px" }} />
         </div>
         <p>{props.review}</p>
       </div>

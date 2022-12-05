@@ -17,10 +17,10 @@ function Footer() {
           <div className="pt-4 d-flex flex-column">
             <span className="text-white">Let's Connect</span>
             <span>
-              <a href="">
+              <a href="https://facebook.com">
                 <img src={FB} alt="facebook" className="social" />{" "}
               </a>
-              <a href="">
+              <a href="https://instagram.com">
                 <img src={IG} alt="instagram" className="social" />
               </a>
               <a href="https://twitter.com">
