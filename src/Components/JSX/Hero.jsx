@@ -3,6 +3,7 @@ import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
 import Star from "../img/star.png";
 import Student from "../img/student.png";
+import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
 
 function Hero() {
@@ -24,6 +25,12 @@ function Hero() {
           <div className="rectangle position-absolute">
             <div className="student">
               <img src={Student} alt="Student" className="stud-img" />
+              <img
+                src={StudSub}
+                alt="svg"
+                style={{ height: "150px" }}
+                className="stud-sub"
+              />
             </div>
           </div>
         </section>

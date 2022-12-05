@@ -1,7 +1,12 @@
 import Expand from "../img/expand.png";
 import Shrink from "../img/shrink.png";
+import { useState } from "react";
 
 function FaqSnip(props) {
+  const [show, SetShow] = useState(false);
+  const handleClick = () => {
+    SetShow((prevState) => !prevState);
+  };
   return (
     <div className="d-flex mx-auto my-3">
       <div
@@ -12,15 +17,15 @@ function FaqSnip(props) {
           <b>{props.title}</b>
           <img
             id={props.id}
-            src={props.show ? Shrink : Expand}
+            src={show ? Shrink : Expand}
             alt="expand"
-            onClick={props.onClick}
+            onClick={handleClick}
             className="px-1 float-end"
           />
         </span>
 
         <br />
-        <span>{props.isOpen && props.content}</span>
+        <span>{show && props.content}</span>
       </div>
     </div>
   );
