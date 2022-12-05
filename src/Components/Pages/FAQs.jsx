@@ -1,5 +1,5 @@
 import NavBar from "../JSX/NavBar";
-
+import Footer from "../JSX/Footer";
 import { useState } from "react";
 import FaqSnip from "../JSX/FaqSnip";
 import { nanoid } from "nanoid";
@@ -23,6 +23,7 @@ function Faqs() {
         <h1 className="mx-auto">Frequently Asked Questions</h1>
       </section>
       {FaqElement}
+      <Footer />
     </main>
   );
 }

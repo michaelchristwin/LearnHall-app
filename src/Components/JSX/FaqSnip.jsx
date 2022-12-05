@@ -23,7 +23,7 @@ function FaqSnip(props) {
         </span>
 
         <br />
-        <span>{props.show ? after : ""}</span>
+        <span id={props.id}>{props.show ? after : ""}</span>
       </div>
     </div>
   );
