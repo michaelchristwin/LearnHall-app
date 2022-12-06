@@ -51,19 +51,19 @@ function Footer() {
             <span className="d-block">Blog</span>
             <span className="d-block">Reviews</span>
           </div>
-          <div className="text-white d-block mx-auto mx-lg-5">
+          <div className="text-white d-block ms-auto mx-lg-5">
             <h4 className="d-block text-nowrap">Learn With Us</h4>
             <span className="d-block">Request a Tutor</span>
             <span className="d-block">Learning Resources</span>
           </div>
-          <div className="text-white d-block mx-auto mx-lg-5">
+          <div className="text-white d-block ms-auto mx-lg-5">
             <h4 className="d-block text-nowrap">Work With Us</h4>
             <span className="d-block">Careers at Learnhall</span>
             <span className="d-block">Apply to Tutor</span>
           </div>
         </div>
       </section>
-      <div className="pt-3 float-end d-flex">
+      <div className="pt-3 subs-div d-flex">
         <input
           type="text"
           placeholder="email address"

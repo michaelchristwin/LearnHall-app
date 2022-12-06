@@ -247,6 +247,9 @@ body h4 {
 .contact-img {
   width: 270px;
 }
+.subs-div {
+  float: right;
+}
 .join-img {
   height: 50px;
   width: 50px;
@@ -270,9 +273,11 @@ body h4 {
     padding-right: 100px;
   }
   .nav-brand2 {
-    padding-right: 100px;
+    padding-right: 60px;
   }
-
+  .subs-div {
+    float: none;
+  }
   .subtract2 {
     display: none;
   }
@@ -386,9 +391,10 @@ body h4 {
     width: fit-content !important;
   }
   .footer {
-    width: 500px;
-    padding: 10px;
-    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 50px;
   }
   .d-form {
     width: 330px;
