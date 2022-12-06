@@ -76,7 +76,9 @@
 }
 body h1 {
   font-family: Adobe-Garamond-Bold !important;
-  overflow-x: hidden;
+}
+body h4 {
+  font-family: Adobe-Garamond-Bold !important;
 }
 #card-img {
   height: 60px;
@@ -215,7 +217,6 @@ body h1 {
 .subscribe {
   background-color: inherit;
   color: white;
-  height: 35px;
 }
 .become-btn a {
   text-decoration: none !important;
@@ -271,18 +272,21 @@ body h1 {
   .nav-brand2 {
     padding-right: 100px;
   }
-  .footer-sect1 {
-  }
+
   .subtract2 {
     display: none;
   }
   .stud-sub {
     display: none;
   }
+
   .rectangle {
     position: static !important;
     float: none;
     background: none;
+  }
+  .subscribe {
+    width: 350px;
   }
   .why-sect {
     width: fit-content;
@@ -304,6 +308,22 @@ body h1 {
   }
   .service {
     padding-left: 20px;
+  }
+  .contact-sect {
+    display: flex;
+    align-items: center;
+  }
+  .socials {
+    display: flex !important;
+  }
+  .my-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer-sect1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .form-parent {
     display: block !important;
@@ -366,8 +386,9 @@ body h1 {
     width: fit-content !important;
   }
   .footer {
-    width: fit-content;
-    padding: 30px;
+    width: 500px;
+    padding: 10px;
+    padding-bottom: 40px;
   }
   .d-form {
     width: 330px;
