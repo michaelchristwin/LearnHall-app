@@ -35,7 +35,7 @@ function Hero() {
           </div>
         </section>
       </div>
-      <section className="hero">
+      <section className="hero mt-5">
         <h1>Why you should choose us</h1>
         <aside>
           <span>

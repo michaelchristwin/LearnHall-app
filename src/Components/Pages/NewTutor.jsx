@@ -12,7 +12,7 @@ function NewTutor() {
   return (
     <main>
       <NavBar />
-      <section className="d-flex justify-content-center pt-3">
+      <section className="d-flex justify-content-center pt-3 form-parent">
         <div className="p-5 shadow me-5 my-form rounded mb-3">
           <h3>Become a Tutor</h3>
           <p className="d-flex flex-column">
@@ -22,8 +22,8 @@ function NewTutor() {
             </span>
             <span>tutoring needs within 24 business hours.</span>
           </p>
-          <div className="d-flex">
-            <fieldset className="mx-auto">
+          <div className="d-flex row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="flname" className="d-block">
                 First Name*
               </label>
@@ -33,7 +33,7 @@ function NewTutor() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
                 Last Name*
               </label>
@@ -44,8 +44,8 @@ function NewTutor() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto">
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="email" className="d-block">
                 Email*
               </label>
@@ -55,7 +55,7 @@ function NewTutor() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="phone" className="d-block">
                 Phone*
               </label>
@@ -66,8 +66,8 @@ function NewTutor() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto">
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="location" className="d-block">
                 Location*
               </label>
@@ -77,7 +77,7 @@ function NewTutor() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="zip" className="d-block">
                 Zip Code*
               </label>
@@ -88,8 +88,8 @@ function NewTutor() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto">
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2 ">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="hledu" className="d-block">
                 Highest level of Education*
               </label>
@@ -99,7 +99,7 @@ function NewTutor() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="school" className="d-block">
                 School*
               </label>
@@ -117,7 +117,7 @@ function NewTutor() {
             <textarea
               name="review"
               id="textarea1"
-              cols="50"
+              className="form-control"
               rows="8"
             ></textarea>
           </fieldset>
@@ -129,7 +129,7 @@ function NewTutor() {
             <textarea
               name="review"
               id="textarea2"
-              cols="50"
+              className="form-control"
               rows="8"
             ></textarea>
           </fieldset>
