@@ -14,7 +14,10 @@
   padding-right: 290px;
   z-index: 1;
 }
-
+.nav-brand2 {
+  padding-right: 200px;
+  z-index: 1;
+}
 .service {
   width: 370px;
   margin-top: 100px;
@@ -265,6 +268,11 @@ body h1 {
   .nav-brand {
     padding-right: 100px;
   }
+  .nav-brand2 {
+    padding-right: 100px;
+  }
+  .footer-sect1 {
+  }
   .subtract2 {
     display: none;
   }
@@ -359,6 +367,7 @@ body h1 {
   }
   .footer {
     width: fit-content;
+    padding: 30px;
   }
   .d-form {
     width: 330px;

@@ -8,9 +8,9 @@ import "../CSS/styles.css";
 function Footer() {
   return (
     <footer className="footer">
-      <section className="d-flex">
+      <section className="d-flex footer-sect1 justify-content-between">
         <div>
-          <span className="d-flex nav-brand">
+          <span className="d-flex nav-brand2">
             <img src={Leaf} alt="Learnhall Logo" className="logo" />
             <img src={NameBlack} alt="Brand Name" className="brand" />
           </span>
@@ -30,23 +30,23 @@ function Footer() {
             <p className="text-white pt-3">Contact Us</p>
           </div>
         </div>
-        <div className="d-flex float-end">
-          <aside className="text-white d-flex flex-column">
-            <h4>About Us</h4>
-            <span>FAQs</span>
-            <span>Blog</span>
-            <span>Reviews</span>
-          </aside>
-          <aside className="text-white d-flex flex-column mx-5">
-            <h4>Learn With Us</h4>
-            <span>Request a Tutor</span>
-            <span>Learning Resources</span>
-          </aside>
-          <aside className="text-white d-flex flex-column mx-5">
-            <h4>Work With Us</h4>
-            <span>Careers at Learnhall</span>
-            <span>Apply to Tutor</span>
-          </aside>
+        <div className="d-flex">
+          <div className="text-white d-block mx-5">
+            <h4 className="d-block text-nowrap">About Us</h4>
+            <span className="d-block">FAQs</span>
+            <span className="d-block">Blog</span>
+            <span className="d-block">Reviews</span>
+          </div>
+          <div className="text-white d-block mx-5">
+            <h4 className="d-block text-nowrap">Learn With Us</h4>
+            <span className="d-block">Request a Tutor</span>
+            <span className="d-block">Learning Resources</span>
+          </div>
+          <div className="text-white d-block mx-5">
+            <h4 className="d-block text-nowrap">Work With Us</h4>
+            <span className="d-block">Careers at Learnhall</span>
+            <span className="d-block">Apply to Tutor</span>
+          </div>
         </div>
       </section>
       <div className="float-end d-flex">
@@ -58,7 +58,7 @@ function Footer() {
         <button className="btn newsletter-btn ms-1">Subscribe</button>
       </div>
 
-      <section className="d-block">
+      <section className="d-block p-2">
         <hr className="hr" />
         <div className="text-white">
           <p className="float-start">Copyright 2016-2022 Learnhall LLC</p>
