@@ -1,21 +1,20 @@
 import SemiCircle from "../img/topEllipse.png";
-
 import Tutor from "../img/tutor&student.png";
 import "../CSS/styles.css";
 import Steps from "../JSX/Steps";
-import NavBar from "../JSX/NavBar";
 import { Link } from "react-router-dom";
 import Hero from "../JSX/Hero";
 import Footer from "../JSX/Footer";
 import Subtract3 from "../img/subtract3.png";
 import ReviewSlide from "../JSX/ReviewSlide";
+import NavbarEx from "../JSX/NavbarEx";
 
 function Home() {
   return (
     <main>
-      <section className="top d-flex">
+      <section className="d-flex">
         <img src={SemiCircle} alt="" className="draw1" />
-        <NavBar />
+        <NavbarEx />
       </section>
       <Hero />
       <Steps />

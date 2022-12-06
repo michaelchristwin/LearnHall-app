@@ -1,15 +1,15 @@
 import Footer from "../JSX/Footer";
-import NavBar from "../JSX/NavBar";
 import Phone from "../img/tel-cont.png";
 import Email from "../img/email-cont.png";
 import { useState } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
+import NavbarEx from "../JSX/NavbarEx";
 
 function Booking() {
   const [modalShow, setModalShow] = useState(false);
   return (
     <main>
-      <NavBar />
+      <NavbarEx />
       <section className="d-flex justify-content-center pt-3 form-parent">
         <div className="p-5 shadow me-5 my-form rounded mb-3">
           <h3>Book a session</h3>

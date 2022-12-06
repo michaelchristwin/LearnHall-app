@@ -1,7 +1,7 @@
-import NavBar from "../JSX/NavBar";
 import Footer from "../JSX/Footer";
 import FaqSnip from "../JSX/FaqSnip";
 import FaqData from "../JSX/FaqData";
+import NavbarEx from "../JSX/NavbarEx";
 
 function Faqs() {
   const FaqElement = FaqData.map((data) => {
@@ -17,7 +17,7 @@ function Faqs() {
 
   return (
     <main>
-      <NavBar />
+      <NavbarEx />
       <section className="d-flex">
         <h1 className="mx-auto">Frequently Asked Questions</h1>
       </section>
