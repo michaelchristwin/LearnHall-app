@@ -268,6 +268,9 @@ body h1 {
   .subtract2 {
     display: none;
   }
+  .stud-sub {
+    display: none;
+  }
   .rectangle {
     position: static !important;
     float: none;
@@ -283,6 +286,14 @@ body h1 {
   .stud-img {
     height: 300px;
     width: 300px;
+  }
+  .my-form {
+    width: 390px;
+    padding: 20px !important;
+  }
+  .form-parent {
+    display: block !important;
+    padding: 20px;
   }
   .student {
     margin-left: auto;
@@ -334,5 +345,8 @@ body h1 {
   }
   .footer {
     width: fit-content;
+  }
+  .d-form {
+    width: 350px;
   }
 }

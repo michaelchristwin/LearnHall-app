@@ -10,7 +10,7 @@ function Booking() {
   return (
     <main>
       <NavBar />
-      <section className="d-flex justify-content-center pt-3">
+      <section className="d-flex justify-content-center pt-3 form-parent">
         <div className="p-5 shadow me-5 my-form rounded mb-3">
           <h3>Book a session</h3>
           <p className="d-flex flex-column">
@@ -20,8 +20,8 @@ function Booking() {
             </span>
             <span>tutoring needs within 24 business hours.</span>
           </p>
-          <div className="d-flex">
-            <fieldset className="mx-auto">
+          <div className="d-flex row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="flname" className="d-block">
                 First Name*
               </label>
@@ -31,7 +31,7 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
                 Last Name*
               </label>
@@ -42,8 +42,8 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto">
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="email" className="d-block">
                 Email*
               </label>
@@ -53,7 +53,7 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="phone" className="d-block">
                 Phone*
               </label>
@@ -64,8 +64,8 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto">
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="location" className="d-block">
                 Location*
               </label>
@@ -75,7 +75,7 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="zip" className="d-block">
                 Zip Code*
               </label>
@@ -86,8 +86,8 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto">
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="sgrade" className="d-block">
                 Student Grade*
               </label>
@@ -97,7 +97,7 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto">
+            <fieldset className="mx-auto col-sm">
               <label htmlFor="s-subject" className="d-block">
                 Student Subject*
               </label>
@@ -111,7 +111,12 @@ function Booking() {
           <label htmlFor="textarea" className="ms-2 d-block mt-5">
             Why does the student need tutoring? (optional)
           </label>
-          <textarea name="review" id="textarea" cols="50" rows="8"></textarea>
+          <textarea
+            name="review"
+            id="textarea"
+            className="form-control"
+            rows="8"
+          ></textarea>
           <div className="justify-content-center d-flex">
             <button
               className="btn sub-btn px-4"
