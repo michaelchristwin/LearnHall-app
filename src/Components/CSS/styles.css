@@ -212,7 +212,6 @@ body h1 {
 .subscribe {
   background-color: inherit;
   color: white;
-  width: 300px;
   height: 35px;
 }
 .become-btn a {
@@ -289,12 +288,18 @@ body h1 {
     width: 300px;
   }
   .my-form {
-    width: 390px;
-    padding: 20px !important;
+    width: 370px;
+    padding: 15px !important;
+  }
+  .draw1 {
+    height: 80px;
+  }
+  .service {
+    padding-left: 20px;
   }
   .form-parent {
     display: block !important;
-    padding: 20px;
+    padding: 10px;
   }
   .student {
     margin-left: auto;
@@ -310,6 +315,13 @@ body h1 {
   }
   .subtract {
     margin-left: 0px;
+  }
+  .logo {
+    height: 20px;
+    width: 20px;
+  }
+  .brand {
+    height: 20px;
   }
   .service {
     margin-bottom: 40px;
@@ -337,6 +349,7 @@ body h1 {
   }
   .review-container {
     width: fit-content;
+    overflow-x: scroll;
   }
   .tutor-images {
     margin-left: 928px;
@@ -348,6 +361,6 @@ body h1 {
     width: fit-content;
   }
   .d-form {
-    width: 350px;
+    width: 330px;
   }
 }

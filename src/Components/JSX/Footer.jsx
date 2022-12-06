@@ -49,13 +49,13 @@ function Footer() {
           </aside>
         </div>
       </section>
-      <div className="float-end">
+      <div className="float-end d-flex">
         <input
           type="text"
           placeholder="email address"
-          className="subscribe rounded me-2"
+          className="subscribe rounded form-control"
         />
-        <button className="btn newsletter-btn">Subscribe</button>
+        <button className="btn newsletter-btn ms-1">Subscribe</button>
       </div>
 
       <section className="d-block">

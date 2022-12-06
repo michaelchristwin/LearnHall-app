@@ -7,8 +7,10 @@ function Reviews(props) {
       <div className="shadow border-0 review rounded">
         <div className="d-flex mx-auto">
           <img src={props.img} alt="Avatar" className="avatar" />
-          <h3>{props.name}</h3>
-          <img src={FiveStar} alt="rating" style={{ height: "30px" }} />
+          <div>
+            <h3>{props.name}</h3>
+            <img src={FiveStar} alt="rating" style={{ height: "30px" }} />
+          </div>
         </div>
         <p>{props.review}</p>
       </div>

@@ -18,7 +18,7 @@ function NavbarEx() {
             <img src={Name} alt="Brand Name" className="brand" />
           </span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className="ms-4" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
