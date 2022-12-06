@@ -18,7 +18,7 @@ function Faqs() {
   return (
     <main>
       <NavbarEx />
-      <section className="d-flex">
+      <section className="d-flex mt-3">
         <h1 className="mx-auto">Frequently Asked Questions</h1>
       </section>
       {FaqElement}
