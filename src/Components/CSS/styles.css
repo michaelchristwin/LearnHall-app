@@ -10,10 +10,14 @@
   height: 25px;
   width: 25px;
 }
+.newsletter {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
 .brand {
   height: 30px;
 }
-
 .nav-brand {
   padding-right: 290px;
   z-index: 1;
@@ -21,6 +25,7 @@
 .nav-brand2 {
   padding-right: 200px;
   z-index: 1;
+  margin-right: auto;
 }
 .service {
   width: 370px;
@@ -41,9 +46,6 @@
   height: 130px;
   position: absolute;
   top: 72px;
-}
-#nav {
-  margin-left: 35px;
 }
 .my-form {
   background-color: #ffffff;
@@ -124,7 +126,10 @@ body h4 {
   height: 100px;
   border-radius: 6px;
 }
-
+.social-title {
+  color: #ffffff8d;
+  font-weight: normal !important;
+}
 .step-sect {
   margin-top: 50px;
 }
@@ -214,6 +219,16 @@ body h4 {
   height: 45px;
   width: 45px;
 }
+.footer span {
+  color: #ffffff8d;
+}
+.copyright p {
+  font-size: 13px;
+  color: #ffffff8d;
+}
+.stud-img-sm {
+  display: none;
+}
 .newsletter-btn {
   background-color: #a63634;
   color: white;
@@ -253,6 +268,7 @@ body h4 {
 }
 .subs-div {
   float: right;
+  margin-top: -60px;
 }
 .join-img {
   height: 50px;
@@ -286,6 +302,14 @@ body h4 {
     margin-top: 15px;
     padding-right: 40px;
   }
+  .stud-img-sm {
+    display: block;
+    margin-left: -25px;
+  }
+  .book-btn {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
   .newsletter-btn {
     width: 213px !important;
   }
@@ -299,7 +323,11 @@ body h4 {
     display: none;
   }
   .footer span {
-    font-size: 15px;
+    font-size: 12px;
+    color: #ffffff8d;
+  }
+  .subs-div {
+    margin-top: 0px;
   }
   .rectangle {
     position: static !important;
@@ -314,11 +342,13 @@ body h4 {
   }
   .stud-sect {
     display: flex;
+    display: none;
     padding: 10px;
   }
   .stud-img {
     height: 300px;
     width: 300px;
+    display: none;
   }
   .my-form {
     width: 370px;
@@ -327,13 +357,9 @@ body h4 {
   .draw1 {
     height: 80px;
   }
-  .service {
-    padding-left: 20px;
-  }
   .contact-sect {
     display: flex;
     align-items: center;
-    margin-left: -30px;
   }
   .socials {
     display: flex !important;
@@ -365,6 +391,16 @@ body h4 {
   .subtract {
     margin-left: 0px;
   }
+  .social {
+    width: 30px;
+    height: 30px;
+  }
+  .social-title {
+    font-family: Helvetica;
+    font-weight: normal !important;
+    color: #ffffff8d;
+    font-size: 14px !important;
+  }
   .logo-footer {
     height: 25px;
     width: 25px;
@@ -374,6 +410,9 @@ body h4 {
   }
   .service {
     margin-bottom: 40px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .done-right {
     display: block !important;
@@ -398,10 +437,9 @@ body h4 {
   }
   .review-container {
     width: fit-content;
-    overflow-x: scroll;
   }
   .tutor-images {
-    margin-left: 928px;
+    margin-left: 528px;
   }
   .booking-text {
     width: fit-content !important;
@@ -410,7 +448,7 @@ body h4 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     padding-top: 40px;
   }
   .d-form {

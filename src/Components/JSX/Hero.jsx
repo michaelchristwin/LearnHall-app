@@ -3,6 +3,7 @@ import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
 import Star from "../img/star.png";
 import Student from "../img/student.png";
+import StudentSm from "../img/studimg-sm.png";
 import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
 
@@ -19,6 +20,7 @@ function Hero() {
             enthusiastic and seek out to bring the best of an individual
             learners potential in both academics and live.
           </aside>
+          <img src={StudentSm} alt="Student" className="stud-img-sm" />
           <button className="btn book-btn">Book a Session</button>
         </section>
         <section className="stud-sect">

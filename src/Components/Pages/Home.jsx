@@ -12,7 +12,7 @@ import NavbarEx from "../JSX/NavbarEx";
 function Home() {
   return (
     <main>
-      <section className="d-flex">
+      <section className="">
         <img src={SemiCircle} alt="" className="draw1" />
         <NavbarEx />
       </section>

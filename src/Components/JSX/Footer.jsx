@@ -18,7 +18,7 @@ function Footer() {
           </div>
           <div className="mt-4 contact-sect">
             <div>
-              <h4 className="text-white">Let's Connect</h4>
+              <h4 className="social-title">Let's Connect</h4>
               <div className="d-block socials">
                 <a href="https://facebook.com" className="me-2">
                   <img src={FB} alt="facebook" className="social" />{" "}
@@ -32,10 +32,10 @@ function Footer() {
               </div>
             </div>
             <div className="pt-lg-3 mx-3 mx-lg-0">
-              <h4 className="text-white">Contact Us</h4>
+              <h4 className="social-title">Contact Us</h4>
               <div className="d-block socials">
                 <a href="tel:123-456-789" className="me-2">
-                  <img src={Call} alt="telephone" className="social" />{" "}
+                  <img src={Call} alt="telephone" className="social" />
                 </a>
                 <a href="mailto:customercare@learnhall.com" className="me-2">
                   <img src={Message} alt="email" className="social" />
@@ -44,7 +44,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="d-flex">
+        <div className="d-flex pb-3">
           <div className="text-white d-block mx-lg-5">
             <h4 className="d-block text-nowrap">About Us</h4>
             <span className="d-block">FAQs</span>
@@ -63,15 +63,18 @@ function Footer() {
           </div>
         </div>
       </section>
-      <div className="pt-3 subs-div d-flex">
-        <input
-          type="text"
-          placeholder="email address"
-          className="subscribe rounded form-control"
-        />
-        <button className="btn newsletter-btn ms-1">Subscribe</button>
+      <div className="subs-div">
+        <p className="pt-3 newsletter">Subscribe to our free e-newsletter</p>
+        <div className="d-flex">
+          <input
+            type="text"
+            placeholder="email address"
+            className="subscribe rounded form-control"
+          />
+          <button className="btn newsletter-btn ms-1">Subscribe</button>
+        </div>
       </div>
-      <section className="d-block p-2">
+      <section className="d-block copyright">
         <hr className="hr" />
         <div className="text-white">
           <p className="float-start">Copyright 2016-2022 Learnhall LLC</p>
