@@ -6,6 +6,10 @@
   height: 30px;
   width: 30px;
 }
+.logo-footer {
+  height: 25px;
+  width: 25px;
+}
 .brand {
   height: 30px;
 }
@@ -268,12 +272,22 @@ body h4 {
   padding-right: 30px !important;
   border: 0;
 }
+.footer h4 {
+  font-family: Helvetica !important;
+  font-weight: bold;
+  font-size: 18px;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;
   }
   .nav-brand2 {
-    padding-right: 60px;
+    margin-left: -15px;
+    margin-top: 15px;
+    padding-right: 40px;
+  }
+  .newsletter-btn {
+    width: 213px !important;
   }
   .subs-div {
     float: none;
@@ -284,7 +298,9 @@ body h4 {
   .stud-sub {
     display: none;
   }
-
+  .footer span {
+    font-size: 15px;
+  }
   .rectangle {
     position: static !important;
     float: none;
@@ -317,6 +333,7 @@ body h4 {
   .contact-sect {
     display: flex;
     align-items: center;
+    margin-left: -30px;
   }
   .socials {
     display: flex !important;
@@ -328,7 +345,6 @@ body h4 {
   .footer-sect1 {
     display: flex;
     flex-direction: row;
-    align-items: center;
   }
   .form-parent {
     display: block !important;
@@ -349,12 +365,12 @@ body h4 {
   .subtract {
     margin-left: 0px;
   }
-  .logo {
-    height: 20px;
-    width: 20px;
+  .logo-footer {
+    height: 25px;
+    width: 25px;
   }
   .brand {
-    height: 20px;
+    height: 25px;
   }
   .service {
     margin-bottom: 40px;
@@ -394,7 +410,8 @@ body h4 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+    padding-top: 40px;
   }
   .d-form {
     width: 330px;

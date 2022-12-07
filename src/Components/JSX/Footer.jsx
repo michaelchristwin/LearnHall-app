@@ -1,7 +1,7 @@
 import FB from "../img/fb.png";
 import IG from "../img/ig.png";
 import TWTR from "../img/twtr.png";
-import Leaf from "../img/Vector.png";
+import Leaf from "../img/footerleaf.png";
 import NameBlack from "../img/nameblack.png";
 import Call from "../img/telephone.png";
 import Message from "../img/message.png";
@@ -12,32 +12,32 @@ function Footer() {
     <footer className="footer">
       <section className="d-flex justify-content-between my-container">
         <div className="footer-sect1">
-          <span className="d-flex nav-brand2">
-            <img src={Leaf} alt="Learnhall Logo" className="logo" />
+          <div className="d-flex nav-brand2">
+            <img src={Leaf} alt="Learnhall Logo" className="logo-footer" />
             <img src={NameBlack} alt="Brand Name" className="brand" />
-          </span>
+          </div>
           <div className="mt-4 contact-sect">
             <div>
-              <span className="text-white">Let's Connect</span>
+              <h4 className="text-white">Let's Connect</h4>
               <div className="d-block socials">
-                <a href="https://facebook.com">
+                <a href="https://facebook.com" className="me-2">
                   <img src={FB} alt="facebook" className="social" />{" "}
                 </a>
-                <a href="https://instagram.com">
+                <a href="https://instagram.com" className="me-2">
                   <img src={IG} alt="instagram" className="social" />
                 </a>
-                <a href="https://twitter.com">
+                <a href="https://twitter.com" className="me-2">
                   <img src={TWTR} alt="Twitter" className="social" />
                 </a>
               </div>
             </div>
             <div className="pt-lg-3 mx-3 mx-lg-0">
-              <span className="text-white">Contact Us</span>
+              <h4 className="text-white">Contact Us</h4>
               <div className="d-block socials">
-                <a href="tel:123-456-789">
+                <a href="tel:123-456-789" className="me-2">
                   <img src={Call} alt="telephone" className="social" />{" "}
                 </a>
-                <a href="mailto:customercare@learnhall.com">
+                <a href="mailto:customercare@learnhall.com" className="me-2">
                   <img src={Message} alt="email" className="social" />
                 </a>
               </div>

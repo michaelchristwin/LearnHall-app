@@ -32,7 +32,7 @@ function Home() {
       <section className="tutor-sect">
         <img src={Subtract3} alt="icon" style={{ height: "150px" }} />
         <div className="d-flex">
-          <div className="tutor px-5 ms-4 ms-sm-2">
+          <div className="tutor px-5 ms-2 ms-lg-2">
             <h1>Want to become a tutor with Learnhall?</h1>
             <aside>
               We hire tutors from a variety of backgrounds both in the US and
