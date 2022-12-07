@@ -8,6 +8,7 @@ import Footer from "../JSX/Footer";
 import Subtract3 from "../img/subtract3.png";
 import ReviewSlide from "../JSX/ReviewSlide";
 import NavbarEx from "../JSX/NavbarEx";
+import TutorSm from "../img/tutor-sm.png";
 
 function Home() {
   return (
@@ -30,9 +31,14 @@ function Home() {
         </div>
       </section>
       <section className="tutor-sect">
-        <img src={Subtract3} alt="icon" style={{ height: "150px" }} />
+        <img
+          src={Subtract3}
+          alt="icon"
+          style={{ height: "150px" }}
+          className="sub-tut"
+        />
         <div className="d-flex">
-          <div className="tutor px-5 ms-2 ms-lg-2">
+          <div className="tutor px-3 px-lg-5 mx-auto ms-lg-2">
             <h1>Want to become a tutor with Learnhall?</h1>
             <aside>
               We hire tutors from a variety of backgrounds both in the US and
@@ -45,6 +51,7 @@ function Home() {
               out a short form and we will be in contact within 24-48 hours for
               a prospective interview.
             </aside>
+            <img src={TutorSm} alt="Tutor" className="tutor-sm mt-2" />
             <button className="btn become-btn mt-2">
               <Link to="/become-tutor">Become a Tutor</Link>
             </button>
