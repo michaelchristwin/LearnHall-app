@@ -303,7 +303,11 @@ body h4 {
   .nav-brand2 {
     margin-left: -15px;
     margin-top: 15px;
-    padding-right: 40px;
+    padding-right: 0px;
+  }
+  .num-fig {
+    height: 50px;
+    margin-right: 10px;
   }
   .stud-img-sm {
     display: block;
@@ -425,11 +429,12 @@ body h4 {
     width: 25px;
   }
   .brand {
-    height: 25px;
+    height: 20px;
   }
   .service {
     margin-bottom: 40px;
-    padding-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
