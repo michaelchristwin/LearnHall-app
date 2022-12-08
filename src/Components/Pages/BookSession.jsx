@@ -11,7 +11,7 @@ function Booking() {
     <main>
       <NavbarEx />
       <section className="d-flex justify-content-center pt-3 form-parent">
-        <div className="p-5 shadow me-5 my-form rounded mb-3">
+        <div className="px-4 py-5 shadow me-5 my-form rounded mb-3">
           <h3>Book a Session</h3>
           <p className="d-flex flex-column">
             <span>
@@ -129,9 +129,9 @@ function Booking() {
         </div>
         <div className="shadow p-4 in-touch d-flex flex-column">
           <h4>Get In Touch</h4>
-          <span>You can also contact us with any questions</span>
+          <span>You can also contact us with any </span>
           <br />
-          <span>via phone or email.</span>
+          <span>questions via phone or email.</span>
           <img src={Phone} alt="Phone" className="contact-img" />
           <img src={Email} alt="Email" className="pt-2 contact-img" />
         </div>

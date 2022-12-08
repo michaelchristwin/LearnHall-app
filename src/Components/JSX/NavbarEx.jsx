@@ -37,7 +37,7 @@ function NavbarEx() {
             </Nav.Link>
             <Nav.Link>
               <Link className="nav-link" to={`${BaseUrl}/become-tutor`}>
-                Become a tutor
+                Become a Tutor
               </Link>
             </Nav.Link>
             <Nav.Link>

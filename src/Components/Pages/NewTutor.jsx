@@ -13,14 +13,14 @@ function NewTutor() {
     <main>
       <NavbarEx />
       <section className="d-flex justify-content-center pt-3 form-parent">
-        <div className="p-5 shadow me-5 my-form rounded mb-3">
+        <div className="px-4 py-5 shadow me-5 my-form rounded mb-3">
           <h3>Become a Tutor</h3>
           <p className="d-flex flex-column">
             <span>
               Please fill out the form below and submit, and we will get back to
-              you about your
+              you about
             </span>
-            <span>tutoring needs within 24 business hours.</span>
+            <span>tutoring with LearnHall within 24-48 business hours.</span>
           </p>
           <div className="d-flex row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
@@ -111,7 +111,7 @@ function NewTutor() {
             </fieldset>
           </div>
           <fieldset>
-            <label htmlFor="textarea1" className="ms-2 d-block mt-5">
+            <label htmlFor="textarea1" className=" d-block mt-5">
               Tell us about yourself?*
             </label>
             <textarea
@@ -122,7 +122,7 @@ function NewTutor() {
             ></textarea>
           </fieldset>
           <fieldset>
-            <label htmlFor="textarea2" className="ms-2 d-block mt-5">
+            <label htmlFor="textarea2" className="d-block mt-5">
               Tell us about your experience tutoring and what subjects you
               teach?*
             </label>

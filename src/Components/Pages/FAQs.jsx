@@ -21,6 +21,12 @@ function Faqs() {
       <section className="d-flex mt-3">
         <h1 className="mx-auto">Frequently Asked Questions</h1>
       </section>
+      <span className="text-center mx-auto d-block">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      </span>
+      <span className="text-center mx-auto d-block">
+        tempor incididunt ut labore et dolore magna aliqua.
+      </span>
       {FaqElement}
       <Footer />
     </main>
