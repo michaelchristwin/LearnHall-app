@@ -10,9 +10,9 @@ import BaseUrl from "./BaseUrl";
 
 function NavbarEx() {
   return (
-    <Navbar bg="white" expand="lg">
+    <Navbar bg="white" expand="lg" className="ms-5">
       <Container fluid>
-        <Navbar.Brand href={BaseUrl}>
+        <Navbar.Brand href={BaseUrl} className="nav-b">
           <span className="d-flex nav-brand">
             <img src={Leaf} alt="Learnhall Logo" className="logo" />
             <img src={Name} alt="Brand Name" className="brand" />
@@ -21,7 +21,7 @@ function NavbarEx() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto nav my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
@@ -45,10 +45,10 @@ function NavbarEx() {
                 Blog
               </Link>
             </Nav.Link>
+            <Nav.Link href="tel:503-342-721">
+              <img src={Tele} alt="telephone" className="tele" />
+            </Nav.Link>
           </Nav>
-          <Nav.Link href="tel:503-342-721">
-            <img src={Tele} alt="telephone" className="tele" />
-          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

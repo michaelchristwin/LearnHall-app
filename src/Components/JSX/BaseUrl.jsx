@@ -1,2 +1,2 @@
-const BaseUrl = "/LearnHall-app";
+const BaseUrl = "/LearnHall-app/";
 export default BaseUrl;

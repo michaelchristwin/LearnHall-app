@@ -31,7 +31,7 @@ function Steps() {
         <div className="all-steps">
           <div className="d-flex flex-row mx-1 ">
             <img src={One} alt="One" className="num-fig" />
-            <div className="border-0 shadow text-box justify-content-center step">
+            <div className="border-0 shadow text-box justify-content-center text-left step">
               <h3 className="step-title">Step One</h3>
               <div className="px-3 d-flex flex-column">
                 <span className="">

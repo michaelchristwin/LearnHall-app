@@ -12,7 +12,7 @@ function Reviews(props) {
             <img src={FiveStar} alt="rating" style={{ height: "30px" }} />
           </div>
         </div>
-        <p>{props.review}</p>
+        <p className="d-review">{props.review}</p>
       </div>
     </main>
   );

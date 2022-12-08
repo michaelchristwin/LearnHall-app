@@ -15,14 +15,27 @@ function Hero() {
       <div className="d-flex justify-content-between done-right">
         <section className="service">
           <h1 className="service-title">
-            Tutoring <br /> Done Right
+            <span>Tutoring</span>
           </h1>
-          <span>Private in-person & Online tutoring</span>
-          <aside className="about-service">
-            If you want to learn an academic subject or study for an exam, we
-            want to be the company you choose. Our tutors are bright and
-            enthusiastic and seek out to bring the best of an individual
-            learners potential in both academics and live.
+          <h1 className="service-title">
+            <span>Done Right</span>
+          </h1>
+          <span className="private">Private in-person & Online tutoring</span>
+
+          <aside className="mt-3 about-service">
+            <span className="d-block">
+              If you want to learn an academic subject for study for{" "}
+            </span>
+            <span className="d-block">
+              an exam, we want to be the company you choose.
+            </span>
+            <span className="d-block">
+              Our tutors are bright and enthusiastic and seek to
+            </span>
+            <span className="d-block">
+              bring the best of an individual learners potential
+            </span>
+            <span className="d-block">in both academics and live.</span>
           </aside>
           <img src={StudentSm} alt="Student" className="stud-img-sm" />
           <button className="btn book-btn">
@@ -34,12 +47,7 @@ function Hero() {
             <div className="student">
               <img src={Student} alt="Student" className="stud-img" />
             </div>
-            <img
-              src={StudSub}
-              alt="svg"
-              style={{ height: "150px" }}
-              className="stud-sub"
-            />
+            <img src={StudSub} alt="svg" className="stud-sub" />
           </div>
         </section>
       </div>

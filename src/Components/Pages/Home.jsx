@@ -14,7 +14,7 @@ import BaseUrl from "../JSX/BaseUrl";
 function Home() {
   return (
     <main>
-      <section className="">
+      <section>
         <img src={SemiCircle} alt="" className="draw1" />
         <NavbarEx />
       </section>
@@ -41,16 +41,33 @@ function Home() {
         <div className="d-flex">
           <div className="tutor px-3 px-lg-5 mx-auto ms-lg-2">
             <h1>Want to become a tutor with Learnhall?</h1>
-            <aside>
-              We hire tutors from a variety of backgrounds both in the US and
-              internationally. We pride ourselves on our tutor onboarding
-              process and high industy pay. Our tutors work in-person and
-              online, and we garner regular inquiries for all academic and test
-              prep subjects at all age levels.
+            <aside className="text-left">
+              <span className="d-block">
+                We hire tutors from a variety of backgrounds both in
+              </span>
+              <span className="d-block">
+                the US and internationally. We pride ourselves on our
+              </span>
+              <span className="d-block">
+                tutor onboarding process and high industy pay. Our
+              </span>
+              <span className="d-block">
+                tutors work in-person and online, and we garner
+              </span>
+              <span className="d-block">
+                regular inquiries for all academic and test prep
+              </span>
+              <span className="d-block">subjects at all age levels.</span>
               <br />
-              If you want to work with us, please click the button below to fill
-              out a short form and we will be in contact within 24-48 hours for
-              a prospective interview.
+              <span className="d-block">
+                If you want to work with us, please click the button
+              </span>
+              <span className="d-block">
+                below to fill out a short form and we will be in contact
+              </span>
+              <span className="d-block">
+                within 24-48 hours for a prospective interview.
+              </span>
             </aside>
             <img src={TutorSm} alt="Tutor" className="tutor-sm mt-2" />
             <button className="btn become-btn mt-2">
