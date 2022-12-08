@@ -16,7 +16,7 @@ function Footer() {
             <img src={Leaf} alt="Learnhall Logo" className="logo-footer" />
             <img src={NameBlack} alt="Brand Name" className="brand" />
           </div>
-          <div className="mt-4 contact-sect">
+          <div className="mt-4 contact-sect mx-auto">
             <div>
               <h4 className="social-title">Let's Connect</h4>
               <div className="d-block socials">
@@ -69,7 +69,7 @@ function Footer() {
           <input
             type="text"
             placeholder="email address"
-            className="subscribe rounded form-control"
+            className="subscribe form-control"
           />
           <button className="btn newsletter-btn ms-1">Subscribe</button>
         </div>

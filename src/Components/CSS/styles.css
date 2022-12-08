@@ -80,6 +80,9 @@
 .about-service {
   font-family: Helvetica;
 }
+body {
+  overflow-x: hidden !important;
+}
 body h1 {
   font-family: Adobe-Garamond-Bold !important;
 }
@@ -330,6 +333,7 @@ body h4 {
   }
   .subs-div {
     float: none;
+    margin-left: -10px;
   }
   .subtract2 {
     display: none;
@@ -460,6 +464,7 @@ body h4 {
     display: flex !important;
   }
   .review-container {
+    overflow-x: scroll !important;
     width: fit-content;
   }
   .tutor-images {
