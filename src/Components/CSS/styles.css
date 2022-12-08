@@ -38,6 +38,13 @@
   color: white;
   margin-top: 30px;
 }
+.book-btn:hover {
+  background-color: black;
+}
+.book-btn a {
+  text-decoration: none;
+  color: white;
+}
 .service-title {
   font-family: Adobe-Garamond-Bold !important;
   font-weight: bold;
@@ -82,6 +89,7 @@
 }
 body {
   overflow-x: hidden !important;
+  font-family: Helvetica;
 }
 body h1 {
   font-family: Adobe-Garamond-Bold !important;

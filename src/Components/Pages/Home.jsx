@@ -9,6 +9,7 @@ import Subtract3 from "../img/subtract3.png";
 import ReviewSlide from "../JSX/ReviewSlide";
 import NavbarEx from "../JSX/NavbarEx";
 import TutorSm from "../img/tutor-sm.png";
+import BaseUrl from "../JSX/BaseUrl";
 
 function Home() {
   return (
@@ -53,7 +54,7 @@ function Home() {
             </aside>
             <img src={TutorSm} alt="Tutor" className="tutor-sm mt-2" />
             <button className="btn become-btn mt-2">
-              <Link to="/become-tutor">Become a Tutor</Link>
+              <Link to={`${BaseUrl}/become-tutor`}>Become a Tutor</Link>
             </button>
           </div>
           <div className="tutor-images">

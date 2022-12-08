@@ -12,7 +12,7 @@ function Booking() {
       <NavbarEx />
       <section className="d-flex justify-content-center pt-3 form-parent">
         <div className="p-5 shadow me-5 my-form rounded mb-3">
-          <h3>Book a session</h3>
+          <h3>Book a Session</h3>
           <p className="d-flex flex-column">
             <span>
               Please fill out the form below and submit, and we will get back to

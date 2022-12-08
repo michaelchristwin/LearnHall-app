@@ -6,13 +6,17 @@ import Student from "../img/student.png";
 import StudentSm from "../img/studimg-sm.png";
 import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
+import { Link } from "react-router-dom";
+import BaseUrl from "./BaseUrl";
 
 function Hero() {
   return (
     <main>
       <div className="d-flex justify-content-between done-right">
         <section className="service">
-          <h1 className="service-title">Tutoring Done Right</h1>
+          <h1 className="service-title">
+            Tutoring <br /> Done Right
+          </h1>
           <span>Private in-person & Online tutoring</span>
           <aside className="about-service">
             If you want to learn an academic subject or study for an exam, we
@@ -21,7 +25,9 @@ function Hero() {
             learners potential in both academics and live.
           </aside>
           <img src={StudentSm} alt="Student" className="stud-img-sm" />
-          <button className="btn book-btn">Book a Session</button>
+          <button className="btn book-btn">
+            <Link to={`${BaseUrl}/book-session`}>Book a Session</Link>
+          </button>
         </section>
         <section className="stud-sect">
           <div className="rectangle position-absolute">
