@@ -169,6 +169,7 @@ body h4 {
   z-index: -1;
 }
 .num-fig {
+  z-index: 1;
   height: 70px;
   margin-right: 20px;
 }
@@ -271,6 +272,10 @@ body h4 {
   background: #1f3158;
   margin-top: 70px;
   padding: 70px;
+}
+.line {
+  position: absolute;
+  margin-left: 33px;
 }
 .social {
   height: 45px;

@@ -5,6 +5,7 @@ import Three from "../img/three.png";
 import Student2 from "../img/student2.png";
 import Subtract from "../img/subtract.png";
 import Subtract2 from "../img/subtract2.png";
+import Line from "../img/line.png";
 
 function Steps() {
   return (
@@ -31,6 +32,7 @@ function Steps() {
         <div className="all-steps">
           <div className="d-flex flex-row mx-1 ">
             <img src={One} alt="One" className="num-fig" />
+            <img src={Line} alt="line" className="line" />
             <div className="border-0 shadow text-box justify-content-center text-left step">
               <h3 className="step-title">Step One</h3>
               <div className="px-3 d-flex flex-column">

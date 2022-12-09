@@ -75,7 +75,7 @@ function Hero() {
           </span>
         </div>
       </section>
-      <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 justify-content-center p-lg-5 why-sect">
+      <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 mx-auto justify-content-center p-lg-5 why-sect">
         <div className="col-sm ">
           <div
             className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
