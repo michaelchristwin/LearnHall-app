@@ -400,6 +400,7 @@ body h4 {
   }
   .nav {
     margin-left: 50px !important;
+    display: block;
   }
   .stud-sub {
     display: none;

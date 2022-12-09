@@ -20,7 +20,7 @@ function NavbarEx() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto nav my-2 d-block my-lg-0"
+            className="me-auto nav my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
