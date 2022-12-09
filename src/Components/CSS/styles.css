@@ -226,9 +226,7 @@ body h4 {
 .tutor {
   width: 500px;
 }
-.active {
-  color: black;
-}
+
 .become-btn:hover {
   background-color: black;
 }
@@ -361,6 +359,9 @@ body h4 {
   .nav-brand {
     padding-right: 100px;
   }
+  .break {
+    display: none;
+  }
   .nav-brand2 {
     margin-left: -15px;
     margin-top: 15px;
@@ -428,6 +429,9 @@ body h4 {
   }
   .subscribe {
     width: 350px;
+  }
+  .service-title {
+    font-size: 40px;
   }
   .why-sect {
     width: fit-content;

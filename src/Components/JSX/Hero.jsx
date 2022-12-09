@@ -15,11 +15,11 @@ function Hero() {
       <div className="d-flex justify-content-between done-right">
         <section className="service">
           <h1 className="service-title">
-            <span>Tutoring</span>
+            Tutoring{` `}
+            <br className="break" />
+            Done Right
           </h1>
-          <h1 className="service-title">
-            <span>Done Right</span>
-          </h1>
+
           <span className="private">Private in-person & Online tutoring</span>
 
           <aside className="mt-3 about-service">

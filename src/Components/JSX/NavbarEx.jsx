@@ -5,10 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Leaf from "../img/Vector.png";
 import Name from "../img/Group.png";
 import "../CSS/styles.css";
-import { Link } from "react-router-dom";
 import BaseUrl from "./BaseUrl";
 
-function NavbarEx(props) {
+function NavbarEx() {
   return (
     <Navbar bg="white" expand="lg" className="ms-lg-5 ms-3">
       <Container fluid>
@@ -21,33 +20,14 @@ function NavbarEx(props) {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto nav my-2 my-lg-0"
+            className="me-auto nav my-2 d-block my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link className={` ${props.className}`}>
-              <Link className={`nav-item nav-link`} to={BaseUrl}>
-                Home
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link
-                className={`nav-link ${props.activeid}`}
-                to={`${BaseUrl}/book-session`}
-              >
-                Book a Session
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link className="nav-link" to={`${BaseUrl}/become-tutor`}>
-                Become a Tutor
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link className="nav-link" to={`${BaseUrl}/faqs`}>
-                Blog
-              </Link>
-            </Nav.Link>
+            <Nav.Link href={BaseUrl}>Home</Nav.Link>
+            <Nav.Link href={`${BaseUrl}/book-session`}>Book a Session</Nav.Link>
+            <Nav.Link href={`${BaseUrl}/become-tutor`}>Become a Tutor</Nav.Link>
+            <Nav.Link href={`${BaseUrl}/faqs`}>Blog</Nav.Link>
             <Nav.Link href="tel:503-342-721">
               <img src={Tele} alt="telephone" className="tele" />
             </Nav.Link>
