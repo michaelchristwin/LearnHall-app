@@ -7,8 +7,8 @@
   width: 30px;
 }
 .logo-footer {
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
 }
 .newsletter {
   color: white;
@@ -73,8 +73,8 @@
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 10px; /* change width */
-  height: 10px; /* change height */
+  width: 15px; /* change width */
+  height: 15px; /* change height */
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
@@ -89,12 +89,14 @@
   transition: opacity 0.6s ease;
   border-radius: 100%; /* add border-radius */
 }
-
 .carousel-indicators li {
   margin-top: 10px;
   width: 10px;
   height: 10px;
   border-radius: 100%;
+}
+.carousel-indicators :active {
+  background-color: black !important;
 }
 .my-form {
   background-color: #ffffff;
@@ -130,7 +132,6 @@
   font-family: Helvetica;
 }
 body {
-  overflow-x: hidden !important;
   font-family: Helvetica;
 }
 body h1 {
@@ -198,7 +199,7 @@ body h4 {
   width: auto;
 }
 .review {
-  width: 350px;
+  width: 340px;
   padding: 30px;
 }
 .reviews-sect {
@@ -219,11 +220,14 @@ body h4 {
   height: 70px;
   padding: 5px;
 }
+.rv-sm {
+  display: none;
+}
 .tutor {
   width: 500px;
 }
-.nav-link:active {
-  color: blue !important;
+.active {
+  color: black;
 }
 .become-btn:hover {
   background-color: black;
@@ -290,6 +294,7 @@ body h4 {
   color: white;
 }
 .subscribe {
+  width: 400px;
   background-color: inherit;
   color: white;
 }
@@ -370,6 +375,7 @@ body h4 {
     margin-left: -25px;
     width: 370px;
   }
+
   .become-btn {
     margin-left: 100px;
     margin-top: -20px;
@@ -382,14 +388,17 @@ body h4 {
     margin-left: 100px;
   }
   .newsletter-btn {
-    width: 213px !important;
+    width: 210px !important;
   }
   .subs-div {
     float: none;
-    margin-left: -10px;
+    margin-left: -15px;
   }
   .subtract2 {
     display: none;
+  }
+  .nav {
+    margin-left: 50px !important;
   }
   .stud-sub {
     display: none;
@@ -405,6 +414,9 @@ body h4 {
   }
   .tutor {
     width: 370px;
+  }
+  .nav-b {
+    margin-left: 0px;
   }
   .subs-div {
     margin-top: 0px;
@@ -437,10 +449,14 @@ body h4 {
   .draw1 {
     height: 80px;
   }
+  body {
+    overflow-x: hidden;
+  }
   .contact-sect {
     display: flex;
     align-items: center;
   }
+
   .socials {
     display: flex !important;
   }
@@ -517,8 +533,12 @@ body h4 {
     display: flex !important;
   }
   .review-container {
+    display: none;
     overflow-x: scroll !important;
     width: fit-content;
+  }
+  .rv-sm {
+    display: block;
   }
   .tutor-images {
     display: none;

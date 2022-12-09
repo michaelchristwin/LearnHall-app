@@ -41,3 +41,24 @@ const ReviewData = [
   ],
 ];
 export default ReviewData;
+
+export const ReviewDataSM = [
+  {
+    name: "Kim K.",
+    img: require("../img/Avatars/avatar1.png"),
+    review:
+      "“Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought i'd see him laughing and cheering... read more.",
+  },
+  {
+    name: "Bill D.",
+    img: require("../img/Avatars/avatar2.png"),
+    review:
+      "“Mike has been helping our son with 7th grade advanced math. He does an outstanding job and is worthy of our strongest recommendation. Not only does he work well with our son on the lesson content... read more.",
+  },
+  {
+    name: "Julie S.",
+    img: require("../img/Avatars/avatar3.png"),
+    review:
+      "“My experience with Learnhall has been very positive. Mike took his time to fully understand the needs of my child and pair them with a good fitting tutor. Our tutor, Justin, was patient and kind... read more.",
+  },
+];

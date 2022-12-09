@@ -25,14 +25,16 @@ function ReviewSlide() {
     );
   });
   return (
-    <Carousel>
-      <Carousel.Item>
-        <div className="d-flex justify-content-center">{ReviewElement1}</div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div className="d-flex justify-content-center">{ReviewElement2}</div>
-      </Carousel.Item>
-    </Carousel>
+    <main className="overflow-scroll">
+      <Carousel>
+        <Carousel.Item>
+          <div className="d-flex justify-content-center">{ReviewElement1}</div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="d-flex justify-content-center">{ReviewElement2}</div>
+        </Carousel.Item>
+      </Carousel>
+    </main>
   );
 }
 

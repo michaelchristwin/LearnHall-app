@@ -10,13 +10,14 @@ import ReviewSlide from "../JSX/ReviewSlide";
 import NavbarEx from "../JSX/NavbarEx";
 import TutorSm from "../img/tutor-sm.png";
 import BaseUrl from "../JSX/BaseUrl";
+import ReviewSlideSM from "../JSX/ReviewSlideSM";
 
 function Home() {
   return (
     <main>
       <section>
         <img src={SemiCircle} alt="" className="draw1" />
-        <NavbarEx />
+        <NavbarEx className={{ className: "active" }} />
       </section>
       <Hero />
       <Steps />
@@ -27,6 +28,9 @@ function Home() {
         </span>
         <br />
         <span>Learnhall on Google for our tutoring serivces.</span>
+        <div className="rv-sm">
+          <ReviewSlideSM />
+        </div>
         <div className="review-container">
           <ReviewSlide />
         </div>
