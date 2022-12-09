@@ -455,7 +455,7 @@ body h4 {
     height: 80px;
   }
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
   .contact-sect {
     display: flex;

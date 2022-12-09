@@ -6,6 +6,7 @@ import Leaf from "../img/Vector.png";
 import Name from "../img/Group.png";
 import "../CSS/styles.css";
 import BaseUrl from "./BaseUrl";
+import { Link } from "react-router-dom";
 
 function NavbarEx() {
   return (
@@ -24,13 +25,21 @@ function NavbarEx() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href={BaseUrl}>Home</Nav.Link>
-            <Nav.Link href={`${BaseUrl}/book-session`}>Book a Session</Nav.Link>
-            <Nav.Link href={`${BaseUrl}/become-tutor`}>Become a Tutor</Nav.Link>
-            <Nav.Link href={`${BaseUrl}/faqs`}>Blog</Nav.Link>
-            <Nav.Link href="tel:503-342-721">
+            <Link to={BaseUrl} className="nav-link">
+              Home
+            </Link>
+            <Link to={`${BaseUrl}/book-session`} className="nav-link">
+              Book a Session
+            </Link>
+            <Link to={`${BaseUrl}/become-tutor`} className="nav-link">
+              Become a Tutor
+            </Link>
+            <Link to={`${BaseUrl}/faqs`} className="nav-link">
+              Blog
+            </Link>
+            <Link to="tel:503-342-721" className="nav-link">
               <img src={Tele} alt="telephone" className="tele" />
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
