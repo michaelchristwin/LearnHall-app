@@ -8,7 +8,7 @@ import Subtract2 from "../img/subtract2.png";
 
 function Steps() {
   return (
-    <section className="py-5">
+    <section className="py-5 bucky">
       <div className="d-flex justify-content-around booker">
         <aside className="align-items-center p-4 d-flex flex-column booking">
           <h1 className="booking-text">How our service works</h1>
