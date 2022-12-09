@@ -16,7 +16,7 @@ function Footer() {
             <img src={Leaf} alt="Learnhall Logo" className="logo-footer" />
             <img src={NameBlack} alt="Brand Name" className="brand" />
           </div>
-          <div className="mt-4 contact-sect mx-auto">
+          <div className="mt-4 contact-sect ms-3 ms-lg-0 mx-auto">
             <div>
               <h4 className="social-title">Let's Connect</h4>
               <div className="d-block socials">

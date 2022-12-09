@@ -14,14 +14,12 @@ function Hero() {
     <main>
       <div className="d-flex justify-content-between done-right">
         <section className="service">
-          <h1 className="service-title">
+          <h1 className="d-block service-title">
             Tutoring{` `}
             <br className="break" />
             Done Right
           </h1>
-
           <span className="private">Private in-person & Online tutoring</span>
-
           <aside className="mt-3 about-service">
             <span className="d-block">
               If you want to learn an academic subject for study for
@@ -53,17 +51,29 @@ function Hero() {
       </div>
       <section className="hero mt-5">
         <h1>Why you should choose us</h1>
-        <aside>
+        <aside className="choose">
           <span>
             We love tutoring and we value the student's process. Our tutors
             focus on each
           </span>
-          <br />
-          <span>
+          <br className="break" />
+          <span className="choose">
             individual student and tailor the lessons around how s/he learns
             best.
           </span>
         </aside>
+        <div className="choice">
+          <span className="d-block">
+            {" "}
+            We love tutoring and we value the student's
+          </span>
+          <span className="d-block">
+            Our tutors focus on each individual student
+          </span>
+          <span className="d-block">
+            and tailor the lessons around how s/he learns best.
+          </span>
+        </div>
       </section>
       <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 justify-content-center p-lg-5 why-sect">
         <div className="col-sm ">

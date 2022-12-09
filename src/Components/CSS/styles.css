@@ -18,7 +18,7 @@
 .private {
   color: rgba(7, 10, 19, 0.6);
   font-weight: 400;
-  font-size: 23px;
+  font-size: 19px !important;
 }
 .brand {
   height: 30px;
@@ -62,7 +62,6 @@
   font-family: Adobe-Garamond-Bold !important;
   font-weight: 700;
   font-size: 55px;
-  line-height: 65px;
 }
 .draw1 {
   padding-right: 20px;
@@ -355,11 +354,23 @@ body h4 {
   font-weight: bold;
   font-size: 18px;
 }
+.choice {
+  display: none;
+}
+.choose {
+  display: block;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;
   }
   .break {
+    display: none !important;
+  }
+  .choice {
+    display: block;
+  }
+  .choose {
     display: none;
   }
   .nav-brand2 {
@@ -373,8 +384,9 @@ body h4 {
   }
   .stud-img-sm {
     display: block;
-    margin-left: -25px;
-    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
   }
 
   .become-btn {
@@ -386,7 +398,6 @@ body h4 {
   }
   .book-btn {
     margin-top: -20px;
-    margin-left: 100px;
   }
   .newsletter-btn {
     width: 210px !important;
@@ -432,7 +443,8 @@ body h4 {
     width: 350px;
   }
   .service-title {
-    font-size: 40px;
+    font-weight: 400;
+    font-size: 35px;
   }
   .why-sect {
     width: fit-content;
@@ -510,13 +522,18 @@ body h4 {
     height: 20px;
   }
   .service {
+    text-align: center;
     margin-bottom: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
   }
+  .service span {
+    font-size: 15px;
+  }
   .done-right {
+    margin-top: -70px;
     display: block !important;
   }
   #card {
