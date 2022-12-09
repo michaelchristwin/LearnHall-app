@@ -22,7 +22,7 @@ function Hero() {
           <span className="private">Private in-person & Online tutoring</span>
           <aside className="mt-3 about-service">
             <span className="d-block">
-              If you want to learn an academic subject for study for
+              If you want to learn an academic subject for
             </span>
             <span className="d-block">
               an exam, we want to be the company you choose.
