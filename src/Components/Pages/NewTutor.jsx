@@ -11,7 +11,7 @@ function NewTutor() {
   const [modalShow, setModalShow] = useState(false);
   return (
     <main>
-      <NavbarEx />
+      <NavbarEx active={"active"} />
       <section className="d-flex justify-content-center pt-3 form-parent">
         <div className="px-4 py-5 shadow me-5 my-form rounded mb-3">
           <h3>Become a Tutor</h3>

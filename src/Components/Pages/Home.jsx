@@ -17,7 +17,7 @@ function Home() {
     <main className="overflow-hidden">
       <section>
         <img src={SemiCircle} alt="" className="draw1" />
-        <NavbarEx className={{ className: "active" }} />
+        <NavbarEx state={"active"} />
       </section>
       <Hero />
       <Steps />

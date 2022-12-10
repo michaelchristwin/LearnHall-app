@@ -8,7 +8,7 @@ import "../CSS/styles.css";
 import BaseUrl from "./BaseUrl";
 import { Link } from "react-router-dom";
 
-function NavbarEx() {
+function NavbarEx(props) {
   return (
     <Navbar bg="white" expand="lg" className="ms-lg-5 ms-3">
       <Container fluid>
@@ -25,13 +25,24 @@ function NavbarEx() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Link to={BaseUrl} className="nav-link">
+            <Link
+              to={BaseUrl}
+              className={`nav-link ${props.state}`}
+              id="nav-link"
+            >
               Home
             </Link>
-            <Link to={`${BaseUrl}/book-session`} className="nav-link">
+            <Link
+              to={`${BaseUrl}/book-session`}
+              className={`nav-link ${props.activeid}`}
+              id="nav-link"
+            >
               Book a Session
             </Link>
-            <Link to={`${BaseUrl}/become-tutor`} className="nav-link">
+            <Link
+              to={`${BaseUrl}/become-tutor`}
+              className={`nav-link ${props.active}`}
+            >
               Become a Tutor
             </Link>
             <Link to={`${BaseUrl}/faqs`} className="nav-link">

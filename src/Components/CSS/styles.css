@@ -39,6 +39,8 @@
   margin-right: auto;
 }
 .service {
+  width: 516px;
+  height: 513;
   margin-top: 100px;
   padding-left: 90px;
   padding-top: 30px;
@@ -94,6 +96,7 @@
   height: 10px;
   border-radius: 100%;
 }
+
 .carousel-indicators :active {
   background-color: black !important;
 }
