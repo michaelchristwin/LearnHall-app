@@ -103,6 +103,7 @@
 }
 .my-form {
   background-color: #ffffff;
+  margin-left: 80px;
 }
 .rectangle {
   background-image: url(../img/rectangle.png);
@@ -128,6 +129,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.why-head {
+  margin-left: 130px !important;
 }
 .about-service {
   font-size: 22px;
@@ -168,7 +172,7 @@ body h4 {
 }
 .subtract {
   height: 130px;
-  margin-left: 455px;
+  margin-left: 400px;
   float: right;
 }
 .booking {
@@ -351,8 +355,16 @@ body h4 {
   background-color: black;
   color: white;
 }
+.booking-text {
+  margin-left: 70px;
+}
 .in-touch {
   height: fit-content;
+  margin-right: 150px;
+}
+.why-join {
+  height: fit-content;
+  margin-right: 280px;
 }
 .contact-img {
   width: 270px;
@@ -377,11 +389,12 @@ body h4 {
 .card-text {
   font-weight: 300;
   font-size: 20px;
-  color: #070a13;
+  color: #373c48;
   line-height: 26px;
 }
 .card-title {
   font-size: 23px;
+  color: #070a13;
   line-height: 30px;
   font-weight: 400 !important;
 }
@@ -593,6 +606,9 @@ body h4 {
   .in-touch {
     display: none !important;
   }
+  .why-join {
+    display: none !important;
+  }
   .draw1 {
     height: 80px;
   }
@@ -673,7 +689,7 @@ body h4 {
     font-size: 15px;
   }
   .done-right {
-    margin-top: -70px;
+    margin-top: -100px;
     display: block !important;
   }
   #card {
@@ -709,6 +725,7 @@ body h4 {
   .booking-text {
     width: fit-content !important;
     text-align: center;
+    margin-left: 50px;
   }
   .footer {
     margin-left: auto;

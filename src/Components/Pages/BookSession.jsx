@@ -10,8 +10,8 @@ function Booking() {
   return (
     <main>
       <NavbarEx activeid={"active"} />
-      <section className="d-flex justify-content-around py-3 form-parent">
-        <div className="px-4 py-5 shadow me-5 my-form rounded">
+      <section className="d-flex justify-content-between py-3 form-parent">
+        <div className="px-4 py-5 shadow my-form rounded">
           <h3>Book a Session</h3>
           <p className="d-flex flex-column">
             <span>
