@@ -43,7 +43,7 @@ function Hero() {
           <img src={SemiC} alt="semi-c" className="semi-c" />
         </section>
         <section className="stud-sect">
-          <div className="rectangle position-absolute">
+          <div className="rectangle">
             <div className="student">
               <img src={Student} alt="Student" className="stud-img" />
             </div>
