@@ -457,6 +457,16 @@ body h4 {
   .card-title {
     font-size: 14px;
   }
+  .become-btn {
+    font-size: 11px;
+    line-height: 11px;
+    width: 122px;
+    height: 24px;
+  }
+  #card-img {
+    width: 43px;
+    height: 43px;
+  }
   .break {
     display: none !important;
   }
@@ -494,6 +504,8 @@ body h4 {
   }
   .book-btn {
     margin-top: -20px;
+    font-size: 11px;
+    line-height: 11px;
   }
   .newsletter-btn {
     width: 210px !important;
@@ -666,6 +678,7 @@ body h4 {
   }
   #card {
     width: 165px !important;
+    height: 180px;
     margin-top: 20px;
   }
 
