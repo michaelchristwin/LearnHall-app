@@ -39,8 +39,6 @@
   margin-right: auto;
 }
 .service {
-  width: 516px;
-  height: 513;
   margin-top: 100px;
   padding-left: 90px;
   padding-top: 30px;
@@ -102,6 +100,7 @@
 }
 .my-form {
   background-color: #ffffff;
+  float: left;
 }
 .rectangle {
   background-image: url(../img/rectangle.png);
@@ -135,6 +134,7 @@
 }
 body {
   font-family: Helvetica;
+  overflow-x: hidden;
 }
 body h1 {
   font-family: Adobe-Garamond-Bold !important;
@@ -180,7 +180,7 @@ body h4 {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  height: 100px;
+
   border-radius: 6px;
 }
 .social-title {
@@ -193,13 +193,19 @@ body h4 {
 .step-title {
   text-align: left;
   margin-left: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.d-step {
+  font-weight: 300;
+  font-size: 20px;
 }
 .all-steps {
   margin-right: auto;
   margin-left: auto;
 }
 .step {
-  width: auto;
+  width: fit-content;
 }
 .review {
   width: 340px;
@@ -267,6 +273,7 @@ body h4 {
 }
 .why-sect {
   padding: 20px;
+  margin-left: 100px;
 }
 .col-sm {
   margin-left: -100px;
@@ -299,7 +306,7 @@ body h4 {
   color: white;
 }
 .subscribe {
-  width: 400px;
+  width: 500px;
   background-color: inherit;
   color: white;
 }
@@ -371,9 +378,27 @@ body h4 {
 .choose {
   display: block;
 }
+.semi-c {
+  display: none;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;
+  }
+  .semi-c {
+    display: inline;
+    height: 70px;
+    float: inline-end;
+    margin-right: -20px;
+    margin-top: -60px;
+  }
+  .card-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .card-title {
+    font-size: 14px;
   }
   .break {
     display: none !important;
@@ -439,6 +464,14 @@ body h4 {
   .tutor {
     width: 370px;
   }
+  .d-step {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+  .line {
+    margin-left: 21px;
+  }
   .nav-b {
     margin-left: 0px;
   }
@@ -459,6 +492,7 @@ body h4 {
   }
   .why-sect {
     width: fit-content;
+    margin-left: 0px;
   }
   .stud-sect {
     display: flex;
@@ -548,7 +582,7 @@ body h4 {
     display: block !important;
   }
   #card {
-    width: fit-content !important;
+    width: 165px !important;
     margin-top: 20px;
   }
 
@@ -556,7 +590,7 @@ body h4 {
     margin-left: 0;
   }
   .step {
-    width: 250px;
+    width: fit-content;
     height: fit-content;
   }
   .booking {

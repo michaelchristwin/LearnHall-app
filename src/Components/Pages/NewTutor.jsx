@@ -12,7 +12,7 @@ function NewTutor() {
   return (
     <main>
       <NavbarEx active={"active"} />
-      <section className="d-flex justify-content-center pt-3 form-parent">
+      <section className="d-flex justify-content-around pt-3 form-parent">
         <div className="px-4 py-5 shadow me-5 my-form rounded mb-3">
           <h3>Become a Tutor</h3>
           <p className="d-flex flex-column">

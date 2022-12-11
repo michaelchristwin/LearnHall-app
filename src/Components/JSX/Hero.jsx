@@ -3,11 +3,12 @@ import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
 import Star from "../img/star.png";
 import Student from "../img/student.png";
-import StudentSm from "../img/studimg-sm.png";
+import StudentSm from "../img/stud-sm.png";
 import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
 import { Link } from "react-router-dom";
 import BaseUrl from "./BaseUrl";
+import SemiC from "../img/semic.png";
 
 function Hero() {
   return (
@@ -19,7 +20,7 @@ function Hero() {
             <br className="break" />
             Done Right
           </h1>
-          <span className="private">Private in-person & Online tutoring</span>
+          <span className="private">Private in-person & online tutoring</span>
           <aside className="mt-3 about-service">
             <span className="d-block">
               If you want to learn an academic subject for
@@ -36,9 +37,10 @@ function Hero() {
             <span className="d-block">in both academics and live.</span>
           </aside>
           <img src={StudentSm} alt="Student" className="stud-img-sm" />
-          <button className="btn book-btn">
+          <button className="btn book-btn mt-2">
             <Link to={`${BaseUrl}/book-session`}>Book a Session</Link>
           </button>
+          <img src={SemiC} alt="semi-c" className="semi-c" />
         </section>
         <section className="stud-sect">
           <div className="rectangle position-absolute">
@@ -64,7 +66,6 @@ function Hero() {
         </aside>
         <div className="choice">
           <span className="d-block">
-            {" "}
             We love tutoring and we value the student's
           </span>
           <span className="d-block">
@@ -75,10 +76,10 @@ function Hero() {
           </span>
         </div>
       </section>
-      <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 mx-auto justify-content-center p-lg-5 why-sect">
-        <div className="col-sm ">
+      <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 justify-content-center p-lg-5 why-sect">
+        <div className="col-sm">
           <div
-            className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
+            className="card py-lg-3 py-2 mx-lg-4 mx-md-1 shadow border-0"
             id="card"
           >
             <img
@@ -96,9 +97,9 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="col-sm ">
+        <div className="col-sm">
           <div
-            className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
+            className="card py-lg-3 py-2 mx-lg-4 mx-md-1 shadow border-0"
             id="card"
           >
             <img
@@ -118,7 +119,7 @@ function Hero() {
         </div>
         <div className="col-sm">
           <div
-            className="card py-lg-3 mx-lg-1 mx-md-1 shadow border-0"
+            className="card py-lg-3 py-2 mx-lg-4 mx-md-1 shadow border-0"
             id="card"
           >
             <img src={Star} className="card-img-top " alt="..." id="card-img" />
@@ -132,7 +133,7 @@ function Hero() {
           </div>
         </div>
         <div className="col-sm">
-          <div className="card py-lg-3 shadow border-0" id="card">
+          <div className="card py-lg-3 py-2 mx-lg-4 shadow border-0" id="card">
             <img
               src={Heart}
               className="card-img-top "
