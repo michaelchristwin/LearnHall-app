@@ -46,7 +46,10 @@
 .book-btn {
   background-color: #a63634;
   color: white;
-  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 40px;
 }
 .book-btn:hover {
   background-color: black;
@@ -103,13 +106,13 @@
 }
 .rectangle {
   background-image: url(../img/rectangle.png);
-  height: 450px;
+  height: 650px;
   width: 400px;
   z-index: -1;
 }
 .student {
   position: absolute;
-  height: 450px;
+  height: 650px;
   z-index: 1;
   right: 50px;
   margin-top: 45px;
@@ -117,8 +120,8 @@
   background-image: url(../img/rectangle2.png);
 }
 .stud-img {
-  width: 400px;
-  height: 450px;
+  width: 500px;
+  height: 650px;
 }
 .hero {
   padding-top: 50px;
@@ -127,6 +130,8 @@
   text-align: center;
 }
 .about-service {
+  font-size: 22px;
+  line-height: 30px;
   font-family: Helvetica;
 }
 body {
@@ -139,19 +144,26 @@ body h1 {
 body h4 {
   font-family: Adobe-Garamond-Bold !important;
 }
+#card {
+  height: 300px;
+  border-radius: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 #card-img {
-  height: 60px;
-  width: 60px;
+  height: 107px;
+  width: 107px;
 }
 #card {
-  width: 14rem;
+  width: 228px;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 .student2 {
   background-image: url(../img/rectangle2.png);
-  width: 400px;
+  width: 450px;
+  border-radius: 9px;
   z-index: 1;
 }
 .subtract {
@@ -215,7 +227,7 @@ body h4 {
 .stud-sub {
   height: 80px;
   width: 200px;
-  margin-top: 460px;
+  margin-top: 660px;
   margin-left: 200px;
 }
 .review-container {
@@ -239,6 +251,9 @@ body h4 {
 .become-btn {
   background-color: #a63634;
   color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
 }
 .back-image {
   height: 500px;
@@ -355,6 +370,17 @@ body h4 {
   height: 3px;
   margin-top: -6px;
   background: rgba(65, 62, 62, 0.912);
+}
+.card-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: #070a13;
+  line-height: 26px;
+}
+.card-title {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 400 !important;
 }
 .email {
   height: 100px;

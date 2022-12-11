@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Tele from "../img/tele.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Leaf from "../img/Vector.png";
+import Leaf from "../img/leaf.png";
 import Name from "../img/Group.png";
 import "../CSS/styles.css";
 import BaseUrl from "./BaseUrl";
