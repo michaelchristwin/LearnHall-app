@@ -18,15 +18,17 @@ function Faqs() {
   return (
     <main>
       <NavbarEx />
-      <section className="d-flex mt-3">
-        <h1 className="mx-auto">Frequently Asked Questions</h1>
+      <section className="mt-3 text-center">
+        <h1 className="">Frequently Asked Questions</h1>
+        <span className="text-center mx-auto d-block faq-t">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod
+        </span>
+        <span className="text-center mx-auto d-block faq-t">
+          tempor incididunt ut labore et dolore magna aliqua.
+        </span>
       </section>
-      <span className="text-center mx-auto d-block">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      </span>
-      <span className="text-center mx-auto d-block">
-        tempor incididunt ut labore et dolore magna aliqua.
-      </span>
+
       {FaqElement}
       <Footer />
     </main>

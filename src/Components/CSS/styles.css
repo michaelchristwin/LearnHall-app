@@ -100,7 +100,6 @@
 }
 .my-form {
   background-color: #ffffff;
-  float: left;
 }
 .rectangle {
   background-image: url(../img/rectangle.png);
@@ -381,6 +380,9 @@ body h4 {
 .choice {
   display: none;
 }
+.footer-sectsm {
+  display: none !important;
+}
 .choose {
   display: block;
 }
@@ -416,6 +418,9 @@ body h4 {
   }
   .what-sm {
     display: none;
+  }
+  .hr {
+    margin-top: 30px;
   }
   .what-say {
     font-weight: 400;
@@ -544,6 +549,10 @@ body h4 {
   .my-form {
     width: 370px;
     padding: 15px !important;
+    margin-bottom: 20px !important;
+  }
+  .in-touch {
+    display: none !important;
   }
   .draw1 {
     height: 80px;
@@ -563,8 +572,16 @@ body h4 {
     display: flex;
     flex-direction: column-reverse;
   }
+  .faq-t {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400px;
+  }
   .footer-sect1 {
-    display: flex;
+    display: none !important;
+  }
+  .footer-sectsm {
+    display: flex !important;
     flex-direction: row;
   }
   .form-parent {
@@ -633,7 +650,7 @@ body h4 {
     height: fit-content;
   }
   .booking {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .booker {
     display: flex !important;

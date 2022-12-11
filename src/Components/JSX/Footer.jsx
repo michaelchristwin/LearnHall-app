@@ -44,7 +44,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="d-flex pb-3">
+        <div className="d-flex pb-2">
           <div className="text-white d-block mx-lg-5">
             <h4 className="d-block text-nowrap">About Us</h4>
             <span className="d-block">FAQs</span>
@@ -64,7 +64,7 @@ function Footer() {
         </div>
       </section>
       <div className="subs-div">
-        <p className="pt-3 newsletter">Subscribe to our free e-newsletter</p>
+        <p className="pt-2 newsletter">Subscribe to our free e-newsletter</p>
         <div className="d-flex">
           <input
             type="text"
@@ -72,6 +72,39 @@ function Footer() {
             className="subscribe form-control"
           />
           <button className="btn newsletter-btn ms-1">Subscribe</button>
+        </div>
+      </div>
+      <div className="footer-sectsm">
+        <div className="d-flex nav-brand2">
+          <img src={Leaf} alt="Learnhall Logo" className="logo-footer" />
+          <img src={NameBlack} alt="Brand Name" className="brand" />
+        </div>
+        <div className="mt-4 contact-sect ms-3 ms-lg-0 mx-auto">
+          <div>
+            <h4 className="social-title">Let's Connect</h4>
+            <div className="d-block socials">
+              <a href="https://facebook.com" className="me-2">
+                <img src={FB} alt="facebook" className="social" />{" "}
+              </a>
+              <a href="https://instagram.com" className="me-2">
+                <img src={IG} alt="instagram" className="social" />
+              </a>
+              <a href="https://twitter.com" className="me-2">
+                <img src={TWTR} alt="Twitter" className="social" />
+              </a>
+            </div>
+          </div>
+          <div className="pt-lg-3 mx-3 mx-lg-0">
+            <h4 className="social-title">Contact Us</h4>
+            <div className="d-block socials">
+              <a href="tel:123-456-789" className="me-2">
+                <img src={Call} alt="telephone" className="social" />
+              </a>
+              <a href="mailto:customercare@learnhall.com" className="me-2">
+                <img src={Message} alt="email" className="social" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <section className="d-block copyright">
