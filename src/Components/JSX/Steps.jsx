@@ -15,8 +15,8 @@ function Steps() {
           <h1 className="booking-text">How our service works</h1>
           <p className="booking-text">
             <span>
-              Follow the three steps below to book your first session and get
-              started with a tutor.
+              Follow the three steps below to book your <br className="bk-sm" />{" "}
+              first session and get started with a tutor.
             </span>
           </p>
         </aside>

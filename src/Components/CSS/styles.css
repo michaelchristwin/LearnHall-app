@@ -318,6 +318,9 @@ body h4 {
   color: white;
   margin-top: 80px;
 }
+.bk-sm {
+  display: none;
+}
 .tele {
   height: 20px;
 }
@@ -372,6 +375,9 @@ body h4 {
   font-weight: bold;
   font-size: 18px;
 }
+.tut-break {
+  display: none;
+}
 .choice {
   display: none;
 }
@@ -397,11 +403,33 @@ body h4 {
     font-size: 12px;
     line-height: 15px;
   }
+  .d-review {
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 15px;
+  }
+  .tut-break {
+    display: block;
+  }
+  .want-tut {
+    text-align: center;
+  }
+  .what-sm {
+    display: none;
+  }
+  .what-say {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+  }
   .card-title {
     font-size: 14px;
   }
   .break {
     display: none !important;
+  }
+  .bk-sm {
+    display: block;
   }
   .choice {
     display: block;
@@ -430,7 +458,7 @@ body h4 {
     margin-top: -20px;
   }
   .sub-tut {
-    height: 100px !important;
+    height: 60px !important;
   }
   .book-btn {
     margin-top: -20px;
@@ -485,6 +513,15 @@ body h4 {
   }
   .subscribe {
     width: 350px;
+  }
+  .why-lg {
+    display: none !important;
+  }
+  .why-sm {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
   }
   .service-title {
     font-weight: 400;
@@ -547,7 +584,9 @@ body h4 {
     flex-direction: column-reverse !important;
   }
   .subtract {
-    margin-left: 0px;
+    margin-left: 33px;
+    width: 33px;
+    height: 68px;
   }
   .social {
     width: 30px;
@@ -612,6 +651,7 @@ body h4 {
   }
   .booking-text {
     width: fit-content !important;
+    text-align: center;
   }
   .footer {
     margin-left: auto;

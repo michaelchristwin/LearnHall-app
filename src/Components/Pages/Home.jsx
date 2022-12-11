@@ -22,12 +22,18 @@ function Home() {
       <Hero />
       <Steps />
       <section className="text-center mt-4">
-        <h1>What parents are saying</h1>
-        <span>
-          Read the reviews below to see what students' parents are saying about
-        </span>
-        <br />
-        <span>Learnhall on Google for our tutoring serivces.</span>
+        <div className="what-parent">
+          <h1>What parents are saying</h1>
+          <span className="what-say">
+            Read the reviews below to see what students' parents are saying
+            about
+          </span>
+          <br className="what-sm" />
+          <span className="what-say">
+            Learnhall on Google for our tutoring serivces.
+          </span>
+        </div>
+
         <div className="rv-sm">
           <ReviewSlideSM />
         </div>
@@ -43,33 +49,38 @@ function Home() {
           className="sub-tut"
         />
         <div className="d-flex">
-          <div className="tutor px-3 px-lg-5 mx-auto ms-lg-2">
-            <h1>Want to become a tutor with Learnhall?</h1>
+          <div className="tutor px-2 px-lg-5 mx-auto ms-lg-2">
+            <h1 className="want-tut">
+              Want to become a tutor <br className="tut-break" /> with
+              Learnhall?
+            </h1>
             <aside className="text-left">
-              <span className="d-block">
+              <span className="d-block why-lg">
                 We hire tutors from a variety of backgrounds both in
               </span>
-              <span className="d-block">
+              <span className="d-block why-lg">
                 the US and internationally. We pride ourselves on our
               </span>
-              <span className="d-block">
+              <span className="d-block why-lg">
                 tutor onboarding process and high industy pay. Our
               </span>
-              <span className="d-block">
+              <span className="d-block why-lg">
                 tutors work in-person and online, and we garner
               </span>
-              <span className="d-block">
+              <span className="d-block why-lg">
                 regular inquiries for all academic and test prep
               </span>
-              <span className="d-block">subjects at all age levels.</span>
-              <br />
-              <span className="d-block">
+              <span className="d-block why-lg">
+                subjects at all age levels.
+              </span>
+              <br className="why-lg" />
+              <span className="d-block why-sm">
                 If you want to work with us, please click the button
               </span>
-              <span className="d-block">
+              <span className="d-block why-sm">
                 below to fill out a short form and we will be in contact
               </span>
-              <span className="d-block">
+              <span className="d-block why-sm">
                 within 24-48 hours for a prospective interview.
               </span>
             </aside>
