@@ -15,13 +15,19 @@ function NewTutor() {
       <section className="d-flex justify-content-between pt-3 form-parent">
         <div className="px-4 py-5 shadow my-form rounded">
           <h3>Become a Tutor</h3>
-          <p className="d-flex flex-column">
-            <span>
+          <div className="d-flex flex-column">
+            <span className="formt-lg">
               Please fill out the form below and submit, and we will get back to
               you about
             </span>
-            <span>tutoring with LearnHall within 24-48 business hours.</span>
-          </p>
+            <span className="formt-lg">
+              tutoring with LearnHall within 24-48 business hours.
+            </span>
+            <p className="formt-sm">
+              Please fill out the form below and submit, and we will get back to
+              you about tutoring with LearnHall within 24-48 business hours.
+            </p>
+          </div>
           <div className="d-flex row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="flname" className="d-block">
