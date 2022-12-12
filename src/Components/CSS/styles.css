@@ -360,7 +360,6 @@ body h4 {
 }
 #follow {
   display: none;
-  margin-left: 40px;
 }
 .sub-btn {
   background-color: #a63634;
@@ -427,6 +426,9 @@ body h4 {
   line-height: 30px;
   font-weight: 400 !important;
 }
+.formt-lg {
+  display: block;
+}
 .studh {
   display: none;
 }
@@ -468,6 +470,9 @@ body h4 {
   display: none;
 }
 .svg-sm {
+  display: none;
+}
+.formt-sm {
   display: none;
 }
 @media (max-width: 760px) {
@@ -576,7 +581,9 @@ body h4 {
     margin-right: auto;
     width: 300px;
   }
-
+  .formt-sm {
+    display: block;
+  }
   .become-btn {
     margin-left: 100px;
     margin-top: -20px;
@@ -796,13 +803,18 @@ body h4 {
   .book-p {
     display: none;
   }
+  .formt-lg {
+    display: none;
+  }
   #follow {
     display: block;
+    margin-left: 70px;
     width: fit-content !important;
     text-align: center;
   }
   .booking-text {
     width: fit-content !important;
+    margin-left: 70px;
     text-align: center;
   }
   .footer {
