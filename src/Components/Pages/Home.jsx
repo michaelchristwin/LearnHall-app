@@ -15,7 +15,7 @@ import ReviewSlideSM from "../JSX/ReviewSlideSM";
 function Home() {
   return (
     <main className="overflow-hidden">
-      <section>
+      <section id="top">
         <img src={SemiCircle} alt="" className="draw1" />
         <NavbarEx state={"active"} />
       </section>
@@ -42,17 +42,12 @@ function Home() {
         </div>
       </section>
       <section className="tutor-sect">
-        <img
-          src={Subtract3}
-          alt="icon"
-          style={{ height: "150px" }}
-          className="sub-tut"
-        />
+        <img src={Subtract3} alt="icon" className="sub-tut" />
         <div className="d-flex">
-          <div className="tutor px-2 px-lg-5 mx-auto ms-lg-2">
+          <div className="tutor d-block px-2 px-lg-0">
             <h1 className="want-tut">
-              Want to become a tutor <br className="tut-break" /> with
-              Learnhall?
+              Want to become a<br className="tut-break" />
+              tutor with Learnhall?
             </h1>
             <aside className="text-left">
               <span className="d-block why-lg">

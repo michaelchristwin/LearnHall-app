@@ -34,7 +34,7 @@ function Hero() {
             <span className="d-block">
               bring the best of an individual learners potential
             </span>
-            <span className="d-block">in both academics and live.</span>
+            <span className="d-block">in both academics as well as life.</span>
           </aside>
           <img src={StudentSm} alt="Student" className="stud-img-sm" />
           <button className="btn book-btn">
@@ -76,7 +76,7 @@ function Hero() {
           </span>
         </div>
       </section>
-      <div className="d-flex row row-cols-2 row-cols-lg-4 g-2 g-lg-1 justify-content-center p-lg-5 why-sect">
+      <div className="d-flex row row-cols-2 row-cols-lg-4 g-2 g-lg-2 justify-content-center p-lg-4 why-sect">
         <div className="col-sm">
           <div
             className="py-lg-2 py-2 mx-lg-4 mx-md-1 shadow border-0"

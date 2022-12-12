@@ -6,6 +6,7 @@ import NameBlack from "../img/nameblack.png";
 import Call from "../img/telephone.png";
 import Message from "../img/message.png";
 import "../CSS/styles.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,7 +22,7 @@ function Footer() {
               <h4 className="social-title">Let's Connect</h4>
               <div className="d-block socials">
                 <a href="https://facebook.com" className="me-2">
-                  <img src={FB} alt="facebook" className="social" />{" "}
+                  <img src={FB} alt="facebook" className="social" />
                 </a>
                 <a href="https://instagram.com" className="me-2">
                   <img src={IG} alt="instagram" className="social" />
@@ -44,22 +45,30 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="d-flex pb-2">
+        <div className="d-flex pb-2 foot-links">
           <div className="text-white d-block mx-lg-5">
             <h4 className="d-block text-nowrap">About Us</h4>
-            <span className="d-block">FAQs</span>
+            <Link to="/faqs" className="d-block">
+              FAQs
+            </Link>
             <span className="d-block">Blog</span>
             <span className="d-block">Reviews</span>
           </div>
           <div className="text-white d-block ms-auto mx-lg-5">
             <h4 className="d-block text-nowrap">Learn With Us</h4>
-            <span className="d-block">Request a Tutor</span>
+            <Link to="/book-session" className="d-block">
+              Request a Tutor
+            </Link>
             <span className="d-block">Learning Resources</span>
           </div>
           <div className="text-white d-block ms-auto mx-lg-5">
             <h4 className="d-block text-nowrap">Work With Us</h4>
-            <span className="d-block">Careers at Learnhall</span>
-            <span className="d-block">Apply to Tutor</span>
+            <Link to="/become-tutor" className="d-block">
+              Careers at Learnhall
+            </Link>
+            <Link to="/become-tutor" className="d-block">
+              Apply to Tutor
+            </Link>
           </div>
         </div>
       </section>

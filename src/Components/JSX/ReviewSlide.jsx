@@ -25,7 +25,7 @@ function ReviewSlide() {
     );
   });
   return (
-    <main className="overflow-scroll">
+    <main>
       <Carousel>
         <Carousel.Item>
           <div className="d-flex justify-content-center">{ReviewElement1}</div>

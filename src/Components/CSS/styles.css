@@ -70,7 +70,7 @@
   padding-right: 20px;
   height: 130px;
   position: absolute;
-  top: 50px;
+  top: 29px;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -106,23 +106,24 @@
   margin-left: 80px;
 }
 .rectangle {
-  background-image: url(../img/rectangle.png);
-  height: 650px;
-  width: 400px;
+  background: #b84b40;
+  border-radius: 14px;
+  height: 630px;
+  width: 500px;
   z-index: -1;
 }
 .student {
   position: absolute;
-  height: 650px;
+  height: 630px;
   z-index: 1;
   right: 50px;
   margin-top: 45px;
-  border-radius: 6px;
-  background-image: url(../img/rectangle2.png);
+  border-radius: 14px;
+  background: #fed7bd;
 }
 .stud-img {
-  width: 500px;
-  height: 650px;
+  width: 589px;
+  height: 626px;
 }
 .hero {
   padding-top: 50px;
@@ -155,8 +156,9 @@ body h4 {
   padding-right: 10px;
 }
 #card-img {
-  height: 107px;
-  width: 107px;
+  height: 90px;
+  padding: 4px;
+  width: 90px;
 }
 #card {
   width: 228px;
@@ -165,14 +167,14 @@ body h4 {
   justify-content: center;
 }
 .student2 {
-  background-image: url(../img/rectangle2.png);
-  width: 450px;
-  border-radius: 9px;
+  background: #fed7bd;
+  width: 570px;
+  border-radius: 14px;
   z-index: 1;
 }
 .subtract {
   height: 130px;
-  margin-right: -250px;
+  margin-right: -190px;
   float: right;
 }
 .booking {
@@ -231,10 +233,11 @@ body h4 {
 .stud-sub {
   height: 80px;
   width: 200px;
-  margin-top: 660px;
-  margin-left: 200px;
+  margin-top: 630px;
+  float: right;
 }
 .review-container {
+  margin-bottom: 170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -246,7 +249,9 @@ body h4 {
   display: none;
 }
 .tutor {
+  margin-top: -80px;
   width: 500px;
+  margin-left: 100px !important;
 }
 
 .become-btn:hover {
@@ -260,30 +265,39 @@ body h4 {
   line-height: 36px;
 }
 .back-image {
-  height: 500px;
+  height: 600px;
   width: 400px;
   z-index: -1;
   margin-top: -30px;
-  background-image: url(../img/rectangle.png);
+  background: #b84b40;
+  border-radius: 14px;
 }
 .top-image {
-  width: 500px;
-  height: 500px;
+  width: 589px;
+  height: 626px;
   z-index: 2;
 }
 
 .tutor-images {
   direction: rtl;
   margin-left: 1050px;
-  margin-top: -80px;
+  display: block;
+  margin-top: -230px;
+}
+.foot-links a {
+  text-decoration: none;
+  color: #ffffff8d;
 }
 .tutor-sect {
-  margin-top: 100px;
+  margin-top: 150px;
+  height: fit-content;
+  margin-bottom: 200px;
 }
 .rect2 {
-  background-image: url(../img/rectangle2.png);
+  border-radius: 14px;
+  background: #fed7bd;
   z-index: 1;
-  width: 420px;
+  width: 500px;
   right: 40px;
   margin-top: 30px;
 }
@@ -325,7 +339,7 @@ body h4 {
   line-height: 30px;
 }
 .subscribe {
-  width: 500px;
+  width: 479px;
   background-color: inherit;
   color: white;
 }
@@ -384,11 +398,24 @@ body h4 {
   height: 50px;
   width: 50px;
 }
+#top {
+  background: rgba(251, 142, 66, 0.03);
+}
 .join-hr {
   width: 40px;
   height: 3px;
   margin-top: -6px;
   background: rgba(65, 62, 62, 0.912);
+}
+.sub-tut {
+  height: 150px;
+  margin-bottom: 50px;
+}
+.want-tut {
+  margin-top: -50px;
+}
+.done-right {
+  background: rgba(251, 142, 66, 0.03);
 }
 .card-text {
   font-weight: 300;
@@ -399,6 +426,7 @@ body h4 {
 .card-title {
   font-size: 23px;
   color: #070a13;
+  margin-bottom: 8px;
   line-height: 30px;
   font-weight: 400 !important;
 }
@@ -419,7 +447,7 @@ body h4 {
   font-size: 18px;
 }
 .tut-break {
-  display: none;
+  display: block;
 }
 .choice {
   display: none;
@@ -432,6 +460,9 @@ body h4 {
 }
 .semi-c {
   display: none;
+}
+.stud-sect {
+  margin-top: 30px;
 }
 @media (max-width: 760px) {
   .nav-brand {
@@ -473,6 +504,10 @@ body h4 {
   }
   .card-title {
     font-size: 14px;
+  }
+  .tutor-sect {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .become-btn {
     font-size: 11px;
@@ -518,6 +553,7 @@ body h4 {
   }
   .sub-tut {
     height: 60px !important;
+    margin-bottom: 0px;
   }
   .book-btn {
     width: 122px;
@@ -554,6 +590,9 @@ body h4 {
   }
   .tutor {
     width: 370px;
+    margin-top: 0px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .d-step {
     font-size: 12px;
@@ -595,9 +634,7 @@ body h4 {
     margin-left: 0px;
   }
   .stud-sect {
-    display: flex;
     display: none;
-    padding: 10px;
   }
   .stud-img {
     height: 300px;
@@ -718,8 +755,6 @@ body h4 {
 
   .review-container {
     display: none;
-    overflow-x: scroll !important;
-    width: fit-content;
   }
   .rv-sm {
     display: block;

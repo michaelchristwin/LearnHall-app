@@ -20,7 +20,7 @@ function Steps() {
           <span id="follow">Follow the three steps below to book your</span>
           <span id="follow">first session and get started with a tutor.</span>
         </aside>
-        <img src={Subtract} alt="ellipse" className="subtract float-end" />
+        <img src={Subtract} alt="ellipse" className="subtract" />
       </div>
       <aside className="d-flex step-sect">
         <div>
