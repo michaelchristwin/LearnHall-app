@@ -13,12 +13,12 @@ function Steps() {
       <div className="d-flex justify-content-around booker">
         <aside className="align-items-center p-3 d-flex flex-column booking">
           <h1 className="booking-text">How our service works</h1>
-          <p className="booking-text">
-            <span>
-              Follow the three steps below to book your <br className="bk-sm" />{" "}
-              first session and get started with a tutor.
-            </span>
+          <p className="book-p">
+            Follow the three steps below to book your first session and get
+            started with a tutor.
           </p>
+          <span id="follow">Follow the three steps below to book your</span>
+          <span id="follow">first session and get started with a tutor.</span>
         </aside>
         <img src={Subtract} alt="ellipse" className="subtract float-end" />
       </div>

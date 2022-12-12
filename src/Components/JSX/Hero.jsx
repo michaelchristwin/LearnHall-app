@@ -76,7 +76,7 @@ function Hero() {
           </span>
         </div>
       </section>
-      <div className="d-flex row row-cols-2 row-cols-lg-4 g-lg-1 justify-content-center p-lg-5 why-sect">
+      <div className="d-flex row row-cols-2 row-cols-lg-4 g-2 g-lg-1 justify-content-center p-lg-5 why-sect">
         <div className="col-sm">
           <div
             className="py-lg-2 py-2 mx-lg-4 mx-md-1 shadow border-0"
@@ -99,7 +99,7 @@ function Hero() {
         </div>
         <div className="col-sm">
           <div
-            className=" py-lg-3 py-2 mx-lg-4 mx-md-1 shadow border-0"
+            className="mx-2 py-lg-3 py-2 mx-lg-4 mx-md-1 shadow border-0"
             id="card"
           >
             <img
@@ -133,7 +133,7 @@ function Hero() {
           </div>
         </div>
         <div className="col-sm">
-          <div className="py-lg-3 py-2 mx-lg-4 shadow border-0" id="card">
+          <div className="mx-2 py-lg-3 py-2 mx-lg-4 shadow border-0" id="card">
             <img
               src={Heart}
               className="card-img-top "

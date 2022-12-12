@@ -172,11 +172,11 @@ body h4 {
 }
 .subtract {
   height: 130px;
-  margin-left: 400px;
+  margin-right: -250px;
   float: right;
 }
 .booking {
-  margin-left: 405px;
+  margin-left: 300px;
 }
 .subtract2 {
   height: 100px;
@@ -346,6 +346,10 @@ body h4 {
 .d-form {
   width: 360px;
 }
+#follow {
+  display: none;
+  margin-left: 40px;
+}
 .sub-btn {
   background-color: #a63634;
   color: white;
@@ -356,7 +360,7 @@ body h4 {
   color: white;
 }
 .booking-text {
-  margin-left: 70px;
+  margin-left: 40px;
 }
 .in-touch {
   height: fit-content;
@@ -434,10 +438,10 @@ body h4 {
     padding-right: 100px;
   }
   .semi-c {
-    display: inline;
+    display: block;
     height: 70px;
-    float: inline-end;
-    margin-right: -20px;
+    float: right;
+    margin-right: -30px;
     margin-top: -60px;
   }
   .card-text {
@@ -516,6 +520,8 @@ body h4 {
     height: 60px !important;
   }
   .book-btn {
+    width: 122px;
+    height: 24px;
     margin-top: -20px;
     font-size: 11px;
     line-height: 11px;
@@ -600,6 +606,7 @@ body h4 {
   }
   .my-form {
     width: 370px;
+    margin-left: 0px;
     padding: 15px !important;
     margin-bottom: 20px !important;
   }
@@ -656,7 +663,7 @@ body h4 {
     flex-direction: column-reverse !important;
   }
   .subtract {
-    margin-left: 33px;
+    margin-right: -13px;
     width: 33px;
     height: 68px;
   }
@@ -706,11 +713,9 @@ body h4 {
     height: fit-content;
   }
   .booking {
-    margin-left: 10px;
+    margin-left: -40px;
   }
-  .booker {
-    display: flex !important;
-  }
+
   .review-container {
     display: none;
     overflow-x: scroll !important;
@@ -722,10 +727,17 @@ body h4 {
   .tutor-images {
     display: none;
   }
+  .book-p {
+    display: none;
+  }
+  #follow {
+    display: block;
+    width: fit-content !important;
+    text-align: center;
+  }
   .booking-text {
     width: fit-content !important;
     text-align: center;
-    margin-left: 50px;
   }
   .footer {
     margin-left: auto;
