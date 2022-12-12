@@ -103,7 +103,7 @@
 }
 .my-form {
   background-color: #ffffff;
-  margin-left: 80px;
+  margin-left: 180px;
 }
 .rectangle {
   background: #b84b40;
@@ -237,7 +237,7 @@ body h4 {
   float: right;
 }
 .review-container {
-  margin-bottom: 170px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -249,7 +249,6 @@ body h4 {
   display: none;
 }
 .tutor {
-  margin-top: -80px;
   width: 500px;
   margin-left: 100px !important;
 }
@@ -280,16 +279,15 @@ body h4 {
 
 .tutor-images {
   direction: rtl;
-  margin-left: 1050px;
+  float: right;
   display: block;
-  margin-top: -230px;
+  margin-top: -450px;
 }
 .foot-links a {
   text-decoration: none;
   color: #ffffff8d;
 }
 .tutor-sect {
-  margin-top: 150px;
   height: fit-content;
   margin-bottom: 200px;
 }
@@ -378,7 +376,7 @@ body h4 {
 }
 .in-touch {
   height: fit-content;
-  margin-right: 150px;
+  margin-right: 200px;
 }
 .why-join {
   height: fit-content;
@@ -409,7 +407,6 @@ body h4 {
 }
 .sub-tut {
   height: 150px;
-  margin-bottom: 50px;
 }
 .want-tut {
   margin-top: -50px;

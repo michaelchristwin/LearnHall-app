@@ -43,7 +43,7 @@ function Home() {
       </section>
       <section className="tutor-sect">
         <img src={Subtract3} alt="icon" className="sub-tut" />
-        <div className="d-flex">
+        <div>
           <div className="tutor d-block px-2 px-lg-0">
             <h1 className="want-tut">
               Want to become a<br className="tut-break" />
@@ -84,8 +84,8 @@ function Home() {
               <Link to={`${BaseUrl}/become-tutor`}>Become a Tutor</Link>
             </button>
           </div>
-          <div className="tutor-images">
-            <div className="back-image position-absolute">
+          <div className="tutor-images float-end">
+            <div className="back-image">
               <div className="rect2 position-absolute start-40">
                 <img src={Tutor} alt="Tutor & Student" className="top-image" />
               </div>
