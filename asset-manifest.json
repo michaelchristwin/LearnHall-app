@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LearnHall-app/static/css/main.4e1b1815.css",
-    "main.js": "/LearnHall-app/static/js/main.9a3f44e7.js",
+    "main.css": "/LearnHall-app/static/css/main.1264e918.css",
+    "main.js": "/LearnHall-app/static/js/main.3621645e.js",
     "static/js/787.5c79b768.chunk.js": "/LearnHall-app/static/js/787.5c79b768.chunk.js",
     "static/media/tutor&student.png": "/LearnHall-app/static/media/tutor&student.0fce015eb3c5c18568ca.png",
     "static/media/student2.png": "/LearnHall-app/static/media/student2.9e70edf13a5feb47ac1f.png",
@@ -12,12 +12,12 @@
     "static/media/email.png": "/LearnHall-app/static/media/email.2908323735823f150ced.png",
     "static/media/avatar2.png": "/LearnHall-app/static/media/avatar2.ded7cc237db4f4356f83.png",
     "index.html": "/LearnHall-app/index.html",
-    "main.4e1b1815.css.map": "/LearnHall-app/static/css/main.4e1b1815.css.map",
-    "main.9a3f44e7.js.map": "/LearnHall-app/static/js/main.9a3f44e7.js.map",
+    "main.1264e918.css.map": "/LearnHall-app/static/css/main.1264e918.css.map",
+    "main.3621645e.js.map": "/LearnHall-app/static/js/main.3621645e.js.map",
     "787.5c79b768.chunk.js.map": "/LearnHall-app/static/js/787.5c79b768.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e1b1815.css",
-    "static/js/main.9a3f44e7.js"
+    "static/css/main.1264e918.css",
+    "static/js/main.3621645e.js"
   ]
 }
