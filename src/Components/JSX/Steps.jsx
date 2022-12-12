@@ -10,8 +10,8 @@ import Line from "../img/line.png";
 function Steps() {
   return (
     <section className="py-5 bucky">
-      <div className="d-flex justify-content-around booker">
-        <aside className="align-items-center p-3 d-flex flex-column booking">
+      <div className="booker">
+        <aside className="p-3 d-block booking">
           <h1 className="booking-text">How our service works</h1>
           <p className="book-p">
             Follow the three steps below to book your first session and get
@@ -20,7 +20,7 @@ function Steps() {
           <span id="follow">Follow the three steps below to book your</span>
           <span id="follow">first session and get started with a tutor.</span>
         </aside>
-        <img src={Subtract} alt="ellipse" className="subtract" />
+        <img src={Subtract} alt="ellipse" className="subtract float-end" />
       </div>
       <aside className="d-flex step-sect">
         <div>
