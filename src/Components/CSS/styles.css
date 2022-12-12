@@ -18,7 +18,7 @@
 .private {
   color: rgba(7, 10, 19, 0.6);
   font-weight: 400;
-  font-size: 19px !important;
+  font-size: 19px;
 }
 .brand {
   height: 30px;
@@ -427,6 +427,9 @@ body h4 {
   line-height: 30px;
   font-weight: 400 !important;
 }
+.studh {
+  display: none;
+}
 .email {
   height: 100px;
 }
@@ -461,6 +464,12 @@ body h4 {
 .stud-sect {
   margin-top: 30px;
 }
+.empty-sm {
+  display: none;
+}
+.svg-sm {
+  display: none;
+}
 @media (max-width: 760px) {
   .nav-brand {
     padding-right: 100px;
@@ -472,6 +481,12 @@ body h4 {
     margin-right: -30px;
     margin-top: -60px;
   }
+  .svg-sm {
+    margin-top: -89px;
+    display: block;
+    height: 86px;
+    width: 46px;
+  }
   .card-text {
     font-weight: 300;
     font-size: 12px;
@@ -482,11 +497,21 @@ body h4 {
     line-height: 19px;
     font-size: 15px;
   }
+  .studh {
+    display: block;
+    width: 222px;
+    height: 227px;
+  }
   .tut-break {
     display: block;
   }
   .want-tut {
     text-align: center;
+  }
+  .private {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px !important;
   }
   .what-sm {
     display: none;
@@ -498,6 +523,14 @@ body h4 {
     font-weight: 400;
     font-size: 15px;
     line-height: 19px;
+  }
+  .about-service {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .empty-sm {
+    display: block;
   }
   .card-title {
     font-size: 14px;
@@ -582,7 +615,6 @@ body h4 {
   }
   .tutor-sm {
     display: block;
-    margin-left: -25px;
     width: 370px;
   }
   .tutor {
@@ -624,7 +656,7 @@ body h4 {
   }
   .service-title {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 28px;
   }
   .why-sect {
     width: fit-content;
@@ -652,6 +684,7 @@ body h4 {
   }
   .draw1 {
     height: 80px;
+    top: 50px;
   }
   body {
     overflow-x: hidden !important;
@@ -728,6 +761,7 @@ body h4 {
   }
   .service span {
     font-size: 15px;
+    line-height: 20px;
   }
   .done-right {
     margin-top: -100px;

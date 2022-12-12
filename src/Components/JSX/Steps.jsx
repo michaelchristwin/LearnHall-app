@@ -6,6 +6,8 @@ import Student2 from "../img/student2.png";
 import Subtract from "../img/subtract.png";
 import Subtract2 from "../img/subtract2.png";
 import Line from "../img/line.png";
+import StudentH from "../img/studh-sm.png";
+import NearSm from "../img/near-sm.png";
 
 function Steps() {
   return (
@@ -63,6 +65,10 @@ function Steps() {
           </div>
         </div>
       </aside>
+      <div className="empty-sm">
+        <img src={StudentH} alt="Student with book" className="mx-auto studh" />
+        <img src={NearSm} alt="svg" className="svg-sm" />
+      </div>
     </section>
   );
 }
