@@ -46,7 +46,7 @@ function Footer() {
           </div>
         </div>
         <div className="d-flex pb-2 foot-links">
-          <div className="text-white d-block mx-lg-5">
+          <div className="text-white me-2 d-block mx-lg-5">
             <h4 className="d-block text-nowrap">About Us</h4>
             <Link to="/faqs" className="d-block">
               FAQs
@@ -54,14 +54,14 @@ function Footer() {
             <span className="d-block">Blog</span>
             <span className="d-block">Reviews</span>
           </div>
-          <div className="text-white d-block ms-auto mx-lg-5">
+          <div className="text-white d-block mx-2 mx-lg-5">
             <h4 className="d-block text-nowrap">Learn With Us</h4>
             <Link to="/book-session" className="d-block">
               Request a Tutor
             </Link>
             <span className="d-block">Learning Resources</span>
           </div>
-          <div className="text-white d-block ms-auto mx-lg-5">
+          <div className="text-white d-block mx-2 mx-lg-5">
             <h4 className="d-block text-nowrap">Work With Us</h4>
             <Link to="/become-tutor" className="d-block">
               Careers at Learnhall
