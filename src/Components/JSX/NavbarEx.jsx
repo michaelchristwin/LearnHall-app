@@ -48,9 +48,9 @@ function NavbarEx(props) {
             <Link to={`${BaseUrl}/faqs`} className="nav-link">
               Blog
             </Link>
-            <Link to="tel:503-342-721" className="nav-link">
+            <a href="tel:503-342-721" className="nav-link">
               <img src={Tele} alt="telephone" className="tele" />
-            </Link>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

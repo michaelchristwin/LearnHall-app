@@ -39,7 +39,7 @@ function Steps() {
             <img src={Line} alt="line" className="line" />
             <div className="border-0 shadow text-box justify-content-center text-left step">
               <h3 className="step-title">Step One</h3>
-              <div className="px-lg-3 px-2 d-flex flex-column d-step">
+              <div className="px-lg-4 px-2 d-flex flex-column d-step">
                 <span>Inquire about our tutoring services by filling-out</span>
                 <span>and submitting the “Book a Session” form.</span>
               </div>
@@ -49,7 +49,7 @@ function Steps() {
             <img src={Two} alt="One" className="num-fig" />
             <div className="border-0 shadow text-box p-2 step">
               <h3 className="step-title">Step Two</h3>
-              <div className="px-lg-3 px-2 d-flex flex-column d-step">
+              <div className="px-lg-4 px-2 d-flex flex-column d-step">
                 <span>Within 24 hours an advisor will contact you to go</span>
                 <span>over the student's tutoring goals & needs.</span>
               </div>
@@ -59,7 +59,7 @@ function Steps() {
             <img src={Three} alt="One" className="num-fig" />
             <div className="border-0 shadow text-box p-2 step">
               <h3 className="step-title">Step Three</h3>
-              <div className="px-lg-3 px-2 d-flex flex-column d-step">
+              <div className="px-lg-4 px-2 d-flex flex-column d-step">
                 <span>The advisor will find an ideal tutor match and set</span>
                 <span>up a free session to ensure s/he is the right fit.</span>
               </div>

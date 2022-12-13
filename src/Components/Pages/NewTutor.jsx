@@ -6,6 +6,7 @@ import Footer from "../JSX/Footer";
 import { useState } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
 import NavbarEx from "../JSX/NavbarEx";
+import ScrollToTop from "react-scroll-to-top";
 
 function NewTutor() {
   const [modalShow, setModalShow] = useState(false);
@@ -18,27 +19,14 @@ function NewTutor() {
           <div className="d-flex flex-column">
             <span className="formt-lg">
               Please fill out the form below and submit, and we will get back to
-              you about
-            </span>
-            <span className="formt-lg">
-              tutoring with Learnhall within 24-48 business hours.
+              you within 24-48 business hours.
             </span>
             <p className="formt-sm">
               Please fill out the form below and submit, and we will get back to
               you within 24-48 business hours.
             </p>
           </div>
-          <div className="d-flex row row-cols-1 row-cols-lg-2">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="flname" className="d-block">
-                Name*
-              </label>
-              <input
-                type="text"
-                id="flname"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
+          <div className="d-flex row row-cols-1 row-cols-lg-2 pt-3">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
                 Name*
@@ -49,8 +37,6 @@ function NewTutor() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-          </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="email" className="d-block">
                 Email*
@@ -61,6 +47,8 @@ function NewTutor() {
                 className="d-form form-control d-block"
               />
             </fieldset>
+          </div>
+          <div className="d-flex pt-3">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="phone" className="d-block">
                 Phone
@@ -68,50 +56,6 @@ function NewTutor() {
               <input
                 type="text"
                 id="phone"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="location" className="d-block">
-                Location
-              </label>
-              <input
-                type="text"
-                id="location"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="zip" className="d-block">
-                Zip Code
-              </label>
-              <input
-                type="text"
-                id="zip"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2 ">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="hledu" className="d-block">
-                Highest level of Education
-              </label>
-              <input
-                type="text"
-                id="hledu"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="school" className="d-block">
-                School*
-              </label>
-              <input
-                type="text"
-                id="school"
                 className="d-form form-control d-block"
               />
             </fieldset>
@@ -152,6 +96,7 @@ function NewTutor() {
           <p>Help students succeed</p>
         </div>
       </section>
+      <ScrollToTop smooth />
       <Footer />
       <MyVerticallyCenteredModal
         show={modalShow}

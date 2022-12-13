@@ -38,10 +38,10 @@ function Footer() {
             <div className="pt-lg-3 mx-3 mx-lg-0">
               <h4 className="social-title">Contact Us</h4>
               <div className="d-block socials">
-                <a href="tel:123-456-789" className="me-2">
+                <a href="tel:503-342-7214" className="me-2">
                   <img src={Call} alt="telephone" className="social" />
                 </a>
-                <a href="mailto:customercare@learnhall.com" className="me-2">
+                <a href="mailto:info@learnhall.com" className="me-2">
                   <img src={Message} alt="email" className="social" />
                 </a>
               </div>

@@ -9,6 +9,7 @@ import Subtract3 from "../img/subtract3.png";
 import ReviewSlide from "../JSX/ReviewSlide";
 import NavbarEx from "../JSX/NavbarEx";
 import TutorSm from "../img/tutor-sm.png";
+import ScrollToTop from "react-scroll-to-top";
 import BaseUrl from "../JSX/BaseUrl";
 import ReviewSlideSM from "../JSX/ReviewSlideSM";
 
@@ -93,6 +94,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <ScrollToTop smooth />
       <Footer />
     </main>
   );

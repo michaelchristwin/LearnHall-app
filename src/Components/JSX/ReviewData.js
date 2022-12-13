@@ -16,7 +16,7 @@ const ReviewData = [
       name: "Julie S.",
       img: require("../img/Avatars/avatar3.png"),
       review:
-        "“My experience with Learnhall has been very positive. Mike took his time to fully understand the needs of my child and pair them with a good fitting tutor. Our tutor, Justin, was patient and kind... read more.",
+        "“My experience with Learnhall has been very positive. Mike took his time to fully understand the needs of my child and pair them with a good fitting tutor. Our tutor Justin was patient and kind... read more.",
     },
   ],
   [
@@ -24,7 +24,7 @@ const ReviewData = [
       name: "Stacy L.",
       img: require("../img/Avatars/avatar4.png"),
       review:
-        "“I've worked with many educators, but very few who are as encouraging, thorough, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more.",
+        "“I've worked with many educators but very few who are as encouraging, thorough and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more.",
     },
     {
       name: "Tabitha S.",
@@ -36,7 +36,7 @@ const ReviewData = [
       name: "Mandy R.",
       img: require("../img/Avatars/avatar6.png"),
       review:
-        "“Mike tutored my 17 year old with math and English. He is extremely knowledgeable, personable, engaging, and funny too! Mike took time to understand the learning style that worked best for... read more.",
+        "“Mike tutored my 17 year old with math and English. He is extremely knowledgeable, personable, engaging and funny too! Mike took time to understand the learning style that worked best for... read more.",
     },
   ],
 ];

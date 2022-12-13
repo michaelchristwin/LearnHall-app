@@ -28,7 +28,7 @@
   z-index: 1;
 }
 .nav-b {
-  margin-left: 20px;
+  margin-left: 85px;
 }
 .nav {
   margin-left: 250px;
@@ -55,6 +55,8 @@
   background-color: black;
 }
 .d-review {
+  font-size: 18px;
+  line-height: 26px;
   text-align: left !important;
 }
 .book-btn a {
@@ -186,7 +188,7 @@ body h4 {
 .num-fig {
   margin-top: 20px;
   z-index: 1;
-  height: 70px;
+  height: 90px;
   margin-right: 20px;
 }
 .text-box {
@@ -214,6 +216,8 @@ body h4 {
   font-size: 20px;
 }
 .all-steps {
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
 }
@@ -222,7 +226,7 @@ body h4 {
 }
 .review {
   width: 340px;
-  padding: 30px;
+  padding: 20px;
 }
 .reviews-sect {
   padding: 10px;
@@ -262,7 +266,7 @@ body h4 {
   line-height: 36px;
 }
 .back-image {
-  height: 600px;
+  height: 570px;
   width: 400px;
   z-index: -1;
   margin-top: -30px;
@@ -270,8 +274,8 @@ body h4 {
   border-radius: 14px;
 }
 .top-image {
-  width: 589px;
-  height: 626px;
+  width: 550px;
+  height: 590px;
   z-index: 2;
 }
 
@@ -293,7 +297,7 @@ body h4 {
   border-radius: 14px;
   background: #fed7bd;
   z-index: 1;
-  width: 500px;
+  width: 480px;
   right: 40px;
   margin-top: 30px;
 }
@@ -304,8 +308,8 @@ body h4 {
 }
 .line {
   position: absolute;
-  margin-top: 20px;
-  margin-left: 33px;
+  margin-top: 23px;
+  margin-left: 40px;
 }
 .r-name {
   text-align: left;
@@ -380,6 +384,21 @@ body h4 {
 .subs-div {
   float: right;
   margin-top: -60px;
+}
+.why-lg {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.why-sm {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.book-p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
 }
 .tutor-sm {
   display: none;
@@ -471,6 +490,16 @@ body h4 {
 .footer-sect1 {
   margin-left: 80px;
 }
+@media (max-width: 1200px) {
+  .about-service {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .d-step {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
 @media (max-width: 576px) {
   .nav-brand {
     padding-right: 100px;
@@ -497,6 +526,9 @@ body h4 {
     font-weight: 400;
     line-height: 19px;
     font-size: 15px;
+  }
+  .all-steps {
+    margin-top: 0px;
   }
   .studh {
     display: block;

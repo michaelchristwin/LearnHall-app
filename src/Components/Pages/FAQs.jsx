@@ -2,6 +2,7 @@ import Footer from "../JSX/Footer";
 import FaqSnip from "../JSX/FaqSnip";
 import FaqData from "../JSX/FaqData";
 import NavbarEx from "../JSX/NavbarEx";
+import ScrollToTop from "react-scroll-to-top";
 
 function Faqs() {
   const FaqElement = FaqData.map((data) => {
@@ -14,7 +15,6 @@ function Faqs() {
       />
     );
   });
-
   return (
     <main>
       <NavbarEx />
@@ -30,6 +30,7 @@ function Faqs() {
       </section>
 
       {FaqElement}
+      <ScrollToTop smooth />
       <Footer />
     </main>
   );

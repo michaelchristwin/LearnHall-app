@@ -1,8 +1,7 @@
 import Footer from "../JSX/Footer";
-import Phone from "../img/tel-cont.png";
-import Email from "../img/email-cont.png";
 import { useState } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
+import ScrollToTop from "react-scroll-to-top";
 import NavbarEx from "../JSX/NavbarEx";
 
 function Booking() {
@@ -46,10 +45,10 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
+          <div className="d-flex pt-3">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="phone" className="d-block">
-                Phone*
+                Phone
               </label>
               <input
                 type="text"
@@ -57,29 +56,8 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="zip" className="d-block">
-                Zip Code*
-              </label>
-              <input
-                type="text"
-                id="zip"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="s-subject" className="d-block">
-                Student Subject*
-              </label>
-              <input
-                type="text"
-                id="s-subject"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
+
           <label htmlFor="textarea" className="ms-2 d-block mt-5">
             Why does the student need tutoring?
           </label>
@@ -99,16 +77,9 @@ function Booking() {
             </button>
           </div>
         </div>
-        <div className="shadow p-4 in-touch d-flex flex-column">
-          <h4>Get In Touch</h4>
-          <span>You can also contact us with any </span>
-          <br />
-          <span>questions via phone or email.</span>
-          <img src={Phone} alt="Phone" className="contact-img" />
-          <img src={Email} alt="Email" className="pt-2 contact-img" />
-        </div>
       </section>
       <section>
+        <ScrollToTop smooth />
         <Footer />
         <MyVerticallyCenteredModal
           show={modalShow}
