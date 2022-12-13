@@ -313,7 +313,7 @@ body h4 {
 }
 .line {
   position: absolute;
-  margin-top: 23px;
+  margin-top: 33px;
   margin-left: 40px;
 }
 .r-name {
@@ -681,6 +681,7 @@ body h4 {
     line-height: 16px;
   }
   .line {
+    margin-top: 0px;
     margin-left: 21px;
   }
   .nav-b {
