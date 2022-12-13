@@ -33,7 +33,8 @@
   margin-left: 135px;
 }
 .nav {
-  margin-left: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nav-brand2 {
   padding-right: 200px;
@@ -279,7 +280,7 @@ body h4 {
 }
 .top-image {
   width: 550px;
-  height: 590px;
+  height: 550px;
   z-index: 2;
 }
 
