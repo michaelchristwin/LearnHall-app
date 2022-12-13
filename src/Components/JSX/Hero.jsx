@@ -13,7 +13,7 @@ import SemiC from "../img/semic.png";
 function Hero() {
   return (
     <main>
-      <div className="d-flex justify-content-between done-right mt-4">
+      <div className="d-flex justify-content-between done-right mt-5">
         <section className="service">
           <h1 className="d-block service-title">
             Tutoring{` `}

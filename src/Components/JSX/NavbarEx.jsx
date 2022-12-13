@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 function NavbarEx(props) {
   return (
-    <Navbar bg="white" expand="lg" className="ms-lg-5 ms-3 fixed-top">
+    <Navbar bg="white" expand="lg" className="fixed-top">
       <Container fluid>
         <Navbar.Brand href={BaseUrl} className="nav-b">
           <span className="d-flex nav-brand">

@@ -28,7 +28,7 @@
   z-index: 1;
 }
 .nav-b {
-  margin-left: 85px;
+  margin-left: 135px;
 }
 .nav {
   margin-left: 250px;
@@ -72,7 +72,7 @@
   padding-right: 20px;
   height: 130px;
   position: absolute;
-  top: 29px;
+  top: 65px;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -208,7 +208,9 @@ body h4 {
 .step-title {
   text-align: left;
   margin-left: 20px;
+  font-weight: 400;
   font-size: 22px;
+  line-height: 30px;
   font-weight: 400;
 }
 .d-step {
@@ -340,12 +342,16 @@ body h4 {
   background-color: inherit;
   color: white;
 }
+.cpr {
+  margin-left: 70px;
+}
 .become-btn a {
   text-decoration: none !important;
   color: white;
 }
 .hr {
   color: white;
+  margin-left: 70px;
   margin-top: 80px;
 }
 .bk-sm {
@@ -471,7 +477,11 @@ body h4 {
 }
 .choose {
   display: block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
 }
+
 .semi-c {
   display: none;
 }
@@ -551,6 +561,10 @@ body h4 {
   }
   .hr {
     margin-top: 30px;
+    margin-left: 0px;
+  }
+  .cpr {
+    margin-left: 0px;
   }
   .what-say {
     font-weight: 400;
