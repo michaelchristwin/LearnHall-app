@@ -12,7 +12,7 @@ function NewTutor() {
   return (
     <main>
       <NavbarEx active={"active"} />
-      <section className="d-flex justify-content-between pt-3 form-parent">
+      <section className="d-flex pt-3 form-parent">
         <div className="px-4 py-5 shadow my-form rounded">
           <h3>Become a Tutor</h3>
           <div className="d-flex flex-column">
@@ -21,11 +21,11 @@ function NewTutor() {
               you about
             </span>
             <span className="formt-lg">
-              tutoring with LearnHall within 24-48 business hours.
+              tutoring with Learnhall within 24-48 business hours.
             </span>
             <p className="formt-sm">
               Please fill out the form below and submit, and we will get back to
-              you about tutoring with LearnHall within 24-48 business hours.
+              you within 24-48 business hours.
             </p>
           </div>
           <div className="d-flex row row-cols-1 row-cols-lg-2">
@@ -63,7 +63,7 @@ function NewTutor() {
             </fieldset>
             <fieldset className="mx-auto col-sm">
               <label htmlFor="phone" className="d-block">
-                Phone*
+                Phone
               </label>
               <input
                 type="text"
@@ -75,7 +75,7 @@ function NewTutor() {
           <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="location" className="d-block">
-                Location*
+                Location
               </label>
               <input
                 type="text"
@@ -85,7 +85,7 @@ function NewTutor() {
             </fieldset>
             <fieldset className="mx-auto col-sm">
               <label htmlFor="zip" className="d-block">
-                Zip Code*
+                Zip Code
               </label>
               <input
                 type="text"
@@ -97,7 +97,7 @@ function NewTutor() {
           <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2 ">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="hledu" className="d-block">
-                Highest level of Education*
+                Highest level of Education
               </label>
               <input
                 type="text"
@@ -118,7 +118,7 @@ function NewTutor() {
           </div>
           <fieldset>
             <label htmlFor="textarea1" className=" d-block mt-5">
-              Tell us about yourself?*
+              Tell us about yourself?
             </label>
             <textarea
               name="review"
@@ -130,7 +130,7 @@ function NewTutor() {
           <fieldset>
             <label htmlFor="textarea2" className="d-block mt-5">
               Tell us about your experience tutoring and what subjects you
-              teach?*
+              teach?
             </label>
             <textarea
               name="review"

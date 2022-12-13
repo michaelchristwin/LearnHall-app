@@ -149,22 +149,19 @@ body h1 {
 body h4 {
   font-family: Adobe-Garamond-Bold !important;
 }
-#card {
-  height: 300px;
-  border-radius: 9px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 #card-img {
-  height: 90px;
-  padding: 4px;
-  width: 90px;
+  height: 85px;
+  padding: 6px;
+  width: 85px;
+  margin-bottom: 5px;
 }
 #card {
-  width: 228px;
-  align-items: center;
+  border-radius: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 280px;
+  height: 290px;
   text-align: center;
-  justify-content: center;
 }
 .student2 {
   background: #fed7bd;
@@ -174,11 +171,11 @@ body h4 {
 }
 
 .subtract {
-  margin-top: -130px;
   height: 130px;
 }
 .booking {
-  margin-left: 500px;
+  text-align: center;
+  margin-left: 00px;
 }
 .subtract2 {
   height: 100px;
@@ -299,13 +296,6 @@ body h4 {
   right: 40px;
   margin-top: 30px;
 }
-.why-sect {
-  padding: 20px;
-  margin-left: 100px;
-}
-.col-sm {
-  margin-left: -100px;
-}
 .footer {
   background: #1f3158;
   margin-top: 70px;
@@ -370,16 +360,14 @@ body h4 {
   background-color: black;
   color: white;
 }
-.booking-text {
-  margin-left: 40px;
-}
+
 .in-touch {
   height: fit-content;
-  margin-right: 200px;
+  margin-left: 70px;
 }
 .why-join {
   height: fit-content;
-  margin-right: 280px;
+  margin-left: 70px;
 }
 .contact-img {
   width: 270px;
@@ -475,7 +463,7 @@ body h4 {
 .formt-sm {
   display: none;
 }
-@media (max-width: 760px) {
+@media (max-width: 576px) {
   .nav-brand {
     padding-right: 100px;
   }
@@ -776,12 +764,12 @@ body h4 {
     display: block !important;
   }
   #card {
-    width: 165px !important;
+    width: 165px;
     height: 180px;
     margin-top: 20px;
   }
 
-  .col-sm {
+  .ca-sm {
     margin-left: 0;
   }
   .step {

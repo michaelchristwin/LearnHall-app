@@ -14,7 +14,7 @@ function NavbarEx(props) {
       <Container fluid>
         <Navbar.Brand href={BaseUrl} className="nav-b">
           <span className="d-flex nav-brand">
-            <img src={Leaf} alt="Learnhall Logo" className="logo" />
+            <img src={Leaf} alt="Learnhall Logo" className="me-1 logo" />
             <img src={Name} alt="Brand Name" className="brand" />
           </span>
         </Navbar.Brand>

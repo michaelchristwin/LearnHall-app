@@ -12,8 +12,8 @@ import NearSm from "../img/near-sm.png";
 function Steps() {
   return (
     <section className="py-5 bucky">
-      <div className="booker">
-        <aside className="p-3 d-block booking">
+      <div className="d-flex">
+        <aside className="pt-3 d-block booking mx-auto">
           <h1 className="booking-text">How our service works</h1>
           <p className="book-p">
             Follow the three steps below to book your first session and get
@@ -22,7 +22,9 @@ function Steps() {
           <span id="follow">Follow the three steps below to book your</span>
           <span id="follow">first session and get started with a tutor.</span>
         </aside>
-        <img src={Subtract} alt="ellipse" className="subtract float-end" />
+        <div>
+          <img src={Subtract} alt="ellipse" className="subtract float-end" />
+        </div>
       </div>
       <aside className="d-flex step-sect">
         <div>
