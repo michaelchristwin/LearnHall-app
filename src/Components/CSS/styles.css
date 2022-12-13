@@ -3,10 +3,12 @@
   src: url(../fonts/AGaramondPro-Bold.otf);
 }
 .logo {
+  margin-right: 10px !important;
   height: 30px;
   width: 30px;
 }
 .logo-footer {
+  margin-right: 10px;
   height: 30px;
   width: 30px;
 }
