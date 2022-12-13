@@ -10,7 +10,7 @@ function Booking() {
   return (
     <main>
       <NavbarEx activeid={"active"} />
-      <section className="d-flex py-3 form-parent">
+      <section className="d-flex py-3 form-parent mt-5">
         <div className="px-4 py-5 shadow my-form rounded">
           <h3>Book a Session</h3>
           <div className="d-flex flex-column">
@@ -26,18 +26,8 @@ function Booking() {
           </div>
           <div className="d-flex row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
-              <label htmlFor="flname" className="d-block">
-                First Name*
-              </label>
-              <input
-                type="text"
-                id="flname"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-            <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
-                Last Name*
+                Name*
               </label>
               <input
                 type="text"
@@ -45,8 +35,6 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-          </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="email" className="d-block">
                 Email*
@@ -57,6 +45,8 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
+          </div>
+          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="phone" className="d-block">
                 Phone*
@@ -64,18 +54,6 @@ function Booking() {
               <input
                 type="text"
                 id="phone"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="location" className="d-block">
-                Location*
-              </label>
-              <input
-                type="text"
-                id="location"
                 className="d-form form-control d-block"
               />
             </fieldset>
@@ -90,17 +68,7 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3 row row-cols-1 row-cols-lg-2">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="sgrade" className="d-block">
-                Student Grade*
-              </label>
-              <input
-                type="text"
-                id="sgrade"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
+          <div className="d-flex pt-3">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="s-subject" className="d-block">
                 Student Subject*

@@ -18,7 +18,7 @@ function Faqs() {
   return (
     <main>
       <NavbarEx />
-      <section className="mt-3 text-center">
+      <section className="mt-5 text-center">
         <h1 className="">Frequently Asked Questions</h1>
         <span className="text-center mx-auto d-block faq-t">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

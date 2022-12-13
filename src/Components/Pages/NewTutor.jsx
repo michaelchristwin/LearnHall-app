@@ -12,7 +12,7 @@ function NewTutor() {
   return (
     <main>
       <NavbarEx active={"active"} />
-      <section className="d-flex pt-3 form-parent">
+      <section className="d-flex pt-3 form-parent mt-5">
         <div className="px-4 py-5 shadow my-form rounded">
           <h3>Become a Tutor</h3>
           <div className="d-flex flex-column">
@@ -31,7 +31,7 @@ function NewTutor() {
           <div className="d-flex row row-cols-1 row-cols-lg-2">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="flname" className="d-block">
-                First Name*
+                Name*
               </label>
               <input
                 type="text"
@@ -41,7 +41,7 @@ function NewTutor() {
             </fieldset>
             <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
-                Last Name*
+                Name*
               </label>
               <input
                 type="text"
@@ -127,18 +127,7 @@ function NewTutor() {
               rows="8"
             ></textarea>
           </fieldset>
-          <fieldset>
-            <label htmlFor="textarea2" className="d-block mt-5">
-              Tell us about your experience tutoring and what subjects you
-              teach?
-            </label>
-            <textarea
-              name="review"
-              id="textarea2"
-              className="form-control"
-              rows="8"
-            ></textarea>
-          </fieldset>
+
           <div className="justify-content-center d-flex">
             <button
               className="btn sub-btn px-4"

@@ -8,7 +8,7 @@ function Reviews(props) {
         <div className="d-flex mx-auto">
           <img src={props.img} alt="Avatar" className="avatar" />
           <div>
-            <h3>{props.name}</h3>
+            <h3 className="r-name">{props.name}</h3>
             <img src={FiveStar} alt="rating" style={{ height: "30px" }} />
           </div>
         </div>

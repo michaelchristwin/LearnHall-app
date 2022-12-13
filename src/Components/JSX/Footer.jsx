@@ -21,13 +21,16 @@ function Footer() {
             <div>
               <h4 className="social-title">Let's Connect</h4>
               <div className="d-block socials">
-                <a href="https://facebook.com" className="me-2">
+                <a
+                  href="https://www.facebook.com/learnhalltutoring"
+                  className="me-2"
+                >
                   <img src={FB} alt="facebook" className="social" />
                 </a>
                 <a href="https://instagram.com" className="me-2">
                   <img src={IG} alt="instagram" className="social" />
                 </a>
-                <a href="https://twitter.com" className="me-2">
+                <a href="https://www.twitter.com/learnhall" className="me-2">
                   <img src={TWTR} alt="Twitter" className="social" />
                 </a>
               </div>
