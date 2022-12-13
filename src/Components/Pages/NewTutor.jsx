@@ -17,16 +17,18 @@ function NewTutor() {
         <div className="px-4 py-5 shadow my-form rounded">
           <h3>Become a Tutor</h3>
           <div className="d-flex flex-column">
-            <span className="formt-lg">
-              Please fill out the form below and submit, and we will get back to
-              you within 24-48 business hours.
-            </span>
+            <p className="formt-lg">
+              Please fill out the form below and submit,
+            </p>
+            <p className="formt-lg">
+              and we will get back to you within 24-48 business hours.
+            </p>
             <p className="formt-sm">
               Please fill out the form below and submit, and we will get back to
               you within 24-48 business hours.
             </p>
           </div>
-          <div className="d-flex row row-cols-1 row-cols-lg-2 pt-3">
+          <div className="pt-3">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
                 Name*
@@ -84,16 +86,16 @@ function NewTutor() {
         </div>
         <div className="shadow p-4 why-join d-flex flex-column text-center ">
           <h4>Why join us?</h4>
-          <span>Make money while making a</span>
-          <span>difference in students lives</span>
+          <span>Make Money While Making a</span>
+          <span>Difference in Students Lives</span>
           <img src={Dollar} alt="dollar" className="join-img mx-auto my-3" />
-          <p>Earn a Steady income</p>
+          <p>Earn a Steady Income</p>
           <hr className="join-hr mx-auto" />
           <img src={Work} alt="work" className="join-img mx-auto my-2" />
-          <p>Work from anywhere</p>
+          <p>Work from Anywhere</p>
           <hr className="join-hr mx-auto" />
           <img src={Scholar} alt="scholar" className="join-img mx-auto my-2" />
-          <p>Help students succeed</p>
+          <p>Help students Succeed</p>
         </div>
       </section>
       <ScrollToTop smooth />

@@ -23,7 +23,7 @@ function Booking() {
               you about your tutoring needs within 24 business hours.
             </p>
           </div>
-          <div className="d-flex row row-cols-1 row-cols-lg-2">
+          <div className="mt-4">
             <fieldset className="mx-auto col-sm">
               <label htmlFor="lname" className="d-block">
                 Name*
