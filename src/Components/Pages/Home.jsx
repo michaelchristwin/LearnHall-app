@@ -22,7 +22,7 @@ function Home() {
       </section>
       <Hero />
       <Steps />
-      <section className="text-center mt-4">
+      <section className="text-center r-sect">
         <div className="what-parent">
           <h1>What parents are saying</h1>
           <span className="what-say">
@@ -34,7 +34,7 @@ function Home() {
             Learnhall on Google for our tutoring serivces.
           </span>
         </div>
-
+        <br />
         <div className="rv-sm">
           <ReviewSlideSM />
         </div>
@@ -50,6 +50,7 @@ function Home() {
               Want to become a<br className="tut-break" />
               tutor with Learnhall?
             </h1>
+            <br />
             <aside className="text-left">
               <span className="d-block why-lg">
                 We hire tutors from a variety of backgrounds both in
@@ -81,7 +82,7 @@ function Home() {
               </span>
             </aside>
             <img src={TutorSm} alt="Tutor" className="tutor-sm mt-2" />
-            <button className="btn become-btn mt-2">
+            <button className="btn become-btn mt-2 mt-lg-5">
               <Link to={`${BaseUrl}/become-tutor`}>Become a Tutor</Link>
             </button>
           </div>

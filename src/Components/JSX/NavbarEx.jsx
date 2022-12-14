@@ -45,9 +45,9 @@ function NavbarEx(props) {
             >
               Become a Tutor
             </Link>
-            <Link to={`${BaseUrl}/faqs`} className="nav-link">
+            <a href="http://blog.learnhall.com/" className="nav-link">
               Blog
-            </Link>
+            </a>
             <a href="tel:503-342-721" className="nav-link">
               <img src={Tele} alt="telephone" className="tele" />
             </a>

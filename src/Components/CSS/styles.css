@@ -272,14 +272,14 @@ body h4 {
 }
 .back-image {
   height: 600px;
-  width: 650px;
+  width: 600px;
   z-index: -1;
   margin-top: -30px;
   background: #b84b40;
   border-radius: 14px;
 }
 .top-image {
-  width: 850px;
+  width: 750px;
   height: 650px;
   z-index: 2;
 }
@@ -294,6 +294,10 @@ body h4 {
   text-decoration: none;
   color: #ffffff8d;
 }
+.r-sect {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
 .tutor-sect {
   height: fit-content;
   margin-bottom: 250px;
@@ -302,7 +306,7 @@ body h4 {
   border-radius: 14px;
   background: #fed7bd;
   z-index: 1;
-  width: 750px;
+  width: 650px;
   right: 40px;
   margin-top: 30px;
 }
@@ -464,6 +468,13 @@ body h4 {
   padding-right: 30px !important;
   border: 0;
 }
+.card-cont {
+  margin-bottom: 150px;
+}
+.star {
+  height: 25px;
+  margin-top: -20px;
+}
 .footer h4 {
   font-family: Helvetica !important;
   font-weight: bold;
@@ -523,6 +534,9 @@ body h4 {
     float: right;
     margin-right: -30px;
     margin-top: -60px;
+  }
+  .card-cont {
+    margin-bottom: 70px;
   }
   .svg-sm {
     margin-top: -89px;
@@ -681,7 +695,7 @@ body h4 {
     line-height: 16px;
   }
   .line {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 21px;
   }
   .nav-b {
@@ -738,7 +752,7 @@ body h4 {
   }
   .draw1 {
     height: 80px;
-    top: 50px;
+    top: 60px;
   }
   body {
     overflow-x: hidden !important;

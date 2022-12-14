@@ -9,7 +9,7 @@ function Reviews(props) {
           <img src={props.img} alt="Avatar" className="avatar" />
           <div>
             <h3 className="r-name">{props.name}</h3>
-            <img src={FiveStar} alt="rating" style={{ height: "30px" }} />
+            <img src={FiveStar} alt="rating" className="star" />
           </div>
         </div>
         <p className="d-review">{props.review}</p>

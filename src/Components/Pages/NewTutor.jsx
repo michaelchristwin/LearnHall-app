@@ -85,7 +85,7 @@ function NewTutor() {
           </div>
         </div>
         <div className="shadow p-4 why-join d-flex flex-column text-center ">
-          <h4>Why join us?</h4>
+          <h4>Why Join Us?</h4>
           <span>Make Money While Making a</span>
           <span>Difference in Students Lives</span>
           <img src={Dollar} alt="dollar" className="join-img mx-auto my-3" />

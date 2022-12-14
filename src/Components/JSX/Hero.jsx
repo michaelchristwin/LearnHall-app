@@ -64,6 +64,7 @@ function Hero() {
             best.
           </span>
         </aside>
+        <br />
         <div className="choice">
           <span className="d-block">
             We love tutoring and we value the student's
@@ -76,7 +77,7 @@ function Hero() {
           </span>
         </div>
       </section>
-      <div className="container">
+      <div className="container card-cont">
         <div className="row row-cols-2 row-cols-lg-4 row-cols-md-2 g-1 pt-lg-2">
           <div className="col-sm ">
             <div className="py-lg-2 py-2 shadow border-0" id="card">
