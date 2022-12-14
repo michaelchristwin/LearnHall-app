@@ -61,7 +61,6 @@ function Home() {
               <br className="tut-break" />
               with Learnhall?
             </h1>
-            <br />
             <aside className="text-left">
               <span className="d-block why-lg">
                 We hire tutors from a variety of backgrounds both in

@@ -698,6 +698,7 @@ body h4 {
     margin-top: 70px;
   }
   .num-fig {
+    margin-top: 15px;
     height: 50px;
     margin-right: 10px;
   }
@@ -778,7 +779,8 @@ body h4 {
     line-height: 16px;
   }
   .line {
-    margin-top: 20px;
+    margin-top: 15px;
+    height: 210px;
     margin-left: 21px;
   }
   .nav-b {
@@ -935,6 +937,7 @@ body h4 {
     margin-left: 0;
   }
   .step {
+    box-shadow: none !important;
     width: fit-content;
     height: fit-content;
   }
