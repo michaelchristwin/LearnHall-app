@@ -271,16 +271,16 @@ body h4 {
   line-height: 36px;
 }
 .back-image {
-  height: 570px;
-  width: 400px;
+  height: 600px;
+  width: 650px;
   z-index: -1;
   margin-top: -30px;
   background: #b84b40;
   border-radius: 14px;
 }
 .top-image {
-  width: 550px;
-  height: 550px;
+  width: 850px;
+  height: 650px;
   z-index: 2;
 }
 
@@ -296,13 +296,13 @@ body h4 {
 }
 .tutor-sect {
   height: fit-content;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 .rect2 {
   border-radius: 14px;
   background: #fed7bd;
   z-index: 1;
-  width: 480px;
+  width: 750px;
   right: 40px;
   margin-top: 30px;
 }
