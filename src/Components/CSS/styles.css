@@ -40,6 +40,7 @@
   padding-right: 200px;
   z-index: 1;
   margin-right: auto;
+  margin-left: auto;
 }
 .service {
   margin-top: 100px;
@@ -208,6 +209,7 @@ body h4 {
   margin-top: 50px;
 }
 .step-title {
+  color: #070a13;
   text-align: left;
   margin-left: 20px;
   font-weight: 400;
@@ -487,6 +489,9 @@ body h4 {
 .what-say-sm {
   display: none !important;
 }
+.t-semi {
+  display: none;
+}
 .star {
   height: 25px;
   margin-top: -20px;
@@ -579,8 +584,16 @@ body h4 {
     line-height: 19px;
     font-size: 15px;
   }
+  .review {
+    height: 230px;
+  }
   .all-steps {
     margin-top: 0px;
+  }
+  .newsletter {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
   }
   .star {
     margin-top: -10px;
@@ -614,6 +627,12 @@ body h4 {
   }
   .cpr {
     margin-left: 0px;
+  }
+  .step-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
   }
   .logo {
     height: 25px;
@@ -663,6 +682,7 @@ body h4 {
   }
   .choice {
     display: block;
+    margin-top: -5px;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -671,9 +691,11 @@ body h4 {
     display: none;
   }
   .nav-brand2 {
-    margin-left: -15px;
     margin-top: 15px;
     padding-right: 0px;
+  }
+  .r-sect {
+    margin-top: 70px;
   }
   .num-fig {
     height: 50px;
@@ -731,10 +753,18 @@ body h4 {
   }
   .tutor-sm {
     display: block;
-    width: 370px;
+    width: 272px;
+  }
+  .t-semi {
+    display: block;
+    margin-right: -30px;
+    height: 85px;
+    margin-top: -100px;
   }
   .foot-links {
     font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .tutor {
     width: 370px;
@@ -764,7 +794,7 @@ body h4 {
   }
   .subscribe {
     height: 32px;
-    width: 350px;
+    width: 227px;
   }
   .why-lg {
     display: none !important;
@@ -814,6 +844,7 @@ body h4 {
   }
   .contact-sect {
     display: flex;
+    margin-left: 15px;
     align-items: center;
   }
 
@@ -834,7 +865,8 @@ body h4 {
   }
   .footer-sectsm {
     display: flex !important;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: 100px;
   }
   .form-parent {
     display: block !important;
@@ -859,14 +891,15 @@ body h4 {
     height: 68px;
   }
   .social {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
   }
   .social-title {
     font-family: Helvetica;
     font-weight: normal !important;
     color: #ffffff8d;
-    font-size: 14px !important;
+    font-size: 11px !important;
+    line-height: 11px;
   }
   .logo-footer {
     height: 25px;
@@ -876,6 +909,7 @@ body h4 {
     height: 25px;
   }
   .service {
+    margin-top: 0px;
     text-align: center;
     margin-bottom: 40px;
     padding-left: 20px;
@@ -927,11 +961,16 @@ body h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
     width: fit-content !important;
     text-align: center;
   }
   .booking-text {
-    width: fit-content !important;
+    font-weight: 600px;
+    font-size: 23px;
+    line-height: 23px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -939,9 +978,15 @@ body h4 {
   .footer {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     padding: 20px;
     padding-bottom: 50px;
     padding-top: 40px;
+  }
+  .f-head {
+    font-size: 15px !important;
+    line-height: 20px;
+    font-weight: 700 !important;
   }
   .d-form {
     width: 330px;

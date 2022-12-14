@@ -49,25 +49,28 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="d-flex pb-2 foot-links">
-          <div className="text-white me-2 d-block mx-lg-5">
-            <h4 className="d-block text-nowrap">About Us</h4>
+        <div className="d-flex pb-2 foot-links justify-content-around">
+          <div className="text-white me-4 d-block mx-lg-5">
+            <h4 className="d-block text-nowrap f-head">About Us</h4>
             <Link to={`${BaseUrl}/faqs`} className="d-block">
               FAQs
             </Link>
             <span className="d-block">Blog</span>
             <span className="d-block">Reviews</span>
           </div>
-          <div className="text-white d-block mx-2 mx-lg-5">
-            <h4 className="d-block text-nowrap">Learn With Us</h4>
+          <div className="text-white d-block mx-4 mx-lg-5">
+            <h4 className="d-block text-nowrap f-head">Learn With Us</h4>
             <Link to={`${BaseUrl}/book-session`} className="d-block">
               Request a Tutor
             </Link>
             <span className="d-block">Learning Resources</span>
           </div>
-          <div className="text-white d-block mx-2 mx-lg-5">
-            <h4 className="d-block text-nowrap">Work With Us</h4>
-            <Link to={`${BaseUrl}/become-tutor`} className="d-block">
+          <div className="text-white d-block mx-4 mx-lg-5">
+            <h4 className="d-block text-nowrap f-head">Work With Us</h4>
+            <Link
+              to={`${BaseUrl}/become-tutor`}
+              className="d-block text-nowrap"
+            >
               Careers at Learnhall
             </Link>
             <Link to="/become-tutor" className="d-block">
@@ -84,7 +87,7 @@ function Footer() {
             placeholder="email address"
             className="subscribe form-control"
           />
-          <button className="btn newsletter-btn ms-1">Subscribe</button>
+          <button className="btn newsletter-btn ms-2">Subscribe</button>
         </div>
       </div>
       <div className="footer-sectsm">
@@ -92,7 +95,7 @@ function Footer() {
           <img src={Leaf} alt="Learnhall Logo" className="logo-footer" />
           <img src={NameBlack} alt="Brand Name" className="brand" />
         </div>
-        <div className="mt-4 contact-sect ms-3 ms-lg-0">
+        <div className="mt-4 contact-sect ms-lg-0 justify-content-around">
           <div>
             <h4 className="social-title">Let's Connect</h4>
             <div className="d-block socials">
@@ -110,7 +113,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="pt-lg-3 mx-3 mx-lg-0">
+          <div className="pt-lg-3 mx-lg-0">
             <h4 className="social-title">Contact Us</h4>
             <div className="d-block socials">
               <a href="tel:503-342-7214" className="me-2">

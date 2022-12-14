@@ -11,6 +11,7 @@ import NavbarEx from "../JSX/NavbarEx";
 import TutorSm from "../img/tutor-sm.png";
 import ScrollToTop from "react-scroll-to-top";
 import BaseUrl from "../JSX/BaseUrl";
+import SemiC from "../img/semic.png";
 import ReviewSlideSM from "../JSX/ReviewSlideSM";
 
 function Home() {
@@ -91,7 +92,8 @@ function Home() {
                 within 24-48 hours for a prospective interview.
               </span>
             </aside>
-            <img src={TutorSm} alt="Tutor" className="tutor-sm mt-2" />
+            <img src={TutorSm} alt="Tutor" className="tutor-sm mt-2 mx-auto" />
+            <img src={SemiC} alt="svg" className="float-end t-semi" />
             <button className="btn become-btn mt-2 mt-lg-5">
               <Link to={`${BaseUrl}/become-tutor`}>Become a Tutor</Link>
             </button>

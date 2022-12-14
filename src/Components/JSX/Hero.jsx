@@ -54,18 +54,16 @@ function Hero() {
       <section className="hero mt-5">
         <h1>Why you should choose us</h1>
         <aside className="choose">
-          <span>
+          <span className="d-block">
             We love tutoring and we value the student's process. Our tutors
             focus on each
           </span>
-          <br className="break" />
-          <span className="choose">
+          <span className="choose d-block">
             individual student and tailor the lessons around how s/he learns
             best.
           </span>
         </aside>
-        <br className="break" />
-        <div className="choice">
+        <aside className="choice">
           <span className="d-block">
             We love tutoring and we value the student's
           </span>
@@ -75,7 +73,7 @@ function Hero() {
           <span className="d-block">
             and tailor the lessons around how s/he learns best.
           </span>
-        </div>
+        </aside>
       </section>
       <div className="container card-cont">
         <div className="row row-cols-2 row-cols-lg-4 row-cols-md-2 g-1 pt-lg-2">
