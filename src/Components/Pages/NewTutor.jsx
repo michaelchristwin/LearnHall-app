@@ -14,54 +14,53 @@ function NewTutor() {
     <main>
       <NavbarEx active={"active"} />
       <section className="d-flex pt-3 form-parent mt-5">
-        <div className="px-4 py-5 shadow my-form rounded">
+        <div className="px-5 py-5 shadow my-form rounded">
           <h3>Become a Tutor</h3>
           <div className="d-flex flex-column">
-            <p className="formt-lg">
-              Please fill out the form below and submit,
-            </p>
-            <p className="formt-lg">
-              and we will get back to you within 24-48 business hours.
-            </p>
+            <span className="formt-lg">
+              Please fill out the form below, submit it,
+            </span>
+            <span className="formt-lg">
+              and we will get back to you within 24 to 48 business hours.
+            </span>
             <p className="formt-sm">
-              Please fill out the form below and submit, and we will get back to
-              you within 24-48 business hours.
+              Please fill out the form below, submit it, and we will get back to
+              you within 24 to 48 business hours.
             </p>
           </div>
-          <div className="pt-3">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="lname" className="d-block">
-                Name*
-              </label>
-              <input
-                type="text"
-                id="lname"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="email" className="d-block">
-                Email*
-              </label>
-              <input
-                type="text"
-                id="email"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="phone" className="d-block">
-                Phone
-              </label>
-              <input
-                type="text"
-                id="phone"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
+
+          <fieldset className="mx-auto col-sm pt-3">
+            <label htmlFor="lname" className="d-block">
+              Name*
+            </label>
+            <input
+              type="text"
+              id="lname"
+              className="d-form form-control d-block"
+            />
+          </fieldset>
+          <fieldset className="mx-auto col-sm pt-3">
+            <label htmlFor="email" className="d-block">
+              Email*
+            </label>
+            <input
+              type="text"
+              id="email"
+              className="d-form form-control d-block"
+            />
+          </fieldset>
+
+          <fieldset className="mx-auto col-sm pt-3">
+            <label htmlFor="phone" className="d-block">
+              Phone
+            </label>
+            <input
+              type="text"
+              id="phone"
+              className="d-form form-control d-block"
+            />
+          </fieldset>
+
           <fieldset>
             <label htmlFor="textarea1" className=" d-block mt-5">
               Tell us about yourself?

@@ -108,7 +108,6 @@
 }
 .my-form {
   background-color: #ffffff;
-  margin-left: 150px;
 }
 .rectangle {
   background: #b84b40;
@@ -438,6 +437,11 @@ body h4 {
 .done-right {
   background: rgba(251, 142, 66, 0.03);
 }
+.what-say {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
 .card-text {
   font-weight: 300;
   font-size: 20px;
@@ -488,6 +492,10 @@ body h4 {
 }
 .footer-sectsm {
   display: none !important;
+}
+.form-parent {
+  justify-content: center;
+  margin-top: 90px !important;
 }
 .choose {
   display: block;
@@ -783,6 +791,7 @@ body h4 {
   }
   .form-parent {
     display: block !important;
+    margin-top: 50px !important;
     padding: 10px;
   }
   .student {

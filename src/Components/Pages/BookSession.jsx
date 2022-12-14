@@ -10,7 +10,7 @@ function Booking() {
     <main>
       <NavbarEx activeid={"active"} />
       <section className="d-flex py-3 form-parent mt-5">
-        <div className="px-4 py-5 shadow my-form rounded">
+        <div className="px-5 py-5 shadow my-form rounded">
           <h3>Book a Session</h3>
           <div className="d-flex flex-column">
             <span className="formt-lg">
@@ -34,7 +34,7 @@ function Booking() {
                 className="d-form form-control d-block"
               />
             </fieldset>
-            <fieldset className="mx-auto col-sm">
+            <fieldset className="mx-auto col-sm pt-3">
               <label htmlFor="email" className="d-block">
                 Email*
               </label>
@@ -45,18 +45,17 @@ function Booking() {
               />
             </fieldset>
           </div>
-          <div className="d-flex pt-3">
-            <fieldset className="mx-auto col-sm">
-              <label htmlFor="phone" className="d-block">
-                Phone
-              </label>
-              <input
-                type="text"
-                id="phone"
-                className="d-form form-control d-block"
-              />
-            </fieldset>
-          </div>
+
+          <fieldset className="mx-auto col-sm pt-3">
+            <label htmlFor="phone" className="d-block">
+              Phone
+            </label>
+            <input
+              type="text"
+              id="phone"
+              className="d-form form-control d-block"
+            />
+          </fieldset>
 
           <label htmlFor="textarea" className="ms-2 d-block mt-5">
             Why does the student need tutoring?
