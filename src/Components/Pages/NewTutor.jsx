@@ -14,7 +14,7 @@ function NewTutor() {
     <main>
       <NavbarEx active={"active"} />
       <section className="d-flex pt-3 form-parent mt-5">
-        <div className="px-5 py-5 shadow my-form rounded">
+        <form className="px-5 py-5 shadow my-form rounded">
           <h3>Become a Tutor</h3>
           <div className="d-flex flex-column">
             <span className="formt-lg">
@@ -72,17 +72,14 @@ function NewTutor() {
               rows="8"
             ></textarea>
           </fieldset>
-
-          <div className="justify-content-center d-flex">
-            <button
-              className="btn sub-btn px-4"
-              type="submit"
-              onClick={() => setModalShow(true)}
-            >
-              Submit
-            </button>
-          </div>
-        </div>
+          <button
+            className="btn sub-btn px-4"
+            type="submit"
+            onClick={() => setModalShow(true)}
+          >
+            Submit
+          </button>
+        </form>
         <div className="shadow p-4 why-join d-flex flex-column text-center ">
           <h4>Why Join Us?</h4>
           <span>Make Money While Making a</span>

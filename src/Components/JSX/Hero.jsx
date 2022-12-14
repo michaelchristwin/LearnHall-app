@@ -64,13 +64,13 @@ function Hero() {
             best.
           </span>
         </aside>
-        <br />
+        <br className="break" />
         <div className="choice">
           <span className="d-block">
             We love tutoring and we value the student's
           </span>
           <span className="d-block">
-            Our tutors focus on each individual student
+            process. Our tutors focus on each individual student
           </span>
           <span className="d-block">
             and tailor the lessons around how s/he learns best.

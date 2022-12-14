@@ -10,7 +10,7 @@ function Booking() {
     <main>
       <NavbarEx activeid={"active"} />
       <section className="d-flex py-3 form-parent mt-5">
-        <div className="px-5 py-5 shadow my-form rounded">
+        <form className="px-5 py-5 shadow my-form rounded">
           <h3>Book a Session</h3>
           <div className="d-flex flex-column">
             <span className="formt-lg">
@@ -66,16 +66,14 @@ function Booking() {
             className="form-control"
             rows="8"
           ></textarea>
-          <div className="justify-content-center d-flex">
-            <button
-              className="btn sub-btn px-4"
-              type="submit"
-              onClick={() => setModalShow(true)}
-            >
-              Submit
-            </button>
-          </div>
-        </div>
+          <button
+            className="btn sub-btn px-4"
+            type="submit"
+            onClick={() => setModalShow(true)}
+          >
+            Submit
+          </button>
+        </form>
       </section>
       <section>
         <ScrollToTop smooth />

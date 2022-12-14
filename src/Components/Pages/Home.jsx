@@ -25,13 +25,18 @@ function Home() {
       <section className="text-center r-sect">
         <div className="what-parent">
           <h1>What parents are saying</h1>
-          <span className="what-say">
+          <span className="d-block what-say">
             Read the reviews below to see what students' parents are saying
             about
           </span>
-          <br className="what-sm" />
-          <span className="what-say">
+          <span className="d-block what-say">
             Learnhall on Google for our tutoring serivces.
+          </span>
+          <span className="d-block what-say-sm">
+            Read the reviews below to see what students'
+          </span>
+          <span className="d-block what-say-sm">
+            parents are saying about Learnhall on Google.
           </span>
         </div>
         <br />
@@ -49,6 +54,11 @@ function Home() {
             <h1 className="want-tut">
               Want to become a<br className="tut-break" />
               tutor with Learnhall?
+            </h1>
+            <h1 className="want-tut-sm">
+              Want to become a tutor
+              <br className="tut-break" />
+              with Learnhall?
             </h1>
             <br />
             <aside className="text-left">

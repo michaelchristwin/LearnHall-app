@@ -320,6 +320,8 @@ body h4 {
   margin-left: 40px;
 }
 .r-name {
+  margin-top: 15px;
+  color: #1f3158;
   text-align: left;
 }
 .social {
@@ -339,6 +341,7 @@ body h4 {
 .newsletter-btn {
   background-color: #a63634;
   color: white;
+  width: 110px !important;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -376,6 +379,9 @@ body h4 {
   background-color: #a63634;
   color: white;
   margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .sub-btn:hover {
   background-color: black;
@@ -421,6 +427,9 @@ body h4 {
 }
 #top {
   background: rgba(251, 142, 66, 0.03);
+}
+.want-tut-sm {
+  display: none;
 }
 .join-hr {
   width: 40px;
@@ -474,6 +483,9 @@ body h4 {
 }
 .card-cont {
   margin-bottom: 150px;
+}
+.what-say-sm {
+  display: none !important;
 }
 .star {
   height: 25px;
@@ -543,6 +555,11 @@ body h4 {
     margin-right: -30px;
     margin-top: -60px;
   }
+  .r-name {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+  }
   .card-cont {
     margin-bottom: 70px;
   }
@@ -565,6 +582,9 @@ body h4 {
   .all-steps {
     margin-top: 0px;
   }
+  .star {
+    margin-top: -10px;
+  }
   .studh {
     display: block;
     width: 222px;
@@ -574,6 +594,10 @@ body h4 {
     display: block;
   }
   .want-tut {
+    display: none;
+  }
+  .want-tut-sm {
+    display: block;
     text-align: center;
   }
   .private {
@@ -591,10 +615,20 @@ body h4 {
   .cpr {
     margin-left: 0px;
   }
+  .logo {
+    height: 25px;
+  }
   .what-say {
+    display: none !important;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .what-say-sm {
+    display: block !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
   }
   .about-service {
     font-weight: 400;
@@ -615,7 +649,7 @@ body h4 {
     font-size: 11px;
     line-height: 11px;
     width: 122px;
-    height: 24px;
+    height: 30px;
   }
   #card-img {
     width: 43px;
@@ -629,6 +663,9 @@ body h4 {
   }
   .choice {
     display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
   }
   .choose {
     display: none;
@@ -661,17 +698,22 @@ body h4 {
   }
   .book-btn {
     width: 122px;
-    height: 24px;
+    height: 30px;
     margin-top: -20px;
     font-size: 11px;
     line-height: 11px;
   }
   .newsletter-btn {
-    width: 210px !important;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    width: 113px;
+    height: 32px;
   }
   .subs-div {
     float: none;
-    margin-left: -15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .subtract2 {
     display: none;
@@ -690,6 +732,9 @@ body h4 {
   .tutor-sm {
     display: block;
     width: 370px;
+  }
+  .foot-links {
+    font-size: 12px;
   }
   .tutor {
     width: 370px;
@@ -718,6 +763,7 @@ body h4 {
     background: none;
   }
   .subscribe {
+    height: 32px;
     width: 350px;
   }
   .why-lg {
@@ -730,8 +776,9 @@ body h4 {
     line-height: 16px;
   }
   .service-title {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 28px;
+    line-height: 30px;
   }
   .why-sect {
     width: fit-content;
@@ -759,7 +806,7 @@ body h4 {
     display: none !important;
   }
   .draw1 {
-    height: 80px;
+    height: 60px;
     top: 60px;
   }
   body {
@@ -787,7 +834,7 @@ body h4 {
   }
   .footer-sectsm {
     display: flex !important;
-    flex-direction: row;
+    margin-left: 20px;
   }
   .form-parent {
     display: block !important;
@@ -826,7 +873,7 @@ body h4 {
     width: 25px;
   }
   .brand {
-    height: 20px;
+    height: 25px;
   }
   .service {
     text-align: center;
@@ -878,13 +925,15 @@ body h4 {
   }
   #follow {
     display: block;
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content !important;
     text-align: center;
   }
   .booking-text {
     width: fit-content !important;
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
   .footer {
