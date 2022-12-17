@@ -3,9 +3,33 @@ import { useState } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
 import ScrollToTop from "react-scroll-to-top";
 import NavbarEx from "../JSX/NavbarEx";
+import axios from "axios";
 
 function Booking() {
   const [modalShow, setModalShow] = useState(false);
+
+  const [sessiondata, setsessiondata] = useState({
+    f1name:'',
+    email:'',
+    phone:'',
+    why:''
+  })
+
+  console.log(sessiondata)
+
+  function handleinputdata(e) {
+    e.preventDefault()
+    axios.post('http://127.0.0.1:8000/employee/x/', sessiondata).then((response) => {
+      console.log(response)
+    }).catch(({message})=>{
+      console.log(message)
+    })
+  }
+
+  function handleinput(e){
+    setsessiondata({...sessiondata, [e.target.name]: e.target.value})
+  }
+
   return (
     <main>
       <NavbarEx activeid={"active"} />
@@ -30,8 +54,9 @@ function Booking() {
               </label>
               <input
                 type="text"
-                id="lname"
                 className="d-form form-control d-block"
+                name= "f1name"
+                onChange={handleinput}
               />
             </fieldset>
             <fieldset className="mx-auto col-sm pt-3">
@@ -42,6 +67,8 @@ function Booking() {
                 type="text"
                 id="email"
                 className="d-form form-control d-block"
+                name="email"
+                onChange={handleinput}
               />
             </fieldset>
           </div>
@@ -54,6 +81,8 @@ function Booking() {
               type="text"
               id="phone"
               className="d-form form-control d-block"
+              name="phone"
+              onChange={handleinput}
             />
           </fieldset>
 
@@ -61,15 +90,16 @@ function Booking() {
             Why does the student need tutoring?
           </label>
           <textarea
-            name="review"
             id="textarea"
             className="form-control"
             rows="8"
+            name="why"
+            onChange={handleinput}
           ></textarea>
           <button
             className="btn sub-btn px-4"
-            type="submit"
-            onClick={() => setModalShow(true)}
+            type='submit'
+            onClick={handleinputdata}
           >
             Submit
           </button>
