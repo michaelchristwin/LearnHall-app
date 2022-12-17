@@ -1,42 +1,42 @@
 const ReviewData = [
   [
     {
-      name: "Kim K.",
+      name: "M Burghelea",
       img: require("../img/Avatars/avatar1.png"),
       review:
-        "“Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought i'd see him laughing and cheering... read more.",
+        "I have been looking for a math tutor in the past year to work with my teenager son and finally we found Mike. He is very knowledgeable and fun to work with. Our son is looking forward to keep working with him and for me that is awesome. Thank you Mike.",
     },
     {
-      name: "Bill D.",
+      name: "Charlie Warren.",
       img: require("../img/Avatars/avatar2.png"),
       review:
-        "“Mike has been helping our son with 7th grade advanced math. He does an outstanding job and is worthy of our strongest recommendation. Not only does he work well with our son on the lesson content... read more.",
+        "Mike Hoeft helped me out with pre cal and did an amazing job. He was very patient, encouraging, and enthusiastic. Mike helped me finish worksheets that usually took me hours to do on my own in 30 minutes! I definitely recommend his services to any student struggling.",
     },
     {
-      name: "Julie S.",
+      name: "Kimberly Keys.",
       img: require("../img/Avatars/avatar3.png"),
       review:
-        "“My experience with Learnhall has been very positive. Mike took his time to fully understand the needs of my child and pair them with a good fitting tutor. Our tutor Justin was patient and kind... read more.",
+        "Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought I'd see him laughing and cheering while doing algebra!",
     },
   ],
   [
     {
-      name: "Stacy L.",
+      name: "J JC.",
       img: require("../img/Avatars/avatar4.png"),
       review:
-        "“I've worked with many educators but very few who are as encouraging, thorough and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a... read more.",
+        "My student needed help with physics.  First test he bombed :( so I hired Mike.  After 2 sessions, my student aced his second physics test. :)  Thank you!",
     },
     {
-      name: "Tabitha S.",
+      name: "Matt Upton.",
       img: require("../img/Avatars/avatar5.png"),
       review:
-        "“Mike has been working with my two girls on math for a few weeks now. He is a great teacher and my girls are telling me that they really feel like they understand the concepts well for the first time... read more.",
+        "I've been working with Mike for the last 2 years, and his tutoring is phenomenal. We work on math and while working through Math 95 last year, he helped me do the best I could. Real stand up guy, super smart, 10/10 level of helpfulness.",
     },
     {
-      name: "Mandy R.",
+      name: "Tara C.",
       img: require("../img/Avatars/avatar6.png"),
       review:
-        "“Mike tutored my 17 year old with math and English. He is extremely knowledgeable, personable, engaging and funny too! Mike took time to understand the learning style that worked best for... read more.",
+        "Mike is an excellent tutor who's been helping my daughter for over a year through 7th and 8th grade math. Not only is he highly knowledgeable, but he's always encouraging and builds up her self confidence. She always leaves her lesson with a smile.",
     },
   ],
 ];
