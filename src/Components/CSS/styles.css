@@ -232,6 +232,7 @@ body h4 {
 }
 .review {
   width: 340px;
+  height: 344px;
   padding: 20px;
 }
 .reviews-sect {
@@ -280,8 +281,9 @@ body h4 {
   border-radius: 14px;
 }
 .top-image {
-  width: 750px;
-  height: 650px;
+  width: 700px;
+  height: 600px;
+  border-radius: 12px;
   z-index: 2;
 }
 

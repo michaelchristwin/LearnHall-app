@@ -12,6 +12,7 @@ import TutorSm from "../img/tutor-sm.png";
 import ScrollToTop from "react-scroll-to-top";
 import BaseUrl from "../JSX/BaseUrl";
 import SemiC from "../img/semic.png";
+import Tutoring from "../img/tutoring.jpg";
 import ReviewSlideSM from "../JSX/ReviewSlideSM";
 
 function Home() {
@@ -97,12 +98,8 @@ function Home() {
               <Link to={`${BaseUrl}/become-tutor`}>Become a Tutor</Link>
             </button>
           </div>
-          <div className="tutor-images float-end">
-            <div className="back-image">
-              <div className="rect2 position-absolute start-40">
-                <img src={Tutor} alt="Tutor & Student" className="top-image" />
-              </div>
-            </div>
+          <div className="tutor-images float-end me-4">
+            <img src={Tutoring} alt="Tutor & Student" className="top-image" />
           </div>
         </div>
       </section>
