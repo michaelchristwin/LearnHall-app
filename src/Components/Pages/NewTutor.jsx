@@ -55,7 +55,12 @@ function NewTutor() {
 
   useEffect(() => {
     console.log(sessionerror);
-    if (Object.keys(sessionerror).length === 0 && isSubmit) {
+    if (
+      typeof sessionerror === "object" &&
+      sessionerror !== null &&
+      Object.keys(sessionerror).length === 0 &&
+      isSubmit
+    ) {
       console.log(sessiondata);
     }
   }, [sessionerror]);
@@ -94,7 +99,13 @@ function NewTutor() {
           </div>
 
           <fieldset className="mx-auto col-sm pt-3">
-            <p className="form-error">{sessionerror.username}</p>
+            <p className="form-error">
+              {typeof sessionerror === "object" &&
+              sessionerror !== null &&
+              Object.keys(sessionerror).length !== 0
+                ? sessionerror.username
+                : ""}
+            </p>
             <label htmlFor="lname" className="d-block">
               Name*
             </label>
@@ -107,7 +118,13 @@ function NewTutor() {
             />
           </fieldset>
           <fieldset className="mx-auto col-sm pt-3">
-            <p className="form-error">{sessionerror.email}</p>
+            <p className="form-error">
+              {typeof sessionerror === "object" &&
+              sessionerror !== null &&
+              Object.keys(sessionerror).length !== 0
+                ? sessionerror.email
+                : ""}
+            </p>
             <label htmlFor="email" className="d-block">
               Email*
             </label>
@@ -121,7 +138,13 @@ function NewTutor() {
           </fieldset>
 
           <fieldset className="mx-auto col-sm pt-3">
-            <p className="form-error">{sessionerror.phone}</p>
+            <p className="form-error">
+              {typeof sessionerror === "object" &&
+              sessionerror !== null &&
+              Object.keys(sessionerror).length !== 0
+                ? sessionerror.phone
+                : ""}
+            </p>
             <label htmlFor="phone" className="d-block">
               Phone
             </label>

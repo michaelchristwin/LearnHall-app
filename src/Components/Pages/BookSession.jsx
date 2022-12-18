@@ -33,7 +33,12 @@ function Booking() {
 
   useEffect(() => {
     console.log(sessionerror);
-    if (Object.keys(sessionerror).length === 0 && isSubmit) {
+    if (
+      typeof sessionerror === "object" &&
+      sessionerror !== null &&
+      Object.keys(sessionerror).length === 0 &&
+      isSubmit
+    ) {
       console.log(sessiondata);
       setModalShow(true);
     }
@@ -88,7 +93,13 @@ function Booking() {
           </div>
           <div className="mt-4">
             <fieldset className="mx-auto col-sm">
-              <p className="form-error">{sessionerror.username}</p>
+              <p className="form-error">
+                {typeof sessionerror === "object" &&
+                sessionerror !== null &&
+                Object.keys(sessionerror).length !== 0
+                  ? sessionerror.username
+                  : ""}
+              </p>
               <label htmlFor="lname" className="d-block">
                 Name*
               </label>
@@ -101,7 +112,13 @@ function Booking() {
               />
             </fieldset>
             <fieldset className="mx-auto col-sm pt-3">
-              <p className="form-error">{sessionerror.email}</p>
+              <p className="form-error">
+                {typeof sessionerror === "object" &&
+                sessionerror !== null &&
+                Object.keys(sessionerror).length !== 0
+                  ? sessionerror.email
+                  : ""}
+              </p>
               <label htmlFor="email" className="d-block">
                 Email*
               </label>
@@ -117,7 +134,13 @@ function Booking() {
           </div>
 
           <fieldset className="mx-auto col-sm pt-3">
-            <p className="form-error">{sessionerror.phone}</p>
+            <p className="form-error">
+              {typeof sessionerror === "object" &&
+              sessionerror !== null &&
+              Object.keys(sessionerror).length !== 0
+                ? sessionerror.phone
+                : ""}
+            </p>
             <label htmlFor="phone" className="d-block">
               Phone
             </label>
