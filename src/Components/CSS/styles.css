@@ -111,24 +111,20 @@
   background-color: #ffffff;
 }
 .rectangle {
-  background: #b84b40;
-  border-radius: 14px;
   height: 630px;
   width: 500px;
-  z-index: -1;
 }
 .student {
-  position: absolute;
   height: 630px;
   z-index: 1;
-  right: 50px;
   margin-top: 45px;
   border-radius: 14px;
-  background: #fed7bd;
 }
 .stud-img {
-  width: 589px;
-  height: 626px;
+  width: 680px;
+  border-radius: 12px;
+  margin-right: 20px;
+  height: 600px;
 }
 .hero {
   padding-top: 50px;
@@ -239,10 +235,13 @@ body h4 {
   padding: 10px;
   padding-bottom: 30px;
 }
+.form-error {
+  color: red;
+}
 .stud-sub {
   height: 80px;
   width: 200px;
-  margin-top: 630px;
+
   float: right;
 }
 .review-container {
@@ -792,7 +791,6 @@ body h4 {
     margin-top: 0px;
   }
   .rectangle {
-    position: static !important;
     float: none;
     background: none;
   }
@@ -822,8 +820,6 @@ body h4 {
     display: none;
   }
   .stud-img {
-    height: 300px;
-    width: 300px;
     display: none;
   }
   .my-form {
@@ -883,7 +879,6 @@ body h4 {
     height: 300px;
     width: 300px;
     margin-top: 0px;
-    position: static !important;
   }
   .step-sect {
     display: flex !important;

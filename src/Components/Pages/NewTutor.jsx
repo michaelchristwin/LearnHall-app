@@ -7,9 +7,33 @@ import { useState } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
 import NavbarEx from "../JSX/NavbarEx";
 import ScrollToTop from "react-scroll-to-top";
+import axios from "axios";
 
 function NewTutor() {
   const [modalShow, setModalShow] = useState(false);
+  const [sessiondata, setsessiondata] = useState({
+    l1name: "",
+    email: "",
+    phone: "",
+    tell: "",
+  });
+  console.log(sessiondata);
+
+  function handleinputdata(e) {
+    e.preventDefault();
+    axios
+      .post("http://127.0.0.1:8000/employee/x/", sessiondata)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch(({ message }) => {
+        console.log(message);
+      });
+  }
+
+  function handleinput(e) {
+    setsessiondata({ ...sessiondata, [e.target.name]: e.target.value });
+  }
   return (
     <main>
       <NavbarEx active={"active"} />
@@ -37,6 +61,8 @@ function NewTutor() {
               type="text"
               id="lname"
               className="d-form form-control d-block"
+              name="l1name"
+              onChange={handleinput}
             />
           </fieldset>
           <fieldset className="mx-auto col-sm pt-3">
@@ -44,9 +70,11 @@ function NewTutor() {
               Email*
             </label>
             <input
-              type="text"
+              type="email"
               id="email"
+              name="email"
               className="d-form form-control d-block"
+              onChange={handleinput}
             />
           </fieldset>
 
@@ -55,9 +83,11 @@ function NewTutor() {
               Phone
             </label>
             <input
-              type="text"
+              type="tel"
               id="phone"
+              name="phone"
               className="d-form form-control d-block"
+              onChange={handleinput}
             />
           </fieldset>
 
@@ -66,16 +96,17 @@ function NewTutor() {
               Tell us about yourself?
             </label>
             <textarea
-              name="review"
+              name="tell"
               id="textarea1"
               className="form-control"
               rows="8"
+              onChange={handleinput}
             ></textarea>
           </fieldset>
           <button
             className="btn sub-btn px-4"
             type="submit"
-            onClick={() => setModalShow(true)}
+            onClick={handleinputdata}
           >
             Submit
           </button>

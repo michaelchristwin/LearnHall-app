@@ -1,5 +1,4 @@
 import SemiCircle from "../img/topEllipse.png";
-import Tutor from "../img/tutor&student.png";
 import "../CSS/styles.css";
 import Steps from "../JSX/Steps";
 import { Link } from "react-router-dom";

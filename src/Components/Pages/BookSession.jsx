@@ -1,5 +1,5 @@
 import Footer from "../JSX/Footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
 import ScrollToTop from "react-scroll-to-top";
 import NavbarEx from "../JSX/NavbarEx";
@@ -7,34 +7,75 @@ import axios from "axios";
 
 function Booking() {
   const [modalShow, setModalShow] = useState(false);
-
   const [sessiondata, setsessiondata] = useState({
-    f1name:'',
-    email:'',
-    phone:'',
-    why:''
-  })
-
-  console.log(sessiondata)
+    username: "",
+    email: "",
+    phone: "",
+    why: "",
+  });
+  const [sessionerror, setsessionerror] = useState({});
+  const [isSubmit, setisSubmit] = useState(false);
+  console.log(sessiondata);
 
   function handleinputdata(e) {
-    e.preventDefault()
-    axios.post('http://127.0.0.1:8000/employee/x/', sessiondata).then((response) => {
-      console.log(response)
-    }).catch(({message})=>{
-      console.log(message)
-    })
+    e.preventDefault();
+    setsessionerror(validate(sessiondata));
+    setisSubmit(true);
+    axios
+      .post("http://127.0.0.1:8000/employee/x/", sessiondata)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch(({ message }) => {
+        console.log(message);
+      });
   }
 
-  function handleinput(e){
-    setsessiondata({...sessiondata, [e.target.name]: e.target.value})
-  }
+  useEffect(() => {
+    console.log(sessionerror);
+    if (Object.keys(sessionerror).length === 0 && isSubmit) {
+      console.log(sessiondata);
+    }
+  }, [sessionerror]);
 
+  function handleinput(e) {
+    setsessiondata({ ...sessiondata, [e.target.name]: e.target.value });
+  }
+  const validate = (values) => {
+    const errors = {};
+    const regex =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (!values.username) {
+      errors.username = "Username is required!";
+    }
+    if (!values.email) {
+      errors.email = "Email is required!";
+    } else if (!regex.test(values.email)) {
+      errors.email = "Enter a valid email";
+    }
+    if (!values.phone) {
+      errors.phone = "Phone number is required!";
+      return errors;
+    }
+  };
+  function keyPress(e) {
+    var charCode = e.charCode;
+    var value = e.target.value;
+    if (charCode !== 0 && (charCode < 48 || charCode > 57)) {
+      e.preventDefault();
+    }
+    if (!/^\d+$/.test(value)) {
+      e.target.value = value.replace(/[^\d]/g, "");
+    }
+  }
   return (
     <main>
       <NavbarEx activeid={"active"} />
       <section className="d-flex py-3 form-parent mt-5">
-        <form className="px-5 py-5 shadow my-form rounded">
+        <form
+          className="px-5 py-5 shadow my-form rounded needs-validation"
+          noValidate
+        >
           <h3>Book a Session</h3>
           <div className="d-flex flex-column">
             <span className="formt-lg">
@@ -49,22 +90,26 @@ function Booking() {
           </div>
           <div className="mt-4">
             <fieldset className="mx-auto col-sm">
+              <p className="form-error">{sessionerror.username}</p>
               <label htmlFor="lname" className="d-block">
                 Name*
               </label>
               <input
+                required
                 type="text"
                 className="d-form form-control d-block"
-                name= "f1name"
+                name="username"
                 onChange={handleinput}
               />
             </fieldset>
             <fieldset className="mx-auto col-sm pt-3">
+              <p className="form-error">{sessionerror.email}</p>
               <label htmlFor="email" className="d-block">
                 Email*
               </label>
               <input
-                type="text"
+                required
+                type="email"
                 id="email"
                 className="d-form form-control d-block"
                 name="email"
@@ -74,14 +119,17 @@ function Booking() {
           </div>
 
           <fieldset className="mx-auto col-sm pt-3">
+            <p className="form-error">{sessionerror.phone}</p>
             <label htmlFor="phone" className="d-block">
               Phone
             </label>
             <input
-              type="text"
+              type="tel"
               id="phone"
+              maxLength={12}
               className="d-form form-control d-block"
               name="phone"
+              onKeyPress={keyPress}
               onChange={handleinput}
             />
           </fieldset>
@@ -98,7 +146,7 @@ function Booking() {
           ></textarea>
           <button
             className="btn sub-btn px-4"
-            type='submit'
+            type="submit"
             onClick={handleinputdata}
           >
             Submit

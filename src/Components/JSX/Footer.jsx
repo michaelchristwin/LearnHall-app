@@ -83,7 +83,7 @@ function Footer() {
         <p className="pt-2 newsletter">Subscribe to our free e-newsletter</p>
         <div className="d-flex">
           <input
-            type="text"
+            type="email"
             placeholder="email address"
             className="subscribe form-control"
           />

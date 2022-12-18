@@ -2,7 +2,7 @@ import "../CSS/styles.css";
 import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
 import Star from "../img/star.png";
-import Student from "../img/student.png";
+import Study from "../img/study.jpg";
 import StudentSm from "../img/stud-sm.png";
 import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
@@ -43,12 +43,10 @@ function Hero() {
           <img src={SemiC} alt="semi-c" className="semi-c" />
         </section>
         <section className="stud-sect">
-          <div className="rectangle">
-            <div className="student">
-              <img src={Student} alt="Student" className="stud-img" />
-            </div>
-            <img src={StudSub} alt="svg" className="stud-sub" />
+          <div className="student">
+            <img src={Study} alt="Student" className="stud-img" />
           </div>
+          <img src={StudSub} alt="svg" className="stud-sub" />
         </section>
       </div>
       <section className="hero mt-5">
