@@ -35,6 +35,7 @@ function Booking() {
     console.log(sessionerror);
     if (Object.keys(sessionerror).length === 0 && isSubmit) {
       console.log(sessiondata);
+      setModalShow(true);
     }
   }, [sessionerror]);
 
@@ -72,10 +73,7 @@ function Booking() {
     <main>
       <NavbarEx activeid={"active"} />
       <section className="d-flex py-3 form-parent mt-5">
-        <form
-          className="px-5 py-5 shadow my-form rounded needs-validation"
-          noValidate
-        >
+        <form className="px-5 py-5 shadow my-form rounded needs-validation">
           <h3>Book a Session</h3>
           <div className="d-flex flex-column">
             <span className="formt-lg">
