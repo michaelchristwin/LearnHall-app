@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/LearnHall-app/static/css/main.9289081d.css",
-    "main.js": "/LearnHall-app/static/js/main.1940110b.js",
+    "main.css": "/LearnHall-app/static/css/main.6e7db4e5.css",
+    "main.js": "/LearnHall-app/static/js/main.9107b629.js",
     "static/js/787.5c79b768.chunk.js": "/LearnHall-app/static/js/787.5c79b768.chunk.js",
     "static/media/student2.png": "/LearnHall-app/static/media/student2.9e70edf13a5feb47ac1f.png",
     "static/media/study.jpg": "/LearnHall-app/static/media/study.e1daf59f843831b64de4.jpg",
-    "static/media/tutoring.jpg": "/LearnHall-app/static/media/tutoring.876255c1d9047cbdaaae.jpg",
+    "static/media/xmag.jpg": "/LearnHall-app/static/media/xmag.0af933e804e380f02d32.jpg",
     "static/media/tutor-sm.png": "/LearnHall-app/static/media/tutor-sm.8439b774713d5a0b07a3.png",
     "static/media/studh-sm.png": "/LearnHall-app/static/media/studh-sm.20cdbf20c7762ce2329e.png",
     "static/media/stud-sm.png": "/LearnHall-app/static/media/stud-sm.dc0a7e0c5d8664933dc4.png",
@@ -13,12 +13,12 @@
     "static/media/email.png": "/LearnHall-app/static/media/email.2908323735823f150ced.png",
     "static/media/avatar2.png": "/LearnHall-app/static/media/avatar2.ded7cc237db4f4356f83.png",
     "index.html": "/LearnHall-app/index.html",
-    "main.9289081d.css.map": "/LearnHall-app/static/css/main.9289081d.css.map",
-    "main.1940110b.js.map": "/LearnHall-app/static/js/main.1940110b.js.map",
+    "main.6e7db4e5.css.map": "/LearnHall-app/static/css/main.6e7db4e5.css.map",
+    "main.9107b629.js.map": "/LearnHall-app/static/js/main.9107b629.js.map",
     "787.5c79b768.chunk.js.map": "/LearnHall-app/static/js/787.5c79b768.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9289081d.css",
-    "static/js/main.1940110b.js"
+    "static/css/main.6e7db4e5.css",
+    "static/js/main.9107b629.js"
   ]
 }
