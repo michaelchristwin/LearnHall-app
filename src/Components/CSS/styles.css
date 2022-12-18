@@ -237,6 +237,8 @@ body h4 {
 }
 .form-error {
   color: red;
+  font-style: italic;
+  font-size: 14px;
 }
 .stud-sub {
   height: 80px;

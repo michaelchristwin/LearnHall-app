@@ -3,7 +3,7 @@ import Dollar from "../img/dollar.png";
 import Work from "../img/work.png";
 import Scholar from "../img/scholar.png";
 import Footer from "../JSX/Footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MyVerticallyCenteredModal from "../JSX/MyModal";
 import NavbarEx from "../JSX/NavbarEx";
 import ScrollToTop from "react-scroll-to-top";
@@ -12,15 +12,37 @@ import axios from "axios";
 function NewTutor() {
   const [modalShow, setModalShow] = useState(false);
   const [sessiondata, setsessiondata] = useState({
-    l1name: "",
+    username: "",
     email: "",
     phone: "",
     tell: "",
   });
   console.log(sessiondata);
+  const [sessionerror, setsessionerror] = useState({});
+  const [isSubmit, setisSubmit] = useState(false);
+
+  const validate = (values) => {
+    const errors = {};
+    const regex =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (!values.username) {
+      errors.username = "Username is required!";
+    }
+    if (!values.email) {
+      errors.email = "Email is required!";
+    } else if (!regex.test(values.email)) {
+      errors.email = "Enter a valid email";
+    }
+    if (!values.phone) {
+      errors.phone = "Phone number is required!";
+      return errors;
+    }
+  };
 
   function handleinputdata(e) {
     e.preventDefault();
+    setsessionerror(validate(sessiondata));
+    setisSubmit(true);
     axios
       .post("http://127.0.0.1:8000/employee/x/", sessiondata)
       .then((response) => {
@@ -29,6 +51,24 @@ function NewTutor() {
       .catch(({ message }) => {
         console.log(message);
       });
+  }
+
+  useEffect(() => {
+    console.log(sessionerror);
+    if (Object.keys(sessionerror).length === 0 && isSubmit) {
+      console.log(sessiondata);
+    }
+  }, [sessionerror]);
+
+  function keyPress(e) {
+    var charCode = e.charCode;
+    var value = e.target.value;
+    if (charCode !== 0 && (charCode < 48 || charCode > 57)) {
+      e.preventDefault();
+    }
+    if (!/^\d+$/.test(value)) {
+      e.target.value = value.replace(/[^\d]/g, "");
+    }
   }
 
   function handleinput(e) {
@@ -54,6 +94,7 @@ function NewTutor() {
           </div>
 
           <fieldset className="mx-auto col-sm pt-3">
+            <p className="form-error">{sessionerror.username}</p>
             <label htmlFor="lname" className="d-block">
               Name*
             </label>
@@ -61,11 +102,12 @@ function NewTutor() {
               type="text"
               id="lname"
               className="d-form form-control d-block"
-              name="l1name"
+              name="username"
               onChange={handleinput}
             />
           </fieldset>
           <fieldset className="mx-auto col-sm pt-3">
+            <p className="form-error">{sessionerror.email}</p>
             <label htmlFor="email" className="d-block">
               Email*
             </label>
@@ -79,6 +121,7 @@ function NewTutor() {
           </fieldset>
 
           <fieldset className="mx-auto col-sm pt-3">
+            <p className="form-error">{sessionerror.phone}</p>
             <label htmlFor="phone" className="d-block">
               Phone
             </label>
@@ -87,6 +130,7 @@ function NewTutor() {
               id="phone"
               name="phone"
               className="d-form form-control d-block"
+              onKeyPress={keyPress}
               onChange={handleinput}
             />
           </fieldset>
