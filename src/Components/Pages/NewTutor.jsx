@@ -44,7 +44,7 @@ function NewTutor() {
     setsessionerror(validate(sessiondata));
     setisSubmit(true);
     axios
-      .post("http://127.0.0.1:8000/employee/x/", sessiondata)
+      .post("http://127.0.0.1:8000/employee/tutor/", sessiondata)
       .then((response) => {
         console.log(response);
       })

@@ -8,8 +8,21 @@ import Message from "../img/message.png";
 import "../CSS/styles.css";
 import { Link } from "react-router-dom";
 import BaseUrl from "./BaseUrl";
+import axios from "axios";
 
 function Footer() {
+  function handleClick(e) {
+    const value = e.target.value;
+    e.preventDefault();
+    axios
+      .post("http://127.0.0.1:8000/employee/subscribex/", value)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch(({ message }) => {
+        console.log(message);
+      });
+  }
   return (
     <footer className="footer">
       <section className="d-flex justify-content-between my-container">
@@ -87,7 +100,13 @@ function Footer() {
             placeholder="email address"
             className="subscribe form-control"
           />
-          <button className="btn newsletter-btn ms-2">Subscribe</button>
+          <button
+            className="btn newsletter-btn ms-2"
+            type="submit"
+            onClick={handleClick}
+          >
+            Subscribe
+          </button>
         </div>
       </div>
       <div className="footer-sectsm">
