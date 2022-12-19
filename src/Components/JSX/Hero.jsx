@@ -2,7 +2,7 @@ import "../CSS/styles.css";
 import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
 import Star from "../img/star.png";
-import Study from "../img/study.jpg";
+import Scholar from "../img/scholars.png";
 import StudentSm from "../img/stud-sm.png";
 import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
@@ -44,9 +44,8 @@ function Hero() {
         </section>
         <section className="stud-sect">
           <div className="student">
-            <img src={Study} alt="Student" className="stud-img" />
+            <img src={Scholar} alt="Student" className="stud-img" />
           </div>
-          <img src={StudSub} alt="svg" className="stud-sub" />
         </section>
       </div>
       <section className="hero mt-5">

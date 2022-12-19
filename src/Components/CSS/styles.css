@@ -115,15 +115,21 @@
   width: 500px;
 }
 .student {
-  height: 630px;
+  background: #fed7bd;
+  height: 560px;
   z-index: 1;
+  margin-right: 30px;
   margin-top: 45px;
   border-radius: 14px;
 }
 .stud-img {
   width: 600px;
   border-radius: 12px;
-  margin-right: 20px;
+  height: 550px;
+}
+.stud-img2 {
+  width: 600px;
+  border-radius: 12px;
   height: 550px;
 }
 .hero {
@@ -282,8 +288,8 @@ body h4 {
   border-radius: 14px;
 }
 .top-image {
-  width: 500px;
-  height: 600px;
+  width: 530px;
+  height: 580px;
   border-radius: 12px;
   z-index: 2;
 }
@@ -526,7 +532,7 @@ body h4 {
   display: none;
 }
 .stud-sect {
-  margin-top: 30px;
+  float: right;
 }
 .empty-sm {
   display: none;

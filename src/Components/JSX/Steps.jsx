@@ -2,7 +2,7 @@ import "../CSS/styles.css";
 import One from "../img/one.png";
 import Two from "../img/two.png";
 import Three from "../img/three.png";
-import Student2 from "../img/student2.png";
+import Student2 from "../img/books.png";
 import Subtract from "../img/subtract.png";
 import Subtract2 from "../img/subtract2.png";
 import Line from "../img/line.png";
@@ -29,7 +29,7 @@ function Steps() {
       <aside className="d-flex step-sect">
         <div>
           <div className="student2">
-            <img src={Student2} alt="Student with book" className="stud-img" />
+            <img src={Student2} alt="Student with book" className="stud-img2" />
           </div>
           <img src={Subtract2} alt="subtract" className="subtract2" />
         </div>
