@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/LearnHall-app/static/css/main.8d68519b.css",
-    "main.js": "/LearnHall-app/static/js/main.11ad2551.js",
+    "main.css": "/LearnHall-app/static/css/main.8b9dbfab.css",
+    "main.js": "/LearnHall-app/static/js/main.359008a7.js",
     "static/js/787.5c79b768.chunk.js": "/LearnHall-app/static/js/787.5c79b768.chunk.js",
-    "static/media/student2.png": "/LearnHall-app/static/media/student2.9e70edf13a5feb47ac1f.png",
-    "static/media/study.jpg": "/LearnHall-app/static/media/study.e1daf59f843831b64de4.jpg",
     "static/media/xmag.jpg": "/LearnHall-app/static/media/xmag.0af933e804e380f02d32.jpg",
     "static/media/tutor-sm.png": "/LearnHall-app/static/media/tutor-sm.8439b774713d5a0b07a3.png",
+    "static/media/scholars.png": "/LearnHall-app/static/media/scholars.5f4d0caa26736429a371.png",
     "static/media/studh-sm.png": "/LearnHall-app/static/media/studh-sm.20cdbf20c7762ce2329e.png",
     "static/media/stud-sm.png": "/LearnHall-app/static/media/stud-sm.dc0a7e0c5d8664933dc4.png",
     "static/media/AGaramondPro-Bold.otf": "/LearnHall-app/static/media/AGaramondPro-Bold.e2cb1ec412546ad8b33c.otf",
+    "static/media/books.png": "/LearnHall-app/static/media/books.78d0705667cf3a90b0db.png",
     "static/media/email.png": "/LearnHall-app/static/media/email.2908323735823f150ced.png",
     "static/media/avatar2.png": "/LearnHall-app/static/media/avatar2.ded7cc237db4f4356f83.png",
     "index.html": "/LearnHall-app/index.html",
-    "main.8d68519b.css.map": "/LearnHall-app/static/css/main.8d68519b.css.map",
-    "main.11ad2551.js.map": "/LearnHall-app/static/js/main.11ad2551.js.map",
+    "main.8b9dbfab.css.map": "/LearnHall-app/static/css/main.8b9dbfab.css.map",
+    "main.359008a7.js.map": "/LearnHall-app/static/js/main.359008a7.js.map",
     "787.5c79b768.chunk.js.map": "/LearnHall-app/static/js/787.5c79b768.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d68519b.css",
-    "static/js/main.11ad2551.js"
+    "static/css/main.8b9dbfab.css",
+    "static/js/main.359008a7.js"
   ]
 }
