@@ -27,7 +27,7 @@ const FaqData = [
     id: nanoid(),
   },
   {
-    title: "Is Tutoring with Learnhall safe?",
+    title: "Is tutoring with Learnhall safe?",
     content:
       "Our tutors are personally checked and interviewed before they are approved for tutoring. Further, we monitor the feedback and performance of our tutors periodically, especially new ones.",
     id: nanoid(),
