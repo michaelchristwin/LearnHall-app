@@ -73,9 +73,9 @@ function Hero() {
           </span>
         </aside>
       </section>
-      <div className="container card-cont">
-        <div className="row row-cols-2 row-cols-lg-4 row-cols-md-2 g-1 pt-lg-2">
-          <div className="col-sm ">
+      <div className="card-cont">
+        <div className="row row-cols-2 row-cols-lg-4 row-cols-md-2 pt-lg-2">
+          <div className="col-sm">
             <div className="py-lg-2 py-2 shadow border-0" id="card">
               <img
                 src={Diamond}

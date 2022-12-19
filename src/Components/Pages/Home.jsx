@@ -98,7 +98,7 @@ function Home() {
             </button>
           </div>
           <div className="me-4 tutor-images">
-            <img src={Tutoring} alt="Tutor & Student" className="top-image" />
+            <img src={Tutoring} alt="Books" className="top-image" />
           </div>
         </div>
       </section>
