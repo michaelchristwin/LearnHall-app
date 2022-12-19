@@ -2,7 +2,7 @@ import "../CSS/styles.css";
 import Diamond from "../img/diamond2.png";
 import Arrow from "../img/arrow.png";
 import Star from "../img/star.png";
-import Scholar from "../img/scholars.png";
+import Scholar from "../img/student.png";
 import StudentSm from "../img/stud-sm.png";
 import StudSub from "../img/stud-sub.png";
 import Heart from "../img/heart.png";
@@ -13,7 +13,7 @@ import SemiC from "../img/semic.png";
 function Hero() {
   return (
     <main>
-      <div className="d-flex justify-content-between done-right mt-5">
+      <div className="d-flex justify-content-between done-right mt-5 pb-5">
         <section className="service">
           <h1 className="d-block service-title">
             Tutoring{` `}
@@ -46,6 +46,7 @@ function Hero() {
           <div className="student">
             <img src={Scholar} alt="Student" className="stud-img" />
           </div>
+          <img src={StudSub} alt="svg" className="stud-sub" />
         </section>
       </div>
       <section className="hero mt-5">

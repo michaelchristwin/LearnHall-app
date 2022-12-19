@@ -115,14 +115,19 @@
   width: 500px;
 }
 .student {
-  background: #fed7bd;
+  background-color: #b84b40;
   height: 560px;
+  width: 550px;
   z-index: 1;
-  margin-right: 30px;
+  direction: rtl;
   margin-top: 45px;
   border-radius: 14px;
+  margin-bottom: 40px;
 }
 .stud-img {
+  margin-top: 50px;
+  margin-right: 40px;
+  background: #fed7bd;
   width: 600px;
   border-radius: 12px;
   height: 550px;
@@ -249,7 +254,7 @@ body h4 {
 .stud-sub {
   height: 80px;
   width: 200px;
-
+  margin-top: -30px;
   float: right;
 }
 .review-container {
@@ -288,8 +293,8 @@ body h4 {
   border-radius: 14px;
 }
 .top-image {
-  width: 530px;
-  height: 580px;
+  width: 580px;
+  height: 540px;
   border-radius: 12px;
   z-index: 2;
 }
@@ -312,6 +317,10 @@ body h4 {
   width: 650px;
   right: 40px;
   margin-top: 30px;
+}
+.tutor-images {
+  border-radius: 12px;
+  background: #fed7bd;
 }
 .footer {
   background: #1f3158;

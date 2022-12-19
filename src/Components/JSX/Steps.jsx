@@ -2,7 +2,7 @@ import "../CSS/styles.css";
 import One from "../img/one.png";
 import Two from "../img/two.png";
 import Three from "../img/three.png";
-import Student2 from "../img/books.png";
+import Student2 from "../img/student2.png";
 import Subtract from "../img/subtract.png";
 import Subtract2 from "../img/subtract2.png";
 import Line from "../img/line.png";

@@ -11,7 +11,7 @@ import TutorSm from "../img/tutor-sm.png";
 import ScrollToTop from "react-scroll-to-top";
 import BaseUrl from "../JSX/BaseUrl";
 import SemiC from "../img/semic.png";
-import Tutoring from "../img/xmag.jpg";
+import Tutoring from "../img/books.png";
 import ReviewSlideSM from "../JSX/ReviewSlideSM";
 
 function Home() {
