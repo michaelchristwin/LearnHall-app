@@ -18,17 +18,13 @@ function Faqs() {
   return (
     <main>
       <NavbarEx />
-      <section className="mt-5 text-center">
+      <section className="mt-5 text-center mb-4">
         <h1 className="">Frequently Asked Questions</h1>
-        <span className="text-center mx-auto d-block faq-t">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod
-        </span>
-        <span className="text-center mx-auto d-block faq-t">
-          tempor incididunt ut labore et dolore magna aliqua.
+        <span>
+          Below you'll find answers to the questions we get asked the most about
+          on our platform.
         </span>
       </section>
-
       {FaqElement}
       <ScrollToTop smooth />
       <Footer />
