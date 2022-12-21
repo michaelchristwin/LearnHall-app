@@ -76,7 +76,6 @@ function Footer() {
             <Link to={`${BaseUrl}/book-session`} className="d-block">
               Request a Tutor
             </Link>
-            <span className="d-block">Learning Resources</span>
           </div>
           <div className="text-white d-block mx-4 mx-lg-5">
             <h4 className="d-block text-nowrap f-head">Work With Us</h4>

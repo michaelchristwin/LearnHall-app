@@ -4,13 +4,13 @@ const ReviewData = [
       name: "M Burghelea",
       img: require("../img/Avatars/avatar1.png"),
       review:
-        "I have been looking for a math tutor in the past year to work with my teenager son and finally we found Mike. He is very knowledgeable and fun to work with. Our son is looking forward to keep working with him and for me that is awesome. Thank you Mike.",
+        "I have been looking for a math tutor in the past year to work with my teenager son and finally we found Mike. He is very knowledgeable and fun to work with. Our son is looking forward to keep working with him and for me that is awesome.",
     },
     {
       name: "Charlie Warren.",
       img: require("../img/Avatars/avatar2.png"),
       review:
-        "Mike Hoeft helped me out with pre cal and did an amazing job. He was very patient, encouraging, and enthusiastic. Mike helped me finish worksheets that usually took me hours to do on my own in 30 minutes! I definitely recommend his services to any student struggling.",
+        "Mike Hoeft helped me out with pre cal and did an amazing job. He was very patient, encouraging, and enthusiastic. Mike helped me finish worksheets that usually took me hours to do on my own in 30 minutes!.",
     },
     {
       name: "Kimberly Keys.",
@@ -21,10 +21,10 @@ const ReviewData = [
   ],
   [
     {
-      name: "J JC.",
+      name: "Stacy Linkmeyer",
       img: require("../img/Avatars/avatar4.png"),
       review:
-        "My student needed help with physics.  First test he bombed :( so I hired Mike.  After 2 sessions, my student aced his second physics test. :)  Thank you!",
+        "I've worked with many educators, but very few are as encouraging, thorough, and passionate as Mike. He enters every tutoring session seemingly excited for math, and with a few positive fist-bumps along the way, improves my son's attitude and abilities.",
     },
     {
       name: "Matt Upton.",
