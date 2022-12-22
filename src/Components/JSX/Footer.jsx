@@ -68,8 +68,12 @@ function Footer() {
             <Link to={`${BaseUrl}/faqs`} className="d-block">
               FAQs
             </Link>
-            <span className="d-block">Blog</span>
-            <span className="d-block">Reviews</span>
+            <a href="http://blog.learnhall.com/" className="d-block">
+              Blog
+            </a>
+            <span id="review-cont" className="d-block">
+              Reviews
+            </span>
           </div>
           <div className="text-white d-block mx-4 mx-lg-5">
             <h4 className="d-block text-nowrap f-head">Learn With Us</h4>

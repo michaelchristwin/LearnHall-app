@@ -24,7 +24,7 @@ const ReviewData = [
       name: "Stacy Linkmeyer",
       img: require("../img/Avatars/avatar4.png"),
       review:
-        "I've worked with many educators, but very few are as encouraging, thorough, and passionate as Mike. He enters every tutoring session seemingly excited for math, and with a few positive fist-bumps along the way, improves my son's attitude and abilities.",
+        "I've worked with many educators, but very few are as encouraging, thorough, and passionate as Mike. He enters every tutoring session seemingly excited for math, and with a few positive fist-bumps along the way, improves my son's abilities.",
     },
     {
       name: "Matt Upton.",

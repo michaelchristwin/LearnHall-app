@@ -3,7 +3,7 @@ import FiveStar from "../img/5star.png";
 
 function Reviews(props) {
   return (
-    <main className="reviews-sect">
+    <main className="reviews-sect" id="my-review">
       <div className="shadow border-0 review rounded">
         <div className="d-flex mx-auto">
           <img src={props.img} alt="Avatar" className="avatar" />
