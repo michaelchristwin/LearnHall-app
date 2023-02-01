@@ -1,0 +1,33 @@
+header{
+    background-color: aqua;
+}
+.logo{
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+
+/* large desktop layout*/
+@media only screen and (min-width: 1440px){}
+header{
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    height: 38px;
+    width: 206px;
+    margin-top: 35px;
+}
+.logo-text a{
+    font-size: 37px;
+    text-decoration: none ;
+}
+/*Desktop layout*/
+@media only screen and (min-width: 960px) and (max-width: 1440px){}
+
+
+/*Tablet*/
+@media only screen and (min-width: 576px) and (max-width: 960px){}
+
+
+/*Mobile*/
+@media only screen and (max-width: 576px){}
