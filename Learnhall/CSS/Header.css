@@ -1,33 +1,231 @@
 header{
-    background-color: aqua;
-}
-.logo{
-    background-color: blanchedalmond;
-    display: inline-block;
-}
-
-/* large desktop layout*/
-@media only screen and (min-width: 1440px){}
-header{
-    height: 100px;
     width: 100%;
 }
-.logo{
-    height: 38px;
-    width: 206px;
-    margin-top: 35px;
+.header-content{
+    display: inline-block;
+}
+.logo-image{
+    text-decoration: none ;
+    display: inline-block;
+    float: left;
+}
+.logo-text{
+    display: inline-block;
 }
 .logo-text a{
-    font-size: 37px;
+    color: #070A13;
     text-decoration: none ;
+    font-weight: 400;
+    font-family: "adobe-garamond-pro", serif;
+    font-style: normal;
 }
-/*Desktop layout*/
-@media only screen and (min-width: 960px) and (max-width: 1440px){}
+.nav-bar{
+    display: inline-block;
+    display: flex;
+    justify-content: end;
+}
+.nav-bar li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color:#070a1396;
+}
+.nav-bar img{
+    float: left;
+}
+.nav-bar span {
+    color: #070A13;
+}
+.nav-bar .nav-selected{
+    color: #070A13;
+}
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    header{
+        height: 100px;
+    }
+    .header-content{
+        height: 38px;
+        width: 100%;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .logo-image{
+        height: 38px;
+        width: 38px;
+    }
+    .logo-image img{
+        height: 38px;
+        width: 38px;
+    }
+    .logo-text{
+        height: 35px;
+        margin-left: 5px;
+        margin-top: -2px;
+    }
+    .logo-text a{
+        font-size: 37px;
+    }
+    .nav-bar{
+        margin-top: -30px;
+    }
+    .nav-bar li {
+        font-size: 22px;
+        padding-left: 30px;
+    }
+    .nav-bar li img{
+        width: 22px;
+        height: 22px;
+        margin-top: 2px;
+        padding-right: 5px;
+    }
+    .hamburger-menu-open{
+        display: none;
+    }
+}
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+    header{
+        height: 80px;
+    }
+    .header-content{
+        height: 38px;
+        width: 100%;
+        margin-top: 25px;
+        padding: 0px;
+    }
+    .logo-image {
+        height: 30px;
+        width: 30px;
+        
+    }
+    .logo-image img{
+        height: 30px;
+        width: 30px;
+    }
+    .logo-text{
+        height: 30px;
+        margin-left: 4px;
+        margin-top: -2px;
+    }
+    .logo-text a{
+        font-size: 30px;
+    }
+    .nav-bar{
+        margin-top: -26px;
+    }
+    .nav-bar li {
+        font-size: 19px;
+        padding-left: 26px;
+    }
+    .nav-bar li img{
+        width: 19px;
+        height: 19px;
+        margin-top: 1px;
+        padding-right: 5px;
+    }
+    .hamburger-menu-open{
+        display: none;
+    }
+}
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        height: 70px;
+    }
+    .header-content{
+        height: 38px;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0px;
+    }
+    .logo-image {
+        height: 29px;
+        width: 29px;
+    }
+    .logo-image img{
+        height: 29px;
+        width: 29px;
+    }
+    .logo-text{
+        height: 29px;
+        margin-left: 4px;
+        margin-top: -2px;
+    }
+    .logo-text a{
+        font-size: 29px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .hamburger-menu-open{
+        display: flex;
+        justify-content: right;
+        margin-top: -37px;
+    }
+    .hamburger-menu-open img{
+        height: 40px;
+        width: 40px;
+    }
+    .nav-bar-hamburger-menu{
+        background-color: aqua;
+        height: 100%;
+        max-height: 1000px;
+        min-height:100px;
+    }
+}
 
 
-/*Tablet*/
-@media only screen and (min-width: 576px) and (max-width: 960px){}
-
-
-/*Mobile*/
-@media only screen and (max-width: 576px){}
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+    header{
+        height: 60px;
+    }
+    .header-content{
+        height: 38px;
+        width: 100%;
+        margin-top: 15px;
+        padding: 0px;
+    }
+    .logo-image {
+        height: 25px;
+        width: 25px;
+    }
+    .logo-image img{
+        height: 25px;
+        width: 25px;
+    }
+    .logo-text{
+        height: 25px;
+        margin-left: 4px;
+        margin-top: -2px;
+    }
+    .logo-text a{
+        font-size: 28px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .hamburger-menu-open{
+        display: flex;
+        justify-content: right;
+        margin-top: -28px;
+    }
+    .hamburger-menu-open img{
+        height: 32px;
+        width: 32px;
+    }
+}
