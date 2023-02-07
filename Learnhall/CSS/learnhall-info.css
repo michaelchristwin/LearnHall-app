@@ -1,0 +1,223 @@
+.learnhall-info {
+    width: 100%;  
+    position: relative;
+    display: block;
+}
+.learnhall-info-images{
+    width: 100%;  
+    display: flex;
+    justify-content: right;
+    position:absolute;    
+}
+.background-img1{
+    width: 100%;
+    position: absolute;
+}
+.brown-image{
+    position:absolute;
+    float: right;
+    right: 0;
+}
+.modelbackground-image{
+    position: absolute;
+    display: block;
+}
+.model1-image{
+    position: absolute;
+}
+.learnhall-info-text{
+    position:absolute;
+}
+.learnhall-info-text .heading{
+    font-family: "adobe-garamond-pro", serif;
+    display: block;
+    color: #070A13;
+}
+.learnhall-info-text .sub-text{
+    color: #070a1396;
+}
+.learnhall-info-text button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.learnhall-info-text button{
+    background-color: #C04C40;
+    border: #C04C40;
+}
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    .learnhall-info {
+        height: 845px;
+    }
+    .model-container{
+        width: 675px;
+        height: 845px;
+    }
+    .brown-image{
+        margin-top: 75px;
+    }
+    .modelbackground-image{
+        margin-top: 145px;
+        right: 115px;
+    }
+    .model1-image{
+        margin-top: 118px;
+        right: 136px;
+    }
+    .background-img1{
+        height:845px;
+    }
+    .learnhall-info-text{
+        padding-top: 194px;
+    }
+    .learnhall-info-text .text{
+        width: 517px;
+        height: 555px;
+    }
+    .learnhall-info-text .heading{
+        font-size: 80px;
+        font-weight: 700;
+        width: 480px;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 30px;
+        width: 453px;
+        
+    }
+    .learnhall-info-text p{
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .learnhall-info-text button{
+        font-size: 20px;
+        margin-top: 80px;
+        width: 215px;
+        height: 60px;
+    }
+}
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+    .learnhall-info {
+        height:715px;
+    }
+    .model-container{
+        width: 675px;
+        height: 715px;
+    }
+    .brown-image{
+        margin-top: 62px;
+        width: 450px;
+        height: 487px;
+    }
+    .modelbackground-image{
+        margin-top: 132px;
+        right: 65px;
+        width: 460px;
+        height: 522px;
+    }
+    .model1-image{
+        margin-top: 105px;
+        right: 85px;
+        width: 419px;
+        height: 549px;
+    }
+    .background-img1{
+        height:715px;
+    }
+    .learnhall-info-text{
+        margin-top: 181px;
+    }
+    .learnhall-info-text .text{
+        width: 420px;
+        height: 459px;
+    }
+    .learnhall-info-text .heading{
+        font-size: 60px;
+        font-weight: 600;
+        width: 447px;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 26px;
+        width: 447px;
+        
+    }
+    .learnhall-info-text p{
+        font-size: 19px;
+        margin-top: 48px;
+    }
+    .learnhall-info-text button{
+        font-size: 18px;
+        margin-top: 68px;
+        width: 188px;
+        height: 48px;
+    }
+}
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+    .learnhall-info {
+        height:715px;
+    }
+    .model-container{
+        width: 675px;
+        height: 715px;
+    }
+    .brown-image{
+        margin-top: 62px;
+        width: 450px;
+        height: 487px;
+    }
+    .modelbackground-image{
+        margin-top: 132px;
+        right: 65px;
+        width: 460px;
+        height: 522px;
+    }
+    .model1-image{
+        margin-top: 105px;
+        right: 85px;
+        width: 419px;
+        height: 549px;
+    }
+    .background-img1{
+        height:715px;
+    }
+    .learnhall-info-text{
+        margin-top: 181px;
+    }
+    .learnhall-info-text .text{
+        width: 420px;
+        height: 459px;
+    }
+    .learnhall-info-text .heading{
+        font-size: 60px;
+        font-weight: 600;
+        width: 447px;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 26px;
+        width: 447px;
+        
+    }
+    .learnhall-info-text p{
+        font-size: 19px;
+        margin-top: 48px;
+    }
+    .learnhall-info-text button{
+        font-size: 18px;
+        margin-top: 68px;
+        width: 188px;
+        height: 48px;
+    }
+}
+
+@media only screen and (max-width: 576px){}
