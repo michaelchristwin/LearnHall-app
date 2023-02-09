@@ -2,23 +2,27 @@ $(function () {
     
     function no_hamburger(){
 
-        let querry1 = window.matchMedia("(min-width: 1440px)");
-        let querry2 = window.matchMedia("(min-width: 960px) and (max-width: 1440px)");
+        var context;
+        var $window = $(window);
 
-        if (querry1.matches) {
-            $(".hamburger-menu-open").css('display', 'none');
-            $(".hamburger-menu-close").css('display', 'none');
-            $(".nav-bar-hamburger-menu").css('display', 'none');
-        };
-        if (querry2.matches) {
-            $(".hamburger-menu-open").css('display', 'none');
-            $(".hamburger-menu-close").css('display', 'none');
-            $(".nav-bar-hamburger-menu").css('display', 'none');
-        };
-    }
+        // run this right away to set media-querry
+        if ($window.width() >= 960) {
+            context = 'tablet';
+        }
+
+        // refresh the page only if you're crossing into the media-querry
+        // that isn't already set
+        $(window).resize(function() {
+            if(($window.width() >= 960) && (context != 'tablet')) {
+            //refresh the page
+                location.reload();
+            }
+        });
+    };
+    
     
     /* Hamburger menu function */
-    $(".hamburger-menu-open").click(function (){
+    $("#open-hamburger").click(function (){
 
         /* Openning the menu */
         $(".hamburger-menu-open").css('display', 'none');
@@ -26,13 +30,18 @@ $(function () {
         $(".nav-bar-hamburger-menu").css('display', 'block');
         no_hamburger()
 
+        $(".learnhall-info").css('marginTop', '300px');
+        
+
         /* Closing the menu */
-        $(".hamburger-menu-close").click(function (){
+        $("#close-hamburger").click(function (){
 
             $(".hamburger-menu-open").css('display', 'flex');
             $(".hamburger-menu-close").css('display', 'none');
             $(".nav-bar-hamburger-menu").css('display', 'none');
             no_hamburger()
+
+            $(".learnhall-info").css('marginTop', '0px');
         });
     });
 
