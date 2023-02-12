@@ -1,5 +1,10 @@
+@font-face{
+    font-family:Helvetica;
+    src: url("fonts/Helvetica.ttf");
+}
+
 *{
-    font-family: Helvetica Neue, Arial, sans-serif;
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
 }
@@ -11,6 +16,7 @@
         width: 80%;
         min-width: 1350px;
         margin: auto;
+        height: 100%;
     }
 }
 /*Desktop layout*/
