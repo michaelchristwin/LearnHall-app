@@ -43,7 +43,6 @@ $(function () {
 
             $(".learnhall-info").css('marginTop', '0px');
         });
-    });
+    })
+});
 
-
-})
