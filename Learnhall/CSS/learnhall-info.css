@@ -119,6 +119,7 @@
         margin-top: 80px;
         width: 215px;
         height: 60px;
+        border-radius: 10px;
     }
 }
 
@@ -154,7 +155,7 @@
         height:715px;
     }
     .learnhall-info-text{
-        margin-top: 181px;
+        margin-top: 171px;
     }
     .learnhall-info-text .text{
         width: 420px;
@@ -179,6 +180,7 @@
         margin-top: 68px;
         width: 188px;
         height: 48px;
+        border-radius: 8px;
     }
 }
 
@@ -241,6 +243,7 @@
         width: 168px;
         height: 40px;
         margin-top: 465px;
+        border-radius: 5px;
     }
     .circle-img{
         width: 100%;
@@ -317,7 +320,7 @@
 **********************/
 @media only screen and (max-width: 576px){
     .learnhall-info {
-        height: 722px;
+        height: 590px;
     }
     .learnhall-info-images{
         position:absolute; 
@@ -334,7 +337,7 @@
         position:relative;
         height: 215px;
         width:195px;
-        margin-top: 200px;
+        margin-top: 210px;
     }
     .model1-image{
         position:absolute;
@@ -370,7 +373,8 @@
         margin-top: 68px;
         width: 158px;
         height: 30px;
-        margin-top: 300px;
+        margin-top: 285px;
+        border-radius: 5px;
     }
     .circle-img{
         width: 100%;
@@ -396,7 +400,7 @@
         display: flex;
         width: 14px;
         height: 14px;
-        margin-top: 177px;
+        margin-top: 187px;
         margin-right: 228px;
         position: absolute;
     }
@@ -404,7 +408,7 @@
         display: flex;
         width: 14px;
         height: 14px;
-        margin-top: 180px;
+        margin-top: 190px;
         margin-right: 185px;
         position: absolute;
     }
@@ -412,7 +416,7 @@
         display: flex;
         width: 14px;
         height: 14px;
-        margin-top: 200px;
+        margin-top: 210px;
         margin-right: 220px;
         position: absolute;
     }
@@ -420,7 +424,7 @@
         display: flex;
         width: 14px;
         height: 14px;
-        margin-top: 423px;
+        margin-top: 433px;
         margin-left: 227px;
         position: absolute;
     }
@@ -428,7 +432,7 @@
         display: flex;
         width: 14px;
         height: 14px;
-        margin-top: 420px;
+        margin-top: 430px;
         margin-left: 180px;
         position: absolute;
     }
@@ -436,7 +440,7 @@
         display: flex;
         width: 14px;
         height: 14px;
-        margin-top: 402px;
+        margin-top: 412px;
         margin-left: 220px;
         position: absolute;
     }
