@@ -25,11 +25,33 @@ var components = [
     }
 ];
 
+var steps = [
+    {
+        "img1" : "images/orange-circle.png",
+        "img2" : "images/1.png",
+        "title" : "Step One",
+        "text" : "Inquire about our tutoring services by filling-out and submitting the 'Book a Session' form."
+    },
+    {
+        "img1" : "images/blue-circle.png",
+        "img2" : "images/2.png",
+        "title" : "Step Two",
+        "text" : "Within 24 hours an advisor will contact you to go over the student's tutoring goals & needs."
+    },
+    {
+        "img1" : "images/brown-circle.png",
+        "img2" : "images/3.png",
+        "title" : "Step Three",
+        "text" : "The advisor will find an ideal tutor match and set up a free session to ensure he/she is the right fit."
+    }
+]
+
 
 const Bio = {
     data(){
         return{
-            components: window.components
+            components: window.components,
+            steps: window.steps
         }
     }
 };
