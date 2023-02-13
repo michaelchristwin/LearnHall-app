@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="CSS/Header.css">
     <link rel="stylesheet" href="CSS/learnhall-info.css">
     <link rel="stylesheet" href="CSS/Choose-us.css">
+    <link rel="stylesheet" href="CSS/Our-service.css">
 
     <!--Links to Mediaquerries-->
     <link rel="stylesheet" href="CSS/MediaQuerries.css">
@@ -147,6 +148,39 @@
 
                 </div>
             </div>
+        </section>
+
+        <section class="service-works">
+            <div class="img">
+                <img class="background-brown" src="images/brown-circle-bottom.png" alt="background img">
+                <img class="background-right" src="images/brown-circle-right.png" alt="background img">
+                <img class="mdl-background" src="images/model-background.png" alt="background img">
+                <img class="mdl" src="images/model-2.png" alt="model img">
+            </div>
+            <div class="text">
+                <h2>How our service works</h2>
+                <p>Follow the three steps below to book your first session and get started with a tutor.</p>
+            </div>
+            <div class="container">
+                <div class="steps">
+                    <div class="steps-container">
+                    <div 
+                    v-for=" step in steps"
+                    class="step-box">
+                        <img class="background-img" :src="step.img1" alt="background img">
+                        <img class="number" :src="step.img2" alt="number img">
+                        <div class="steps-text">
+                            <h4>{{step.title}}</h4>
+                            <p>{{step.text}}</p>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
     </main>
     
