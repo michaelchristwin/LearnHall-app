@@ -320,7 +320,7 @@
 **********************/
 @media only screen and (max-width: 576px){
     .learnhall-info {
-        height: 590px;
+        height: 510px;
     }
     .learnhall-info-images{
         position:absolute; 
@@ -394,7 +394,7 @@
         width: 43px;
         height: 90px;
         right: 0;
-        margin-top: 470px;
+        margin-top: 460px;
     }
     .brown-circle{
         display: flex;
