@@ -1,0 +1,144 @@
+.become-tutor{
+    width: 100%;
+}
+.become-tutor .img .background-img{
+    width: 100%;
+    position: absolute;
+}
+.become-tutor .brown-background{
+    right: 0;
+    position: absolute;
+    
+}
+.become-tutor .mdl-background{
+    position: absolute;
+}
+.become-tutor .mdl{
+    position: absolute;
+}
+.become-tutor .text{
+    position: absolute;
+}
+.become-tutor .text h2{
+    font-family: "adobe-garamond-pro", serif;
+}
+.become-tutor .text button a{
+    text-decoration: none;
+    color:  #FFFFFF;
+}
+.become-tutor .text button{
+    background-color: #C04C40;
+    border: none;
+}
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    .become-tutor .img .background-img{
+        height: 800px;
+    }
+    .become-tutor .brown-background{
+        margin-top: 58px;
+        width: 550px;
+        height: 587px;
+    }
+    .become-tutor .mdl-background{
+        margin-top: 154px;
+        right: 115px;
+        height: 590px;
+    }
+    .become-tutor .mdl{
+        right: 0;
+        margin-top: 104px;
+    }
+    .become-tutor .text{
+        margin-top: 139px;
+    }
+    .become-tutor .text h2{
+        width: 526px;
+        font-size: 60px;
+        height: 135px;
+    }
+    .become-tutor .text p{
+        margin-top: 50px;
+        width: 482px;
+        font-size: 20px;
+    }
+    .become-tutor .text button{
+        margin-top: 80px;
+        width: 215px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #C04C40;
+        border: none;
+        border-radius: 8px;
+    }
+}
+
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+    .become-tutor .img .background-img{
+        height: 800px;
+    }
+    .become-tutor .brown-background{
+        margin-top: 48px;
+        width: 400px;
+        height: 417px;
+    }
+    .become-tutor .mdl-background{
+        margin-top: 90px;
+        right: 70px;
+        height: 420px;
+        width: 400px;
+    }
+    .become-tutor .mdl{
+        right: 0;
+        margin-top: 104px;
+        width: 520px;
+    }
+    .become-tutor .text{
+        margin-top: 139px;
+    }
+    .become-tutor .text h2{
+        width: 526px;
+        font-size: 60px;
+        height: 135px;
+    }
+    .become-tutor .text p{
+        margin-top: 50px;
+        width: 482px;
+        font-size: 20px;
+    }
+    .become-tutor .text button{
+        margin-top: 80px;
+        width: 215px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #C04C40;
+        border: none;
+        border-radius: 8px;
+    }
+}
+
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+
+}
+
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+
+}
