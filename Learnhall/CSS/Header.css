@@ -117,7 +117,7 @@ header{
     .logo-image {
         height: 30px;
         width: 30px;
-        
+        margin-right: 5px;
     }
     .logo-image img{
         height: 30px;
@@ -125,7 +125,7 @@ header{
     }
     .logo-text{
         height: 30px;
-        margin-left: 4px;
+        margin-left: 5px;
         margin-top: -2px;
     }
     .logo-text a{
@@ -228,6 +228,9 @@ header{
         text-decoration: none;
         color:#070a1396;
     } 
+    .nav-bar-hamburger-menu .hamburger-menu li a:hover{
+        text-decoration: underline;
+    }
     .nav-bar-hamburger-menu .hamburger-menu li img{
         height: 20px;
         width: 20px;
@@ -307,6 +310,9 @@ header{
         text-decoration: none;
         color:#070a1396;
     }    
+    .nav-bar-hamburger-menu .hamburger-menu li a:hover{
+        text-decoration: underline;
+    }
     .nav-bar-hamburger-menu .hamburger-menu li img{
         height: 17px;
         width: 17px;
