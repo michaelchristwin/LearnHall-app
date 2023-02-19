@@ -1,5 +1,7 @@
 .become-tutor{
     width: 100%;
+    position: relative;
+    height: max-content;
 }
 .become-tutor .img .background-img{
     width: 100%;
