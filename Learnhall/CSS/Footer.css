@@ -1,0 +1,254 @@
+footer *{
+    color:#ffffff9e
+}
+footer{
+    width: 100%;
+    background-color: #1F3158;
+    display: block;
+    position: relative;
+}
+.logo-image-1{
+    text-decoration: none ;
+    display: inline-block;
+    float: left;
+}
+.logo-text-1{
+    display: inline-block;
+}
+.logo-text-1 a{
+    color: #ffffff;
+    text-decoration: none ;
+    font-weight: 400;
+    font-family: "adobe-garamond-pro", serif;
+    font-style: normal;
+}
+.connect{
+    position: relative;
+}
+.connect .img{
+    display: inline-block;
+}
+.connect .img-1{
+    display: flex;
+    position: relative;
+}
+.connect .img-2{
+    position: absolute;
+}
+.connect .img-3{
+    position: absolute;
+}
+.connect span{
+    display: block;
+}
+.info{
+    display: flex;
+    justify-content:right;
+}
+.info .text{
+    display: inline-block;
+    position: relative;
+}
+.info .text h4{
+    color: #ffffff;
+}
+.info .text li{
+    list-style: none;
+}
+.info .text li a{
+    text-decoration: none;
+}
+footer hr{
+    border: 1px solid ;
+    width: 100%;
+    position: relative;
+    margin-top:210px ;
+}
+footer .copywrite .right{
+    display: flex;
+    justify-content: right;
+}
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    footer{
+        height: 500px;
+        margin-top: 799px;
+    }
+    .logo-image-1{
+        height: 38px;
+        width: 38px;
+        margin-top: 73px;
+    }
+    .logo-image img{
+        height: 38px;
+        width: 38px;
+        margin-bottom: 17px;
+    }
+    .logo-text-1{
+        height: 35px;
+        margin-left: 5px;
+        margin-top: 73px;
+        margin-bottom: 17px;
+    }
+    .logo-text-1 a{
+        font-size: 37px;
+    }
+    .connect{
+        margin-top: 20px;
+    }
+    .connect span{
+        font-size: 20px;
+    }
+    .connect .img-1{
+        margin-top: 15px;
+    }
+    .connect .img-2{
+        margin-top: -35px;
+        margin-left: 15px;
+    }
+    .connect .img-3{
+        margin-top: -33px;
+        margin-left: 14px;
+    }
+    .connect .img-3:first {
+        display: none;
+    }
+    .connect .img{
+        margin-right:17px ;
+    }
+    .info{
+        margin-top: -254px;
+    }
+    .info .text{
+        margin-left: 110px;
+    }
+    .info .text ul{
+        width: 165px;
+    }
+    .info .text h4{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .info .text li{
+        padding-bottom: 8px;
+    }
+    footer hr{
+        margin-top:210px ;
+    }
+    footer .copywrite{
+        margin-top: 22px;
+        font-size: 14px;
+    }
+    footer .copywrite .right{
+        margin-top: -23px;
+        padding-top: 5px;
+    }
+    footer .copywrite span{
+        height: 23px;
+    }
+    
+}
+
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+    footer{
+        height: 500px;
+        margin-top: 689px;
+    }
+    .logo-image-1{
+        height: 38px;
+        width: 38px;
+        margin-top: 73px;
+    }
+    .logo-image img{
+        height: 38px;
+        width: 38px;
+        margin-bottom: 17px;
+    }
+    .logo-text-1{
+        height: 35px;
+        margin-left: 5px;
+        margin-top: 73px;
+        margin-bottom: 17px;
+    }
+    .logo-text-1 a{
+        font-size: 37px;
+    }
+    .connect{
+        margin-top: 20px;
+    }
+    .connect span{
+        font-size: 20px;
+    }
+    .connect .img-1{
+        margin-top: 15px;
+    }
+    .connect .img-2{
+        margin-top: -35px;
+        margin-left: 15px;
+    }
+    .connect .img-3{
+        margin-top: -33px;
+        margin-left: 14px;
+    }
+    .connect .img-3:first {
+        display: none;
+    }
+    .connect .img{
+        margin-right:17px ;
+    }
+    .info{
+        margin-top: -254px;
+    }
+    .info .text{
+        margin-left: 110px;
+    }
+    .info .text ul{
+        width: 165px;
+    }
+    .info .text h4{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .info .text li{
+        padding-bottom: 8px;
+    }
+    footer hr{
+        margin-top:210px ;
+    }
+    footer .copywrite{
+        margin-top: 22px;
+        font-size: 14px;
+    }
+    footer .copywrite .right{
+        margin-top: -23px;
+        padding-top: 5px;
+    }
+    footer .copywrite span{
+        height: 23px;
+    }
+}
+
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+
+}
+
+
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+
+}
