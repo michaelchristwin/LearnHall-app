@@ -43,6 +43,13 @@ $(function () {
 
             $(".learnhall-info").css('marginTop', '0px');
         });
-    })
+    });
+
+
+    /* Discplays the current year at the copywright section */
+    let currentYear= new Date();
+    currentYear = currentYear.getFullYear();
+
+    $("#current_year").text(currentYear)
 });
 
