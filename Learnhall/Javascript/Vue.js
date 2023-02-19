@@ -60,7 +60,7 @@ var lets_connect = [
     {
         "img1" : "images/white-circle.png",
         "img2" : "images/twitter.png",
-        "link" : "https://https://twitter.com/learnhall"
+        "link" : "https://twitter.com/learnhall"
     },
 ];
 
@@ -68,13 +68,13 @@ var Contact_Us = [
     {
         "img1" : "images/white-circle.png",
         "img2" : "images/phone-blue.png",
-        "link" : "503-342-7214"
+        "link" : "tel:503-342-7214"
     },
     {
         "img1" : "images/white-circle.png",
         "img2" : "images/email.png",
         "img3" : "images/box.png",
-        "link" : "info@learnhall.com"
+        "link" : "mailto:info@learnhall.com"
     },
 ]
 
