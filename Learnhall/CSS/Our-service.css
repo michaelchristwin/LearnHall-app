@@ -425,7 +425,7 @@
 **********************/
 @media only screen and (max-width: 576px){
     .service-works{
-        height: 1125px;
+        height: 825px;
     }
     .service-works .img{
         display: flex;
