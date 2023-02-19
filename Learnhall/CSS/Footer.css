@@ -58,6 +58,9 @@ footer{
 .info .text li a{
     text-decoration: none;
 }
+.info .text li a:hover {
+    text-decoration: underline;
+}
 footer hr{
     border: 1px solid ;
     width: 100%;

@@ -32,6 +32,9 @@ header{
     text-decoration: none;
     color:#070a1396;
 }
+.nav-bar li a:hover { 
+    text-decoration: underline;
+}
 .nav-bar img{
     float: left;
 }

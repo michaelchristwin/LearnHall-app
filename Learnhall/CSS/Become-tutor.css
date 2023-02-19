@@ -28,6 +28,10 @@
     text-decoration: none;
     color:  #FFFFFF;
 }
+ 
+.become-tutor .text button a:hover {
+    text-decoration: underline;
+}
 .become-tutor .text button{
     background-color: #C04C40;
     border: none;
