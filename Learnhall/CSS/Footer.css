@@ -168,34 +168,34 @@ footer .copywrite .right{
     .logo-image-1{
         height: 38px;
         width: 38px;
-        margin-top: 73px;
+        margin-top: 60px;
     }
     .logo-image img{
         height: 38px;
         width: 38px;
-        margin-bottom: 17px;
+        margin-bottom: 12px;
     }
     .logo-text-1{
         height: 35px;
         margin-left: 5px;
-        margin-top: 73px;
-        margin-bottom: 17px;
+        margin-top: 60px;
+        margin-bottom: 12px;
     }
     .logo-text-1 a{
-        font-size: 37px;
+        font-size: 30px;
     }
     .connect{
         margin-top: 20px;
     }
     .connect span{
-        font-size: 20px;
+        font-size: 18px;
     }
     .connect .img-1{
-        margin-top: 15px;
+        margin-top: 13px;
     }
     .connect .img-2{
         margin-top: -35px;
-        margin-left: 15px;
+        margin-left: 14px;
     }
     .connect .img-3{
         margin-top: -33px;
@@ -208,23 +208,28 @@ footer .copywrite .right{
         margin-right:17px ;
     }
     .info{
-        margin-top: -254px;
+        margin-top: -244px;
     }
     .info .text{
-        margin-left: 110px;
+        margin-left: 70px;
     }
     .info .text ul{
-        width: 165px;
+        width: 145px;
+        
     }
     .info .text h4{
-        font-size: 20px;
-        margin-bottom: 15px;
+        font-size: 18px;
+        margin-bottom: 13px;
     }
     .info .text li{
         padding-bottom: 8px;
     }
+    .info .text li a{
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
     footer hr{
-        margin-top:210px ;
+        margin-top:195px ;
     }
     footer .copywrite{
         margin-top: 22px;
@@ -244,7 +249,98 @@ footer .copywrite .right{
 ******* Tablet ********
 **********************/
 @media only screen and (min-width: 576px) and (max-width: 960px){
-
+    footer{
+        height: 600px;
+        margin-top: 599px;
+    }
+    .logo-image-1{
+        height: 38px;
+        width: 38px;
+        margin-top: 190px;
+    }
+    .logo-image img{
+        height: 38px;
+        width: 38px;
+        margin-bottom: 12px;
+        position: absolute;
+    }
+    .logo-text-1{
+        height: 35px;
+        margin-left: 5px;
+        margin-top: 190px;
+        margin-bottom: 12px;
+        position: absolute;
+    }
+    .logo-text-1 a{
+        font-size: 30px;
+    }
+    .connect{
+        margin-top: 300px;
+        position: absolute;
+        display: inline-block;
+    }
+    .connect span{
+        font-size: 18px;
+    }
+    .connect .img-1{
+        margin-top: 13px;
+    }
+    .connect .img-2{
+        margin-top: -35px;
+        margin-left: 14px;
+    }
+    .connect .img-3{
+        margin-top: -33px;
+        margin-left: 14px;
+    }
+    .connect .img-3:first {
+        display: none;
+    }
+    .connect .img{
+        margin-right:17px ; 
+    }
+    .info{
+        margin-top: 44px;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        width: 550px;
+        position: relative;
+    }
+    .info .text{
+        margin-left: 45px;
+    }
+    .info .text:first-child{
+        margin-left: 0px;
+    }
+    .info .text ul{
+        width: 145px;
+    }
+    .info .text h4{
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+    .info .text li{
+        padding-bottom: 8px;
+    }
+    .info .text li a{
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+    footer hr{
+        margin-top:195px ;
+    }
+    footer .copywrite{
+        margin-top: 22px;
+        font-size: 14px;
+    }
+    footer .copywrite .right{
+        margin-top: -23px;
+        padding-top: 5px;
+    }
+    footer .copywrite span{
+        height: 23px;
+    }
 }
 
 
