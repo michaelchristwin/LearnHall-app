@@ -425,7 +425,7 @@
 **********************/
 @media only screen and (max-width: 576px){
     .service-works{
-        height: 825px;
+        height: 805px;
     }
     .service-works .img{
         display: flex;
@@ -511,8 +511,8 @@
         margin-top: 0px;
     }
     .service-works .background-brown-2{
-        height: 140px;
-        width: 140px;
+        height: 120px;
+        width: 120px;
         bottom: 0;
         position: absolute;
         left: 0;
