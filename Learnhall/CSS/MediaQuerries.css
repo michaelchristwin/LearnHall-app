@@ -33,6 +33,7 @@
         width: 80%;
         min-width: 550px;
         margin: auto;
+        position: relative;
     }
 }
 /*Mobile*/
@@ -41,5 +42,6 @@
         width: 80%;
         min-width: 270px;
         margin: auto;
+        position: relative;
     }
 }
