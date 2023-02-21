@@ -1,0 +1,72 @@
+.parent-reviews{
+    width: 100%;
+    text-align: center;
+}
+.slider .content{
+    margin: auto;
+}
+
+
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    .parent-reviews{
+        height: 871px;
+    }
+    .parent-reviews .text{
+        margin-top: 150px;
+    }
+    .parent-reviews .text h2{
+        font-size: 60px;
+        font-family: "adobe-garamond-pro", serif;
+    }
+    .parent-reviews .text p{
+        margin-bottom: 25px;
+        font-size: 22px;
+        width: 785px;
+        margin: auto;
+    }
+    .slider{
+        width: 1210px;
+        height: 300px;
+        background-color: aqua;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .slider .content{
+        width: 390px;
+        height: 300px;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
+        margin-left: 20px;
+    }
+    .slider .content:first-child{
+        margin-left: 0px;
+    }
+}
+
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+
+}
+
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+
+}
+
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+
+}
