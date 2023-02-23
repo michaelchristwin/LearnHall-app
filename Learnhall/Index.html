@@ -53,8 +53,8 @@
                             <li><a href="pages/Blog.html">Blog</a></li>
                             <li>
                                 <img src="images/contact.png" alt="phone-icon">
-                                <span>503-342-7214</span>
-                            </li> <!-- Call feature -->
+                                <span><a href="tel:503-342-7214">503-342-7214</a></span>
+                            </li>
                         </ul>
                     </div>
     
@@ -77,8 +77,8 @@
                         <li><a href="pages/Blog.html">Blog</a></li>
                         <li>
                             <img src="images/contact.png" alt="phone-icon-hamburger">
-                            <span>503-342-7214</span>
-                        </li> <!-- Call feature -->
+                            <span><a href="tel:503-342-7214">503-342-7214</a></span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -195,15 +195,17 @@
                 </div>
 
                 <div class="slider">
-                    <div class="content">
-                        <img class="parent-mdl" src="images/parent-mdl.jpg" alt="mdl img">
+                    <div 
+                    v-for=" review in parentsReview"
+                    class="content">
+                        <img class="parent-mdl" :src="review.img" alt="mdl img">
                         <div class="stars">
-                            <h4>Kim K.</h4> 
+                            <h4>{{review.name}}</h4> 
                             <img src="images/star-1.png" alt="img">
                         </div>
                         <div class="text">
-                            <p>"Thanks to the encouraging and fun atmosphere Mike creates around math, my
-                            kid has gone from absolute dread and tears to believing in himself. I never thought I'd see him laughing and cheering"</p>
+                            <p class="review-text">"{{review.text}}"... <span class="read-more">read more.</span></p>
+                            <p class="review-text-1">"{{review.text}} {{review.more_text}}"</p>
                         </div>
 
                     </div>
