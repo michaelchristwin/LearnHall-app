@@ -69,10 +69,10 @@ header{
     .logo-text{
         height: 35px;
         margin-left: 5px;
-        margin-top: -2px;
+        margin-top: -8px;
     }
     .logo-text a{
-        font-size: 37px;
+        font-size: 47px;
     }
     .nav-bar{
         margin-top: -30px;
@@ -129,7 +129,7 @@ header{
         margin-top: -2px;
     }
     .logo-text a{
-        font-size: 30px;
+        font-size: 40px;
     }
     .nav-bar{
         margin-top: -26px;
@@ -181,11 +181,11 @@ header{
     }
     .logo-text{
         height: 29px;
-        margin-left: 4px;
+        margin-left: 10px;
         margin-top: -2px;
     }
     .logo-text a{
-        font-size: 29px;
+        font-size: 39px;
     }
     .hamburger-menu-open{
         margin-top: -32px;
@@ -260,12 +260,12 @@ header{
         padding: 0px;
     }
     .logo-image {
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
     }
     .logo-image img{
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
     }
     .logo-text{
         height: 25px;
@@ -273,7 +273,7 @@ header{
         margin-top: -2px;
     }
     .logo-text a{
-        font-size: 28px;
+        font-size: 20px;
     }
     .hamburger-menu-open{
         margin-top: -28px;
@@ -281,8 +281,8 @@ header{
         justify-content: right;
     }
     .hamburger-menu-open img{
-        height: 32px;
-        width: 32px;
+        height: 24px;
+        width: 24px;
     }
     .hamburger-menu-close{
         margin-top: -24px;
@@ -291,8 +291,8 @@ header{
         display: none;
     }
     .hamburger-menu-close img{
-        height: 25px;
-        width: 25px;
+        height: 17px;
+        width: 17px;
     }
     .nav-bar-hamburger-menu .hamburger-menu{
         width: 300px;

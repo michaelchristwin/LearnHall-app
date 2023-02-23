@@ -455,23 +455,23 @@ footer .copywrite .right{
 @media only screen and (max-width: 576px){
     footer{
         height: 380px;
-        margin-top: 419px;
+        margin-top: 45px;
     }
     .logo-image-1{
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
         margin-top: 260px;
     }
     .logo-image-1 img{
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
         margin-bottom: 12px;
         position: absolute;
     }
     .logo-text-1{
         height: 25px;
         margin-left: 4px;
-        margin-top: 260px;
+        margin-top: 258px;
         margin-bottom: 12px;
         position: absolute;
     }
@@ -496,17 +496,17 @@ footer .copywrite .right{
         text-align: center;
     }
     .connect .img-1{
-        margin-top: 13px;
-        width: 26px;
-        height: 26px;
+        margin-top: 10px;
+        width: 24px;
+        height: 24px;
     }
     .connect .img-2{
-        margin-top: -21px;
+        margin-top: -22px;
         margin-left: 7px;
     }
     .connect .img-2 img{
-        width: 12px;
-        height: 12px;
+        width: 10px;
+        height: 10px;
     }
     .connect .img-3{
         margin-top: -33px;
@@ -523,25 +523,25 @@ footer .copywrite .right{
         margin-left: 3px;
     }
     .connect-1 .img-1{
-        margin-top: 13px;
-        width: 26px;
-        height: 26px;
+        margin-top: 10px;
+        width: 24px;
+        height: 24px;
     }
     .connect-1 .img-2{
         margin-top: -22px;
         margin-left: 7px;
     }
     .connect-1 .img-2 img{
-        width: 12px;
+        width: 10px;
         height: 10px;
     }
     .connect-1 .img-3{
         margin-top: -21px;
-        margin-left: 7px;
+        margin-left: 6.5px;
     }
     .connect-1 .img-3 img{
-        width: 12px;
-        height: 12px;
+        width: 11px;
+        height: 11px;
     }
     .connect-1 .img-3:first {
         display: none;
@@ -550,7 +550,7 @@ footer .copywrite .right{
         margin-right:4px ; 
     }
     .info{
-        padding-top: 40px;
+        padding-top: 30px;
         margin: auto;
         justify-content: center;
         display: flex;
@@ -563,7 +563,7 @@ footer .copywrite .right{
        /*  background-color: aqua; */
     }
     .info .text{
-        margin-left: 5px;
+        margin-left: 20px;
     }
     .info .text:first-child{
         margin-left: 0px;
@@ -573,11 +573,12 @@ footer .copywrite .right{
         width: 85px;
     }
     .info .text h4{
-        font-size: 11px;
-        margin-bottom: 8px;
+        font-size: 12px;
+        margin-bottom: 13px;
     }
     .info .text li{
-        padding-bottom: 8px;
+        padding-bottom: 9px;
+        width: 101;
     }
     .info .text li a{
         padding-bottom: 0px;
@@ -589,13 +590,13 @@ footer .copywrite .right{
     }
     footer .copywrite{
         margin-top: 350px;
-        font-size: 8px;
+        font-size: 9px;
         position: absolute;
         width: 100%;
     }
     footer .copywrite .right{
         margin-top: -14px;
-        padding-top: 5px;
+        padding-top: 6px;
         position: absolute;
         right: 0;
     }

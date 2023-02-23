@@ -323,7 +323,7 @@
 **********************/
 @media only screen and (max-width: 576px){
     .learnhall-info {
-        height: 510px;
+        height: 440px;
     }
     .learnhall-info-images{
         position:absolute; 
@@ -338,46 +338,49 @@
     }
     .modelbackground-image{
         position:relative;
-        height: 215px;
-        width:195px;
-        margin-top: 210px;
+        height: 189px;
+        width:170px;
+        margin-top: 180px;
     }
     .model1-image{
         position:absolute;
-        width: 180px;
-        margin-top: -225px;
+        width: 158px;
+        height: 197px;
+        margin-top: -197px;
         margin-left: 8px;
     }
     .learnhall-info-text{
-        margin-top: 31px;
+        margin-top: 16px;
         height: 722px;
         position:relative;
         text-align: center;
     }
     .learnhall-info-text .heading{
-        font-size: 26px;
+        font-size: 28px;
         font-weight: 600;
         width: 100%;
         text-align: center;
     }
     .learnhall-info-text .sub-text{
-        font-size: 16px;
-        margin-top: 4px;
+        font-size: 15px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
     }
     .learnhall-info-text p{
-        font-size: 14px;
-        margin-top: 26px;
+        font-size: 12px;
+        margin-top: 15px;
         text-align: center;
+        width: 272px;
+        margin: auto;
     }
     .learnhall-info-text button{
-        font-size: 14px;
+        font-size: 11px;
         margin-top: 68px;
-        width: 158px;
-        height: 30px;
-        margin-top: 285px;
-        border-radius: 5px;
+        width: 122px;
+        height: 24px;
+        margin-top: 245px;
+        border-radius: 3px;
     }
     .circle-img{
         width: 100%;
@@ -387,64 +390,64 @@
     }
     .orange-img1{
         position: relative;
-        width: 80px;
-        height: 80px;
-        left: -55px;
-        top: -25px;
+        width: 62px;
+        height: 62px;
+        left: -45px;
+        top: -15px;
     }
     .orange-img2{
         position: absolute;
-        width: 43px;
-        height: 90px;
+        width: 30px;
+        height: 62px;
         right: 0;
-        margin-top: 460px;
+        margin-top: 340px;
     }
     .brown-circle{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 187px;
-        margin-right: 228px;
+        width: 8px;
+        height: 8px;
+        margin-top: 163px;
+        margin-right: 200px;
         position: absolute;
     }
     .blue-circle{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 190px;
-        margin-right: 185px;
+        width: 8px;
+        height: 8px;
+        margin-top: 165px;
+        margin-right: 165px;
         position: absolute;
     }
     .orange-circle{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 210px;
-        margin-right: 220px;
+        width: 8px;
+        height: 8px;
+        margin-top: 180px;
+        margin-right: 195px;
         position: absolute;
     }
     .brown-circle-1{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 433px;
-        margin-left: 227px;
+        width: 8px;
+        height: 8px;
+        margin-top: 380px;
+        margin-left: 197px;
         position: absolute;
     }
     .blue-circle-1{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 430px;
-        margin-left: 180px;
+        width: 8px;
+        height: 8px;
+        margin-top: 377px;
+        margin-left: 163px;
         position: absolute;
     }
     .orange-circle-1{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 412px;
-        margin-left: 220px;
+        width: 8px;
+        height: 8px;
+        margin-top: 363px;
+        margin-left: 193px;
         position: absolute;
     }
 }

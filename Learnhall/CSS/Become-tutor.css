@@ -289,7 +289,7 @@
         position: absolute;
         width: 100%;
         padding-bottom: 50px;
-        height: 800px;
+        height: 410px;
     }
     .become-tutor .img .background-img{
         display: none;
@@ -298,15 +298,15 @@
         display: none;
     }
     .become-tutor .mdl-background{
-        margin-top:270px ;
-        height: 215px;
-        width:195px;
+        margin-top:170px ;
+        height: 189px;
+        width:170px;
         position: relative;
        }
     .become-tutor .mdl{
-        margin-top: 260px;
-        width: 250px;
-        height: 225px;
+        margin-top: 160px;
+        width: 230px;
+        height: 199px;
     }
     .become-tutor .text{
         margin-top: 95px;
@@ -317,7 +317,7 @@
     }
     .become-tutor .text h2{
         width: 236px;
-        font-size: 26px;
+        font-size: 23px;
         height: 80px;
         display: flex;
         margin: auto;
@@ -329,69 +329,70 @@
         display: flex;
         margin-top: 2px;
         width: 250px;
-        font-size: 14px;
+        font-size: 12px;
         margin: auto;
     }
     .become-tutor .text button{
-        font-size: 14px;
-        margin-top: 28px;
-        width: 158px;
-        height: 30px;
-        border-radius: 5px;
+        font-size: 11px;
+        margin-top: 68px;
+        width: 122px;
+        height: 24px;
+        margin-top: 255px;
+        border-radius: 3px;
     }
     .become-tutor .img .brown-circle{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 248px;
-        margin-right: 230px;
+        width: 8px;
+        height: 8px;
+        margin-top: 155px;
+        margin-right: 200px;
         position: absolute;
     }
     .become-tutor .img .blue-circle{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 250px;
-        margin-right: 180px;
+        width: 8px;
+        height: 8px;
+        margin-top: 156px;
+        margin-right: 160px;
         position: absolute;
     }
     .become-tutor .img .orange-circle{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 273px;
-        margin-right: 220px;
+        width: 8px;
+        height: 8px;
+        margin-top: 171px;
+        margin-right: 190px;
         position: absolute;
     }
     .become-tutor .img .brown-circle-1{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 495px;
-        margin-left: 257px;
+        width: 8px;
+        height: 8px;
+        margin-top: 367px;
+        margin-left: 235px;
         position: absolute;
     }
     .become-tutor .img .blue-circle-1{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 493px;
-        margin-left: 203px;
+        width: 8px;
+        height: 8px;
+        margin-top: 365px;
+        margin-left: 195px;
         position: absolute;
     }
     .become-tutor .img .orange-circle-1{
         display: flex;
-        width: 14px;
-        height: 14px;
-        margin-top: 470px;
-        margin-left: 247px;
+        width: 8px;
+        height: 8px;
+        margin-top: 351px;
+        margin-left: 227px;
         position: absolute;
     }
     .become-tutor .orange-img2{
         position: absolute;
-        width: 43px;
-        height: 90px;
+        width: 34px;
+        height: 75px;
         right: 0;
-        margin-top: 515px;
+        margin-top: 375px;
     }
 }
