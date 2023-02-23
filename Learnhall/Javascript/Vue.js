@@ -80,11 +80,28 @@ var Contact_Us = [
 
 var parents_reviews = [
     {
-        "img" : "images/star-1.png",
+        "img" : "images/parent-mdl.jpg",
         "name" : "Kim K.",
         "num_of_starts" : "5",
-        "text" : "Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought I'd see him laughing and cheering"
+        "text" : "Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought I'd see him laughing and cheering",
+        "more_text": "for my son. I am blessed to have found this company that is run by someone so compassionate and serious about seeing other people's children succeed. My son worked with val and he adores her! My son opened up to her right away. She's young, energetic, & knows how to engage with him to get him to open up, & it's wonderful to see him finally enjoying the learning experince becouse she is both a good teacher and a fun teacher and it has made all the difference."
     },
+    {
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Kim K.",
+        "num_of_starts" : "5",
+        "text" : "Now I can personally verify and attest to why Mike gets 5 star reviews. I've observed my child learning with him, and he just seems to have a natural ability to guide a student to the best",
+        "more_text": "learning space for them. He gives them the confidence and enthusiasm, and helps to impart the skills that help them access their own inner intelligence. It's a rare skill. Thank you Mike!"
+    },
+    {
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Kim K.",
+        "num_of_starts" : "5",
+        "text" : "Mike listened to us and helped us target our child's specific needs. He was willing to take us on, even though my kid has special needs and needed plenty of patience. Mike had that for us",
+        "more_text": ", and he has been vary pleasent to work with, tweaking his approach and fine tunning things from time to tome. He has been an encouragement to us and we appreciate the consistent help he has been."
+    },
+    
+    
 ]
 
 
@@ -95,7 +112,8 @@ const Bio = {
             components: window.components,
             steps: window.steps,
             letsConnect : window.lets_connect,
-            contactUs : Contact_Us
+            contactUs : Contact_Us,
+            parentsReview : parents_reviews
         }
     }
 };
