@@ -2,10 +2,18 @@
     width: 100%;
     text-align: center;
 }
+.slider{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+}
 .slider .content{
     margin: auto;
     display: flex;
-    justify-content:left; 
+    justify-content:flex-start; 
+    flex-wrap: wrap;
+    height: max-content;
+    
 }
 .parent-reviews .text h2{
     font-family: "adobe-garamond-pro", serif;
@@ -17,23 +25,26 @@
     margin: auto;
 }
 .slider .parent-mdl{
-    display: flex;
+    display: block;
 }
 .slider .stars{
-    display: inline-block;
+    display: block;
     position: relative;
     background-color: aliceblue;
     text-align: left;
     height: max-content;
 }
 .slider .text {
-    height: max-content;
     display: flex;
     text-align:left;
-    position:sticky;
+    position:relative;
     background-color: aliceblue;
 }
-
+.slider .text .read-more{
+    color: #233C7E;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /**********************
@@ -54,17 +65,20 @@
         font-size: 22px;
         width: 785px;
     }
+    .parent-reviews .text .review-text-1{
+        display: none;
+    }
     .slider{
         width: 1210px;
-        height: 300px;
+        /* height: 300px; */
         background-color: aqua;
         margin-top: 60px;
     }
     .slider .content{
         width: 390px;
-        height: 300px;
+        height: max-content;
         box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
-        margin-left: 20px; 
+        margin-left: 20px;
     }
     .slider .content:first-child{
         margin-left: 0px;
@@ -86,11 +100,13 @@
     .slider .text {
         margin-left: -140px;
         margin-top: 140px;
+        height: 160px;
     }
     .slider .text p{
         width: 331px;
         height: 149px;
         font-size: 20px;
+        padding-bottom: 20px;
     }
    
 }
