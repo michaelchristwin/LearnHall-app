@@ -45,6 +45,11 @@ $(function () {
         });
     });
 
+    $(".read-more").click(function(){
+
+        $(".review-text").css('display', 'none');
+        $(".review-text-1").css('display', 'flex');
+    });
 
     /* Discplays the current year at the copywright section */
     let currentYear= new Date();
