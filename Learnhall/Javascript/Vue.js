@@ -78,6 +78,15 @@ var Contact_Us = [
     },
 ]
 
+var parents_reviews = [
+    {
+        "img" : "images/star-1.png",
+        "name" : "Kim K.",
+        "num_of_starts" : "5",
+        "text" : "Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought I'd see him laughing and cheering"
+    },
+]
+
 
 
 const Bio = {
