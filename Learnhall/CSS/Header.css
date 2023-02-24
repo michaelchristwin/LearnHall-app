@@ -32,6 +32,9 @@ header{
     text-decoration: none;
     color:#070a1396;
 }
+.nav-bar li a:active{
+    color: #070A13;
+}
 .nav-bar li span a{
     text-decoration: none;
     color: #070A13;
@@ -230,6 +233,9 @@ header{
     .nav-bar-hamburger-menu .hamburger-menu li a{
         font-size: 20px;
         text-decoration: none;
+        color:#070a13;
+    }
+    .nav-bar-hamburger-menu .hamburger-menu li a:active{
         color:#070a1396;
     } 
     .nav-bar-hamburger-menu .hamburger-menu li span a{
@@ -318,7 +324,10 @@ header{
         font-size: 17px;
         text-decoration: none;
         color:#070a1396;
-    }    
+    }   
+    .nav-bar-hamburger-menu .hamburger-menu li a:active{
+        color:#070a1396;
+    }  
     .nav-bar-hamburger-menu .hamburger-menu li a:hover{
         text-decoration: underline;
     }
