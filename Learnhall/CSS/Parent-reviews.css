@@ -13,38 +13,50 @@
     justify-content:flex-start; 
     flex-wrap: wrap;
     height: max-content;
+    top: 0;
+    margin-top: 0px;
     
 }
-.parent-reviews .text h2{
+.parent-reviews .text-1 h2{
     font-family: "adobe-garamond-pro", serif;
 }
-.parent-reviews .text p{
+.parent-reviews .text-1 p{
     margin: auto;
 }
 .slider{
     margin: auto;
 }
 .slider .parent-mdl{
-    display: block;
+    display: inline;
 }
 .slider .stars{
     display: block;
     position: relative;
-    background-color: aliceblue;
     text-align: left;
-    height: max-content;
+    width: 100%;
 }
 .slider .text {
     display: flex;
     text-align:left;
     position:relative;
-    background-color: aliceblue;
+    background-color: greenyellow;
+    height: 100px;
 }
 .slider .text .read-more{
     color: #233C7E;
     display: flex;
     flex-wrap: wrap;
 }
+.slider .name{
+    display: inline-block;
+}
+.slider .parent-mdl{
+    position: relative;
+}
+.slider .mdl{
+    display: inline-block;
+}
+
 
 
 /**********************
@@ -54,13 +66,14 @@
     .parent-reviews{
         height: 871px;
     }
-    .parent-reviews .text{
+    .parent-reviews .text-1{
+        margin-top: 11px;
         margin-top: 150px;
     }
-    .parent-reviews .text h2{
+    .parent-reviews .text-1 h2{
         font-size: 60px;
     }
-    .parent-reviews .text p{
+    .parent-reviews .text-1 p{
         margin-bottom: 25px;
         font-size: 22px;
         width: 785px;
@@ -70,13 +83,11 @@
     }
     .slider{
         width: 1210px;
-        /* height: 300px; */
         background-color: aqua;
         margin-top: 60px;
     }
     .slider .content{
         width: 390px;
-        height: max-content;
         box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
         margin-left: 20px;
     }
@@ -86,27 +97,31 @@
     .slider .parent-mdl{
         width: 77px;
         height: 77px;
-        margin-left: 32px;
-        margin-top: 32px;
     }
     .slider .stars{
-        margin-top: 46px;
-        margin-left: 8px;
+        margin-top: 32px;
+        margin-left: 32px;
     }
     .slider .stars h2{
         font-size: 22px;
         margin-bottom: 7px;
+        position:static;
     }
     .slider .text {
-        margin-left: -140px;
-        margin-top: 140px;
-        height: 160px;
+        margin-left: 29px;
+        width: 331px;
+        height: max-content;
     }
     .slider .text p{
         width: 331px;
-        height: 149px;
         font-size: 20px;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .slider .name{
+        margin-left: 8px;
+    }
+    .slider .name img{
+        margin-bottom: 14px;
     }
    
 }
