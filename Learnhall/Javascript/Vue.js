@@ -88,14 +88,14 @@ var parents_reviews = [
     },
     {
         "img" : "images/parent-mdl.jpg",
-        "name" : "Kim K.",
+        "name" : "Bill D.",
         "num_of_starts" : "5",
         "text" : "Now I can personally verify and attest to why Mike gets 5 star reviews. I've observed my child learning with him, and he just seems to have a natural ability to guide a student to the best",
         "more_text": "learning space for them. He gives them the confidence and enthusiasm, and helps to impart the skills that help them access their own inner intelligence. It's a rare skill. Thank you Mike!"
     },
     {
         "img" : "images/parent-mdl.jpg",
-        "name" : "Kim K.",
+        "name" : "Julie S.",
         "num_of_starts" : "5",
         "text" : "Mike listened to us and helped us target our child's specific needs. He was willing to take us on, even though my kid has special needs and needed plenty of patience. Mike had that for us",
         "more_text": ", and he has been vary pleasent to work with, tweaking his approach and fine tunning things from time to tome. He has been an encouragement to us and we appreciate the consistent help he has been."
