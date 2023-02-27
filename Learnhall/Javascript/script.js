@@ -45,11 +45,22 @@ $(function () {
         });
     });
 
+    /* read more function */
     $(".read-more").click(function(){
 
-        $(".review-text").css('display', 'none');
-        $(".review-text-1").css('display', 'flex');
+        currentText = $(this).attr("id");
+        parentElement = $(this).parent();
+        showText = parentElement.parent().children().last().attr("id")
+    
+        currentText = "#" + currentText
+        showText =  "#" + showText
+
+        $(currentText).css('display', 'none');
+        $(showText).css('display', 'block');
+        
+    
     });
+
 
     /* Discplays the current year at the copywright section */
     let currentYear= new Date();
