@@ -208,8 +208,8 @@
                             </div>
                         </div>
                         <div class="text">
-                            <p class="review-text">"{{review.text}}"... <span class="read-more">read more.</span></p>
-                            <p class="review-text-1">"{{review.text}} {{review.more_text}}"</p>
+                            <p :id="review.Id" class="review-text">"{{review.text}}"... <span :id="review.Id" class="read-more">read more.</span></p>
+                            <p :id="review.let" class="review-text-1">"{{review.text}} {{review.more_text}}"</p>
                         </div>
 
                     </div>
