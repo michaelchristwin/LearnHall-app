@@ -80,6 +80,8 @@ var Contact_Us = [
 
 var parents_reviews = [
     {
+        "Id" : "1",
+        "let" : "A",
         "img" : "images/parent-mdl.jpg",
         "name" : "Kim K.",
         "num_of_starts" : "5",
@@ -87,6 +89,8 @@ var parents_reviews = [
         "more_text": "for my son. I am blessed to have found this company that is run by someone so compassionate and serious about seeing other people's children succeed. My son worked with val and he adores her! My son opened up to her right away. She's young, energetic, & knows how to engage with him to get him to open up, & it's wonderful to see him finally enjoying the learning experince becouse she is both a good teacher and a fun teacher and it has made all the difference."
     },
     {
+        "Id" : "2",
+        "let" : "B",
         "img" : "images/parent-mdl.jpg",
         "name" : "Bill D.",
         "num_of_starts" : "5",
@@ -94,6 +98,8 @@ var parents_reviews = [
         "more_text": "learning space for them. He gives them the confidence and enthusiasm, and helps to impart the skills that help them access their own inner intelligence. It's a rare skill. Thank you Mike!"
     },
     {
+        "Id" : "3",
+        "let" : "C",
         "img" : "images/parent-mdl.jpg",
         "name" : "Julie S.",
         "num_of_starts" : "5",
