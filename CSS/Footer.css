@@ -1,0 +1,599 @@
+footer * {
+  color: #ffffff9e;
+}
+footer {
+  width: 100%;
+  background-color: #1f3158;
+  display: block;
+  position: relative;
+}
+.logo-image-1 {
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+.logo-text-1 {
+  display: inline-block;
+}
+.logo-text-1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "adobe-garamond-pro", serif;
+  font-style: normal;
+}
+.connect {
+  position: relative;
+}
+.connect .img {
+  display: inline-block;
+}
+.connect .img-1 {
+  display: flex;
+  position: relative;
+}
+.connect .img-2 {
+  position: absolute;
+}
+.connect .img-3 {
+  position: absolute;
+}
+.connect span {
+  display: block;
+}
+.connect-1 {
+  position: relative;
+}
+.connect-1 .img {
+  display: inline-block;
+}
+.connect-1 .img-1 {
+  display: flex;
+  position: relative;
+}
+.connect-1 .img-2 {
+  position: absolute;
+}
+.connect-1 .img-3 {
+  position: absolute;
+}
+.connect-1 span {
+  display: block;
+}
+.info {
+  display: flex;
+  justify-content: right;
+}
+.info .text {
+  display: inline-block;
+  position: relative;
+}
+.info .text h4 {
+  color: #ffffff;
+}
+.info .text li {
+  list-style: none;
+}
+.info .text li a {
+  text-decoration: none;
+}
+.info .text li a:hover {
+  text-decoration: underline;
+}
+footer hr {
+  border: 1px solid;
+  width: 100%;
+  position: relative;
+  margin-top: 210px;
+}
+footer .copywrite .right {
+  display: flex;
+  justify-content: right;
+}
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px) {
+  footer {
+    height: 500px;
+    margin-top: 799px;
+  }
+  .logo-image-1 {
+    height: 38px;
+    width: 38px;
+    margin-top: 73px;
+  }
+  .logo-image img {
+    height: 38px;
+    width: 38px;
+    margin-bottom: 17px;
+  }
+  .logo-text-1 {
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 73px;
+    margin-bottom: 17px;
+  }
+  .logo-text-1 a {
+    font-size: 37px;
+  }
+  .connect {
+    margin-top: 20px;
+  }
+  .connect span {
+    font-size: 20px;
+  }
+  .connect .img-1 {
+    margin-top: 15px;
+  }
+  .connect .img-2 {
+    margin-top: -35px;
+    margin-left: 15px;
+  }
+  .connect .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect .img-3:first {
+    display: none;
+  }
+  .connect .img {
+    margin-right: 17px;
+  }
+  .connect-1 {
+    margin-top: 20px;
+  }
+  .connect-1 span {
+    font-size: 20px;
+  }
+  .connect-1 .img-1 {
+    margin-top: 15px;
+  }
+  .connect-1 .img-2 {
+    margin-top: -35px;
+    margin-left: 15px;
+  }
+  .connect-1 .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect-1 .img-3:first {
+    display: none;
+  }
+  .connect-1 .img {
+    margin-right: 17px;
+  }
+  .info {
+    margin-top: -254px;
+  }
+  .info .text {
+    margin-left: 110px;
+  }
+  .info .text ul {
+    width: 165px;
+  }
+  .info .text h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .info .text li {
+    padding-bottom: 8px;
+  }
+  footer hr {
+    margin-top: 210px;
+  }
+  footer .copywrite {
+    margin-top: 22px;
+    font-size: 14px;
+  }
+  footer .copywrite .right {
+    margin-top: -23px;
+    padding-top: 5px;
+  }
+  footer .copywrite span {
+    height: 23px;
+  }
+}
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px) {
+  footer {
+    height: 500px;
+    margin-top: 689px;
+  }
+  .logo-image-1 {
+    height: 38px;
+    width: 38px;
+    margin-top: 60px;
+  }
+  .logo-image img {
+    height: 38px;
+    width: 38px;
+    margin-bottom: 12px;
+  }
+  .logo-text-1 {
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 60px;
+    margin-bottom: 12px;
+  }
+  .logo-text-1 a {
+    font-size: 30px;
+  }
+  .connect {
+    margin-top: 20px;
+  }
+  .connect-1 {
+    margin-top: 20px;
+  }
+  .connect span {
+    font-size: 18px;
+  }
+  .connect .img-1 {
+    margin-top: 13px;
+  }
+  .connect .img-2 {
+    margin-top: -35px;
+    margin-left: 14px;
+  }
+  .connect .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect .img-3:first {
+    display: none;
+  }
+  .connect .img {
+    margin-right: 17px;
+  }
+  .connect-1 span {
+    font-size: 18px;
+  }
+  .connect-1 .img-1 {
+    margin-top: 13px;
+  }
+  .connect-1 .img-2 {
+    margin-top: -35px;
+    margin-left: 14px;
+  }
+  .connect-1 .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect-1 .img-3:first {
+    display: none;
+  }
+  .connect-1 .img {
+    margin-right: 17px;
+  }
+  .info {
+    margin-top: -244px;
+  }
+  .info .text {
+    margin-left: 70px;
+  }
+  .info .text ul {
+    width: 145px;
+  }
+  .info .text h4 {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+  .info .text li {
+    padding-bottom: 8px;
+  }
+  .info .text li a {
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+  footer hr {
+    margin-top: 195px;
+  }
+  footer .copywrite {
+    margin-top: 22px;
+    font-size: 14px;
+  }
+  footer .copywrite .right {
+    margin-top: -23px;
+    padding-top: 5px;
+  }
+  footer .copywrite span {
+    height: 23px;
+  }
+}
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px) {
+  footer {
+    height: 500px;
+    margin-top: 599px;
+  }
+  .logo-image-1 {
+    height: 38px;
+    width: 38px;
+    margin-top: 320px;
+  }
+  .logo-image img {
+    height: 38px;
+    width: 38px;
+    margin-bottom: 12px;
+    position: absolute;
+  }
+  .logo-text-1 {
+    height: 35px;
+    margin-left: 5px;
+    margin-top: 320px;
+    margin-bottom: 12px;
+    position: absolute;
+  }
+  .logo-text-1 a {
+    font-size: 30px;
+  }
+  .connect {
+    margin-top: 300px;
+    position: absolute;
+    display: inline-block;
+    right: 140px;
+  }
+  .connect-1 {
+    margin-top: 300px;
+    position: absolute;
+    justify-content: right;
+    display: inline-block;
+    right: 0px;
+  }
+  .connect span {
+    font-size: 18px;
+    text-align: center;
+  }
+  .connect .img-1 {
+    margin-top: 13px;
+  }
+  .connect .img-2 {
+    margin-top: -35px;
+    margin-left: 14px;
+  }
+  .connect .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect .img-3:first {
+    display: none;
+  }
+  .connect .img {
+    margin-right: 17px;
+  }
+  .connect-1 span {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .connect-1 .img-1 {
+    margin-top: 13px;
+  }
+  .connect-1 .img-2 {
+    margin-top: -35px;
+    margin-left: 14px;
+  }
+  .connect-1 .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect-1 .img-3:first {
+    display: none;
+  }
+  .connect-1 .img {
+    margin-right: 17px;
+  }
+  .info {
+    padding-top: 54px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 550px;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+  }
+  .info .text {
+    margin-left: 45px;
+  }
+  .info .text:first-child {
+    margin-left: 0px;
+  }
+  .info .text ul {
+    width: 145px;
+  }
+  .info .text h4 {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+  .info .text li {
+    padding-bottom: 8px;
+  }
+  .info .text li a {
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+  footer hr {
+    margin-top: 425px;
+    position: absolute;
+  }
+  footer .copywrite {
+    margin-top: 450px;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+  }
+  footer .copywrite .right {
+    margin-top: -23px;
+    padding-top: 5px;
+    position: absolute;
+    right: 0;
+  }
+  footer .copywrite span {
+    height: 23px;
+  }
+}
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px) {
+  footer {
+    height: 380px;
+    margin-top: 45px;
+  }
+  .logo-image-1 {
+    height: 20px;
+    width: 20px;
+    margin-top: 260px;
+  }
+  .logo-image-1 img {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 12px;
+    position: absolute;
+  }
+  .logo-text-1 {
+    height: 25px;
+    margin-left: 4px;
+    margin-top: 258px;
+    margin-bottom: 12px;
+    position: absolute;
+  }
+  .logo-text-1 a {
+    font-size: 20px;
+  }
+  .connect {
+    margin-top: 265px;
+    position: absolute;
+    display: inline-block;
+    right: 65px;
+  }
+  .connect-1 {
+    margin-top: 265px;
+    position: absolute;
+    justify-content: right;
+    display: inline-block;
+    right: 0px;
+  }
+  .connect span {
+    font-size: 11px;
+    text-align: center;
+  }
+  .connect .img-1 {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .connect .img-2 {
+    margin-top: -22px;
+    margin-left: 7px;
+  }
+  .connect .img-2 img {
+    width: 10px;
+    height: 10px;
+  }
+  .connect .img-3 {
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+  .connect .img-3:first {
+    display: none;
+  }
+  .connect .img {
+    margin-right: 4px;
+  }
+  .connect-1 span {
+    font-size: 11px;
+    margin-left: 3px;
+  }
+  .connect-1 .img-1 {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .connect-1 .img-2 {
+    margin-top: -22px;
+    margin-left: 7px;
+  }
+  .connect-1 .img-2 img {
+    width: 10px;
+    height: 10px;
+  }
+  .connect-1 .img-3 {
+    margin-top: -21px;
+    margin-left: 6.5px;
+  }
+  .connect-1 .img-3 img {
+    width: 11px;
+    height: 11px;
+  }
+  .connect-1 .img-3:first {
+    display: none;
+  }
+  .connect-1 .img {
+    margin-right: 4px;
+  }
+  .info {
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    /*  background-color: aqua; */
+  }
+  .info .text {
+    margin-left: 20px;
+  }
+  .info .text:first-child {
+    margin-left: 0px;
+    margin-right: -20px;
+  }
+  .info .text ul {
+    width: 85px;
+  }
+  .info .text h4 {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .info .text li {
+    padding-bottom: 9px;
+    width: 101;
+  }
+  .info .text li a {
+    padding-bottom: 0px;
+    font-size: 9px;
+  }
+  footer hr {
+    margin-top: 335px;
+    position: absolute;
+  }
+  footer .copywrite {
+    margin-top: 350px;
+    font-size: 9px;
+    position: absolute;
+    width: 100%;
+  }
+  footer .copywrite .right {
+    margin-top: -14px;
+    padding-top: 6px;
+    position: absolute;
+    right: 0;
+  }
+  footer .copywrite span {
+    height: 23px;
+  }
+}

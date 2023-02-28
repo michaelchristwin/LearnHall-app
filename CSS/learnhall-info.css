@@ -1,0 +1,453 @@
+.learnhall-info {
+    width: 100%;  
+    position: relative;
+    display: block;
+}
+.learnhall-info-images{
+    width: 100%;  
+    display: flex;
+    justify-content: right;
+    position:absolute;
+}
+.background-img1{
+    width: 100%;
+    position: absolute;
+}
+.brown-image{
+    position:absolute;
+    float: right;
+    right: 0;
+}
+.modelbackground-image{
+    position: absolute;
+    display: block;
+}
+.model1-image{
+    position: absolute;
+}
+.learnhall-info-text{
+    position:absolute;
+}
+.learnhall-info-text .heading{
+    font-family: "adobe-garamond-pro", serif;
+    display: block;
+    color: #070A13;
+}
+.learnhall-info-text .sub-text{
+    color: #070a1396;
+}
+.learnhall-info-text button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.learnhall-info-text button a:hover {
+    text-decoration: underline;
+}
+.learnhall-info-text button{
+    background-color: #C04C40;
+    border: #C04C40;
+}
+.circle-img{
+    display: none;
+}
+.brown-circle{
+    display: none;
+}
+.blue-circle{
+    display: none;
+}
+.orange-circle{
+    display: none;
+}
+.brown-circle-1{
+    display: none;
+}
+.blue-circle-1{
+    display: none;
+}
+.orange-circle-1{
+    display: none;
+}
+
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    .learnhall-info {
+        height: 845px;
+    }
+    .model-container{
+        width: 675px;
+        height: 845px;
+    }
+    .brown-image{
+        margin-top: 75px;
+    }
+    .modelbackground-image{
+        margin-top: 145px;
+        right: 115px;
+    }
+    .model1-image{
+        margin-top: 118px;
+        right: 136px;
+    }
+    .background-img1{
+        height:845px;
+    }
+    .learnhall-info-text{
+        padding-top: 194px;
+    }
+    .learnhall-info-text .text{
+        width: 517px;
+        height: 555px;
+    }
+    .learnhall-info-text .heading{
+        font-size: 80px;
+        font-weight: 700;
+        width: 480px;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 30px;
+        width: 453px;
+        
+    }
+    .learnhall-info-text p{
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .learnhall-info-text button{
+        font-size: 20px;
+        margin-top: 80px;
+        width: 215px;
+        height: 60px;
+        border-radius: 10px;
+    }
+}
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+    .learnhall-info {
+        height:715px;
+    }
+    .model-container{
+        width: 675px;
+        height: 715px;
+    }
+    .brown-image{
+        margin-top: 62px;
+        width: 450px;
+        height: 487px;
+    }
+    .modelbackground-image{
+        margin-top: 132px;
+        right: 65px;
+        width: 460px;
+        height: 522px;
+    }
+    .model1-image{
+        margin-top: 105px;
+        right: 85px;
+        width: 419px;
+        height: 549px;
+    }
+    .background-img1{
+        height:715px;
+    }
+    .learnhall-info-text{
+        margin-top: 171px;
+    }
+    .learnhall-info-text .text{
+        width: 420px;
+        height: 459px;
+    }
+    .learnhall-info-text .heading{
+        font-size: 60px;
+        font-weight: 600;
+        width: 447px;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 26px;
+        width: 447px;
+        
+    }
+    .learnhall-info-text p{
+        font-size: 19px;
+        margin-top: 48px;
+    }
+    .learnhall-info-text button{
+        font-size: 18px;
+        margin-top: 68px;
+        width: 188px;
+        height: 48px;
+        border-radius: 8px;
+    }
+}
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+    .learnhall-info {
+        height: 722px;
+    }
+    .learnhall-info-images{
+        position:absolute; 
+        display: flex;
+        justify-content: center;
+    }
+    .background-img1{
+        display: none;
+    }
+    .brown-image{
+        display: none;
+    }
+    .modelbackground-image{
+        position:relative;
+        height: 330px;
+        width:300px;
+        margin-top: 285px;
+    }
+    .model1-image{
+        position:absolute;
+        width: 280px;
+        margin-top: -350px;
+        margin-left: 12px;
+    }
+    .learnhall-info-text{
+        margin-top: 41px;
+        height: 722px;
+        position:relative;
+        text-align: center;
+    }
+    .learnhall-info-text .heading{
+        font-size: 50px;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 22px;
+        margin-top: 4px;
+        display: flex;
+        justify-content: center;
+    }
+    .learnhall-info-text p{
+        font-size: 18px;
+        margin-top: 26px;
+        text-align: center;
+    }
+    .learnhall-info-text button{
+        font-size: 16px;
+        margin-top: 68px;
+        width: 168px;
+        height: 40px;
+        margin-top: 465px;
+        border-radius: 5px;
+    }
+    .circle-img{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: 722px ;
+    }
+    .orange-img1{
+        position: relative;
+        width: 160px;
+        height: 160px;
+        left: -110px;
+        top: -40px;
+    }
+    .orange-img2{
+        position: absolute;
+        width: 90px;
+        height: 160px;
+        right: 0;
+        margin-top: 550px;
+    }
+    .brown-circle{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-top: 250px;
+        margin-right: 350px;
+        position: absolute;
+    }
+    .blue-circle{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-top: 255px;
+        margin-right: 290px;
+        position: absolute;
+    }
+    .orange-circle{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-top: 280px;
+        margin-right: 340px;
+        position: absolute;
+    }
+    .brown-circle-1{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-top: 630px;
+        margin-left: 350px;
+        position: absolute;
+    }
+    .blue-circle-1{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-top: 625px;
+        margin-left: 290px;
+        position: absolute;
+    }
+    .orange-circle-1{
+        display: flex;
+        width: 18px;
+        height: 18px;
+        margin-top: 600px;
+        margin-left: 340px;
+        position: absolute;
+    }
+}
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+    .learnhall-info {
+        height: 440px;
+    }
+    .learnhall-info-images{
+        position:absolute; 
+        display: flex;
+        justify-content: center;
+    }
+    .background-img1{
+        display: none;
+    }
+    .brown-image{
+        display: none;
+    }
+    .modelbackground-image{
+        position:relative;
+        height: 189px;
+        width:170px;
+        margin-top: 180px;
+    }
+    .model1-image{
+        position:absolute;
+        width: 158px;
+        height: 197px;
+        margin-top: -197px;
+        margin-left: 8px;
+    }
+    .learnhall-info-text{
+        margin-top: 16px;
+        height: 722px;
+        position:relative;
+        text-align: center;
+    }
+    .learnhall-info-text .heading{
+        font-size: 28px;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+    }
+    .learnhall-info-text .sub-text{
+        font-size: 15px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .learnhall-info-text p{
+        font-size: 12px;
+        margin-top: 15px;
+        text-align: center;
+        width: 272px;
+        margin: auto;
+    }
+    .learnhall-info-text button{
+        font-size: 11px;
+        margin-top: 68px;
+        width: 122px;
+        height: 24px;
+        margin-top: 245px;
+        border-radius: 3px;
+    }
+    .circle-img{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: 722px ;
+    }
+    .orange-img1{
+        position: relative;
+        width: 62px;
+        height: 62px;
+        left: -45px;
+        top: -15px;
+    }
+    .orange-img2{
+        position: absolute;
+        width: 30px;
+        height: 62px;
+        right: 0;
+        margin-top: 340px;
+    }
+    .brown-circle{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        margin-top: 163px;
+        margin-right: 200px;
+        position: absolute;
+    }
+    .blue-circle{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        margin-top: 165px;
+        margin-right: 165px;
+        position: absolute;
+    }
+    .orange-circle{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        margin-top: 180px;
+        margin-right: 195px;
+        position: absolute;
+    }
+    .brown-circle-1{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        margin-top: 380px;
+        margin-left: 197px;
+        position: absolute;
+    }
+    .blue-circle-1{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        margin-top: 377px;
+        margin-left: 163px;
+        position: absolute;
+    }
+    .orange-circle-1{
+        display: flex;
+        width: 8px;
+        height: 8px;
+        margin-top: 363px;
+        margin-left: 193px;
+        position: absolute;
+    }
+}
