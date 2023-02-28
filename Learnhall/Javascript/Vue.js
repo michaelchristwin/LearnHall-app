@@ -161,8 +161,7 @@ var parents_reviews = [
         "more_text": ", and he has been vary pleasent to work with, tweaking his approach and fine tunning things from time to tome. He has been an encouragement to us and we appreciate the consistent help he has been."
     },
 ]
-
-
+ 
 
 const Bio = {
     data(){
