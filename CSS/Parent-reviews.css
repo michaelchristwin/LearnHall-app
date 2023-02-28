@@ -128,10 +128,12 @@
     }
     .radio-buttons{
         margin-top: 35px;
-        margin-left: 17px;
         margin-bottom: 176px;
     }
-    .radio-buttons:first-child{
+    .radio-buttons input{
+        margin-left: 17px;
+    }
+    .radio-buttons input:first-child{
         margin-left: 0px;
     }
 
