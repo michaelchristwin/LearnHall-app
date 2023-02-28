@@ -135,9 +135,7 @@
                 </div>
                 <div class="holder-1">
                     <div class="widgets-1">
-                        <div 
-                        v-for= "component in components"
-                        class="widget-box">
+                        <div v-for= "component in components" class="widget-box">
                             <img class="background-img" :src="component.img1" alt="background-img">
                             <img class="logo-img" :src="component.img2" alt="logo"> 
                             <h4>{{component.title}}</h4>
@@ -172,9 +170,7 @@
             <div class="container">
                 <div class="steps">
                     <div class="steps-container">
-                        <div 
-                        v-for=" step in steps"
-                        class="step-box">
+                        <div v-for=" step in steps" class="step-box">
                             <img class="background-img" :src="step.img1" alt="background img">
                             <img class="number" :src="step.img2" alt="number img">
                             <div class="steps-text">
@@ -195,9 +191,7 @@
                 </div>
 
                 <div class="slider">
-                    <div 
-                    v-for=" review in parentsReview"
-                    class="content">
+                    <div  v-for=" review in parentsReview" class="content">
                         <div class="stars">
                             <div class="mdl">
                                 <img class="parent-mdl" :src="review.img" alt="mdl img">
@@ -213,10 +207,10 @@
                         </div>
                     </div>    
                 </div>
-                <div
-                v-for=" review in parentsReview"
-                class="radio-buttons">  
-                    <input type="radio">
+                <div class="radio-buttons">  
+                    <input class="previous" type="radio">
+                    <input class="middle" type="radio">
+                    <input class="next" type="radio">
                 </div>
             </div>
         </section>
@@ -272,9 +266,7 @@
 
                 <div class="connect connect-right">
                     <span>Let's Connect</span>
-                    <div 
-                    v-for="connect in letsConnect"
-                    class="img">
+                    <div v-for="connect in letsConnect" class="img">
                         <a class="img-1" :href="connect.link"><img :src="connect.img1" alt="link"></a>
                         <a class="img-2" :href="connect.link"><img :src="connect.img2" alt="link"></a>
                     </div>
@@ -282,9 +274,7 @@
 
                 <div class="connect-1">
                     <span>Contact Us</span>
-                    <div 
-                    v-for="contact in contactUs"
-                    class="img">
+                    <div v-for="contact in contactUs" class="img">
                         <a class="img-1" :href="contact.link"><img :src="contact.img1" alt="link"></a>
                         <a class="img-2" :href="contact.link"><img :src="contact.img2" alt="link"></a>
                         <a class="img-3" :href="contact.link"><img :src="contact.img3" alt=""></a>
