@@ -204,16 +204,19 @@
                             </div>
                             <div class="name">
                                 <h4>{{review.name}}</h4> 
-                                <img src="images/star-1.png" alt="img">
+                                <span id="review.Id" class="star">{{review.num_of_stars}}</span>
                             </div>
                         </div>
                         <div class="text">
                             <p :id="review.Id" class="review-text">"{{review.text}}"... <span :id="review.Id" class="read-more">read more.</span></p>
                             <p :id="review.let" class="review-text-1">"{{review.text}} {{review.more_text}}"</p>
                         </div>
-
-                    </div>
-
+                    </div>    
+                </div>
+                <div
+                v-for=" review in parentsReview"
+                class="radio-buttons">  
+                    <input type="radio">
                 </div>
             </div>
         </section>
