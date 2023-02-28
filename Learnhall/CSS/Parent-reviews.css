@@ -39,7 +39,6 @@
     display: flex;
     text-align:left;
     position:relative;
-    background-color: greenyellow;
     height: 100px;
 }
 .slider .text .read-more{
@@ -56,6 +55,10 @@
 .slider .mdl{
     display: inline-block;
 }
+.radio-buttons{
+    display: inline-block;
+}
+ 
 
 
 
@@ -64,7 +67,7 @@
 **********************/
 @media only screen and (min-width: 1440px){
     .parent-reviews{
-        height: 871px;
+        height: max-content;
     }
     .parent-reviews .text-1{
         margin-top: 11px;
@@ -79,11 +82,10 @@
         width: 785px;
     }
     .parent-reviews .text .review-text-1{
-        display: none;
+        display: none; 
     }
     .slider{
         width: 1210px;
-        background-color: aqua;
         margin-top: 60px;
     }
     .slider .content{
@@ -101,6 +103,7 @@
     .slider .stars{
         margin-top: 32px;
         margin-left: 32px;
+        margin-bottom: 11px;
     }
     .slider .stars h2{
         font-size: 22px;
@@ -120,9 +123,18 @@
     .slider .name{
         margin-left: 8px;
     }
-    .slider .name img{
-        margin-bottom: 14px;
+    .slider .name #star{
+        padding-bottom: 14px;
     }
+    .radio-buttons{
+        margin-top: 35px;
+        margin-left: 17px;
+        margin-bottom: 176px;
+    }
+    .radio-buttons:first-child{
+        margin-left: 0px;
+    }
+
    
 }
 
