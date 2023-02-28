@@ -46,27 +46,15 @@ $(function () {
   });
 
   /* stars function */
+  $(".star").each(function(){
+    a = $(this).text();
+    $(this).text("");
 
-  b = $('.content').children(".stars")
-  c = $(".stars").children(".name").children("span").attr("id")
-  
-  
-  for ( c in b){
-      numOfStars = $(".stars").children(".name").children("span").text()
-      /* alert(numOfStars) */
-      $(".star").text("")
-  }
-   
-  /* for ( var a = 0; a < b; a++) { 
-     alert(a)
-      
-  
-      for (numOfStars in b) {
-      
-          $(".star").append('<img src="images/star-1.png" alt="img"></img>')
-      }
-  } */ 
+    for(var i = 0; i < a; i++){
+        $(this).append('<img src="images/star-1.png" alt="img"></img>');
+    } 
 
+  });
 
 
   /* read more function */
@@ -74,15 +62,14 @@ $(function () {
 
       currentText = $(this).attr("id");
       parentElement = $(this).parent();
-      showText = parentElement.parent().children().last().attr("id")
+      showText = parentElement.parent().children().last().attr("id");
   
-      currentText = "#" + currentText
-      showText =  "#" + showText
+      currentText = "#" + currentText;
+      showText =  "#" + showText;
 
       $(currentText).css('display', 'none');
       $(showText).css('display', 'block');
       
-  
   });
 
 
@@ -90,6 +77,6 @@ $(function () {
   let currentYear= new Date();
   currentYear = currentYear.getFullYear();
 
-  $("#current_year").text(currentYear)
+  $("#current_year").text(currentYear);
 });
 
