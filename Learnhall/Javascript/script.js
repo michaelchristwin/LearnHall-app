@@ -45,6 +45,30 @@ $(function () {
         });
     });
 
+    /* stars function */
+
+    b = $('.content').children(".stars")
+    c = $(".stars").children(".name").children("span").attr("id")
+    
+    
+    for ( c in b){
+        numOfStars = $(".stars").children(".name").children("span").text()
+        alert(numOfStars)
+        $(".star").text("")
+    }
+     
+    /* for ( var a = 0; a < b; a++) { 
+       alert(a)
+        
+    
+        for (numOfStars in b) {
+        
+            $(".star").append('<img src="images/star-1.png" alt="img"></img>')
+        }
+    } */ 
+
+
+
     /* read more function */
     $(".read-more").click(function(){
 

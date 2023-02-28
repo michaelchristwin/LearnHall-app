@@ -80,34 +80,86 @@ var Contact_Us = [
 
 var parents_reviews = [
     {
-        "Id" : "1",
+        "Id" : "0",
         "let" : "A",
         "img" : "images/parent-mdl.jpg",
         "name" : "Kim K.",
-        "num_of_starts" : "5",
-        "text" : "Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought I'd see him laughing and cheering",
-        "more_text": "for my son. I am blessed to have found this company that is run by someone so compassionate and serious about seeing other people's children succeed. My son worked with val and he adores her! My son opened up to her right away. She's young, energetic, & knows how to engage with him to get him to open up, & it's wonderful to see him finally enjoying the learning experince becouse she is both a good teacher and a fun teacher and it has made all the difference."
+        "num_of_stars" : 5,
+        "text" : "Thanks to the encouraging and fun atmosphere Mike creates around math, my kid has gone from absolute dread and tears to believing in himself. I never thought i'd see him laughing and cheering ",
+        "more_text": "while doing algebra."
+    },
+    {
+        "Id" : "1",
+        "let" : "B",
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Bill B.",
+        "num_of_stars" : 3,
+        "text" : "Mike has been helping our son with 7th grade advanced math. He does an outstanding job and is worthy of our strongest recommendation. Not only does he work well with our son on the lesson content",
+        "more_text": ", but also reinforces things like writing neatly, being organized, and showing work steps. He is an enthusiastic advocate for learning in general, helping my son to see the long term value of dedicating himself to doing well in school."
     },
     {
         "Id" : "2",
-        "let" : "B",
+        "let" : "C",
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Julie S.",
+        "num_of_stars" : 5,
+        "text" : "My expectation with Learnhall has been very positive. Mike took his time to fully understand the needs of my child and pair them with a good fitting tutor. Our tutor, Justin, was pateint and kind ",
+        "more_text": "with my child and was able to adjust based on my child's knoledge and ability. I highly recommend Justin as a tutor and Learnhall as a service for families."
+    },
+    {
+        "Id" : "3",
+        "let" : "D",
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Stacy L.",
+        "num_of_stars" : 5,
+        "text" : "I've worked with many educators, but very few who are as encouraging, through, and as passionate as Mike. He enters every tutoring session seemingly excited for math, and with a ",
+        "more_text": "few positive fist-bumps along the way, improves my son's attitude and abilities. Our family greatly appreciates Mike's knoledge, patience, and spirit for hardwork!."
+    },
+    {
+        "Id" : "4",
+        "let" : "E",
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Tabitha S.",
+        "num_of_stars" : 5,
+        "text" : "Mike has been working with my two girls on math for a few weeks now. He is a great teacher and my girls are telling me that they really feel like they understand the concepts well for the first time",
+        "more_text": ". The biggest help has been that my was really lacking confidence in math, but now she looks forward to sessions with Mike. He has helped to build her up, so that she is now able to focus on doing math and not on how terrible she thinks she is at it. This has been a life saver for me! He's really skilled at facilitating different learning levels during shared sessions."
+    },
+    {
+        "Id" : "5",
+        "let" : "F",
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Mandy R.",
+        "num_of_stars" : 5,
+        "text" : "Mike tutored my 17 year old with math and English. He is extreamly knoledgable, personable, engaging and funny too! Mike took time to understand the learning style that worked best for ",
+        "more_text": "my daughter and where she was missing information so that he could help course correct and guide her to the next level. My daughter takes her education seriously and Mike was able to help her reach her goal of achieving straight A's. I highly recommend Mike as a tutor. Thank you Mike, you saved the semester!."
+    },
+    {
+        "Id" : "6",
+        "let" : "G",
+        "img" : "images/parent-mdl.jpg",
+        "name" : "Connie M.",
+        "num_of_stars" : 5,
+        "text" : "Learnhall has changed my family's life! I was very apprehensive in believing that the program would be affordable for a tutor to come to my home, and that I would actually be able to find someone",
+        "more_text": "for my son. I am blessed to have found this company that is run by someone so compassionate and serious about seeing other people's children succeed. My son worked with val and he adores her! My son opened up to her right away. She's young, energetic, & knows how to engage with him to get him to open up, & it's wonderful to see him finally enjoying the learning experince becouse she is both a good teacher and a fun teacher and it has made all the difference."
+    },
+    {
+        "Id" : "7",
+        "let" : "H",
         "img" : "images/parent-mdl.jpg",
         "name" : "Bill D.",
-        "num_of_starts" : "5",
+        "num_of_stars" : 5,
         "text" : "Now I can personally verify and attest to why Mike gets 5 star reviews. I've observed my child learning with him, and he just seems to have a natural ability to guide a student to the best",
         "more_text": "learning space for them. He gives them the confidence and enthusiasm, and helps to impart the skills that help them access their own inner intelligence. It's a rare skill. Thank you Mike!"
     },
     {
-        "Id" : "3",
-        "let" : "C",
+        "Id" : "8",
+        "let" : "I",
         "img" : "images/parent-mdl.jpg",
         "name" : "Julie S.",
-        "num_of_starts" : "5",
+        "num_of_stars" : 5,
         "text" : "Mike listened to us and helped us target our child's specific needs. He was willing to take us on, even though my kid has special needs and needed plenty of patience. Mike had that for us",
         "more_text": ", and he has been vary pleasent to work with, tweaking his approach and fine tunning things from time to tome. He has been an encouragement to us and we appreciate the consistent help he has been."
     },
-    
-    
 ]
 
 
