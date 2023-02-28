@@ -93,7 +93,7 @@ var parents_reviews = [
         "let" : "B",
         "img" : "images/parent-mdl.jpg",
         "name" : "Bill B.",
-        "num_of_stars" : 3,
+        "num_of_stars" : 5,
         "text" : "Mike has been helping our son with 7th grade advanced math. He does an outstanding job and is worthy of our strongest recommendation. Not only does he work well with our son on the lesson content",
         "more_text": ", but also reinforces things like writing neatly, being organized, and showing work steps. He is an enthusiastic advocate for learning in general, helping my son to see the long term value of dedicating himself to doing well in school."
     },
