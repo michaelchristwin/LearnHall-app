@@ -1,0 +1,47 @@
+@font-face{
+    font-family:Helvetica;
+    src: url("../fonts/Helvetica.ttf");
+}
+
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* large desktop layout*/
+@media only screen and (min-width: 1440px){
+    .container{
+        width: 80%;
+        min-width: 1350px;
+        margin: auto;
+        height: 100%;
+    }
+}
+/*Desktop layout*/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+    .container{
+        width: 80%;
+        min-width: 940px;
+        margin: auto;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+    .container{
+        width: 80%;
+        min-width: 550px;
+        margin: auto;
+        position: relative;
+    }
+}
+/*Mobile*/
+@media only screen and (max-width: 576px){
+    .container{
+        width: 80%;
+        min-width: 270px;
+        margin: auto;
+        position: relative;
+    }
+}

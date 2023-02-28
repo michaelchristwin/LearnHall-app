@@ -1,0 +1,151 @@
+.parent-reviews{
+    width: 100%;
+    text-align: center;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+}
+.slider .content{
+    margin: auto;
+    display: flex;
+    justify-content:flex-start; 
+    flex-wrap: wrap;
+    height: max-content;
+    top: 0;
+    margin-top: 0px;
+    
+}
+.parent-reviews .text-1 h2{
+    font-family: "adobe-garamond-pro", serif;
+}
+.parent-reviews .text-1 p{
+    margin: auto;
+}
+.slider{
+    margin: auto;
+}
+.slider .parent-mdl{
+    display: inline;
+}
+.slider .stars{
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.slider .text {
+    display: flex;
+    text-align:left;
+    position:relative;
+    background-color: greenyellow;
+    height: 100px;
+}
+.slider .text .read-more{
+    color: #233C7E;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider .name{
+    display: inline-block;
+}
+.slider .parent-mdl{
+    position: relative;
+}
+.slider .mdl{
+    display: inline-block;
+}
+
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    .parent-reviews{
+        height: 871px;
+    }
+    .parent-reviews .text-1{
+        margin-top: 11px;
+        margin-top: 150px;
+    }
+    .parent-reviews .text-1 h2{
+        font-size: 60px;
+    }
+    .parent-reviews .text-1 p{
+        margin-bottom: 25px;
+        font-size: 22px;
+        width: 785px;
+    }
+    .parent-reviews .text .review-text-1{
+        display: none;
+    }
+    .slider{
+        width: 1210px;
+        background-color: aqua;
+        margin-top: 60px;
+    }
+    .slider .content{
+        width: 390px;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
+        margin-left: 20px;
+    }
+    .slider .content:first-child{
+        margin-left: 0px;
+    }
+    .slider .parent-mdl{
+        width: 77px;
+        height: 77px;
+    }
+    .slider .stars{
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+    .slider .stars h2{
+        font-size: 22px;
+        margin-bottom: 7px;
+        position:static;
+    }
+    .slider .text {
+        margin-left: 29px;
+        width: 331px;
+        height: max-content;
+    }
+    .slider .text p{
+        width: 331px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .slider .name{
+        margin-left: 8px;
+    }
+    .slider .name img{
+        margin-bottom: 14px;
+    }
+   
+}
+
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+
+}
+
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+
+}
+
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+
+}
