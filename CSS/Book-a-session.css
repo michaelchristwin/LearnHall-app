@@ -2,6 +2,11 @@ main {
   background: rgba(31, 49, 88, 0.02);
 }
 
+.hamburger-menu-open,
+.hamburger-menu-close {
+  cursor: pointer;
+}
+
 .book-a-session {
   margin-top: 60px;
 }
@@ -113,6 +118,7 @@ main {
   color: #ffffff;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .book-session-contact {
@@ -303,9 +309,14 @@ footer {
 ******* Mobile ********
 **********************/
 @media only screen and (max-width: 576px) {
-  .book-a-session-container {
-    display: block;
+  .book-a-session {
+    margin-top: 0;
   }
+
+  .book-a-session-form {
+    margin-top: 10px;
+  }
+
   .book-session-contact {
     display: none;
   }
@@ -316,11 +327,11 @@ footer {
   }
 
   .thank-you-card {
-    padding: 40px 60px;
+    padding: 5% 10%;
   }
 
   .thank-you-section {
-    width: 349.76px;
+    width: 99%;
     height: 239px;
   }
 
@@ -337,5 +348,29 @@ footer {
   .thank-you-section p {
     font-size: 12px;
     width: 231.79px;
+  }
+
+  .brown-circle-left {
+    height: 80px;
+  }
+
+  .brown-circle-bottom {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .book-a-session {
+    margin-top: 0;
+  }
+
+  .book-a-session-container {
+    display: inline-block;
+    gap: 0;
+    width: 100%;
+  }
+
+  .book-a-session-form {
+    border: none;
   }
 }

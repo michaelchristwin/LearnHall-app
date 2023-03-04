@@ -1,3 +1,12 @@
+main {
+  background: rgba(31, 49, 88, 0.02);
+}
+
+.hamburger-menu-open,
+.hamburger-menu-close {
+  cursor: pointer;
+}
+
 .become-tutor {
   width: 100%;
   position: relative;
@@ -60,7 +69,8 @@
 
 .become-a-tutor-container {
   display: flex;
-  gap: 49px;
+  gap: 29px;
+  width: 80%;
 }
 
 .become-a-tutor-form {
@@ -169,6 +179,7 @@
   color: #ffffff;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .become-a-tutor-contact {
@@ -559,6 +570,10 @@ footer {
     margin-top: 710px;
   }
 
+  .become-a-tutor {
+    margin-top: 0;
+  }
+
   .become-a-tutor-form {
     margin-top: 20px;
   }
@@ -721,9 +736,14 @@ footer {
     margin-top: 375px;
   }
 
-  .become-a-tutor-container {
-    display: block;
+  .become-a-tutor {
+    margin-top: 0;
   }
+
+  .become-a-tutor-form {
+    margin-top: 10px;
+  }
+
   .become-a-tutor-contact {
     display: none;
   }
@@ -734,11 +754,11 @@ footer {
   }
 
   .thank-you-card {
-    padding: 40px 60px;
+    padding: 5% 10%;
   }
 
   .thank-you-section {
-    width: 349.76px;
+    width: 99%;
     height: 239px;
   }
 
@@ -755,5 +775,28 @@ footer {
   .thank-you-section p {
     font-size: 12px;
     width: 231.79px;
+  }
+
+  .brown-circle-left {
+    height: 80px;
+  }
+
+  .brown-circle-bottom {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .become-a-tutor {
+    margin-top: 0;
+  }
+
+  .become-a-tutor-container {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .become-a-tutor-form {
+    border: none;
   }
 }
