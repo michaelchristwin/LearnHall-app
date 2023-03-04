@@ -309,6 +309,30 @@ footer {
 ******* Mobile ********
 **********************/
 @media only screen and (max-width: 576px) {
+  .book-a-session-form h2 {
+    font-size: 23px;
+  }
+
+  .book-a-session-form p {
+    font-size: 12px;
+  }
+
+  .book-a-session-inputs div label,
+  .book-a-session-textarea label {
+    font-size: 12px;
+  }
+
+  .book-a-session div input,
+  .book-a-session-textarea textarea {
+    font-size: 12px;
+  }
+
+  .book-a-session-button button {
+    width: 74px;
+    height: 24px;
+    font-size: 11px;
+    border-radius: 3px;
+  }
   .book-a-session {
     margin-top: 0;
   }
