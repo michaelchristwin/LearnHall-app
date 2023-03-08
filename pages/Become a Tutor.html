@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Favcon image and text -->
     <link rel="icon" href="../images/Logo.png" type="image/png">
     <title>Learnhall Book a Tutor</title>
@@ -15,16 +16,17 @@
     <!-- Links to Stylesheets -->
     <link rel="stylesheet" href="../CSS/MediaQuerries.css">
     <link rel="stylesheet" href="../CSS/Header.css">
-
     <link rel="stylesheet" href="../CSS/Footer.css">
+    <link rel="stylesheet" href="../CSS/Become-tutor.css">
 
     <!--Links to Mediaquerries-->
     <link rel="stylesheet" href="CSS/MediaQuerries.css">
     <link rel="stylesheet" media="screen and (min-width: 1440px)" href="CSS/MediaQuerries.css">
     <link rel="stylesheet" media="screen and (min-width: 960px) and (max-width: 1440px)" href="CSS/MediaQuerries.css">
     <link rel="stylesheet" media="screen and (min-width: 576px) and (max-width: 960px)" href="CSS/MediaQuerries.css">
-    <link rel="stylesheet" media="screen and (max-width: 576px)" href="CSS/MediaQuerries.css"> 
+    <link rel="stylesheet" media="screen and (max-width: 576px)" href="CSS/MediaQuerries.css">
 </head>
+
 <body>
     <main id="App">
         <header>
@@ -39,13 +41,13 @@
                     <div class="logo-text">
                         <a href="../Index.html">Learnhall</a>
                     </div>
-    
+
                     <!-- nav bar area -->
                     <div class="nav-bar">
                         <ul>
-                            <li><a class="nav" href="../Index.html">Home</a></li> 
-                            <li><a class="nav" href="Book a Session.html">Book a Session</a></li> 
-                            <li><a class="nav" href="Become a Tutor.html">Become a Tuter</a></li> 
+                            <li><a class="nav" href="../Index.html">Home</a></li>
+                            <li><a class="nav" href="Book a Session.html">Book a Session</a></li>
+                            <li><a class="nav" href="Become a Tutor.html">Become a Tutor</a></li>
                             <li><a class="nav" href="Blog.html">Blog</a></li>
                             <li>
                                 <img src="../images/contact.png" alt="phone-icon">
@@ -53,7 +55,7 @@
                             </li>
                         </ul>
                     </div>
-    
+
                     <!-- hamburger icon -->
                     <div class="hamburger-menu-open">
                         <img id="open-hamburger" src="../images/open-hamburger.png" alt="menu-icon">
@@ -61,15 +63,15 @@
                     <div class="hamburger-menu-close">
                         <img id="close-hamburger" src="../images/close-hamburger.png" alt="menu-icon">
                     </div>
-                </div>    
+                </div>
             </div>
             <!-- hamburger menu -->
             <div class="nav-bar-hamburger-menu">
                 <div class="hamburger-menu">
                     <ul>
-                        <li><a class="nav-selected" href="../Index.html">Home</a></li> 
-                        <li><a href="Book a Session.html">Book a Session</a></li> 
-                        <li><a href="Become a Tutor.html">Become a Tuter</a></li> 
+                        <li><a class="nav-selected" href="../Index.html">Home</a></li>
+                        <li><a href="Book a Session.html">Book a Session</a></li>
+                        <li><a href="Become a Tutor.html">Become a Tutor</a></li>
                         <li><a href="Blog.html">Blog</a></li>
                         <li>
                             <img src="../images/contact.png" alt="phone-icon-hamburger">
@@ -79,7 +81,185 @@
                 </div>
             </div>
         </header>
+
+        <section class="become-a-tutor">
+            <div class="container become-a-tutor-container">
+                <form action="" class="become-a-tutor-form">
+                    <h2>Become a Tutor</h2>
+                    <p>Please fill out the form below and submit, and we will get back to you about tutoring with
+                        Learnhall within 24-48 business hours.
+                    </p>
+                    <div class="become-a-tutor-inputs">
+                        <div>
+                            <label for="first-name">First Name*</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name*</label>
+                            <input type="text" name="last-name" id="last-name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email* </label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone*</label>
+                            <input type="tel" name="phone" id="phone" required>
+                        </div>
+                        <div>
+                            <label for="location">Location*</label>
+                            <input type="text" name="location" id="location" required>
+                        </div>
+                        <div>
+                            <label for="zip-code">Zip Code*</label>
+                            <input type="text" name="zip-code" id="zip-code" required>
+                        </div>
+                        <div>
+                            <label for="student-grade">Student Grade*</label>
+                            <input type="text" name="student-grade" id="student-grade" required>
+                        </div>
+                        <div>
+                            <label for="student-subject">Student Subject*</label>
+                            <input type="text" name="student-subject" id="student-subject" required>
+                        </div>
+                    </div>
+                    <div class="become-a-tutor-textarea first-textarea">
+                        <label for="textarea">Tell us about yourself?*</label>
+                        <textarea name="textarea" id="textarea" required></textarea>
+                    </div>
+                    <div class="become-a-tutor-textarea">
+                        <label for="textarea">Tell us about your experience tutoring and what subjects you teach?*
+                        </label>
+                        <textarea name="textarea" id="textarea" required></textarea>
+                    </div>
+                    <div class="become-a-tutor-button">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+                <div class="become-a-tutor-contact">
+                    <h3>Why Join Us?</h3>
+                    <p>Make money while making a difference in students lives.</p>
+                    <div>
+                        <div class="img-box orange">
+                            <img src="../images/dollar-sign.png" alt="dollar-icon">
+                        </div>
+                        <span>Earn a Steady Income</span>
+                        <div class="hr"></div>
+                    </div>
+                    <div>
+                        <div class="img-box blue">
+                            <img src="../images/briefcase.png" alt="briefcase-icon">
+                        </div>
+                        <span>Work from Anywhere</span>
+                        <div class="hr"></div>
+                    </div>
+                    <div>
+                        <div class="img-box brown">
+                            <img src="../images/student-cap.png" alt="student-cap-icon">
+                        </div>
+                        <span>Help Students Succeed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="logo-image-1">
+                    <a href="../Index.html">
+                        <img src="../images/Logo.png" alt="Logo-icon">
+                    </a>
+                </div>
+                <div class="logo-text-1">
+                    <a href="../Index.html">Learnhall</a>
+                </div>
+
+                <div class="connect connect-right">
+                    <span>Let's Connect</span>
+                    <div v-for="connect in letsConnect" class="img">
+                        <a class="img-1" :href="'../' + connect.link"><img :src="'../' + connect.img1" alt="link"></a>
+                        <a class="img-2" :href="'../' + connect.link"><img :src="'../' + connect.img2" alt="link"></a>
+                    </div>
+                </div>
+
+                <div class="connect-1">
+                    <span>Contact Us</span>
+                    <div v-for="contact in contactUs" class="img">
+                        <a class="img-1" :href="'../' + contact.link"><img :src="'../' + contact.img1" alt="link"></a>
+                        <a class="img-2" :href="'../' + contact.link"><img :src="'../' + contact.img2" alt="link"></a>
+                        <a class="img-3" :href="'../' + contact.link"><img :src="'../' + contact.img3" alt=""></a>
+                        <!-- Fix links -->
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="text">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="./Blog.html">FAQs</a></li>
+                            <li><a href="./Blog.html">Blog</a></li>
+                            <li><a href="./Blog.html">Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="text">
+                        <h4>Learn With Us</h4>
+                        <ul>
+                            <li><a href="./Book a Session.html">Request a Tutor</a></li>
+                            <li><a href="./Book a Session.html">Learning Resources</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="text">
+                        <h4>Work With Us</h4>
+                        <ul>
+                            <li><a href="./Become a Tutor.html">Carrers at Learnhall</a></li>
+                            <li><a href="./Become a Tutor.html">Apply to Tutor</a></li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <!--  <div class="email">
+                    
     
-    </main>    
+                </div > -->
+
+                <hr>
+
+                <div class="copywrite">
+                    <span>Copyright 2016-<span id="current_year"></span> Learnhall LLC</span>
+                    <span class="right">Privacy Policy</span>
+                </div>
+            </div>
+
+        </footer>
+
+        <section class="thank-you-background none">
+            <div class="thank-you-card">
+                <img class="brown-circle-left" src="../images/brown-circle-left.png" alt="brown-circle-left">
+                <div class="close-hamburger">
+                    <img src="../images/close-hamburger.png" alt="close-hamburger">
+                </div>
+                <div class="thank-you-section">
+                    <img src="../images/colored-email.png" alt="colored-email">
+                    <h3>Thank You!</h3>
+                    <p>Your submission has been received. A Student Advisor will be in contact with you soon to speak
+                        with
+                        you about your inquiry.</p>
+                </div>
+                <img class="brown-circle-bottom" src="../images/brown-circle-bottom.png" alt="brown-circle-bottom">
+            </div>
+        </section>
+
+    </main>
 </body>
+
+<script src="../Javascript/JQuery.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="../Javascript/Vue.js"></script>
+<script src="../Javascript/script.js"></script>
+<script src="../Javascript/become-a-tutor.js"></script>
+
 </html>
