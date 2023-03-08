@@ -80,7 +80,8 @@ var Contact_Us = [
 
 var parents_reviews = [
     {
-        "Id" : "0",
+        "Id" : "00",
+        "reviewId" : 0,
         "let" : "A",
         "img" : "images/parent-mdl.jpg",
         "name" : "Kim K.",
@@ -89,7 +90,8 @@ var parents_reviews = [
         "more_text": "while doing algebra."
     },
     {
-        "Id" : "1",
+        "Id" : "01",
+        "reviewId" : 1,
         "let" : "B",
         "img" : "images/parent-mdl.jpg",
         "name" : "Bill B.",
@@ -98,7 +100,8 @@ var parents_reviews = [
         "more_text": ", but also reinforces things like writing neatly, being organized, and showing work steps. He is an enthusiastic advocate for learning in general, helping my son to see the long term value of dedicating himself to doing well in school."
     },
     {
-        "Id" : "2",
+        "Id" : "02",
+        "reviewId" : 2,
         "let" : "C",
         "img" : "images/parent-mdl.jpg",
         "name" : "Julie S.",
@@ -107,7 +110,8 @@ var parents_reviews = [
         "more_text": "with my child and was able to adjust based on my child's knoledge and ability. I highly recommend Justin as a tutor and Learnhall as a service for families."
     },
     {
-        "Id" : "3",
+        "Id" : "03",
+        "reviewId" : 3,
         "let" : "D",
         "img" : "images/parent-mdl.jpg",
         "name" : "Stacy L.",
@@ -116,7 +120,8 @@ var parents_reviews = [
         "more_text": "few positive fist-bumps along the way, improves my son's attitude and abilities. Our family greatly appreciates Mike's knoledge, patience, and spirit for hardwork!."
     },
     {
-        "Id" : "4",
+        "Id" : "04",
+        "reviewId" : 4,
         "let" : "E",
         "img" : "images/parent-mdl.jpg",
         "name" : "Tabitha S.",
@@ -125,7 +130,8 @@ var parents_reviews = [
         "more_text": ". The biggest help has been that my was really lacking confidence in math, but now she looks forward to sessions with Mike. He has helped to build her up, so that she is now able to focus on doing math and not on how terrible she thinks she is at it. This has been a life saver for me! He's really skilled at facilitating different learning levels during shared sessions."
     },
     {
-        "Id" : "5",
+        "Id" : "05",
+        "reviewId" : 5,
         "let" : "F",
         "img" : "images/parent-mdl.jpg",
         "name" : "Mandy R.",
@@ -134,7 +140,8 @@ var parents_reviews = [
         "more_text": "my daughter and where she was missing information so that he could help course correct and guide her to the next level. My daughter takes her education seriously and Mike was able to help her reach her goal of achieving straight A's. I highly recommend Mike as a tutor. Thank you Mike, you saved the semester!."
     },
     {
-        "Id" : "6",
+        "Id" : "06",
+        "reviewId" : 6,
         "let" : "G",
         "img" : "images/parent-mdl.jpg",
         "name" : "Connie M.",
@@ -143,7 +150,8 @@ var parents_reviews = [
         "more_text": "for my son. I am blessed to have found this company that is run by someone so compassionate and serious about seeing other people's children succeed. My son worked with val and he adores her! My son opened up to her right away. She's young, energetic, & knows how to engage with him to get him to open up, & it's wonderful to see him finally enjoying the learning experince becouse she is both a good teacher and a fun teacher and it has made all the difference."
     },
     {
-        "Id" : "7",
+        "Id" : "07",
+        "reviewId" : 7,
         "let" : "H",
         "img" : "images/parent-mdl.jpg",
         "name" : "Bill D.",
@@ -152,7 +160,8 @@ var parents_reviews = [
         "more_text": "learning space for them. He gives them the confidence and enthusiasm, and helps to impart the skills that help them access their own inner intelligence. It's a rare skill. Thank you Mike!"
     },
     {
-        "Id" : "8",
+        "Id" : "08",
+        "reviewId" : 8,
         "let" : "I",
         "img" : "images/parent-mdl.jpg",
         "name" : "Julie S.",
