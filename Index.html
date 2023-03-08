@@ -191,7 +191,7 @@
                 </div>
 
                 <div class="slider">
-                    <div  v-for=" review in parentsReview" class="content">
+                    <div  v-for=" review in parentsReview" :id="review.reviewId" class="content">
                         <div class="stars">
                             <div class="mdl">
                                 <img class="parent-mdl" :src="review.img" alt="mdl img">
@@ -208,9 +208,18 @@
                     </div>    
                 </div>
                 <div class="radio-buttons">  
-                    <input class="previous" type="radio">
-                    <input class="middle" type="radio">
-                    <input class="next" type="radio">
+                    <label class="custom-radio-btn">
+                        <input name="selector" class="previous" type="radio" >
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="custom-radio-btn">
+                        <input name="selector" class="middle" type="radio" >
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="custom-radio-btn">
+                        <input name="selector"class="next" type="radio">
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
             </div>
         </section>
