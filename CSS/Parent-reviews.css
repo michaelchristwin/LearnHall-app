@@ -1,6 +1,8 @@
 .parent-reviews{
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .slider{
     display: flex;
@@ -15,7 +17,10 @@
     height: max-content;
     top: 0;
     margin-top: 0px;
-    
+    transition: opacity 0.5s ease;   
+}
+.parent-reviews{
+    height: max-content;
 }
 .parent-reviews .text-1 h2{
     font-family: "adobe-garamond-pro", serif;
@@ -39,18 +44,26 @@
     display: flex;
     text-align:left;
     position:relative;
-    height: 100px;
+    height: max-content;
 }
 .slider .text .read-more{
     color: #233C7E;
     display: flex;
     flex-wrap: wrap;
+    display: inline-block;
+}
+.slider .mdl{
+    display: inline-block;
 }
 .slider .name{
-    display: inline-block;
+    display: inline-block;    
+    position:absolute;
 }
 .slider .parent-mdl{
     position: relative;
+}
+.slider .parent-mdl img{
+    border-radius: 50%;
 }
 .slider .mdl{
     display: inline-block;
@@ -58,17 +71,30 @@
 .radio-buttons{
     display: inline-block;
 }
+.custom-radio-btn{
+    border-radius: 50%;
+    border: none;
+    background-color: #070a135e ;
+    display: inline-block;
+}
+.custom-radio-btn span {
+    border-radius: 50%;
+    background-color: #070a13df;
+    display: none;
+}
+.custom-radio-btn input{
+    display: none;
+}
+.custom-radio-btn input:checked + .checkmark {
+    display: inline-block;
+}
  
-
 
 
 /**********************
 * large desktop layout*
 **********************/
 @media only screen and (min-width: 1440px){
-    .parent-reviews{
-        height: max-content;
-    }
     .parent-reviews .text-1{
         margin-top: 11px;
         margin-top: 150px;
@@ -89,12 +115,10 @@
         margin-top: 60px;
     }
     .slider .content{
-        width: 390px;
+        width: 490px;
         box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
-        margin-left: 20px;
-    }
-    .slider .content:first-child{
-        margin-left: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .slider .parent-mdl{
         width: 77px;
@@ -108,12 +132,10 @@
     .slider .stars h2{
         font-size: 22px;
         margin-bottom: 7px;
-        position:static;
     }
     .slider .text {
         margin-left: 29px;
         width: 331px;
-        height: max-content;
     }
     .slider .text p{
         width: 331px;
@@ -122,22 +144,28 @@
     }
     .slider .name{
         margin-left: 8px;
+        bottom: 14px;
     }
-    .slider .name #star{
+    .slider .name .star{
         padding-bottom: 14px;
+        margin-bottom: 14px;
     }
     .radio-buttons{
         margin-top: 35px;
         margin-bottom: 176px;
     }
-    .radio-buttons input{
-        margin-left: 17px;
+    .custom-radio-btn{
+        width: 17px;
+        height: 17px;
+        margin-left: 17px; 
     }
-    .radio-buttons input:first-child{
+    .custom-radio-btn:first-child{
         margin-left: 0px;
     }
-
-   
+    .custom-radio-btn span {
+        width: 17px;
+        height: 17px;
+    }
 }
 
 
@@ -145,7 +173,77 @@
 **** Desktop layout****
 **********************/
 @media only screen and (min-width: 960px) and (max-width: 1440px){
-
+    .parent-reviews .text-1{
+        margin-top: 11px;
+        margin-top: 150px;
+    }
+    .parent-reviews .text-1 h2{
+        font-size: 50px;
+    }
+    .parent-reviews .text-1 p{
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 725px;
+    }
+    .parent-reviews .text .review-text-1{
+        display: none; 
+    }
+    .slider{
+        width: 920px;
+        margin-top: 50px;
+    }
+    .slider .content{
+        width: 293px;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .slider .parent-mdl{
+        width: 67px;
+        height: 67px;
+    }
+    .slider .stars{
+        margin-top: 28px;
+        margin-left: 28px;
+        margin-bottom: 9px;
+    }
+    .slider .stars h2{
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .slider .text {
+        margin-left: 20px;
+        width: 260px;
+    }
+    .slider .text p{
+        width: 331px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .slider .name{
+        margin-left: 8px;
+        bottom: 14px;
+    }
+    .slider .name .star{
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+    .radio-buttons{
+        margin-top: 30px;
+        margin-bottom: 156px;
+    }
+    .custom-radio-btn{
+        width: 16px;
+        height: 16px;
+        margin-left: 16px; 
+    }
+    .custom-radio-btn:first-child{
+        margin-left: 0px;
+    }
+    .custom-radio-btn span {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 
@@ -153,7 +251,80 @@
 ******* Tablet ********
 **********************/
 @media only screen and (min-width: 576px) and (max-width: 960px){
-
+    .parent-reviews .text-1{
+        margin-top: 11px;
+        margin-top: 150px;
+    }
+    .parent-reviews .text-1 h2{
+        font-size: 50px;
+    }
+    .parent-reviews .text-1 p{
+        margin-bottom: 20px;
+        font-size: 20px;
+        width: 725px;
+    }
+    .parent-reviews .text .review-text-1{
+        display: none; 
+    }
+    .slider{
+        width: 620px;
+        background-color: aqua;
+        margin-top: 50px;
+        display: flex;
+        justify-self: center;
+    }
+    .slider .content{
+        width: 293px;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.236);
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .slider .parent-mdl{
+        width: 67px;
+        height: 67px;
+    }
+    .slider .stars{
+        margin-top: 28px;
+        margin-left: 28px;
+        margin-bottom: 9px;
+    }
+    .slider .stars h2{
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .slider .text {
+        margin-left: 20px;
+        width: 260px;
+    }
+    .slider .text p{
+        width: 331px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .slider .name{
+        margin-left: 8px;
+        bottom: 14px;
+    }
+    .slider .name .star{
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+    .radio-buttons{
+        margin-top: 30px;
+        margin-bottom: 156px;
+    }
+    .custom-radio-btn{
+        width: 16px;
+        height: 16px;
+        margin-left: 16px; 
+    }
+    .custom-radio-btn:first-child{
+        margin-left: 0px;
+    }
+    .custom-radio-btn span {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 
