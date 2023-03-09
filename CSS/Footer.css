@@ -90,6 +90,38 @@ footer .copywrite .right {
   display: flex;
   justify-content: right;
 }
+footer .email {
+  display: flex;
+  justify-content: end;
+}
+footer .email input{
+  border: 2px solid #ffffff9e;
+}
+input::placeholder{
+  color: #ffffff9e;
+}
+footer .email input{
+  color: #ffffff9e ;
+  background-color: transparent;
+}
+footer .email div {
+  display: block;
+  position: absolute;
+}
+footer .email h4{
+  display: block;
+}
+footer .email h4{
+  color: #ffffff;
+}
+footer .email button{
+  background-color: #c04c40;
+  border-color: #c04c40;
+  color: #ffffff;
+}
+footer .email h4{
+  color: #ffffff;
+}
 
 /**********************
 * large desktop layout*
@@ -181,7 +213,7 @@ footer .copywrite .right {
     padding-bottom: 8px;
   }
   footer hr {
-    margin-top: 210px;
+    margin-top: 140px;
   }
   footer .copywrite {
     margin-top: 22px;
@@ -193,6 +225,34 @@ footer .copywrite .right {
   }
   footer .copywrite span {
     height: 23px;
+  }
+  footer .email {
+    margin-top: 37px;
+    margin-right: 23px;
+  }
+  footer .email h4{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-right: 371px;
+  }
+  footer .email div {
+    width: 670px;
+  }
+  footer .email input{
+    margin-top: 46px;
+    height: 45px;
+    width: 481px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300px;
+  }
+  footer .email button{
+    margin-left: 10px;
+    height: 45px;
+    width: 155px; 
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700px;
   }
 }
 
@@ -290,7 +350,7 @@ footer .copywrite .right {
     font-size: 16px;
   }
   footer hr {
-    margin-top: 195px;
+    margin-top: 155px;
   }
   footer .copywrite {
     margin-top: 22px;
@@ -302,6 +362,34 @@ footer .copywrite .right {
   }
   footer .copywrite span {
     height: 23px;
+  }
+  footer .email {
+    margin-top: 37px;
+    margin-right: 23px;
+  }
+  footer .email h4{
+    font-size: 18px;
+    font-weight: 700px;
+    margin-right: 281px;
+  }
+  footer .email div {
+    width: 555px;
+  }
+  footer .email input{
+    margin-top: 36px;
+    height: 40px;
+    width: 381px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 300px;
+  }
+  footer .email button{
+    margin-left: 10px;
+    height: 40px;
+    width: 135px; 
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700px;
   }
 }
 
@@ -422,11 +510,11 @@ footer .copywrite .right {
     font-size: 16px;
   }
   footer hr {
-    margin-top: 425px;
+    margin-top: 215px;
     position: absolute;
   }
   footer .copywrite {
-    margin-top: 450px;
+    margin-top: 240px;
     font-size: 14px;
     position: absolute;
     width: 100%;
@@ -439,6 +527,35 @@ footer .copywrite .right {
   }
   footer .copywrite span {
     height: 23px;
+  }
+  footer .email {
+    padding-top: 190px;
+    justify-content: start;
+  }
+  footer .email h4{
+    font-size: 18px;
+    font-weight: 700px;
+    margin-left: -30px;
+  }
+  footer .email div {
+    width: max-content;
+  }
+  footer .email input{
+    margin-top: 36px;
+    height: 37px;
+    width: 341px;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 300px;
+    margin-left: -30px;
+  }
+  footer .email button{
+    margin-left: 10px;
+    height: 37px;
+    width: 135px; 
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700px;
   }
 }
 
@@ -578,11 +695,11 @@ footer .copywrite .right {
     font-size: 9px;
   }
   footer hr {
-    margin-top: 335px;
+    margin-top: 155px;
     position: absolute;
   }
   footer .copywrite {
-    margin-top: 350px;
+    margin-top: 165px;
     font-size: 9px;
     position: absolute;
     width: 100%;
@@ -595,5 +712,34 @@ footer .copywrite .right {
   }
   footer .copywrite span {
     height: 23px;
+  }
+  footer .email {
+    padding-top: 160px;
+    justify-content: start;
+  }
+  footer .email h4{
+    font-size: 12px;
+    font-weight: 700px;
+    margin-left: -17px;
+  }
+  footer .email div {
+    width: max-content;
+  }
+  footer .email input{
+    margin-top: 30px;
+    height: 32px;
+    width: 171px;
+    padding-left: 10px;
+    font-size: 10px;
+    font-weight: 300px;
+    margin-left: -17px;
+  }
+  footer .email button{
+    margin-left: 10px;
+    height: 32px;
+    width: 75px; 
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 700px;
   }
 }
