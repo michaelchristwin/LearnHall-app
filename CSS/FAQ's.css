@@ -1,0 +1,119 @@
+section .text{
+    margin: auto;
+}
+section .text h1{
+    text-align: center;
+    font-family:"adobe-garamond-pro", serif;
+}
+section .text p{
+    text-align: center;
+}
+section .FAQ{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 0.5px solid #C6C8CC;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    height: max-content;
+}
+section .FAQ h4{
+    font-family: 'Helvetica';
+    font-style: normal;
+    color: #070A13;
+}
+section .FAQ-img img {
+    position: absolute;
+    
+}
+
+
+/**********************
+* large desktop layout*
+**********************/
+@media only screen and (min-width: 1440px){
+    section .text{
+        width: 732px;
+    }
+    section .text h1{
+        font-size: 50px;
+        margin-top: 90px;
+        margin-bottom: 25px;
+    }
+    section .text p{
+        font-size: 22px;
+        margin-bottom: 60px;
+    }
+    section .FAQ{
+        width: 1210px;
+        padding-bottom: 40px;
+        top: 360px;
+        border-radius: 5px;
+    }
+    section .FAQ h4{
+        width: 672px;
+        height: 22px;
+        margin-left: 29px;
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 26px;
+    }
+    section .FAQ p{
+        margin-left: 29px;
+        margin-top: 30px;
+        width: 1020px;
+        font-weight: 400;
+        font-size: 21px;
+        color: rgba(7, 10, 19, 0.8);
+        display: none;
+    }
+    section .FAQ-img{
+        width: 1210px;
+        margin: auto;
+        background-color: aqua;
+        position: relative;
+    }
+    section .FAQ-img img {
+        width: 48px;
+        height: 48px;
+        right: 43px;
+        top: -75px; 
+    }
+    section .FAQ-img .FAQ-cross {
+        width: 25px;
+        height: 25px;
+        margin-top: 12px;
+        margin-right: 11px;
+    }
+    section .FAQ-img .FAQ-minus {
+        width: 27px;
+        height: 4px;
+        margin-top: 22px;
+        margin-right: 10px;
+        display: none;
+    }
+    section .FAQ-img .FAQ-brown-2 {
+        display: none;
+    }
+}
+
+/**********************
+**** Desktop layout****
+**********************/
+@media only screen and (min-width: 960px) and (max-width: 1440px){
+
+}
+
+/**********************
+******* Tablet ********
+**********************/
+@media only screen and (min-width: 576px) and (max-width: 960px){
+
+}
+
+/**********************
+******* Mobile ********
+**********************/
+@media only screen and (max-width: 576px){
+
+}
