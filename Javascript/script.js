@@ -158,6 +158,69 @@ $(function () {
     });
     
   
+    /* footer email section */
+    var form_id = "jquery_form";
+
+    var data = {
+        "access_token": "syky96ehkc3tv2xzzp65uodx"
+    };
+
+    function onSuccess() {
+        // remove this to avoid redirect
+        window.location = window.location.pathname + "?message=Email+Successfully+Sent%21&isError=0";
+    }
+
+    function onError(error) {
+        // remove this to avoid redirect
+        window.location = window.location.pathname + "?message=Email+could+not+be+sent.&isError=1";
+    }
+
+    var sendButton = $("#" + form_id + " [name='send']");
+
+    function send() {
+        sendButton.val('Sending…');
+        sendButton.prop('disabled',true);
+
+        var message = $("#" + form_id + " [name='email']").val();
+        data['email'] = message;
+
+        $.post('https://postmail.invotes.com/send',
+            data,
+            onSuccess
+        ).fail(onError);
+
+        return false;
+    }
+
+    sendButton.on('click', send);
+
+    var $form = $("#" + form_id);
+    $form.submit(function( event ) {
+        event.preventDefault();
+    });
+
+    /* show and hide FAQ's */
+    function show_FAQ(){
+        $(".FAQ-p").show();
+        $(".FAQ-cross").hide();
+        $(".FAQ-minus").show();
+        $(".FAQ-brown-1").hide();
+        $(".FAQ-brown-2").show();
+        $(".FAQ-img").css("marginTop", "-130px")
+    };
+    function hide_FAQ(){
+        $(".FAQ-p").hide();
+        $(".FAQ-cross").show();
+        $(".FAQ-minus").hide();
+        $(".FAQ-brown-2").hide();
+        $(".FAQ-brown-1").show();
+        $(".FAQ-img").css("marginTop", "0px")
+    };
+
+    $(".FAQ-brown-1").click(show_FAQ );
+    $(".FAQ-brown-2").click( hide_FAQ );
+    $(".FAQ-cross").click(show_FAQ );
+    $(".FAQ-minus").click( hide_FAQ );
   
     /* Discplays the current year at the copywright section */
     let currentYear= new Date();
