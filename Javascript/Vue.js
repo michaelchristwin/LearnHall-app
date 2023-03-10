@@ -169,7 +169,35 @@ var parents_reviews = [
         "text" : "Mike listened to us and helped us target our child's specific needs. He was willing to take us on, even though my kid has special needs and needed plenty of patience. Mike had that for us",
         "more_text": ", and he has been vary pleasent to work with, tweaking his approach and fine tunning things from time to tome. He has been an encouragement to us and we appreciate the consistent help he has been."
     },
-]
+]; 
+
+var FAQs = [
+    {
+        "id" : "a",
+        "question" : "Lorem ipsum dolor sit amet, consectetur adipiscing eli?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l" 
+    },
+    {
+        "id" : "b",
+        "question" : "Lorem ipsum dolor sit amet, consectetur adipiscing eli?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l" 
+    },
+    {
+        "id" : "c",
+        "question" : "Lorem ipsum dolor sit amet, consectetur adipiscing eli?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l" 
+    },
+    {
+        "id" : "d",
+        "question" : "Lorem ipsum dolor sit amet, consectetur adipiscing eli?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l" 
+    },
+    {
+        "id" : "e",
+        "question" : "Lorem ipsum dolor sit amet, consectetur adipiscing eli?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l" 
+    },
+];
  
 
 const Bio = {
@@ -179,7 +207,8 @@ const Bio = {
             steps: window.steps,
             letsConnect : window.lets_connect,
             contactUs : Contact_Us,
-            parentsReview : parents_reviews
+            parentsReview : parents_reviews,
+            FAQ : FAQs
         }
     }
 };
