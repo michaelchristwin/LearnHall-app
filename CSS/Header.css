@@ -1,5 +1,6 @@
 header{
     width: 100%;
+    height: max-content;
 }
 .header-content{
     display: inline-block;
@@ -32,9 +33,6 @@ header{
     text-decoration: none;
     color:#070a1396;
 }
-.nav-bar li a:active{
-    color: #070A13;
-}
 .nav-bar li span a{
     text-decoration: none;
     color: #070A13;
@@ -48,16 +46,14 @@ header{
 .nav-bar span {
     color: #070A13;
 }
-.nav-bar .nav-selected{
-    color: #070A13;
-}
+
 
 /**********************
 * large desktop layout*
 **********************/
 @media only screen and (min-width: 1440px){
     header{
-        height: 100px;
+        padding-bottom: 30px;
     }
     .header-content{
         height: 38px;
@@ -113,7 +109,7 @@ header{
 **********************/
 @media only screen and (min-width: 960px) and (max-width: 1440px){
     header{
-        height: 80px;
+        padding-bottom: 25px;
     }
     .header-content{
         height: 38px;
@@ -170,7 +166,7 @@ header{
 **********************/
 @media only screen and (min-width: 576px) and (max-width: 960px){
     header{
-        height: 70px;
+        padding-bottom: 20px;
     }
     .header-content{
         height: 38px;
@@ -200,19 +196,19 @@ header{
         justify-content: right;
     }
     .hamburger-menu-open img{
-        height: 40px;
-        width: 40px;
+        height: 27px;
+        width: 27px;
     }
     .hamburger-menu-close{
-        margin-top: -27px;
+        margin-top: -32px;
         display: flex;
         justify-content: right;
         display: none;
         
     }
     .hamburger-menu-close img{
-        height: 30px;
-        width: 30px;
+        height: 27px;
+        width: 27px;
         
     }
     .nav-bar-hamburger-menu{
@@ -233,11 +229,8 @@ header{
     .nav-bar-hamburger-menu .hamburger-menu li a{
         font-size: 20px;
         text-decoration: none;
-        color:#070a13;
-    }
-    .nav-bar-hamburger-menu .hamburger-menu li a:active{
         color:#070a1396;
-    } 
+    }
     .nav-bar-hamburger-menu .hamburger-menu li span a{
         font-size: 20px;
         text-decoration: none;
@@ -266,7 +259,7 @@ header{
 **********************/
 @media only screen and (max-width: 576px){
     header{
-        height: 60px;
+        padding-bottom: 5px;
     }
     .header-content{
         height: 38px;
@@ -291,13 +284,13 @@ header{
         font-size: 20px;
     }
     .hamburger-menu-open{
-        margin-top: -28px;
+        margin-top: -24px;
         display: flex;
         justify-content: right;
     }
     .hamburger-menu-open img{
-        height: 24px;
-        width: 24px;
+        height: 19px;
+        width: 19px;
     }
     .hamburger-menu-close{
         margin-top: -24px;
@@ -306,8 +299,8 @@ header{
         display: none;
     }
     .hamburger-menu-close img{
-        height: 17px;
-        width: 17px;
+        height: 19px;
+        width: 19px;
     }
     .nav-bar-hamburger-menu .hamburger-menu{
         width: 300px;
