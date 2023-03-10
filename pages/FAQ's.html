@@ -81,29 +81,30 @@
                 </div>
             </header>
 
-            <section>
+            <section class="FQ">
+                </div>
                 <div class="container">
                     <div class="text">
                         <h1>Frequently Asked Questions</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                             eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="FAQ">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing eli?</h4>
-                        <p class="FAQ-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l</p>
-                    </div>
-                    <div class="FAQ-img">
-                        <img class="FAQ-brown-1" src="/images/brown-circle.png" alt="">
-                        <img class="FAQ-cross" src="/images/cross.png" alt="open">
-                        <img class="FAQ-brown-2" src="/images/brown-circle.png" alt="">
-                        <img class="FAQ-minus" src="/images/minus.png" alt="close">
-                    </div>
+                    <div v-for="FAQ in FAQ" class="FAQ-container" :id="FAQ.id">
+                        <div class="block">
+                            <div class="FAQ">
+                            <h4 :id="FAQ.id" > {{FAQ.question}} </h4>
+                                <p :id="FAQ.id" class="FAQ-p">{{FAQ.answer}}</p>
+                            </div>
+                            <div :id="FAQ.id" class="FAQ-img">
+                                <img :id="FAQ.id" class="FAQ-brown-1" src="/images/brown-circle.png" alt="">
+                                <img :id="FAQ.id" class="FAQ-cross" src="/images/cross.png" alt="open">
+                                <img :id="FAQ.id" class="FAQ-brown-2" src="/images/brown-circle.png" alt="">
+                                <img :id="FAQ.id" class="FAQ-minus" src="/images/minus.png" alt="close">
+                            </div>
 
+                        </div>
+                    </div>
                 </div>
-
             </section>
     
             <footer>
