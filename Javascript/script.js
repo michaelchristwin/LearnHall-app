@@ -1,25 +1,36 @@
 $(function () {
     
-    function no_hamburger() {
+    function reload() {
   
         var context;
         $window = $(window);
   
         // run this right away to set media-querry
-        if ($window.width() >= 960) {
+        if ($window.width() >= 1440) {
+            context = 'large-desktop';
+        } else if ($window.width() >= 960) {
             context = 'desktop';
-        } 
+        } else if ($window.width() >= 576) {
+            context = 'tablet';
+        } else if ($window.width() >= 0) {
+            context = 'mobile';
+        }
   
         // refresh the page only if you're crossing into the media-querry
         // that isn't already set
         $(window).resize(function() {
-            if(($window.width() >= 960) && (context != 'desktop')) {
             //refresh the page
+            if(($window.width() >= 1440) && (context != 'large-desktop')) {
+                location.reload();
+            } else if(($window.width() >= 960) && (context != 'mobile')) {
+                location.reload();
+            } else if(($window.width() >= 576) && (context != 'tablet')) {
+                location.reload();
+            } else if(($window.width() >= 0) && (context != 'mobile')) {
                 location.reload();
             }
         });
     };
-    
     
     /* Hamburger menu function */
     $("#open-hamburger").click(function () {
@@ -28,20 +39,19 @@ $(function () {
         $(".hamburger-menu-open").css('display', 'none');
         $(".hamburger-menu-close").css('display', 'flex');
         $(".nav-bar-hamburger-menu").css('display', 'block');
-        no_hamburger()
-  
-        $(".learnhall-info").css('marginTop', '300px');
+
+        $("header").css('height', "max-content");
+        reload()
         
-  
         /* Closing the menu */
         $("#close-hamburger").click(function () {
   
             $(".hamburger-menu-open").css('display', 'flex');
             $(".hamburger-menu-close").css('display', 'none');
-            $(".nav-bar-hamburger-menu").css('display', 'none');
-            no_hamburger()
-  
-            $(".learnhall-info").css('marginTop', '0px');
+            $(".nav-bar-hamburger-menu").css('display', 'none'); 
+        
+            $("header").css('height', "max-content");
+            reload()
         });
     });
   
@@ -106,19 +116,24 @@ $(function () {
  
     
     /* slider function */
-    let nextId = 1,
-    middleId = 0,
-    previouseId = -1,
-    IDs = [];
+    if ($window.width() >= 960) {
+        nextId = 1,
+        previouseId = -1;
+    } else if($window.width() >= 576) {
+        nextId = 0,
+        previouseId = -1;
+    } else if($window.width() >= 0) {
+        nextId = -1,
+        previouseId = -2;
+    }; 
     
     $('.next').click(function() {
+        reload()
         nextId ++,
-        middleId++,
         previouseId ++;
 
         $(".content").each(function() {
             a = $(this).attr("id");
-            /* IDs.append(a); */
             
             if (a == previouseId) {
                 a = "#" + a;
@@ -130,19 +145,17 @@ $(function () {
             };
             
         });  
-        console.log(IDs.last());
         return nextId,
         previouseId;
     });
 
     $('.previous').click(function() {
+        reload()
         
         $(".content").each(function() {
             a = $(this).attr("id");
             
-                if ( nextId == 2 && previouseId == -1) {
-                    console.log("end");
-                } else if ( a == nextId) {
+                if ( a == nextId) {
                     a = "#" + a;
                     $(a).hide();
                     nextId --;
@@ -153,7 +166,6 @@ $(function () {
                 };
         });
         return nextId,
-        middleId,
         previouseId ;
     });
     
@@ -200,27 +212,58 @@ $(function () {
     });
 
     /* show and hide FAQ's */
-    function show_FAQ(){
-        $(".FAQ-p").show();
-        $(".FAQ-cross").hide();
-        $(".FAQ-minus").show();
-        $(".FAQ-brown-1").hide();
-        $(".FAQ-brown-2").show();
-        $(".FAQ-img").css("marginTop", "-130px")
-    };
-    function hide_FAQ(){
-        $(".FAQ-p").hide();
-        $(".FAQ-cross").show();
-        $(".FAQ-minus").hide();
-        $(".FAQ-brown-2").hide();
-        $(".FAQ-brown-1").show();
-        $(".FAQ-img").css("marginTop", "0px")
+    function show_FAQ(z){
+        $( z + ".FAQ-p").show();
+        $( z + ".FAQ-cross").hide();
+        $( z + ".FAQ-minus").show();
+        $( z + ".FAQ-brown-1").hide();
+        $( z + ".FAQ-brown-2").show();
+        $( z + ".FAQ-img").css("marginTop", "-130px")
+
+        if ($window.width() >= 1440) {
+            $( z + ".FAQ-container").css("height", "233px")
+        } else if ($window.width() >= 960) {
+            $( z + ".FAQ-container").css("height", "212px")
+        } else if($window.width() >= 576) {
+            $( z + ".FAQ-container").css("height", "216px")
+            
+        } else if($window.width() >= 0) {
+            $( z + ".FAQ-container").css("height", "210px")
+        };  
+        reload()
     };
 
-    $(".FAQ-brown-1").click(show_FAQ );
-    $(".FAQ-brown-2").click( hide_FAQ );
-    $(".FAQ-cross").click(show_FAQ );
-    $(".FAQ-minus").click( hide_FAQ );
+    function hide_FAQ(z){
+        $( z + ".FAQ-p").hide();
+        $( z + ".FAQ-cross").show();
+        $( z + ".FAQ-minus").hide();
+        $( z + ".FAQ-brown-2").hide();
+        $( z + ".FAQ-brown-1").show();
+        $( z + ".FAQ-img").css("marginTop", " 0px")
+        $( z + ".FAQ-container").css("height", "max-content")
+        reload()
+    };
+
+    $(".FAQ-brown-1").click(function(){
+        z = $(this).attr("id");
+        z = "#" + z
+        show_FAQ(z)
+    });
+    $(".FAQ-brown-2").click(function(){
+        z = $(this).attr("id");
+        z = "#" + z
+        hide_FAQ(z)
+    });
+    $(".FAQ-cross").click(function(){
+        z = $(this).attr("id");
+        z = "#" + z
+        show_FAQ(z)
+    });
+    $(".FAQ-minus").click(function(){
+        z = $(this).attr("id");
+        z = "#" + z
+        hide_FAQ(z)
+    });
   
     /* Discplays the current year at the copywright section */
     let currentYear= new Date();
