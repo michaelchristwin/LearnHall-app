@@ -68,6 +68,7 @@ $(function () {
   
     /* read more function */
     $(".read-more").click(function() {
+        reload();
   
         currentText = $(this).attr("id");
         parentElement = $(this).parent();
@@ -80,11 +81,12 @@ $(function () {
         $(showText).css('display', 'block');
         
     });
-        
+       
     $window = $(window);
     $(".content").each(function() {
         a = $(this).attr("id");
-              
+         
+        
         if($window.width() >= 960) {
             if (a < 3) {
                 a = "#" + a;
@@ -116,56 +118,65 @@ $(function () {
  
     
     /* slider function */
-    if ($window.width() >= 960) {
-        nextId = 1,
-        previouseId = -1;
-    } else if($window.width() >= 576) {
-        nextId = 0,
-        previouseId = -1;
-    } else if($window.width() >= 0) {
-        nextId = -1,
-        previouseId = -2;
-    }; 
+    function show_content() {
+        if ($window.width() >= 960) {
+            nextId = 2,
+            previouseId = -1;
+        } else if($window.width() >= 576) {
+            nextId = 1,
+            previouseId = -1;
+        } else if($window.width() >= 0) {
+            nextId = -0,
+            previouseId = -1;
+        }; 
+        return nextId,
+        previouseId ;
+    }
+    show_content();
     
     $('.next').click(function() {
-        reload()
-        nextId ++,
-        previouseId ++;
-
-        $(".content").each(function() {
-            a = $(this).attr("id");
-            
-            if (a == previouseId) {
-                a = "#" + a;
-                $(a).hide();
-            };
-            if (a == nextId) {
-                a = "#" + a;
-                $(a).show();
-            };
-            
-        });  
-        return nextId,
-        previouseId;
-    });
-
-    $('.previous').click(function() {
         reload()
         
         $(".content").each(function() {
             a = $(this).attr("id");
             
+             if (a == previouseId) {
+                a = "#" + a;
+                $(a).hide();
+            } else if (a == nextId) {
+                a = "#" + a;
+                $(a).show();
+            };
+            
+        });  
+        return nextId ++,
+        previouseId ++;
+    });
+
+    $('.previous').click(function() {
+        reload()
+        nextId --,
+        previouseId --;
+         
+        $(".content").each(function() {
+            a = $(this).attr("id");
+
+            if (previouseId < -1 ) {
+                console.log("end")
+                return  show_content();
+
+            } else if (previouseId >= 0) {
                 if ( a == nextId) {
                     a = "#" + a;
-                    $(a).hide();
-                    nextId --;
-                } else if (a == previouseId) {
+                    $(a).hide(); 
+                } else if (a == previouseId ) {
                     a = "#" + a;
                     $(a).show();
-                    previouseId --;
                 };
+            };
         });
-        return nextId,
+        
+        return nextId,       
         previouseId ;
     });
     
