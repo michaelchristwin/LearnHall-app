@@ -191,16 +191,16 @@ header{
         font-size: 39px;
     }
     .hamburger-menu-open{
-        margin-top: -32px;
+        margin-top: -38px;
         display: flex;
         justify-content: right;
     }
     .hamburger-menu-open img{
-        height: 27px;
-        width: 27px;
+        height: 37px;
+        width: 30px;
     }
     .hamburger-menu-close{
-        margin-top: -32px;
+        margin-top: -33px;
         display: flex;
         justify-content: right;
         display: none;
@@ -264,7 +264,7 @@ header{
     .header-content{
         height: 38px;
         width: 100%;
-        margin-top: 15px;
+        margin-top: 20px;
         padding: 0px;
     }
     .logo-image {
@@ -284,13 +284,13 @@ header{
         font-size: 20px;
     }
     .hamburger-menu-open{
-        margin-top: -24px;
+        margin-top: -28px;
         display: flex;
         justify-content: right;
     }
     .hamburger-menu-open img{
-        height: 19px;
-        width: 19px;
+        height: 24px;
+        width: 24px;
     }
     .hamburger-menu-close{
         margin-top: -24px;
