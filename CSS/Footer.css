@@ -4,6 +4,7 @@ footer * {
 footer {
   width: 100%;
   background-color: #1f3158;
+  display: flex;
   display: block;
   position: relative;
 }
@@ -478,7 +479,7 @@ footer .email h4{
     margin-right: 17px;
   }
   .info {
-    padding-top: 54px;
+    padding-top: 35px;
     margin: auto;
     justify-content: center;
     display: flex;
