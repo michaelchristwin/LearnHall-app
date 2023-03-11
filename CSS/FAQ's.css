@@ -46,6 +46,9 @@ section .FAQ-img{
 .block{
     display: block;
 }
+footer {
+    margin-top: 0px;
+}
 
 
 /**********************
@@ -118,6 +121,7 @@ section .FAQ-img{
     section .FAQ-img .FAQ-brown-2 {
         display: none;
     }
+    
 }
 
 /**********************
@@ -335,4 +339,5 @@ section .FAQ-img{
     section .FAQ-img .FAQ-brown-2 {
         display: none;
     }
+   
 }
