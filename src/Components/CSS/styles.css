@@ -1,0 +1,1050 @@
+@font-face {
+  font-family: "Adobe-Garamond-Bold";
+  src: url(../fonts/AGaramondPro-Bold.otf);
+}
+.logo {
+  margin-right: 10px !important;
+  height: 30px;
+  width: 30px;
+}
+.logo-footer {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+.newsletter {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.private {
+  color: rgba(7, 10, 19, 0.6);
+  font-weight: 400;
+  font-size: 19px;
+}
+.brand {
+  height: 30px;
+}
+.nav-brand {
+  padding-right: 290px;
+  z-index: 1;
+}
+.nav-b {
+  margin-left: 135px;
+}
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-brand2 {
+  padding-right: 200px;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+.service {
+  margin-top: 100px;
+  margin-left: 150px;
+  padding-top: 30px;
+}
+.book-btn {
+  background-color: #a63634;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 40px;
+}
+.book-btn:hover {
+  background-color: black;
+}
+.d-review {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left !important;
+}
+.book-btn a {
+  text-decoration: none;
+  color: white;
+}
+.service-title {
+  font-family: Adobe-Garamond-Bold !important;
+  font-weight: 700;
+  font-size: 55px;
+}
+.draw1 {
+  padding-right: 20px;
+  height: 130px;
+  position: absolute;
+  top: 65px;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 15px; /* change width */
+  height: 15px; /* change height */
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 100%; /* add border-radius */
+}
+.carousel-indicators li {
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-indicators :active {
+  background-color: black !important;
+}
+.my-form {
+  background-color: #ffffff;
+}
+.rectangle {
+  height: 630px;
+  width: 500px;
+}
+.student {
+  background-color: #b84b40;
+  height: 560px;
+  width: 550px;
+  z-index: 1;
+  direction: rtl;
+  margin-top: 45px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+}
+.stud-img {
+  margin-top: 50px;
+  margin-right: 40px;
+  background: #fed7bd;
+  width: 600px;
+  border-radius: 12px;
+  height: 550px;
+}
+.stud-img2 {
+  width: 600px;
+  border-radius: 12px;
+  height: 550px;
+}
+.hero {
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.why-head {
+  margin-left: 130px !important;
+}
+.about-service {
+  font-size: 22px;
+  line-height: 30px;
+  font-family: Helvetica;
+}
+body {
+  font-family: Helvetica;
+  overflow-x: hidden;
+}
+body h1 {
+  font-family: Adobe-Garamond-Bold !important;
+}
+body h4 {
+  font-family: Adobe-Garamond-Bold !important;
+}
+#card-img {
+  height: 85px;
+  padding: 6px;
+  width: 85px;
+  margin-bottom: 5px;
+}
+#card {
+  border-radius: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 280px;
+  height: 290px;
+  text-align: center;
+}
+.student2 {
+  background: #fed7bd;
+  width: 570px;
+  border-radius: 14px;
+  z-index: 1;
+}
+
+.subtract {
+  height: 130px;
+}
+.booking {
+  text-align: center;
+  margin-left: 00px;
+}
+.subtract2 {
+  height: 100px;
+  position: absolute;
+  margin-top: -60px;
+  z-index: -1;
+}
+.num-fig {
+  margin-top: 20px;
+  z-index: 1;
+  height: 90px;
+  margin-right: 20px;
+}
+.text-box {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  border-radius: 6px;
+}
+.social-title {
+  color: #ffffff8d;
+  font-weight: normal !important;
+}
+.step-sect {
+  margin-top: 50px;
+}
+.step-title {
+  color: #070a13;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.d-step {
+  font-weight: 300;
+  font-size: 20px;
+}
+.all-steps {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.step {
+  width: fit-content;
+}
+.review {
+  width: 340px;
+  height: 344px;
+  padding: 20px;
+}
+.reviews-sect {
+  padding: 10px;
+  padding-bottom: 30px;
+}
+.form-error {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+}
+.stud-sub {
+  height: 80px;
+  width: 200px;
+  margin-top: -30px;
+  float: right;
+}
+.review-container {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatar {
+  height: 70px;
+  padding: 5px;
+}
+.rv-sm {
+  display: none;
+}
+.tutor {
+  width: 500px;
+  margin-left: 150px !important;
+}
+
+.become-btn:hover {
+  background-color: black;
+}
+.become-btn {
+  background-color: #a63634;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+.back-image {
+  height: 600px;
+  width: 600px;
+  z-index: -1;
+  margin-top: -30px;
+  background: #b84b40;
+  border-radius: 14px;
+}
+.top-image {
+  width: 580px;
+  height: 540px;
+  border-radius: 12px;
+  z-index: 2;
+}
+.foot-links a {
+  text-decoration: none;
+  color: #ffffff8d;
+}
+.r-sect {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+.tutor-sect {
+  height: fit-content;
+  margin-bottom: 250px;
+}
+.rect2 {
+  border-radius: 14px;
+  background: #fed7bd;
+  z-index: 1;
+  width: 650px;
+  right: 40px;
+  margin-top: 30px;
+}
+.tutor-images {
+  border-radius: 12px;
+  background: #fed7bd;
+}
+.footer {
+  background: #1f3158;
+  margin-top: 70px;
+  padding: 70px;
+}
+.line {
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 40px;
+}
+.r-name {
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f3158;
+  text-align: left;
+}
+.social {
+  height: 45px;
+  width: 45px;
+}
+.footer span {
+  color: #ffffff8d;
+}
+.copyright p {
+  font-size: 13px;
+  color: #ffffff8d;
+}
+.stud-img-sm {
+  display: none;
+}
+.newsletter-btn {
+  background-color: #a63634;
+  color: white;
+  width: 110px !important;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.subscribe {
+  width: 460px;
+  background-color: inherit;
+  color: white;
+}
+.cpr {
+  margin-left: 70px;
+}
+.become-btn a {
+  text-decoration: none !important;
+  color: white;
+}
+.hr {
+  color: white;
+  margin-left: 70px;
+  margin-top: 80px;
+}
+.bk-sm {
+  display: none;
+}
+.tele {
+  height: 20px;
+}
+.d-form {
+  width: 360px;
+}
+#follow {
+  display: none;
+}
+.sub-btn {
+  background-color: #a63634;
+  color: white;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.in-touch {
+  height: fit-content;
+  margin-left: 70px;
+}
+.why-join {
+  height: fit-content;
+  margin-left: 70px;
+}
+.contact-img {
+  width: 270px;
+}
+.subs-div {
+  float: right;
+  margin-top: -60px;
+}
+.why-lg {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.why-sm {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.book-p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+.tutor-sm {
+  display: none;
+}
+.join-img {
+  height: 50px;
+  width: 50px;
+}
+#top {
+  background: rgba(251, 142, 66, 0.03);
+}
+.want-tut-sm {
+  display: none;
+}
+.join-hr {
+  width: 40px;
+  height: 3px;
+  margin-top: -6px;
+  background: rgba(65, 62, 62, 0.912);
+}
+.sub-tut {
+  height: 150px;
+}
+.want-tut {
+  margin-top: -50px;
+}
+.done-right {
+  background: rgba(251, 142, 66, 0.03);
+}
+.what-say {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.card-text {
+  font-weight: 300;
+  font-size: 20px;
+  color: #373c48;
+  line-height: 26px;
+}
+.card-title {
+  font-size: 23px;
+  color: #070a13;
+  margin-bottom: 8px;
+  line-height: 30px;
+  font-weight: 400 !important;
+}
+.formt-lg {
+  display: block;
+}
+.studh {
+  display: none;
+}
+.email {
+  height: 100px;
+}
+.bucky {
+  background: rgba(251, 142, 66, 0.03);
+}
+.mod-head {
+  padding: 0 !important;
+  padding-right: 30px !important;
+  border: 0;
+}
+.card-cont {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+}
+.what-say-sm {
+  display: none !important;
+}
+.t-semi {
+  display: none;
+}
+.star {
+  height: 25px;
+  float: left;
+  margin-top: -10px;
+  margin-left: -2px;
+}
+.footer h4 {
+  font-family: Helvetica !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tut-break {
+  display: block;
+}
+.choice {
+  display: none;
+}
+.footer-sectsm {
+  display: none !important;
+}
+.form-parent {
+  justify-content: center;
+  margin-top: 90px !important;
+}
+.choose {
+  display: block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.semi-c {
+  display: none;
+}
+.stud-sect {
+  float: right;
+}
+.empty-sm {
+  display: none;
+}
+.svg-sm {
+  display: none;
+}
+.formt-sm {
+  display: none;
+}
+.footer-sect1 {
+  margin-left: 80px;
+}
+@media (max-width: 1200px) {
+  .about-service {
+    font-size: 22px;
+    line-height: 30px;
+    width: 500px;
+  }
+  .top-image {
+    width: 480px;
+    height: 340px;
+    border-radius: 12px;
+    z-index: 2;
+  }
+  .tutor {
+    margin-left: 80px !important;
+  }
+  .service {
+    margin-left: 80px;
+  }
+  .d-step {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .stud-img {
+    margin-top: 50px;
+    margin-right: 40px;
+    background: #fed7bd;
+    width: 450px;
+    border-radius: 12px;
+    height: 550px;
+  }
+  .student {
+    background-color: #b84b40;
+    height: 560px;
+    width: 400px;
+    z-index: 1;
+    direction: rtl;
+    margin-top: 45px;
+    border-radius: 14px;
+    margin-bottom: 40px;
+  }
+}
+.nav-brand {
+  padding-right: 150px;
+}
+@media (max-width: 576px) {
+  .nav-brand {
+    padding-right: 100px;
+  }
+  .semi-c {
+    display: block;
+    height: 70px;
+    float: right;
+    margin-right: -30px;
+    margin-top: -60px;
+  }
+  .r-name {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .card-cont {
+    margin-bottom: 70px;
+  }
+  .svg-sm {
+    margin-top: -89px;
+    display: block;
+    height: 86px;
+    width: 46px;
+  }
+  .card-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .d-review {
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 15px;
+  }
+  .review {
+    height: 230px;
+  }
+  .all-steps {
+    margin-top: 0px;
+  }
+  .newsletter {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+  }
+  .star {
+    margin-top: -10px;
+    margin-left: 0px;
+  }
+  .studh {
+    display: block;
+    width: 222px;
+    height: 227px;
+  }
+  .tut-break {
+    display: block;
+  }
+  .want-tut {
+    display: none;
+  }
+  .want-tut-sm {
+    display: block;
+    text-align: center;
+  }
+  .private {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px !important;
+  }
+  .what-sm {
+    display: none;
+  }
+  .hr {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .cpr {
+    margin-left: 0px;
+  }
+  .step-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 10px;
+  }
+  .logo {
+    height: 25px;
+  }
+  .what-say {
+    display: none !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .what-say-sm {
+    display: block !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .about-service {
+    font-weight: 400;
+    width: fit-content;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .empty-sm {
+    display: block;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .tutor-sect {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .become-btn {
+    font-size: 11px;
+    line-height: 11px;
+    width: 122px;
+    height: 30px;
+  }
+  #card-img {
+    width: 43px;
+    height: 43px;
+  }
+  .break {
+    display: none !important;
+  }
+  .bk-sm {
+    display: block;
+  }
+  .choice {
+    display: block;
+    margin-top: -5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .choose {
+    display: none;
+  }
+  .nav-brand2 {
+    margin-top: 15px;
+    padding-right: 0px;
+  }
+  .r-sect {
+    margin-top: 70px;
+  }
+  .num-fig {
+    margin-top: 15px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .stud-img-sm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  .formt-sm {
+    display: block;
+  }
+  .become-btn {
+    margin-left: 100px;
+    margin-top: -20px;
+  }
+  .sub-tut {
+    height: 60px !important;
+    margin-bottom: 0px;
+  }
+  .book-btn {
+    width: 122px;
+    height: 30px;
+    margin-top: -20px;
+    font-size: 11px;
+    line-height: 11px;
+  }
+  .newsletter-btn {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    width: 113px;
+    height: 32px;
+  }
+  .subs-div {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subtract2 {
+    display: none;
+  }
+  .stud-img2 {
+    display: none;
+  }
+  .nav {
+    margin-left: 50px !important;
+    display: block;
+  }
+  .stud-sub {
+    display: none;
+  }
+  .footer span {
+    font-size: 12px;
+    color: #ffffff8d;
+  }
+  .tutor-sm {
+    display: block;
+    width: 272px;
+  }
+  .t-semi {
+    display: block;
+    margin-right: -30px;
+    height: 85px;
+    margin-top: -100px;
+  }
+  .foot-links {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tutor {
+    width: 370px;
+    margin-top: 0px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .d-step {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+  }
+  .line {
+    margin-top: 15px;
+    height: 210px;
+    margin-left: 21px;
+  }
+  .nav-b {
+    margin-left: 0px;
+  }
+  .subs-div {
+    margin-top: 0px;
+  }
+  .rectangle {
+    float: none;
+    background: none;
+  }
+  .subscribe {
+    height: 32px;
+    width: 227px;
+  }
+  .why-lg {
+    display: none !important;
+  }
+  .why-sm {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .service-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .why-sect {
+    width: fit-content;
+    margin-left: 0px;
+  }
+  .stud-sect {
+    display: none;
+  }
+  .stud-img {
+    display: none;
+  }
+  .my-form {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px !important;
+    margin-bottom: 20px !important;
+  }
+  .in-touch {
+    display: none !important;
+  }
+  .why-join {
+    display: none !important;
+  }
+  .draw1 {
+    height: 60px;
+    top: 60px;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .contact-sect {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .socials {
+    display: flex !important;
+  }
+  .my-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .faq-t {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400px;
+  }
+  .footer-sect1 {
+    display: none !important;
+  }
+  .footer-sectsm {
+    display: flex !important;
+    margin-left: auto;
+    margin-right: 100px;
+  }
+  .form-parent {
+    display: block !important;
+    margin-top: 50px !important;
+    padding: 10px;
+  }
+  .student {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    margin-top: 0px;
+  }
+  .step-sect {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .subtract {
+    margin-right: -13px;
+    width: 33px;
+    height: 68px;
+  }
+  .social {
+    width: 24px;
+    height: 24px;
+  }
+  .social-title {
+    font-family: Helvetica;
+    font-weight: normal !important;
+    color: #ffffff8d;
+    font-size: 11px !important;
+    line-height: 11px;
+  }
+  .logo-footer {
+    height: 25px;
+    width: 25px;
+  }
+  .brand {
+    height: 25px;
+  }
+  .service {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .service span {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .done-right {
+    margin-top: -100px;
+    display: block !important;
+  }
+  #card {
+    width: 165px;
+    height: 180px;
+    margin-top: 20px;
+  }
+
+  .ca-sm {
+    margin-left: 0;
+  }
+  .step {
+    box-shadow: none !important;
+    width: fit-content;
+    height: fit-content;
+  }
+  .booking {
+    margin-left: -40px;
+  }
+
+  .review-container {
+    display: none;
+  }
+  .rv-sm {
+    display: block;
+  }
+  .tutor-images {
+    display: none;
+  }
+  .book-p {
+    display: none;
+  }
+  .formt-lg {
+    display: none;
+  }
+  #follow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    width: fit-content !important;
+    text-align: center;
+  }
+  .booking-text {
+    font-weight: 600px;
+    font-size: 23px;
+    line-height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+  .f-head {
+    font-size: 15px !important;
+    line-height: 20px;
+    font-weight: 700 !important;
+  }
+  .d-form {
+    width: 330px;
+  }
+}
