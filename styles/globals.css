@@ -1,7 +1,7 @@
-@font-face {
-  font-family: "Adobe-Garamond-Bold";
-  src: url(../fonts/AGaramondPro-Bold.otf);
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .logo {
   margin-right: 10px !important;
   height: 30px;
@@ -68,7 +68,6 @@
   color: white;
 }
 .service-title {
-  font-family: Adobe-Garamond-Bold !important;
   font-weight: 700;
   font-size: 55px;
 }
@@ -155,12 +154,7 @@ body {
   font-family: Helvetica;
   overflow-x: hidden;
 }
-body h1 {
-  font-family: Adobe-Garamond-Bold !important;
-}
-body h4 {
-  font-family: Adobe-Garamond-Bold !important;
-}
+/*  */
 #card-img {
   height: 85px;
   padding: 6px;
@@ -191,8 +185,6 @@ body h4 {
 }
 .subtract2 {
   height: 100px;
-  position: absolute;
-  margin-top: -60px;
   z-index: -1;
 }
 .num-fig {
@@ -254,7 +246,6 @@ body h4 {
 .stud-sub {
   height: 80px;
   width: 200px;
-  margin-top: -30px;
   float: right;
 }
 .review-container {
@@ -331,6 +322,7 @@ body h4 {
   position: absolute;
   margin-top: 33px;
   margin-left: 40px;
+  height: 260px;
 }
 .r-name {
   margin-top: 15px;
@@ -511,7 +503,6 @@ body h4 {
 .star {
   height: 25px;
   float: left;
-  margin-top: -10px;
   margin-left: -2px;
 }
 .footer h4 {
@@ -1047,4 +1038,10 @@ body h4 {
   .d-form {
     width: 330px;
   }
+}
+.r-active {
+  background-color: #b84b40;
+}
+.rn-active {
+  background-color: white;
 }
