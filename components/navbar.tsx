@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-white fixed top-0 lg:py-4 py-2 w-full z-10 lg:flex block lg:justify-between">
+      <nav className="bg-white fixed top-0 lg:py-4 py-3 w-full z-10 lg:flex block lg:justify-between">
         <div className="nav-b">
           <span className="flex">
             <Image
