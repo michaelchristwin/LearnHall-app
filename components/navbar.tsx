@@ -4,31 +4,27 @@ import Link from "next/link";
 function Navbar() {
   return (
     <div>
-      <nav className="bg-white fixed top-0 py-4 w-full z-10">
-        <ul className="flex space-x-4">
-          <li>
-            <div>
-              <div className="nav-b">
-                <span className="flex nav-brand">
-                  <Image
-                    src={`/leaf.png`}
-                    alt="Learnhall Logo"
-                    className="mr-1 logo"
-                    height={30}
-                    width={30}
-                  />
-                  <Image
-                    src={`/Group.png`}
-                    alt="Learnhall"
-                    className="brand"
-                    height={30}
-                    width={130}
-                  />
-                </span>
-              </div>
-            </div>
-          </li>
-          <li className="lg:!ml-[300px] text-[#a1a1a1] active:text-black">
+      <nav className="bg-white fixed top-0 lg:py-4 py-1 w-full z-10 flex justify-between">
+        <div className="nav-b">
+          <span className="flex">
+            <Image
+              src={`/leaf.png`}
+              alt="Learnhall Logo"
+              className="mr-1 logo lg:h-[30px] lg:w-[30px] w-[25px] h-[25px]"
+              height={30}
+              width={30}
+            />
+            <Image
+              src={`/Group.png`}
+              alt="Learnhall"
+              className="brand"
+              height={30}
+              width={130}
+            />
+          </span>
+        </div>
+        <ul className="flex space-x-4 lg:mr-8">
+          <li className="block text-[#a1a1a1] active:text-black">
             <Link href={`/`} className="nav-link">
               Home
             </Link>

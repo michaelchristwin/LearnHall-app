@@ -4,6 +4,7 @@ import Image from "next/image";
 import LocalFont from "next/font/local";
 import Reviews from "@/components/reviews";
 import Link from "next/link";
+import ReviewsSm from "@/components/review-sm";
 
 const myFont = LocalFont({ src: "../fonts/AGaramondPro-Bold.otf" });
 
@@ -13,8 +14,8 @@ function Home() {
       <section id="top">
         <Image
           src={`/topEllipse.png`}
-          alt=""
-          className="draw1"
+          alt="svg"
+          className="draw1 lg:h-[130px] lg:w-[100px] h-[60px] w-[48px]"
           height={130}
           width={100}
         />
@@ -23,7 +24,9 @@ function Home() {
       <Steps />
       <section className="text-center r-sect">
         <div className="what-parent">
-          <h1 className={`${myFont.className} font-[500] text-[2.375rem]`}>
+          <h1
+            className={`${myFont.className} font-[500] lg:text-[2.375rem] text-[1.7rem]`}
+          >
             What parents are saying
           </h1>
           <span className="block what-say">
@@ -41,7 +44,9 @@ function Home() {
           </span>
         </div>
         <br />
-        <div className="rv-sm">{/* <ReviewSlideSM /> */}</div>
+        <div className="rv-sm">
+          <ReviewsSm />
+        </div>
         <div className="review-container block">
           <Reviews />
         </div>
@@ -52,7 +57,7 @@ function Home() {
           alt="icon"
           className="sub-tut"
           height={150}
-          width={60}
+          width={30}
         />
         <div className="flex justify-between">
           <div className="tutor block px-2 px-lg-0">
@@ -62,7 +67,9 @@ function Home() {
               Want to become a<br className="tut-break" />
               tutor with Learnhall?
             </h1>
-            <h1 className="want-tut-sm">
+            <h1
+              className={`want-tut-sm ${myFont.className} font-[500] text-[1.7rem]`}
+            >
               Want to become a tutor
               <br className="tut-break" />
               with Learnhall?
@@ -96,7 +103,7 @@ function Home() {
               </span>
             </aside>
             <Image
-              src={`/book2.png`}
+              src={`/books2.png`}
               alt="tutor"
               className="tutor-sm mt-2 mx-auto"
               width={272}
@@ -107,7 +114,7 @@ function Home() {
               alt="svg"
               className="float-right t-semi"
               height={85}
-              width={100}
+              width={50}
             />
 
             <Link href={``}>

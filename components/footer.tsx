@@ -100,7 +100,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex pb-2 foot-links justify-around">
-          <div className="text-white mr-4 block lg:mx-5">
+          <div className="text-white mr-4 block lg:mx-9">
             <h4 className="block f-head">About Us</h4>
             <Link href={``} className="block">
               FAQs
@@ -112,18 +112,18 @@ function Footer() {
               Reviews
             </span>
           </div>
-          <div className="text-white block mx-4 lg:mx-5">
+          <div className="text-white block mx-4 lg:mx-9">
             <h4 className="block f-head">Learn With Us</h4>
-            <Link href={``} className="d-block">
+            <Link href={`/book-a-session`} className="d-block">
               Request a Tutor
             </Link>
           </div>
-          <div className="text-white block mx-4 lg:mx-5">
+          <div className="text-white block mx-4 lg:mx-9">
             <h4 className="block f-head">Work With Us</h4>
-            <Link href={``} className="d-block text-nowrap">
+            <Link href={`become-a-tutor`} className="block">
               Careers at Learnhall
             </Link>
-            <Link href={``} className="block">
+            <Link href={`become-a-tutor`} className="block">
               Apply to Tutor
             </Link>
           </div>
@@ -136,7 +136,7 @@ function Footer() {
             type="email"
             placeholder="Email address"
             onChange={(e) => setEmail(e.target.value)}
-            className="subscribe rounded w-[200px] h-[40px] border ps-2 focus:bg-white focus:text-black"
+            className="subscribe rounded h-[40px] border ps-1 focus:bg-white focus:text-black"
             value={email}
           />
           <button className="rounded newsletter-btn ml-2" type="submit">
@@ -164,10 +164,10 @@ function Footer() {
         <div className="mt-4 contact-sect lg:ms-0 justify-around">
           <div>
             <h4 className="social-title">Let`s Connect</h4>
-            <div className="d-block socials">
+            <div className="block socials">
               <Link
                 href="https://www.facebook.com/learnhalltutoring"
-                className="me-2"
+                className="mr-2"
               >
                 <Image
                   src={`/fb.png`}

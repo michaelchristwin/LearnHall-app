@@ -6,11 +6,11 @@ const myFont = LocalFont({ src: "../fonts/AGaramondPro-Bold.otf" });
 
 function Hero() {
   return (
-    <div className="pt-[30px]">
+    <div className="lg:pt-[30px] pt-[140px]">
       <div className="flex justify-between done-right pb-5">
         <section className="service">
           <h1 className={`block service-title ${myFont.className}`}>
-            Tutoring
+            Tutoring{` `}
             <br className="break" />
             Done Right
           </h1>
@@ -38,7 +38,7 @@ function Hero() {
             height={200}
           />
 
-          <Link href={``}>
+          <Link href={`/book-a-session`}>
             <button className="rounded-[4px] px-2 book-btn h-10">
               Book a Session
             </button>
@@ -47,7 +47,7 @@ function Hero() {
           <Image
             src={`/semic.png`}
             alt="svg"
-            className="semi-c"
+            className="semi-c lg:hidden block h-[70px] w-[45px]"
             height={70}
             width={70}
           />
@@ -72,7 +72,9 @@ function Hero() {
         </section>
       </div>
       <section className="hero mt-5">
-        <h1 className={`${myFont.className} font-[500] text-[2.375rem]`}>
+        <h1
+          className={`${myFont.className} font-[500] lg:text-[2.375rem] text-[1.7rem]`}
+        >
           Why you should choose us
         </h1>
         <aside className="choose">
@@ -97,8 +99,8 @@ function Hero() {
           </span>
         </aside>
       </section>
-      <div className="card-cont px-3 lg:px-1 ">
-        <div className="lg:pt-6 flex">
+      <div className="card-cont px-3 lg:px-1">
+        <div className="lg:pt-6 grid lg:grid-cols-4 grid-cols-2 gap-3">
           <div className="lg:py-2 py-2 shadow border-0" id="card">
             <Image
               src={`/diamond2.png`}

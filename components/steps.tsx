@@ -54,7 +54,7 @@ function Steps() {
             <Image
               src={`/one.png`}
               alt="One"
-              className="num-fig"
+              className="num-fig lg:h-[90px] lg:w-[90px] w-[50px] h-[50px]"
               height={90}
               width={90}
             />
@@ -76,8 +76,8 @@ function Steps() {
           <div className="flex flex-row my-3">
             <Image
               src={`/two.png`}
-              alt="One"
-              className="num-fig"
+              alt="Two"
+              className="num-fig lg:h-[90px] lg:w-[90px] w-[50px] h-[50px]"
               height={90}
               width={90}
             />
@@ -92,8 +92,8 @@ function Steps() {
           <div className="flex flex-row my-3">
             <Image
               src={`/three.png`}
-              alt="One"
-              className="num-fig"
+              alt="Three"
+              className="num-fig lg:h-[90px] lg:w-[90px] w-[50px] h-[50px]"
               height={90}
               width={90}
             />

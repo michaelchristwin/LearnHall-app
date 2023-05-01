@@ -4,8 +4,6 @@
 
 .logo {
   margin-right: 10px !important;
-  height: 30px;
-  width: 30px;
 }
 .logo-footer {
   margin-right: 10px;
@@ -25,10 +23,7 @@
 .brand {
   height: 30px;
 }
-.nav-brand {
-  padding-right: 290px;
-  z-index: 1;
-}
+
 .nav-b {
   margin-left: 135px;
 }
@@ -73,7 +68,6 @@
 }
 .draw1 {
   padding-right: 20px;
-  height: 130px;
   position: absolute;
   top: 65px;
 }
@@ -190,7 +184,6 @@ body {
 .num-fig {
   margin-top: 20px;
   z-index: 1;
-  height: 90px;
   margin-right: 20px;
 }
 .text-box {
@@ -355,7 +348,7 @@ body {
   line-height: 30px;
 }
 .subscribe {
-  width: 460px;
+  width: 410px;
   background-color: inherit;
   color: white;
 }
@@ -588,13 +581,8 @@ body {
     margin-bottom: 40px;
   }
 }
-.nav-brand {
-  padding-right: 150px;
-}
+
 @media (max-width: 576px) {
-  .nav-brand {
-    padding-right: 100px;
-  }
   .semi-c {
     display: block;
     height: 70px;
@@ -677,9 +665,6 @@ body {
     line-height: 14px;
     margin-left: 10px;
   }
-  .logo {
-    height: 25px;
-  }
   .what-say {
     display: none !important;
     font-weight: 400;
@@ -743,7 +728,6 @@ body {
   }
   .num-fig {
     margin-top: 15px;
-    height: 50px;
     margin-right: 10px;
   }
   .stud-img-sm {
@@ -882,7 +866,6 @@ body {
     display: none !important;
   }
   .draw1 {
-    height: 60px;
     top: 60px;
   }
   body {
@@ -912,7 +895,6 @@ body {
   .footer-sectsm {
     display: flex !important;
     margin-left: auto;
-    margin-right: 100px;
   }
   .form-parent {
     display: block !important;
