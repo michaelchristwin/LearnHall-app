@@ -34,7 +34,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="ml-4">
-            <Link href={`/`} className="nav-link">
+            <Link href={`/book-a-session`} className="nav-link">
               Book a Session
             </Link>
           </li>

@@ -6,10 +6,9 @@ import { useState } from "react";
 function Footer() {
   function handleClick(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const inputElement = e.target as HTMLInputElement;
-    const value = inputElement.value;
+    console.log(email);
     axios
-      .post("http://127.0.0.1:8000/employee/subscribex/", value)
+      .post("http://127.0.0.1:8000/employee/subscribex/", email)
       .then((response) => {
         console.log(response);
       })
@@ -136,7 +135,8 @@ function Footer() {
           <input
             type="email"
             placeholder="Email address"
-            className="subscribe rounded w-[200px] h-[40px] border ps-2 focus:bg-white"
+            onChange={(e) => setEmail(e.target.value)}
+            className="subscribe rounded w-[200px] h-[40px] border ps-2 focus:bg-white focus:text-black"
             value={email}
           />
           <button className="rounded newsletter-btn ml-2" type="submit">
