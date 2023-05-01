@@ -442,8 +442,7 @@ body {
 .join-hr {
   width: 40px;
   height: 3px;
-  margin-top: -6px;
-  background: rgba(65, 62, 62, 0.912);
+  background: rgba(154, 152, 152, 0.66);
 }
 .sub-tut {
   height: 150px;

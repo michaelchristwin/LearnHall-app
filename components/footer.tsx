@@ -225,8 +225,10 @@ function Footer() {
       <section className="block copyright">
         <div className="text-white">
           <hr className="hr" />
-          <p className="float-left cpr">Copyright 2016-2025 Learnhall LLC</p>
-          <p className="float-right">Privacy Policy</p>
+          <p className="float-left cpr mt-4">
+            Copyright 2016-2025 Learnhall LLC
+          </p>
+          <p className="float-right mt-4">Privacy Policy</p>
         </div>
       </section>
     </footer>

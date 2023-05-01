@@ -28,22 +28,22 @@ function Navbar() {
               </div>
             </div>
           </li>
-          <li className="lg:!ml-[300px]">
+          <li className="lg:!ml-[300px] text-[#a1a1a1] active:text-black">
             <Link href={`/`} className="nav-link">
               Home
             </Link>
           </li>
-          <li className="ml-4">
+          <li className="ml-4 text-[#a1a1a1] active:text-black">
             <Link href={`/book-a-session`} className="nav-link">
               Book a Session
             </Link>
           </li>
-          <li className="ml-4">
-            <Link href={`/`} className="nav-link">
+          <li className="ml-4 text-[#a1a1a1] active:text-black">
+            <Link href={`/become-a-tutor`} className="nav-link">
               Become a Tutor
             </Link>
           </li>
-          <li className="ml-4">
+          <li className="ml-4 text-[#a1a1a1] active:text-black">
             <Link href="http://blog.learnhall.com/" className="nav-link">
               Blog
             </Link>

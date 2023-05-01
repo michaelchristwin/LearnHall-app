@@ -17,7 +17,6 @@ function BookASession() {
   });
   const [sessionerror, setsessionerror] = useState<Partial<Data>>({});
   const [isSubmit, setisSubmit] = useState(false);
-  console.log(sessiondata);
 
   const handleinputdata = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -27,6 +26,7 @@ function BookASession() {
       .post("http://127.0.0.1:8000/employee/x/", sessiondata)
       .then((response) => {
         console.log(response);
+        setsessiondata({ username: "", email: "", phone: "", why: "" });
       })
       .catch(({ message }) => {
         console.log(message);
@@ -41,10 +41,10 @@ function BookASession() {
       Object.keys(sessionerror).length === 0 &&
       isSubmit
     ) {
-      console.log(sessiondata);
+      // console.log(sessiondata);
       //   setModalShow(true);
     }
-  });
+  }, [sessionerror, isSubmit]);
 
   const handleinput = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -82,7 +82,7 @@ function BookASession() {
     <main>
       <section className="flex py-3 form-parent mt-5">
         <form
-          className="px-5 py-5 shadow my-form rounded needs-validation"
+          className="p-11 shadow my-form rounded block"
           onSubmit={handleinputdata}
         >
           <h3 className="font-[500] text-[1.7rem]">Book a Session</h3>
@@ -97,7 +97,7 @@ function BookASession() {
               you about your tutoring needs within 24 business hours.
             </p>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 mx-auto">
             <fieldset className="mx-auto">
               <p className="form-error">
                 {typeof sessionerror === "object" &&
@@ -138,7 +138,6 @@ function BookASession() {
               />
             </fieldset>
           </div>
-
           <fieldset className="mx-auto pt-3">
             <p className="form-error">
               {typeof sessionerror === "object" &&
@@ -166,7 +165,7 @@ function BookASession() {
           </label>
           <textarea
             id="textarea"
-            className="border rounded border-black w-[360px] pl-2"
+            className="border rounded border-black w-[400px] pl-2"
             rows={8}
             name="why"
             onChange={handleinput}
