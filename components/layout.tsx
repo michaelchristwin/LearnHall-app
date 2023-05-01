@@ -10,6 +10,7 @@ function Layout({ children }: ParentComponentProps) {
   return (
     <div className="layout">
       <Head>
+        <link rel="icon" href="./leaf.png" type="image/png" />
         <title>Learnhall</title>
       </Head>
       <header>

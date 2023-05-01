@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo {
-  margin-right: 10px !important;
-}
 .logo-footer {
   margin-right: 10px;
   height: 30px;
@@ -20,22 +17,12 @@
   font-weight: 400;
   font-size: 19px;
 }
-.brand {
-  height: 30px;
-}
-
 .nav-b {
   margin-left: 135px;
 }
 .nav {
   margin-left: auto;
   margin-right: auto;
-}
-.nav-brand2 {
-  padding-right: 200px;
-  z-index: 1;
-  margin-right: auto;
-  margin-left: auto;
 }
 .service {
   margin-top: 100px;
@@ -626,7 +613,6 @@ body {
     line-height: 12px;
   }
   .star {
-    margin-top: -10px;
     margin-left: 0px;
   }
   .studh {
@@ -718,10 +704,6 @@ body {
   }
   .choose {
     display: none;
-  }
-  .nav-brand2 {
-    margin-top: 15px;
-    padding-right: 0px;
   }
   .r-sect {
     margin-top: 70px;
@@ -873,7 +855,6 @@ body {
   }
   .contact-sect {
     display: flex;
-    margin-left: 15px;
     align-items: center;
   }
 
@@ -931,9 +912,6 @@ body {
   .logo-footer {
     height: 25px;
     width: 25px;
-  }
-  .brand {
-    height: 25px;
   }
   .service {
     margin-top: 0px;

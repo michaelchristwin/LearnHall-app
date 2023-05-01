@@ -102,7 +102,7 @@ function Footer() {
         <div className="flex pb-2 foot-links justify-around">
           <div className="text-white mr-4 block lg:mx-9">
             <h4 className="block f-head">About Us</h4>
-            <Link href={``} className="block">
+            <Link href={`/faqs`} className="block">
               FAQs
             </Link>
             <Link href="http://blog.learnhall.com/" className="block">
@@ -144,8 +144,8 @@ function Footer() {
           </button>
         </div>
       </form>
-      <div className="footer-sectsm">
-        <div className="flex nav-brand2">
+      <div className="footer-sectsm flex justify-between">
+        <div className="flex mt-7 nav-brand2">
           <Image
             src={`/leaf.png`}
             alt="Learnhall Logo"
@@ -161,10 +161,10 @@ function Footer() {
             width={100}
           />
         </div>
-        <div className="mt-4 contact-sect lg:ms-0 justify-around">
-          <div>
+        <div className="mt-4 contact-sect flex justify-between">
+          <div className="mr-2">
             <h4 className="social-title">Let`s Connect</h4>
-            <div className="block socials">
+            <div className="mt-2 block socials">
               <Link
                 href="https://www.facebook.com/learnhalltutoring"
                 className="mr-2"
@@ -199,7 +199,7 @@ function Footer() {
           </div>
           <div className="lg:pt-3 lg:mx-0">
             <h4 className="social-title">Contact Us</h4>
-            <div className="block socials">
+            <div className="mt-2 block socials">
               <Link href="tel:503-342-7214" className="mr-2">
                 <Image
                   src={`/telephone.png`}

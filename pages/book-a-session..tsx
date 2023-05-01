@@ -44,7 +44,7 @@ function BookASession() {
       // console.log(sessiondata);
       //   setModalShow(true);
     }
-  }, [sessionerror, isSubmit]);
+  });
 
   const handleinput = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -79,8 +79,8 @@ function BookASession() {
   };
 
   return (
-    <main>
-      <section className="flex py-3 form-parent mt-5">
+    <main className="mt-[50px]">
+      <section className="flex py-3 form-parent">
         <form
           className="p-11 shadow my-form rounded block"
           onSubmit={handleinputdata}
@@ -165,7 +165,7 @@ function BookASession() {
           </label>
           <textarea
             id="textarea"
-            className="border rounded border-black w-[400px] pl-2"
+            className="border rounded border-black lg:w-[400px] w-[320px] pl-2"
             rows={8}
             name="why"
             onChange={handleinput}

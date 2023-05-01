@@ -117,8 +117,8 @@ function Home() {
               width={50}
             />
 
-            <Link href={``}>
-              <button className=" become-btn mt-2 lg:mt-5 px-2 rounded">
+            <Link href={`/become-a-tutor`}>
+              <button className="become-btn mt-2 lg:mt-5 px-2 rounded">
                 Become a Tutor
               </button>
             </Link>

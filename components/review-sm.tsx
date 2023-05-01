@@ -9,8 +9,6 @@ function ReviewsSm() {
       setView((prevView) => prevView + 1);
     }
   };
-
-  console.log(ReviewData.length);
   const prev = () => {
     if (view > 0) {
       setView((prevView) => prevView - 1);

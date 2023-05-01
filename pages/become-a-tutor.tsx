@@ -83,7 +83,7 @@ function BecomeATutor() {
   };
 
   return (
-    <main>
+    <main className="mt-[50px]">
       <section className="flex pt-3 form-parent mt-5">
         <form
           className="p-11 shadow my-form rounded"
@@ -170,7 +170,7 @@ function BecomeATutor() {
             <textarea
               name="tell"
               id="textarea1"
-              className="border border-black rounded w-[366px]"
+              className="border border-black rounded lg:w-[366px] w-[330px]"
               rows={8}
               onChange={handleinput}
             ></textarea>
