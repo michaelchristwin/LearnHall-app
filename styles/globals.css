@@ -1002,3 +1002,6 @@ body {
 .rn-active {
   background-color: white;
 }
+.nav-link:active {
+  color: black !important;
+}

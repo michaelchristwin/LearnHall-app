@@ -83,8 +83,8 @@ function BecomeATutor() {
   };
 
   return (
-    <main className="mt-[50px]">
-      <section className="flex pt-3 form-parent mt-5">
+    <main>
+      <section className="flex form-parent pt-[50px]">
         <form
           className="p-11 shadow my-form rounded"
           onSubmit={handleinputdata}

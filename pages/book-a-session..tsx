@@ -33,18 +33,18 @@ function BookASession() {
       });
   };
 
-  useEffect(() => {
-    console.log(sessionerror);
-    if (
-      typeof sessionerror === "object" &&
-      sessionerror !== null &&
-      Object.keys(sessionerror).length === 0 &&
-      isSubmit
-    ) {
-      // console.log(sessiondata);
-      //   setModalShow(true);
-    }
-  });
+  // useEffect(() => {
+  //   console.log(sessionerror);
+  //   if (
+  //     typeof sessionerror === "object" &&
+  //     sessionerror !== null &&
+  //     Object.keys(sessionerror).length === 0 &&
+  //     isSubmit
+  //   ) {
+  //     // console.log(sessiondata);
+  //     //   setModalShow(true);
+  //   }
+  // }, [sessionerror, isSubmit]);
 
   const handleinput = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>

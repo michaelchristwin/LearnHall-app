@@ -1,48 +1,98 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("home");
+  const handleLinkClick = (link: string) => {
+    setActiveLink(link);
+  };
+
+  useEffect(() => {
+    localStorage.setItem("activeLink", activeLink);
+  }, [activeLink]);
   return (
     <div>
       <nav className="bg-white fixed top-0 lg:py-4 py-3 w-full z-10 lg:flex block lg:justify-between">
         <div className="nav-b">
-          <span className="flex">
-            <Image
-              src={`/leaf.png`}
-              alt="Learnhall Logo"
-              className="mx-1 logo lg:h-[30px] lg:w-[30px] w-[20px] h-[20px]"
-              height={30}
-              width={30}
-            />
-            <Image
-              src={`/Group.png`}
-              alt="Learnhall"
-              className="brand lg:h-[30px] lg:w-[130px] h-[20px] w-[90px]"
-              height={30}
-              width={130}
-            />
-          </span>
+          <Link href={"/"} onClick={() => handleLinkClick("home")}>
+            <span className="flex">
+              <Image
+                src={`/leaf.png`}
+                alt="Learnhall Logo"
+                className="mx-1 logo lg:h-[30px] lg:w-[30px] w-[20px] h-[20px]"
+                height={30}
+                width={30}
+              />
+              <Image
+                src={`/Group.png`}
+                alt="Learnhall"
+                className="brand lg:h-[30px] lg:w-[130px] h-[20px] w-[90px]"
+                height={30}
+                width={130}
+              />
+            </span>
+          </Link>
         </div>
         <ul className="lg:flex block space-x-4 lg:mr-8">
-          <li className="lg:block hidden text-[#a1a1a1] active:text-black hover:text-black">
-            <Link href={`/`} className="nav-link">
+          <li
+            className={`lg:block hidden  ${
+              activeLink === "home"
+                ? "active:text-black"
+                : "text-[#a1a1a1] hover:text-black"
+            }`}
+          >
+            <Link
+              href={`/`}
+              className="nav-link"
+              onClick={() => handleLinkClick("home")}
+            >
               Home
             </Link>
           </li>
-          <li className="ml-4 lg:block hidden text-[#a1a1a1] active:text-black hover:text-black">
-            <Link href={`/book-a-session`} className="nav-link">
+          <li
+            className={`ml-4 lg:block hidden ${
+              activeLink === "book-a-session"
+                ? "active:text-black"
+                : "text-[#a1a1a1] hover:text-black"
+            }`}
+          >
+            <Link
+              href={`/book-a-session`}
+              className="nav-link"
+              onClick={() => handleLinkClick("book-a-session")}
+            >
               Book a Session
             </Link>
           </li>
-          <li className="ml-4 lg:block hidden text-[#a1a1a1] active:text-black hover:text-black">
-            <Link href={`/become-a-tutor`} className="nav-link">
+          <li
+            className={`ml-4 lg:block hidden ${
+              activeLink === "become-a-tutor"
+                ? "active:text-black"
+                : "text-[#a1a1a1] hover:text-black"
+            }`}
+          >
+            <Link
+              href={`/become-a-tutor`}
+              className="nav-link"
+              onClick={() => handleLinkClick("become-a-tutor")}
+            >
               Become a Tutor
             </Link>
           </li>
-          <li className="lg:block hidden ml-4 text-[#a1a1a1] active:text-black hover:text-black">
-            <Link href="http://blog.learnhall.com/" className="nav-link">
+          <li
+            className={`lg:block hidden ml-4  ${
+              activeLink === "blog"
+                ? "active:text-black"
+                : "text-[#a1a1a1] hover:text-black"
+            }`}
+          >
+            <Link
+              href="http://blog.learnhall.com/"
+              className="nav-link"
+              onClick={() => handleLinkClick("blog")}
+            >
               Blog
             </Link>
           </li>
