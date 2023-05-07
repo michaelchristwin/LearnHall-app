@@ -54,7 +54,10 @@ function Footer() {
                     width={45}
                   />
                 </Link>
-                <Link href="https://instagram.com" className="mr-2">
+                <Link
+                  href="http://instagram.com/learnhalltutoring"
+                  className="mr-2"
+                >
                   <Image
                     src={`/ig.png`}
                     alt="instagram"
@@ -120,9 +123,7 @@ function Footer() {
           </div>
           <div className="text-white block mx-4 lg:mx-9">
             <h4 className="block f-head">Work With Us</h4>
-            <Link href={`become-a-tutor`} className="block">
-              Careers at Learnhall
-            </Link>
+
             <Link href={`become-a-tutor`} className="block">
               Apply to Tutor
             </Link>

@@ -26,22 +26,22 @@ function Navbar() {
           </span>
         </div>
         <ul className="lg:flex block space-x-4 lg:mr-8">
-          <li className="lg:block hidden text-[#a1a1a1] active:text-black">
+          <li className="lg:block hidden text-[#a1a1a1] active:text-black hover:text-black">
             <Link href={`/`} className="nav-link">
               Home
             </Link>
           </li>
-          <li className="ml-4 lg:block hidden text-[#a1a1a1] active:text-black">
+          <li className="ml-4 lg:block hidden text-[#a1a1a1] active:text-black hover:text-black">
             <Link href={`/book-a-session`} className="nav-link">
               Book a Session
             </Link>
           </li>
-          <li className="ml-4 lg:block hidden text-[#a1a1a1] active:text-black">
+          <li className="ml-4 lg:block hidden text-[#a1a1a1] active:text-black hover:text-black">
             <Link href={`/become-a-tutor`} className="nav-link">
               Become a Tutor
             </Link>
           </li>
-          <li className="lg:block hidden ml-4 text-[#a1a1a1] active:text-black">
+          <li className="lg:block hidden ml-4 text-[#a1a1a1] active:text-black hover:text-black">
             <Link href="http://blog.learnhall.com/" className="nav-link">
               Blog
             </Link>
