@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   useEffect(() => {
-    localStorage.setItem("activeLink", activeLink);
+    localStorage.setItem("activeLink", JSON.stringify(activeLink));
   }, [activeLink]);
   return (
     <div>
