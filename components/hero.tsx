@@ -103,7 +103,7 @@ function Hero() {
         <div className="lg:pt-6 grid lg:grid-cols-4 grid-cols-2 gap-3">
           <div className="lg:py-2 py-2 shadow border-0" id="card">
             <Image
-              src={`/diamond2.png`}
+              src={`/dia.png`}
               className="block mx-auto"
               alt="..."
               id="card-img"

@@ -125,7 +125,7 @@ function Home() {
           </div>
           <div className="me-4 tutor-images">
             <Image
-              src={`/books2.png`}
+              src={`/books.png`}
               alt="Books"
               className="top-image"
               width={540}
@@ -134,8 +134,6 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* <ScrollToTop smooth />
-      <Footer /> */}
     </main>
   );
 }
