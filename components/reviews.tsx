@@ -41,11 +41,11 @@ function Reviews() {
       </section>
       <span className="flex justify-center">
         <button
-          className="w-2 h-2 active:bg-orange-400 bg-white mr-1 rounded-[50%] border border-black hover:bg-[#b84b40]"
+          className={`w-4 h-4  active:bg-orange-400 bg-white mr-1 rounded-[50%] border border-black hover:bg-[#b84b40]`}
           onClick={() => setView(firstThree)}
         ></button>
         <button
-          className="w-2 h-2 active:bg-orange-400 hover:bg-[#b84b40] bg-white rounded-[50%] border-black border"
+          className={`w-4 h-4 active:bg-orange-400 hover:bg-[#b84b40] bg-white rounded-[50%] border-black border`}
           onClick={() => setView(lastThree)}
         ></button>
       </span>

@@ -53,11 +53,11 @@ function Hero() {
           />
         </section>
         <section className="stud-sect">
-          <div className="student relative">
+          <div className="relative">
             <Image
-              src={`/student.png`}
+              src={`/reading.jpg`}
               alt="Student"
-              className="stud-img absolute"
+              className="stud-img"
               width={600}
               height={550}
             />
@@ -120,7 +120,7 @@ function Hero() {
           </div>
           <div className="lg:py-3 py-2 shadow border-0 lg:ml-4 ml-0" id="card">
             <Image
-              src={`/arrow.png`}
+              src={`/lela.png`}
               className="block mx-auto"
               alt="..."
               id="card-img"
@@ -154,7 +154,7 @@ function Hero() {
           </div>
           <div className="lg:py-3 py-2 shadow border-0 lg:ml-4 ml-0" id="card">
             <Image
-              src={`/heart.png`}
+              src={`/loki.png`}
               className="mx-auto block"
               alt="..."
               id="card-img"

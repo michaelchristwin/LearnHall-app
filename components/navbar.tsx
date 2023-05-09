@@ -1,22 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("home");
-  const handleLinkClick = (link: string) => {
-    setActiveLink(link);
-  };
+  // const handleLinkClick = (link: string) => {
+  //   setActiveLink(link);
+  // };
 
-  useEffect(() => {
-    localStorage.setItem("activeLink", JSON.stringify(activeLink));
-  }, [activeLink]);
+  // const [activeLink, setActiveLink] = useState("home");
   return (
     <div>
       <nav className="bg-white fixed top-0 lg:py-4 py-3 w-full z-10 lg:flex block lg:justify-between">
         <div className="nav-b">
-          <Link href={"/"} onClick={() => handleLinkClick("home")}>
+          <Link href={"/"}>
             <span className="flex">
               <Image
                 src={`/leaf.png`}
@@ -37,62 +34,31 @@ function Navbar() {
         </div>
         <ul className="lg:flex block space-x-4 lg:mr-8">
           <li
-            className={`lg:block hidden  ${
-              activeLink === "home"
-                ? "active:text-black"
-                : "text-[#a1a1a1] hover:text-black"
+            className={`lg:block hidden active:text-black text-[#a1a1a1] hover:text-black
             }`}
           >
-            <Link
-              href={`/`}
-              className="nav-link"
-              onClick={() => handleLinkClick("home")}
-            >
+            <Link href={`/`} className="nav-link">
               Home
             </Link>
           </li>
           <li
-            className={`ml-4 lg:block hidden ${
-              activeLink === "book-a-session"
-                ? "active:text-black"
-                : "text-[#a1a1a1] hover:text-black"
-            }`}
+            className={`ml-4 lg:block hidden active:text-black text-[#a1a1a1] hover:text-black`}
           >
-            <Link
-              href={`/book-a-session`}
-              className="nav-link"
-              onClick={() => handleLinkClick("book-a-session")}
-            >
+            <Link href={`/book-a-session`} className="nav-link">
               Book a Session
             </Link>
           </li>
           <li
-            className={`ml-4 lg:block hidden ${
-              activeLink === "become-a-tutor"
-                ? "active:text-black"
-                : "text-[#a1a1a1] hover:text-black"
-            }`}
+            className={`ml-4 lg:block hidden active:text-black text-[#a1a1a1] hover:text-black`}
           >
-            <Link
-              href={`/become-a-tutor`}
-              className="nav-link"
-              onClick={() => handleLinkClick("become-a-tutor")}
-            >
+            <Link href={`/become-a-tutor`} className="nav-link">
               Become a Tutor
             </Link>
           </li>
           <li
-            className={`lg:block hidden ml-4  ${
-              activeLink === "blog"
-                ? "active:text-black"
-                : "text-[#a1a1a1] hover:text-black"
-            }`}
+            className={`lg:block hidden ml-4 active:text-black text-[#a1a1a1] hover:text-black`}
           >
-            <Link
-              href="http://blog.learnhall.com/"
-              className="nav-link"
-              onClick={() => handleLinkClick("blog")}
-            >
+            <Link href="http://blog.learnhall.com/" className="nav-link">
               Blog
             </Link>
           </li>

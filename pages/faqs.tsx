@@ -21,7 +21,7 @@ function Faq({ faq }: any) {
         className="float-right align-middle mt-[-20px] lg:w-[50px] lg:h-[50px] w-[35px] h-[35px]"
       />
       <br />
-      {show && <span>{faq.content}</span>}
+      {show && <span dangerouslySetInnerHTML={{ __html: faq.content }}></span>}
     </div>
   );
 }

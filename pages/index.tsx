@@ -34,7 +34,7 @@ function Home() {
             about
           </span>
           <span className="block what-say">
-            Learnhall on Google for our tutoring serivces.
+            Learnhall on Google for our tutoring services.
           </span>
           <span className="block what-say-sm">
             Read the reviews below to see what student`s

@@ -12,8 +12,7 @@ const FaqData = [
   },
   {
     title: "How do I contact customer support at Learnhall ?",
-    content:
-      "For any questions or help, please shoot us an email at info@learnhall.com.",
+    content: `For any questions or help, please shoot us an email at <a href="mailto:info@learnhall.com" class="text-blue-500 underline hover:text-blue-700">info@learnhall.com</a>`,
   },
   {
     title: "What countries does Learnhall serve?",

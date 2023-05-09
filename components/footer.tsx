@@ -102,7 +102,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex pb-2 foot-links justify-around">
+        <div className="flex pb-2 foot-links justify-around mr-8">
           <div className="text-white mr-4 block lg:mx-9">
             <h4 className="block f-head">About Us</h4>
             <Link href={`/faqs`} className="block">
@@ -130,11 +130,10 @@ function Footer() {
           </div>
         </div>
       </section>
-      <form className="subs-div" onSubmit={handleClick}>
+      <form className="float-right" onSubmit={handleClick}>
         <p className="pt-2 newsletter">Subscribe to our free e-newsletter</p>
         <div className="flex">
           <input
-            type="email"
             placeholder="Email address"
             onChange={(e) => setEmail(e.target.value)}
             className="subscribe rounded h-[40px] border ps-1 focus:bg-white focus:text-black"

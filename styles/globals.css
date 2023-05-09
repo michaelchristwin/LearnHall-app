@@ -349,7 +349,7 @@ body {
 .hr {
   color: white;
   margin-left: 70px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .bk-sm {
   display: none;
@@ -386,10 +386,6 @@ body {
 }
 .contact-img {
   width: 270px;
-}
-.subs-div {
-  float: right;
-  margin-top: -60px;
 }
 .why-lg {
   font-weight: 400;
@@ -1001,7 +997,4 @@ body {
 }
 .rn-active {
   background-color: white;
-}
-.nav-link:active {
-  color: black !important;
 }
