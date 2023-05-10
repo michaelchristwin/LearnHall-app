@@ -12,7 +12,7 @@ function Reviews() {
         {view.map((review) => {
           return (
             <div
-              className="shadow border-0 review rounded ml-4"
+              className="shadow border review rounded-[15px] ml-4 hover:translate-y-[-5px] hover:translate-x-[-5px] bg-white"
               key={review.name}
             >
               <div className="flex">

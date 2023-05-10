@@ -57,8 +57,8 @@ function Hero() {
             <Image
               src={`/reading.jpg`}
               alt="Student"
-              className="stud-img"
-              width={600}
+              className="stud-img lg:w-[650px] lg:h-[550px] w-[450px] h-[550px]"
+              width={650}
               height={550}
             />
           </div>

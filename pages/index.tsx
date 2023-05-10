@@ -22,18 +22,18 @@ function Home() {
       </section>
       <Hero />
       <Steps />
-      <section className="text-center r-sect">
+      <section className="text-center r-sect lg:bg-[url('/tutoring.jpg')] bg-cover py-[40px]">
         <div className="what-parent">
           <h1
-            className={`${myFont.className} font-[500] lg:text-[2.375rem] text-[1.7rem]`}
+            className={`${myFont.className} font-[500] lg:text-[2.375rem] text-[1.7rem] text-white`}
           >
             What parents are saying
           </h1>
-          <span className="block what-say">
+          <span className="block what-say text-white">
             Read the reviews below to see what student`s parents are saying
             about
           </span>
-          <span className="block what-say">
+          <span className="block what-say text-white">
             Learnhall on Google for our tutoring services.
           </span>
           <span className="block what-say-sm">

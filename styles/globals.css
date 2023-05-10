@@ -107,10 +107,7 @@
 .stud-img {
   margin-top: 50px;
   margin-right: 40px;
-  background: #fed7bd;
-  width: 600px;
   border-radius: 12px;
-  height: 550px;
 }
 .stud-img2 {
   width: 600px;
@@ -211,7 +208,7 @@ body {
 }
 .review {
   width: 340px;
-  height: 344px;
+  height: 310px;
   padding: 20px;
 }
 .reviews-sect {
@@ -549,9 +546,7 @@ body {
     margin-top: 50px;
     margin-right: 40px;
     background: #fed7bd;
-    width: 450px;
     border-radius: 12px;
-    height: 550px;
   }
   .student {
     background-color: #b84b40;
