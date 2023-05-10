@@ -109,11 +109,6 @@
   margin-right: 40px;
   border-radius: 12px;
 }
-.stud-img2 {
-  width: 600px;
-  border-radius: 12px;
-  height: 550px;
-}
 .hero {
   padding-top: 50px;
   justify-content: center;
@@ -453,9 +448,6 @@ body {
 .email {
   height: 100px;
 }
-.bucky {
-  background: rgba(251, 142, 66, 0.03);
-}
 .mod-head {
   padding: 0 !important;
   padding-right: 30px !important;
@@ -740,9 +732,6 @@ body {
     margin-right: auto;
   }
   .subtract2 {
-    display: none;
-  }
-  .stud-img2 {
     display: none;
   }
   .nav {

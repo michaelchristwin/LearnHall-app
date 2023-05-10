@@ -5,7 +5,7 @@ const myFont = LocalFont({ src: "../fonts/AGaramondPro-Bold.otf" });
 
 function Steps() {
   return (
-    <section className="py-5 bucky">
+    <section className="py-5">
       <div className="flex">
         <aside className="pt-3 block booking mx-auto w-full">
           <h1
@@ -34,20 +34,13 @@ function Steps() {
         <div className="relative">
           <div className="student2">
             <Image
-              src={`/student2.png`}
+              src={`/tep.jpg`}
               alt="Student with book"
-              className="stud-img2"
+              className="lg:w-[600px] lg:h-[500px] lg:rounded-[12px] lg:block hidden border-[#b74b40] border-[3px]"
               width={600}
               height={550}
             />
           </div>
-          <Image
-            src={`/subtract2.png`}
-            alt="subtract"
-            className="subtract2 absolute top-[490px]"
-            height={100}
-            width={200}
-          />
         </div>
         <div className="all-steps">
           <div className="flex flex-row mx-1 ">
