@@ -31,11 +31,11 @@ function Hero() {
             <span className="block">in both academics as well as life.</span>
           </aside>
           <Image
-            src={`/stud-sm.png`}
+            src={`/reading.jpg`}
             alt="Student"
-            className="stud-img-sm"
-            width={300}
-            height={200}
+            className="stud-img-sm !h-[290px] !w-[280px] rounded my-7 border-[#b74b40] border-[3px]"
+            width={200}
+            height={300}
           />
 
           <Link href={`/book-a-session`}>
@@ -62,13 +62,6 @@ function Hero() {
               height={550}
             />
           </div>
-          <Image
-            src={`/stud-sub.png`}
-            alt="svg"
-            className="stud-sub mt-[-40px]"
-            height={80}
-            width={200}
-          />
         </section>
       </div>
       <section className="hero mt-5">

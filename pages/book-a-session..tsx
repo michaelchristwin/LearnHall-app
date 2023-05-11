@@ -1,6 +1,9 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import LocalFont from "next/font/local";
+import Image from "next/image";
 
+const myFont = LocalFont({ src: "../fonts/AGaramondPro-Bold.otf" });
 interface Data {
   username: string;
   email: string;
@@ -68,7 +71,9 @@ function BookASession() {
           className="p-11 shadow my-form rounded block"
           onSubmit={handleinputdata}
         >
-          <h3 className="font-[500] text-[1.7rem]">Book a Session</h3>
+          <h3 className={`font-[500] text-[1.7rem] ${myFont.className}`}>
+            Book a Session
+          </h3>
           <div className="block">
             <span className="formt-lg">
               Please fill out the form below and submit, and we will get back to
@@ -95,7 +100,7 @@ function BookASession() {
               <input
                 required
                 type="text"
-                className="d-form block border rounded border-black h-[36px] pl-2"
+                className="block border rounded border-black h-[36px] pl-2 w-[320px] lg:w-[400px]"
                 name="username"
                 onChange={handleinput}
               />
@@ -115,7 +120,7 @@ function BookASession() {
                 required
                 type="email"
                 id="email"
-                className="d-form block border rounded border-black h-[36px] pl-2"
+                className="block border rounded border-black h-[36px] w-[320px] lg:w-[400px] pl-2"
                 name="email"
                 onChange={handleinput}
               />
@@ -136,7 +141,7 @@ function BookASession() {
               type="tel"
               id="phone"
               maxLength={12}
-              className="d-form block border rounded border-black h-[36px] pl-2"
+              className="block border rounded border-black h-[36px] w-[320px] lg:w-[400px] pl-2"
               name="phone"
               onKeyDown={keyPress}
               onChange={handleinput}
@@ -157,6 +162,43 @@ function BookASession() {
             Submit
           </button>
         </form>
+        <div className="w-[355px] h-[330px] border shadow ml-[10%] lg:block hidden">
+          <h1
+            className={`text-center mt-[30px] ${myFont.className} text-[25px] font-[500]`}
+          >
+            Get In Touch
+          </h1>
+          <span className="text-center block">
+            You can also contact us with any
+          </span>
+          <span className="text-center block">
+            questions via phone or email.
+          </span>
+          <div className="bg-[#EDEEF2] w-[255px] h-[50px] flex mx-auto mt-[40px] rounded">
+            <Image
+              src={"/phone.png"}
+              width={20}
+              height={10}
+              alt="phone"
+              className="block w-[20px] !h-[20px] my-auto ml-6"
+            />
+            <span className="block my-auto ml-6 text-[18px] font-[400]">
+              503-342-7214
+            </span>
+          </div>
+          <div className="bg-[#EDEEF2] w-[255px] h-[50px] flex mx-auto mt-[10px] rounded">
+            <Image
+              src={"/mail.png"}
+              width={20}
+              height={10}
+              alt="phone"
+              className="block w-[20px] !h-[15px] my-auto ml-6"
+            />
+            <span className="block my-auto ml-6 text-[18px] font-[400]">
+              info@learnhall.com
+            </span>
+          </div>
+        </div>
       </section>
     </main>
   );

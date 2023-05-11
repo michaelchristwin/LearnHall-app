@@ -24,7 +24,7 @@ function Steps() {
           <Image
             src={`/subtract.png`}
             alt="ellipse"
-            className="subtract float-right"
+            className="subtract float-right lg:block hidden"
             height={130}
             width={50}
           />

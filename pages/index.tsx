@@ -25,7 +25,7 @@ function Home() {
       <section className="text-center r-sect lg:bg-[url('/tutoring.jpg')] bg-cover py-[40px]">
         <div className="what-parent">
           <h1
-            className={`${myFont.className} font-[500] lg:text-[2.375rem] text-[1.7rem] text-white`}
+            className={`${myFont.className} font-[500] lg:text-[2.375rem] text-[1.7rem] lg:text-white text-black`}
           >
             What parents are saying
           </h1>
@@ -103,7 +103,7 @@ function Home() {
               </span>
             </aside>
             <Image
-              src={`/books2.png`}
+              src={`/books.png`}
               alt="tutor"
               className="tutor-sm mt-2 mx-auto"
               width={272}

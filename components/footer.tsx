@@ -43,6 +43,7 @@ function Footer() {
               <h4 className="social-title">Let`s Connect</h4>
               <div className="flex socials">
                 <Link
+                  target="_blank"
                   href="https://www.facebook.com/learnhalltutoring"
                   className="mr-2"
                 >
@@ -55,6 +56,7 @@ function Footer() {
                   />
                 </Link>
                 <Link
+                  target="_blank"
                   href="http://instagram.com/learnhalltutoring"
                   className="mr-2"
                 >
@@ -66,7 +68,11 @@ function Footer() {
                     width={45}
                   />
                 </Link>
-                <Link href="https://www.twitter.com/learnhall" className="mr-2">
+                <Link
+                  target="_blank"
+                  href="https://www.twitter.com/learnhall"
+                  className="mr-2"
+                >
                   <Image
                     src={`/twtr.png`}
                     alt="Twitter"
@@ -166,6 +172,7 @@ function Footer() {
             <h4 className="social-title">Let`s Connect</h4>
             <div className="mt-2 block socials">
               <Link
+                target="_blank"
                 href="https://www.facebook.com/learnhalltutoring"
                 className="mr-2"
               >
@@ -177,7 +184,11 @@ function Footer() {
                   width={24}
                 />
               </Link>
-              <Link href="https://instagram.com" className="me-2">
+              <Link
+                target="_blank"
+                href="http://instagram.com/learnhalltutoring"
+                className="me-2"
+              >
                 <Image
                   src={`/ig.png`}
                   alt="instagram"
@@ -186,7 +197,11 @@ function Footer() {
                   width={24}
                 />
               </Link>
-              <Link href="https://www.twitter.com/learnhall" className="mr-2">
+              <Link
+                target="_blank"
+                href="https://www.twitter.com/learnhall"
+                className="mr-2"
+              >
                 <Image
                   src={`/twtr.png`}
                   alt="Twitter"

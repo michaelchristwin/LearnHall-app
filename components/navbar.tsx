@@ -10,6 +10,7 @@ function Navbar() {
   useEffect(() => {
     let currentLink = router.pathname.substring(1);
     setActiveLink(currentLink);
+    setIsOpen(false);
   }, [router]);
 
   return (
@@ -112,23 +113,43 @@ function Navbar() {
             isOpen ? "flex justify-around lg:hidden mt-[20px]" : "hidden"
           }
         >
-          <li className="block lg:hidden text-[#a1a1a1] active:text-black">
+          <li
+            className={`block lg:hidden hover:text-black ${
+              activeLink === "home" ? "text-black" : "text-[#a1a1a1]"
+            }`}
+          >
             <Link href={`/`} className="nav-link">
               Home
             </Link>
           </li>
-          <li className="block lg:hidden text-[#a1a1a1] active:text-black">
+          <li
+            className={`block lg:hidden hover:text-black ${
+              activeLink === "book-a-session" ? "text-black" : "text-[#a1a1a1]"
+            }`}
+          >
             <Link href={`/book-a-session`} className="nav-link">
               Book a Session
             </Link>
           </li>
-          <li className="block lg:hidden text-[#a1a1a1] active:text-black">
+          <li
+            className={`block lg:hidden hover:text-black ${
+              activeLink === "become-a-tutor" ? "text-black" : "text-[#a1a1a1]"
+            }`}
+          >
             <Link href={`/become-a-tutor`} className="nav-link">
               Become a Tutor
             </Link>
           </li>
-          <li className="block lg:hidden text-[#a1a1a1] active:text-black">
-            <Link href="http://blog.learnhall.com/" className="nav-link">
+          <li
+            className={`block lg:hidden hover:text-black ${
+              activeLink === "blog" ? "text-black" : "text-[#a1a1a1]"
+            }`}
+          >
+            <Link
+              target="_blank"
+              href="http://blog.learnhall.com/"
+              className="nav-link"
+            >
               Blog
             </Link>
           </li>
