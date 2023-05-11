@@ -28,8 +28,7 @@ function BecomeATutor() {
     setisSubmit(true);
     axios
       .post("http://127.0.0.1:8000/employee/x/", sessiondata)
-      .then((response) => {
-        console.log(response);
+      .then(() => {
         setsessiondata({ username: "", email: "", phone: "", tell: "" });
       })
       .catch(({ message }) => {
@@ -37,18 +36,16 @@ function BecomeATutor() {
       });
   };
 
-  useEffect(() => {
-    console.log(sessionerror);
-    if (
-      typeof sessionerror === "object" &&
-      sessionerror !== null &&
-      Object.keys(sessionerror).length === 0 &&
-      isSubmit
-    ) {
-      //   console.log(sessiondata);
-      //   setModalShow(true);
-    }
-  }, [sessionerror, isSubmit]);
+  // useEffect(() => {
+  //   console.log(sessionerror);
+  //   if (
+  //     typeof sessionerror === "object" &&
+  //     sessionerror !== null &&
+  //     Object.keys(sessionerror).length === 0 &&
+  //     isSubmit
+  //   ) {
+  //   }
+  // }, [sessionerror, isSubmit]);
 
   const handleinput = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>

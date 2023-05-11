@@ -1,14 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 function Navbar() {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
-  // const handleLinkClick = (link: string) => {
-  //   setActiveLink(link);
-  // };
+  const [activeLink, setActiveLink] = useState("home");
+  useEffect(() => {
+    let currentLink = router.pathname.substring(1);
+    setActiveLink(currentLink);
+  }, [router]);
 
-  // const [activeLink, setActiveLink] = useState("home");
   return (
     <div>
       <nav className="bg-white fixed top-0 lg:py-4 py-3 w-full z-10 lg:flex block lg:justify-between">
@@ -34,7 +37,8 @@ function Navbar() {
         </div>
         <ul className="lg:flex block space-x-4 lg:mr-8">
           <li
-            className={`lg:block hidden active:text-black text-[#a1a1a1] hover:text-black
+            className={`lg:block hidden hover:text-black ${
+              activeLink === "" ? "text-black" : "text-[#a1a1a1]"
             }`}
           >
             <Link href={`/`} className="nav-link">
@@ -42,14 +46,18 @@ function Navbar() {
             </Link>
           </li>
           <li
-            className={`ml-4 lg:block hidden active:text-black text-[#a1a1a1] hover:text-black`}
+            className={`ml-4 lg:block hidden  hover:text-black ${
+              activeLink === "book-a-session" ? "text-black" : "text-[#a1a1a1]"
+            }`}
           >
             <Link href={`/book-a-session`} className="nav-link">
               Book a Session
             </Link>
           </li>
           <li
-            className={`ml-4 lg:block hidden active:text-black text-[#a1a1a1] hover:text-black`}
+            className={`ml-4 lg:block hidden hover:text-black ${
+              activeLink === "become-a-tutor" ? "text-black" : "text-[#a1a1a1]"
+            }`}
           >
             <Link href={`/become-a-tutor`} className="nav-link">
               Become a Tutor

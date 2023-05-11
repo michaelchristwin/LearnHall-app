@@ -16,36 +16,19 @@ function BookASession() {
     why: "",
   });
   const [sessionerror, setsessionerror] = useState<Partial<Data>>({});
-  const [isSubmit, setisSubmit] = useState(false);
 
   const handleinputdata = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setsessionerror(validate(sessiondata));
-    setisSubmit(true);
     axios
       .post("http://127.0.0.1:8000/employee/x/", sessiondata)
-      .then((response) => {
-        console.log(response);
+      .then(() => {
         setsessiondata({ username: "", email: "", phone: "", why: "" });
       })
       .catch(({ message }) => {
         console.log(message);
       });
   };
-
-  // useEffect(() => {
-  //   console.log(sessionerror);
-  //   if (
-  //     typeof sessionerror === "object" &&
-  //     sessionerror !== null &&
-  //     Object.keys(sessionerror).length === 0 &&
-  //     isSubmit
-  //   ) {
-  //     // console.log(sessiondata);
-  //     //   setModalShow(true);
-  //   }
-  // }, [sessionerror, isSubmit]);
-
   const handleinput = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
