@@ -114,7 +114,11 @@ function Footer() {
             <Link href={`/faqs`} className="block">
               FAQs
             </Link>
-            <Link href="http://blog.learnhall.com/" className="block">
+            <Link
+              target="_blank"
+              href="http://blog.learnhall.com/"
+              className="block"
+            >
               Blog
             </Link>
             <span id="review-cont" className="block">

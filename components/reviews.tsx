@@ -1,11 +1,13 @@
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReviewData from "./reviewdata";
 import Image from "next/image";
 
 function Reviews() {
   const firstThree = ReviewData.slice(0, 3);
   const lastThree = ReviewData.slice(-3);
+  const [bg, setBg] = useState("bg-white");
   const [view, setView] = useState(firstThree);
+
   return (
     <div>
       <section className="reviews-sect flex justify-center">
@@ -41,12 +43,14 @@ function Reviews() {
       </section>
       <span className="flex justify-center">
         <button
-          className={`w-4 h-4  active:bg-orange-400 bg-white mr-1 rounded-[50%] border border-black hover:bg-[#b84b40]`}
+          className={`w-4 ${bg} mr-1 rounded-[50%] border border-black hover:bg-black`}
           onClick={() => setView(firstThree)}
         ></button>
         <button
-          className={`w-4 h-4 active:bg-orange-400 hover:bg-[#b84b40] bg-white rounded-[50%] border-black border`}
-          onClick={() => setView(lastThree)}
+          className={`w-4 h-4 hover:bg-black ${bg} rounded-[50%] border-black border`}
+          onClick={() => {
+            setView(lastThree);
+          }}
         ></button>
       </span>
     </div>

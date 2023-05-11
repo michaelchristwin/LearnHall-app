@@ -208,7 +208,6 @@ body {
 }
 .reviews-sect {
   padding: 10px;
-  padding-bottom: 30px;
 }
 .form-error {
   color: red;
@@ -688,6 +687,7 @@ body {
   }
   .r-sect {
     margin-top: 70px;
+    margin-bottom: 0px;
   }
   .num-fig {
     margin-top: 15px;

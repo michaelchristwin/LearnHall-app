@@ -67,7 +67,11 @@ function Navbar() {
           <li
             className={`lg:block hidden ml-4 active:text-black text-[#a1a1a1] hover:text-black`}
           >
-            <Link href="http://blog.learnhall.com/" className="nav-link">
+            <Link
+              target="_blank"
+              href="http://blog.learnhall.com/"
+              className="nav-link"
+            >
               Blog
             </Link>
           </li>
