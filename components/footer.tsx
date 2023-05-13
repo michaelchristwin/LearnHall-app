@@ -242,12 +242,15 @@ function Footer() {
         </div>
       </div>
       <section className="block copyright">
-        <div className="text-white">
-          <hr className="hr" />
-          <p className="float-left cpr mt-4">
+        <hr className="hr" />
+        <div className="text-white flex justify-between">
+          <p className="float-left cpr mt-4 text-[13px]">
             Copyright 2016-2025 Learnhall LLC
           </p>
-          <p className="float-right mt-4">Privacy Policy</p>
+          <p className="mt-4 underline text-[17px]">
+            Developed by Michael Christwin
+          </p>
+          <p className="float-right mt-4 text-[13px]">Privacy Policy</p>
         </div>
       </section>
     </footer>

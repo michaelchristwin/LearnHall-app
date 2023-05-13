@@ -82,7 +82,7 @@ function Home() {
                 the US and internationally. We pride ourselves on our
               </span>
               <span className="block why-lg">
-                tutor onboarding process and high industy pay. Our
+                tutor onboarding process and high industry pay. Our
               </span>
               <span className="block why-lg">
                 tutors work in-person and online, and we garner

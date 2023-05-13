@@ -36,7 +36,7 @@ function Steps() {
             <Image
               src={`/tep.jpg`}
               alt="Student with book"
-              className="lg:w-[600px] lg:h-[500px] lg:rounded-[12px] lg:block hidden border-[#b74b40] border-[3px]"
+              className="lg:w-[600px] lg:h-[500px] lg:rounded-[12px] lg:block hidden border-[#b74b40] border-[3px] ml-8"
               width={600}
               height={550}
             />

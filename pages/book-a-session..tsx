@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import LocalFont from "next/font/local";
 import Image from "next/image";
+import Link from "next/link";
 
 const myFont = LocalFont({ src: "../fonts/AGaramondPro-Bold.otf" });
 interface Data {
@@ -68,7 +69,7 @@ function BookASession() {
     <main className="mt-[50px]">
       <section className="flex py-3 form-parent">
         <form
-          className="p-11 shadow my-form rounded block"
+          className="p-11 shadow my-form border rounded block"
           onSubmit={handleinputdata}
         >
           <h3 className={`font-[500] text-[1.7rem] ${myFont.className}`}>
@@ -162,7 +163,7 @@ function BookASession() {
             Submit
           </button>
         </form>
-        <div className="w-[355px] h-[330px] border shadow ml-[10%] lg:block hidden">
+        <div className="w-[355px] h-[330px] border shadow ml-[9%] lg:block hidden">
           <h1
             className={`text-center mt-[30px] ${myFont.className} text-[25px] font-[500]`}
           >
@@ -174,30 +175,34 @@ function BookASession() {
           <span className="text-center block">
             questions via phone or email.
           </span>
-          <div className="bg-[#EDEEF2] w-[255px] h-[50px] flex mx-auto mt-[40px] rounded">
-            <Image
-              src={"/phone.png"}
-              width={20}
-              height={10}
-              alt="phone"
-              className="block w-[20px] !h-[20px] my-auto ml-6"
-            />
-            <span className="block my-auto ml-6 text-[18px] font-[400]">
-              503-342-7214
-            </span>
-          </div>
-          <div className="bg-[#EDEEF2] w-[255px] h-[50px] flex mx-auto mt-[10px] rounded">
-            <Image
-              src={"/mail.png"}
-              width={20}
-              height={10}
-              alt="phone"
-              className="block w-[20px] !h-[15px] my-auto ml-6"
-            />
-            <span className="block my-auto ml-6 text-[18px] font-[400]">
-              info@learnhall.com
-            </span>
-          </div>
+          <Link href={`tel:503-342-7214`}>
+            <div className="bg-[#EDEEF2] w-[255px] h-[50px] flex mx-auto mt-[40px] rounded">
+              <Image
+                src={"/phone.png"}
+                width={20}
+                height={10}
+                alt="phone"
+                className="block w-[20px] !h-[20px] my-auto ml-6"
+              />
+              <span className="block my-auto ml-6 text-[18px] font-[400]">
+                503-342-7214
+              </span>
+            </div>
+          </Link>
+          <Link href={`mailto:info@learnhall.com`}>
+            <div className="bg-[#EDEEF2] w-[255px] h-[50px] flex mx-auto mt-[10px] rounded">
+              <Image
+                src={"/mail.png"}
+                width={20}
+                height={10}
+                alt="phone"
+                className="block w-[20px] !h-[15px] my-auto ml-6"
+              />
+              <span className="block my-auto ml-6 text-[18px] font-[400]">
+                info@learnhall.com
+              </span>
+            </div>
+          </Link>
         </div>
       </section>
     </main>

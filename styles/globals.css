@@ -143,8 +143,6 @@ body {
   text-align: center;
 }
 .student2 {
-  background: #fed7bd;
-  width: 570px;
   border-radius: 14px;
   z-index: 1;
 }
@@ -311,7 +309,6 @@ body {
   color: #ffffff8d;
 }
 .copyright p {
-  font-size: 13px;
   color: #ffffff8d;
 }
 .stud-img-sm {

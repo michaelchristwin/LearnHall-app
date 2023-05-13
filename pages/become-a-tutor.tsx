@@ -83,10 +83,12 @@ function BecomeATutor() {
     <main>
       <section className="flex form-parent pt-[50px]">
         <form
-          className="p-11 shadow my-form rounded"
+          className="p-11 shadow my-form border rounded"
           onSubmit={handleinputdata}
         >
-          <h3 className="font-[500] text-[1.7rem]">Become a Tutor</h3>
+          <h3 className={`font-[500] text-[1.7rem] ${myFont.className}`}>
+            Become a Tutor
+          </h3>
           <div className="block">
             <span className="formt-lg">
               Please fill out the form below, submit it,
@@ -176,7 +178,7 @@ function BecomeATutor() {
             Submit
           </button>
         </form>
-        <div className="p-4 why-join block text-center w-[252px] shadow">
+        <div className="p-4 why-join block text-center w-[252px] shadow border">
           <h4 className={`${myFont.className} text-[1.40rem]`}>Why Join Us?</h4>
           <span className="block">Make Money While Making a</span>
           <span className="block">Difference in Students Lives</span>
