@@ -1,4 +1,5 @@
 import axios from "axios";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -8,7 +9,10 @@ function Footer() {
     e.preventDefault();
     console.log(email);
     axios
-      .post("http://127.0.0.1:8000/employee/subscribex/", email)
+      .post(
+        "https://learnhall.us15.list-manage.com/subscribe/post?u=fc6c144a7a2a60d6e5ab4a7e7&amp;id=bc737fdf83&amp;v_id=2832&amp;f_id=006b9fe0f0",
+        email
+      )
       .then((response) => {
         console.log(response);
       })
@@ -86,7 +90,7 @@ function Footer() {
             <div className="lg:pt-3 mx-3 lg:mx-0">
               <h4 className="social-title">Contact Us</h4>
               <div className="flex socials">
-                <Link href="tel:503-342-7214" className="me-2">
+                <Link href="tel:503-342-7214" target="__blank" className="me-2">
                   <Image
                     src={`/telephone.png`}
                     alt="telephone"
@@ -95,7 +99,11 @@ function Footer() {
                     width={45}
                   />
                 </Link>
-                <Link href="mailto:info@learnhall.com" className="mr-2">
+                <Link
+                  href="mailto:info@learnhall.com"
+                  target="__blank"
+                  className="mr-2"
+                >
                   <Image
                     src={`/message.png`}
                     alt="email"
@@ -247,9 +255,13 @@ function Footer() {
           <p className="float-left cpr mt-4 text-[13px]">
             Copyright 2016-2025 Learnhall LLC
           </p>
-          <p className="mt-4 underline text-[17px]">
+          <Link
+            className="mt-4 underline text-[17px]  hover:text-green-400 text-white"
+            href={`https://michaelchristwin.vercel.app/`}
+            target="__blank"
+          >
             Developed by Michael Christwin
-          </p>
+          </Link>
           <p className="float-right mt-4 text-[13px]">Privacy Policy</p>
         </div>
       </section>

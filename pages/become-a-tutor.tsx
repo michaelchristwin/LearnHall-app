@@ -116,7 +116,7 @@ function BecomeATutor() {
             <input
               type="text"
               id="lname"
-              className="block border rounded border-black h-[36px] w-[97%] pl-2"
+              className="block border rounded border-[#b4b2b2] h-[36px] w-[97%] pl-2"
               name="username"
               onChange={handleinput}
             />
@@ -136,7 +136,7 @@ function BecomeATutor() {
               type="email"
               id="email"
               name="email"
-              className="w-[97%] block border rounded border-black h-[36px] pl-2"
+              className="w-[97%] block border rounded border-[#b4b2b2] h-[36px] pl-2"
               onChange={handleinput}
             />
           </fieldset>
@@ -156,7 +156,7 @@ function BecomeATutor() {
               type="tel"
               id="phone"
               name="phone"
-              className="w-[97%] block border rounded border-black h-[36px] pl-2"
+              className="w-[97%] block border rounded border-[#b4b2b2] h-[36px] pl-2"
               onKeyDown={keyPress}
               onChange={handleinput}
             />
@@ -169,7 +169,7 @@ function BecomeATutor() {
             <textarea
               name="tell"
               id="textarea1"
-              className="border border-black rounded w-[97%]"
+              className="border border-[#b4b2b2] rounded w-[97%]"
               rows={8}
               onChange={handleinput}
             ></textarea>

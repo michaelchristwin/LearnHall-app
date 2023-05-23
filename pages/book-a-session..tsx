@@ -101,7 +101,7 @@ function BookASession() {
               <input
                 required
                 type="text"
-                className="block border rounded border-black h-[36px] pl-2 w-[320px] lg:w-[400px]"
+                className="block border rounded border-[#b4b2b2] h-[36px] pl-2 w-[320px] lg:w-[400px]"
                 name="username"
                 onChange={handleinput}
               />
@@ -121,7 +121,7 @@ function BookASession() {
                 required
                 type="email"
                 id="email"
-                className="block border rounded border-black h-[36px] w-[320px] lg:w-[400px] pl-2"
+                className="block border rounded border-[#b4b2b2] h-[36px] w-[320px] lg:w-[400px] pl-2"
                 name="email"
                 onChange={handleinput}
               />
@@ -142,7 +142,7 @@ function BookASession() {
               type="tel"
               id="phone"
               maxLength={12}
-              className="block border rounded border-black h-[36px] w-[320px] lg:w-[400px] pl-2"
+              className="block border rounded border-[#b4b2b2] h-[36px] w-[320px] lg:w-[400px] pl-2"
               name="phone"
               onKeyDown={keyPress}
               onChange={handleinput}
@@ -154,7 +154,7 @@ function BookASession() {
           </label>
           <textarea
             id="textarea"
-            className="border rounded border-black lg:w-[400px] w-[320px] pl-2"
+            className="border rounded border-[#b4b2b2] lg:w-[400px] w-[320px] pl-2"
             rows={8}
             name="why"
             onChange={handleinput}
