@@ -99,7 +99,6 @@ function BookASession() {
                 Name*
               </label>
               <input
-                required
                 type="text"
                 className="block border rounded border-[#b4b2b2] h-[36px] pl-2 w-[320px] lg:w-[400px]"
                 name="username"
@@ -118,7 +117,6 @@ function BookASession() {
                 Email*
               </label>
               <input
-                required
                 type="email"
                 id="email"
                 className="block border rounded border-[#b4b2b2] h-[36px] w-[320px] lg:w-[400px] pl-2"
